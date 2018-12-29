@@ -4,14 +4,14 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "npm run clean && tsc && npm run copy",
     "build-watch": "tsc -w",
-    "copy": "cp -r spec/support_js dist/spec/support",
+    "copy": "rm -rf dist/spec/support && mkdir -p dist/spec/support && cp -r spec/support/jasmine-js-debug.json dist/spec/support/jasmine.json",
     "clean": "rm -rf dist tmp",
     "test": "ts-node node_modules/jasmine/bin/jasmine",
-    "test-js": "jasmine --config=spec/support_js/jasmine.json",
+    "test-js": "jasmine --config=spec/support/jasmine-js.json",
     "all": "npm run clean && npm run build && npm run test-js && npm run test",
     "prepare": "npm run all"
   },
