@@ -22,6 +22,10 @@
     "miscellaneous"
   ],
   "author": "Sebastián Gurin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^3.3.5",
