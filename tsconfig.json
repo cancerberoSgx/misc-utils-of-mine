@@ -10,6 +10,7 @@
     "rootDir": ".",
     "esModuleInterop": true,
     "strict": true,
+    "declaration": true
     // "noStrictGenericChecks": true,
     // "strictBindCallApply": false,
     // "strictNullChecks": false,

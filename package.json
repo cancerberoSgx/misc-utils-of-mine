@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "npm run clean && tsc && npm run copy",
     "build-watch": "tsc -w",
