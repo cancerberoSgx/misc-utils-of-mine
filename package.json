@@ -1,0 +1,33 @@
+{
+  "name": "misc-utils-of-mine",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "typings": "dist/src/index.d.ts",
+  "description": "Miscellaneous utilities for JavaScript/TypeScript",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "npm run clean && tsc && npm run copy",
+    "build-watch": "tsc -w",
+    "copy": "cp -r spec/support_js dist/spec/support",
+    "clean": "rm -rf dist tmp",
+    "test": "ts-node node_modules/jasmine/bin/jasmine",
+    "test-js": "jasmine --config=spec/support_js/jasmine.json",
+    "all": "npm run clean && npm run build && npm run test-js && npm run test",
+    "prepare": "npm run all"
+  },
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "utilities",
+    "miscellaneous"
+  ],
+  "author": "Sebastián Gurin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.5",
+    "jasmine": "^3.3.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {}
+}
