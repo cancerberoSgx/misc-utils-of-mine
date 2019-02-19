@@ -19,12 +19,12 @@
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^10.12.18",
-    "get-type-text": "0.0.4",
+    "get-type-text": "0.0.5",
     "jest": "^24.5.0",
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
     "ts-node": "^7.0.1",
-    "tsd-check-runtime": "file:../../tsd-check-runtime",
+    "tsd-check-runtime": "0.0.6",
     "typedoc": "^0.13.0",
     "typedoc-plugin-markdown": "^1.1.27",
     "typescript": "^3.3.3333"
