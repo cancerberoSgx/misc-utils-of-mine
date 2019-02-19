@@ -16,6 +16,7 @@ export type ObjectNumberKeyValue<T extends {[k: number]: any}, K extends number>
 /** c:ObjectStringKeyUnion<{a:1,b:'s'}> === 'a'|'b' */
 export type ObjectStringKeyUnion<T extends any> = Extract<keyof T, string>
 // let c:ObjectStringKeyUnion<{a:1,b:'s'}>
+
 /** ObjectNumberKeyUnion<{1:'g',7:false}> === 1|7 */
 export type ObjectNumberKeyUnion<T extends any> = Extract<keyof T, number>
 // let c:ObjectNumberKeyUnion<{1:'g',7:false}>

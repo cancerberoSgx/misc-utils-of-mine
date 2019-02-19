@@ -13,7 +13,7 @@
     "test-watch": "npm test -- --watch",
     "prettier": " npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma all --end-of-line lf --prose-wrap preserve --print-width 120 --no-bracket-spacing  --jsx-bracket-same-line true \"src/**/*.ts*\"",
     "all": "npm run clean && npm run prettier && npm run build && npm run test && npm run docs && npx get-type-text --cleanArguments",
-    "docs": "npx typedoc src/types.ts src/checkType.ts src/expectType.ts --theme markdown --out api",
+    "docs": "npx typedoc src/*.ts --theme markdown --out api",
     "prepare": "npm run build && npx get-type-text --cleanArguments"
   },
   "devDependencies": {
