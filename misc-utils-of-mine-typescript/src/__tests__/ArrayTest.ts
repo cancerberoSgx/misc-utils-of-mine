@@ -99,6 +99,21 @@ describe('array', () => {
       )
     ).toBe(false)
   })
+
+  it('arrayLiteral real world', () => {
+    interface A {
+      a?: number
+    }
+    interface B extends A {
+      b?: string
+    }
+    interface C extends A {
+      c?: boolean
+    }
+    expect([{ c: true }, { a: 1 }, { b: 's' }]).not.toMatchType(Type<ArrayLiteral<B | C, 2>>())
+    expect([{ a: 1 }, { d: 's' }]).not.toMatchType(Type<ArrayLiteral<B | C, 2>>())
+    expect([{ a: 1 }, { c: new Date() }]).not.toMatchType(Type<ArrayLiteral<B | C, 2>>())
+  })
 })
 
 describe('the rest', () => {

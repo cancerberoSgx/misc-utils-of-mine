@@ -25,7 +25,7 @@
 
 **Ƭ CanBeUndefined**: *`CanBeUndefined<T>`*
 
-*Defined in [inheritance.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L12)*
+*Defined in [inheritance.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L12)*
 
 ___
 <a id="cannotbeundefined"></a>
@@ -34,7 +34,7 @@ ___
 
 **Ƭ CannotBeUndefined**: *`CannotBeUndefined<T>`*
 
-*Defined in [inheritance.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L11)*
+*Defined in [inheritance.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L11)*
 
 ___
 <a id="equals"></a>
@@ -43,7 +43,7 @@ ___
 
 **Ƭ Equals**: *`Equals<T, S>`*
 
-*Defined in [inheritance.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L17)*
+*Defined in [inheritance.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L17)*
 
 Tests if two types are equal
 
@@ -54,7 +54,7 @@ ___
 
 **Ƭ Extended**: *`Extended<T, K>`*
 
-*Defined in [inheritance.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L7)*
+*Defined in [inheritance.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L7)*
 
 return T and all its super interfaces/classes ascendants
 
@@ -65,7 +65,7 @@ ___
 
 **Ƭ Extends**: *`Extends<T1, T2>`*
 
-*Defined in [inheritance.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L8)*
+*Defined in [inheritance.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L8)*
 
 ___
 <a id="identical"></a>
@@ -74,7 +74,7 @@ ___
 
 **Ƭ Identical**: *`Identical<T1, T2>`*
 
-*Defined in [inheritance.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L3)*
+*Defined in [inheritance.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L3)*
 
 Tests if N <= M
 
@@ -85,7 +85,7 @@ ___
 
 **Ƭ IsAny**: *`IsAny<T>`*
 
-*Defined in [inheritance.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L10)*
+*Defined in [inheritance.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L10)*
 
 ___
 <a id="notextends"></a>
@@ -94,7 +94,7 @@ ___
 
 **Ƭ NotExtends**: *`NotExtends<T1, T2>`*
 
-*Defined in [inheritance.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/inheritance.ts#L9)*
+*Defined in [inheritance.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/inheritance.ts#L9)*
 
 ___
 

@@ -10,6 +10,7 @@
 * [Equal](_conditional_.md#equal)
 * [If](_conditional_.md#if)
 * [IsNever](_conditional_.md#isnever)
+* [Not](_conditional_.md#not)
 * [Or](_conditional_.md#or)
 * [ToBoolean](_conditional_.md#toboolean)
 
@@ -23,7 +24,7 @@
 
 **Ƭ And**: *[If](_conditional_.md#if)<`A`, [ToBoolean](_conditional_.md#toboolean)<`B`>, `false`>*
 
-*Defined in [conditional.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L7)*
+*Defined in [conditional.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L10)*
 
 ___
 <a id="equal"></a>
@@ -32,7 +33,7 @@ ___
 
 **Ƭ Equal**: *`Equal<A, B>`*
 
-*Defined in [conditional.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L1)*
+*Defined in [conditional.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L4)*
 
 ___
 <a id="if"></a>
@@ -41,7 +42,7 @@ ___
 
 **Ƭ If**: *`If<Conditional, A, B>`*
 
-*Defined in [conditional.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L3)*
+*Defined in [conditional.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L6)*
 
 ___
 <a id="isnever"></a>
@@ -50,7 +51,16 @@ ___
 
 **Ƭ IsNever**: *[Equal](_conditional_.md#equal)<`T`, `never`>*
 
-*Defined in [conditional.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L11)*
+*Defined in [conditional.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L15)*
+
+___
+<a id="not"></a>
+
+###  Not
+
+**Ƭ Not**: *[If](_conditional_.md#if)<[Extends](_inheritance_.md#extends)<[Falsy](_misc_.md#falsy), `A`>, [NotFalsy](_misc_.md#notfalsy)<`A`>, [Falsy](_misc_.md#falsy)>*
+
+*Defined in [conditional.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L11)*
 
 ___
 <a id="or"></a>
@@ -59,7 +69,7 @@ ___
 
 **Ƭ Or**: *[If](_conditional_.md#if)<`A`, `true`, [ToBoolean](_conditional_.md#toboolean)<`B`>>*
 
-*Defined in [conditional.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L9)*
+*Defined in [conditional.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L13)*
 
 ___
 <a id="toboolean"></a>
@@ -68,7 +78,7 @@ ___
 
 **Ƭ ToBoolean**: *[If](_conditional_.md#if)<`A`, `true`, `false`>*
 
-*Defined in [conditional.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L5)*
+*Defined in [conditional.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/conditional.ts#L8)*
 
 ___
 

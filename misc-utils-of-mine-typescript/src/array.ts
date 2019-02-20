@@ -98,3 +98,9 @@ export type ArrayIndexUnion<
  * `ArrayItemKeyUnion<[{a: 1; b: 6; c: 4}, {b: 's'; a: null; c: 1.2}, {c: true; b: 0}]>` will be `'b'|'c'`
  */
 export type ArrayItemKeyUnion<T extends any[]> = keyof T[ArrayIndexUnion<T>]
+
+/**
+ * Returns the I-th item type. Example:
+ * `ArrayItem<[{a: 1 }, {b: 's' }, {c: true }, 2]>` will be `{c: true}`
+ */
+export type ArrayItem<T extends any[], I extends number> = T[I]

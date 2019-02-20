@@ -24,7 +24,7 @@
 
 **Ƭ JSONObject**: *`object`*
 
-*Defined in [json.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/json.ts#L4)*
+*Defined in [json.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/json.ts#L4)*
 
 #### Type declaration
 
@@ -37,7 +37,7 @@ ___
 
 **Ƭ JSONPrimitive**: *`string` \| `number` \| `boolean` \| `null`*
 
-*Defined in [json.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/json.ts#L1)*
+*Defined in [json.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/json.ts#L1)*
 
 ___
 <a id="jsonvalue"></a>
@@ -46,7 +46,7 @@ ___
 
 **Ƭ JSONValue**: *[JSONPrimitive](_json_.md#jsonprimitive) \| [JSONObject](_json_.md#jsonobject) \| [JSONArray](../interfaces/_json_.jsonarray.md)*
 
-*Defined in [json.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/json.ts#L3)*
+*Defined in [json.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1ccd4e0/misc-utils-of-mine-typescript/src/json.ts#L3)*
 
 makes sure an object is JSON compatible so we can safely serialize with JSON.stringify
 

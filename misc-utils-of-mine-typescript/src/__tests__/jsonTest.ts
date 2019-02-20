@@ -5,9 +5,15 @@ import { JSONValue } from '../json'
 describe('json', () => {
   it('JSON value should fail if object is not json compatible', () => {
     expect(new Date()).not.toMatchType(Type<JSONValue>())
+    expect(undefined).not.toMatchType(Type<JSONValue>())
+    expect({ f: function() {} }).not.toMatchType(Type<JSONValue>())
+    expect({ f: new Date() }).not.toMatchType(Type<JSONValue>())
   })
   it('JSON value should not fail if object is not json compatible', () => {
+    expect(null).toMatchType(Type<JSONValue>())
+    expect([]).toMatchType(Type<JSONValue>())
+    expect('').toMatchType(Type<JSONValue>())
+    expect({}).toMatchType(Type<JSONValue>())
     expect(null || [] || '').toMatchType(Type<JSONValue>())
-    expect(undefined).not.toMatchType(Type<JSONValue>())
   })
 })

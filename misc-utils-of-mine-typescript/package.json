@@ -9,9 +9,10 @@
     "build": "tsc ",
     "build-watch": "tsc -w",
     "clean": "rm -rf dist docs api",
-    "test": "npx tsd-check-runtime && jest --config ./jest.config-spec.js && npx tsd-check-runtime --clean",
-    "test-watch": "npm test -- --watch",
-    "prettier": " npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma none --end-of-line lf --prose-wrap preserve --print-width 120  --jsx-bracket-same-line true \"src/**/*.ts*\"",
+    "test": "npm run test-run && npx tsd-check-runtime --clean",
+    "test-run": "npx tsd-check-runtime && jest --config ./jest.config-spec.js",
+    "test-watch": "npm run test-run -- --watch; npx tsd-check-runtime --clean",
+    "prettier": "npx tsd-check-runtime --clean; npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma none --end-of-line lf --prose-wrap preserve --print-width 120  --jsx-bracket-same-line true \"src/**/*.ts*\"",
     "all": "npm run clean && npm run prettier && npm run build && npm run test && npm run docs && npx tsd-check-runtime --clean",
     "docs": "npx typedoc src/*.ts --theme markdown --out api",
     "prepare": "npm run build && npx tsd-check-runtime --clean"

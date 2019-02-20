@@ -7,10 +7,17 @@ export type TODO = any
 /** Removes undefined from type */
 export type NotUndefined<T> = Exclude<T, undefined>
 
-export type Falsy = undefined | null | false | ''
+type falsy = undefined | null | false | '' | 0
 
-/** Removes undefined from type */
-export type NotFalsy<T> = Exclude<T, Falsy>
+/**
+ * Without arguments it returns the union of all falsy values. With arguments it returns given type excluding falsy arguments.  Example `Falsy<number|boolean|null> ` will be `false|null`
+ */
+export type Falsy<T = never> = T extends never ? (never extends T ? falsy : Extract<T, falsy>) : Extract<T, falsy>
+// let c: Falsy<number|boolean|null>
+
+/** Removes undefined from type.  Example `Falsy<number|boolean>` will be `number|true` */
+export type NotFalsy<T> = Exclude<T, falsy>
+// let c: NotFalsy<number|boolean>
 
 /** Useful for filtering out undefined values without casting. */
 export function notUndefined<T>(n: T): n is NotUndefined<T> {
