@@ -1,4 +1,4 @@
-import {ObjectStringKeyValue, ObjectStringKeyUnion} from './object'
+import { ObjectStringKeyValue, ObjectStringKeyUnion } from './object'
 /**
  * Creates a union from the types of an Array or tuple. For example, `UnionOf<[number, string]>` will be
  * `number|string`
@@ -91,7 +91,7 @@ export type ArrayStringKeyIntersection<a extends any[]> = ObjectStringKeyUnion<U
 export type ArrayIndexUnion<
   T extends any[],
   K extends Exclude<keyof T, keyof []> = Exclude<keyof T, keyof []>
-> = T extends {[k in K]: any} ? K : never
+> = T extends { [k in K]: any } ? K : never
 
 /**
  * Returns the union of common keys in array objects .

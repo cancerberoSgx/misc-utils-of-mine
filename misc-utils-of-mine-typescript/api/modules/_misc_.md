@@ -27,7 +27,7 @@
 
 **Ƭ Falsy**: *`undefined` \| `null` \| `false` \| `""`*
 
-*Defined in [misc.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L10)*
+*Defined in [misc.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L10)*
 
 ___
 <a id="notfalsy"></a>
@@ -36,7 +36,7 @@ ___
 
 **Ƭ NotFalsy**: *`Exclude`<`T`, [Falsy](_misc_.md#falsy)>*
 
-*Defined in [misc.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L13)*
+*Defined in [misc.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L13)*
 
 Removes undefined from type
 
@@ -47,7 +47,7 @@ ___
 
 **Ƭ NotUndefined**: *`Exclude`<`T`, `undefined`>*
 
-*Defined in [misc.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L8)*
+*Defined in [misc.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L8)*
 
 Removes undefined from type
 
@@ -58,7 +58,7 @@ ___
 
 **Ƭ TODO**: *`any`*
 
-*Defined in [misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L5)*
+*Defined in [misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L5)*
 
 Useful TODO reminder when you are porting typings of a JavaScript library
 
@@ -69,7 +69,7 @@ ___
 
 **Ƭ UnionToIntersection**: *`UnionToIntersection<U>`*
 
-*Defined in [misc.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L2)*
+*Defined in [misc.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L2)*
 
 UnionToIntersection<1\|2\|3> will be 1 & 2 & 3
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **notFalsy**<`T`>(n: *`T`*): `boolean`
 
-*Defined in [misc.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L21)*
+*Defined in [misc.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L21)*
 
 Useful for filtering out falsy values without casting.
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **notUndefined**<`T`>(n: *`T`*): `boolean`
 
-*Defined in [misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/misc.ts#L16)*
+*Defined in [misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/misc.ts#L16)*
 
 Useful for filtering out undefined values without casting.
 

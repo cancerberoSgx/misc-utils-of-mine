@@ -1,4 +1,4 @@
-import {UnionToIntersection} from './misc'
+import { UnionToIntersection } from './misc'
 /** Tests if N <= M */
 export type Identical<T1, T2> = UnionToIntersection<T1> extends UnionToIntersection<T2>
   ? (UnionToIntersection<T2> extends UnionToIntersection<T1> ? true : false)

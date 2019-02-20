@@ -23,7 +23,7 @@
 
 **Ƭ And**: *[If](_conditional_.md#if)<`A`, [ToBoolean](_conditional_.md#toboolean)<`B`>, `false`>*
 
-*Defined in [conditional.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/conditional.ts#L7)*
+*Defined in [conditional.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L7)*
 
 ___
 <a id="equal"></a>
@@ -32,7 +32,7 @@ ___
 
 **Ƭ Equal**: *`Equal<A, B>`*
 
-*Defined in [conditional.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/conditional.ts#L1)*
+*Defined in [conditional.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L1)*
 
 ___
 <a id="if"></a>
@@ -41,7 +41,7 @@ ___
 
 **Ƭ If**: *`If<Conditional, A, B>`*
 
-*Defined in [conditional.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/conditional.ts#L3)*
+*Defined in [conditional.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L3)*
 
 ___
 <a id="isnever"></a>
@@ -50,7 +50,7 @@ ___
 
 **Ƭ IsNever**: *[Equal](_conditional_.md#equal)<`T`, `never`>*
 
-*Defined in [conditional.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/conditional.ts#L11)*
+*Defined in [conditional.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L11)*
 
 ___
 <a id="or"></a>
@@ -59,7 +59,7 @@ ___
 
 **Ƭ Or**: *[If](_conditional_.md#if)<`A`, `true`, [ToBoolean](_conditional_.md#toboolean)<`B`>>*
 
-*Defined in [conditional.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/conditional.ts#L9)*
+*Defined in [conditional.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L9)*
 
 ___
 <a id="toboolean"></a>
@@ -68,7 +68,7 @@ ___
 
 **Ƭ ToBoolean**: *[If](_conditional_.md#if)<`A`, `true`, `false`>*
 
-*Defined in [conditional.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/conditional.ts#L5)*
+*Defined in [conditional.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/conditional.ts#L5)*
 
 ___
 

@@ -18,7 +18,7 @@
 
 ▸ **enumKeys**(anEnum: *`any`*): `string`[]
 
-*Defined in [enum.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fffdaa0/misc-utils-of-mine-typescript/src/enum.ts#L2)*
+*Defined in [enum.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/bc56d86/misc-utils-of-mine-typescript/src/enum.ts#L2)*
 
 List given enum keys as array
 

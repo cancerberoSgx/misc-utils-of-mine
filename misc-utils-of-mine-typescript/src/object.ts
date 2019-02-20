@@ -1,4 +1,4 @@
-import {Extended} from './inheritance'
+import { Extended } from './inheritance'
 
 export type EmptyObject = {}
 
@@ -6,11 +6,11 @@ export type EmptyObject = {}
 export type ObjectKeyValue<T extends any, K extends string | number> = T[K]
 // let c:ObjectKeyValue<{a:1,b:'s',2:9},2>
 /** ObjectStringKey<{a:1,b:'s',2:9},'b'> === 9   ObjectStringKey<{a:1,b:'s',2:9},2> fails*/
-export type ObjectStringKeyValue<T extends {[k: string]: any}, K extends string> = T[K]
+export type ObjectStringKeyValue<T extends { [k: string]: any }, K extends string> = T[K]
 // let c:ObjectStringKeyValue<{a:1,b:'s',2:9},'b'>
 
 /** ValueOfNumberKey<{a:1,b:'s',2:9},2>===9 */
-export type ObjectNumberKeyValue<T extends {[k: number]: any}, K extends number> = T[K]
+export type ObjectNumberKeyValue<T extends { [k: number]: any }, K extends number> = T[K]
 // let c:ValueOfNumberKey<{a:1,b:'s',2:9},2>
 
 /** c:ObjectStringKeyUnion<{a:1,b:'s'}> === 'a'|'b' */
@@ -38,7 +38,7 @@ export type ObjectStringKeyValueUnion<T extends any, K extends Extended<T> = Ext
 // // let c:NamedMemberValuesOf<{a:1,b:'s'}>
 
 /**takes an object, and returns its values in an intersection. ObjectStringValueIntersection<{a:2,b:'0'}> === 'a'&2*/
-export type ObjectStringValueIntersection<T> = {[K in keyof T]: (p: T[K]) => void} extends {
+export type ObjectStringValueIntersection<T> = { [K in keyof T]: (p: T[K]) => void } extends {
   [n: string]: (p: infer I) => void
 }
   ? I
@@ -56,7 +56,7 @@ export type KeysToTuple<T> =
   // store the keys as arguments to functions so that they can be retrieved with inference later
   IntersectionOfFunctionsToTuple<
     // convert each key into a function that takes that key type as an argument
-    ObjectStringValueIntersection<{[K in keyof T]: (v: K) => void}>
+    ObjectStringValueIntersection<{ [K in keyof T]: (v: K) => void }>
   >
 // let h: KeysToTuple<{a:1,b:5,9:2}>
 

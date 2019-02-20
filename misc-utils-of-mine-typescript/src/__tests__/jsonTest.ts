@@ -1,6 +1,6 @@
-import {Type} from 'tsd-check-runtime'
+import { Type } from 'tsd-check-runtime'
 import 'tsd-check-runtime'
-import {JSONValue} from '../json'
+import { JSONValue } from '../json'
 
 describe('json', () => {
   it('JSON value should fail if object is not json compatible', () => {
