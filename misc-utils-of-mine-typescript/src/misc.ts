@@ -4,9 +4,20 @@ export type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) ex
 /** Useful TODO reminder when you are porting typings of a JavaScript library */
 export type TODO = any
 
-// import {IsAny} from './inheritance'
-// import { Range } from './array';
+/** Removes undefined from type */
+export type NotUndefined<T> = Exclude<T, undefined>
 
-// /** Tests if N > M */
-// export type IsGreaterThan<N, M> = N extends Exclude<Range<N>, Range<M>> ? true : false;
-// export type ThereWasATypeError<T> = IsAny<T>
+export type Falsy = undefined | null | false | ''
+
+/** Removes undefined from type */
+export type NotFalsy<T> = Exclude<T, Falsy>
+
+/** Useful for filtering out undefined values without casting. */
+export function notUndefined<T>(n: T): n is NotUndefined<T> {
+  return n !== undefined
+}
+
+/** Useful for filtering out falsy values without casting. */
+export function notFalsy<T>(n: T): n is NotFalsy<T> {
+  return !!n
+}

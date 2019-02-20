@@ -14,6 +14,10 @@
 * [JSONPrimitive](_json_.md#jsonprimitive)
 * [JSONValue](_json_.md#jsonvalue)
 
+### Variables
+
+* [__CE](_json_.md#__ce)
+
 ---
 
 ## Type aliases
@@ -24,7 +28,7 @@
 
 **Ƭ JSONObject**: *`object`*
 
-*Defined in [json.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/json.ts#L4)*
+*Defined in [json.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/json.ts#L4)*
 
 #### Type declaration
 
@@ -37,7 +41,7 @@ ___
 
 **Ƭ JSONPrimitive**: *`string` \| `number` \| `boolean` \| `null`*
 
-*Defined in [json.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/json.ts#L1)*
+*Defined in [json.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/json.ts#L1)*
 
 ___
 <a id="jsonvalue"></a>
@@ -46,9 +50,21 @@ ___
 
 **Ƭ JSONValue**: *[JSONPrimitive](_json_.md#jsonprimitive) \| [JSONObject](_json_.md#jsonobject) \| [JSONArray](../interfaces/_json_.jsonarray.md)*
 
-*Defined in [json.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/json.ts#L3)*
+*Defined in [json.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/json.ts#L3)*
 
 makes sure an object is JSON compatible so we can safely serialize with JSON.stringify
+
+___
+
+## Variables
+
+<a id="__ce"></a>
+
+### `<Const>` __CE
+
+**● __CE**: *`any`[]* =  []
+
+*Defined in [json.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/json.ts#L6)*
 
 ___
 

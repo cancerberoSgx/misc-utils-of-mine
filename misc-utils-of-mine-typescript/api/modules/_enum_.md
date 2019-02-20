@@ -4,11 +4,27 @@
 
 ## Index
 
+### Variables
+
+* [__CE](_enum_.md#__ce)
+
 ### Functions
 
 * [enumKeys](_enum_.md#enumkeys)
 
 ---
+
+## Variables
+
+<a id="__ce"></a>
+
+### `<Const>` __CE
+
+**● __CE**: *`any`[]* =  []
+
+*Defined in [enum.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/enum.ts#L9)*
+
+___
 
 ## Functions
 
@@ -18,9 +34,9 @@
 
 ▸ **enumKeys**(anEnum: *`any`*): `string`[]
 
-*Defined in [enum.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/enum.ts#L2)*
+*Defined in [enum.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/enum.ts#L2)*
 
-easily list given enum's keys as an array
+List given enum keys as array
 
 **Parameters:**
 

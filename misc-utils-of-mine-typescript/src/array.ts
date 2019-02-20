@@ -48,6 +48,10 @@ export type ArrayLiteral<T, L> = 0 extends L
   ? [T, T, T, T, T, T, T, T]
   : 9 extends L
   ? [T, T, T, T, T, T, T, T, T]
+  : 10 extends L
+  ? [T, T, T, T, T, T, T, T, T, T]
+  : 11 extends L
+  ? [T, T, T, T, T, T, T, T, T, T, T]
   : never
 // type t1=ArrayLiteral<{  hi: number , there: string}, 3> declare let a2: ArrayLiteral<{  hi: number , there:
 // string},3> let a2a = a2[1].a type t = t1 extends t2 ? true:false

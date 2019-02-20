@@ -1,7 +1,6 @@
 import 'tsd-check-runtime'
 import {UnionOf} from '..'
-import {expectType} from 'tsd-check-runtime'
-import TypeText from 'get-type-text'
+import {expectType, Type, PrefixedText} from 'tsd-check-runtime'
 import {
   ArrayLength,
   Tuple,
@@ -24,168 +23,175 @@ describe('array', () => {
     })
 
     it('should work with get-type-text', () => {
-      expect('a').not.toMatchType(TypeText<UnionOf<[1, false]>>())
-      expect(2).not.toMatchType(TypeText<UnionOf<[1, false]>>())
-      expect(1).toMatchType(TypeText<UnionOf<[1, false]>>())
+      expect('a').not.toMatchType(Type<UnionOf<[1, false]>>())
+      expect(2).not.toMatchType(Type<UnionOf<[1, false]>>())
+      expect(1).toMatchType(Type<UnionOf<[1, false]>>())
     })
   })
 
   describe('Tuple and ArrayLength', () => {
     it('Tuple', () => {
-      expect([[{a: 1}], [{a: '2'}]]).not.toMatchType(TypeText<Tuple<[{a: string}], 2>>())
-      expect([[{a: '2'}], [{a: '2'}]]).toMatchType(TypeText<Tuple<[{a: string}], 2>>())
+      expect([[{a: 1}], [{a: '2'}]]).not.toMatchType(
+        Type<Tuple<[{a: string}], 2>>(),
+      )
+      expect([[{a: '2'}], [{a: '2'}]]).toMatchType(
+        Type<Tuple<[{a: string}], 2>>(),
+      )
 
       // dont validate accessing out of range - see ArrayLiteral next that it does but is hard coded
-      expect(TypeText<Tuple<[{a: string}], 2>>()).toMatchType(
+      expect(Type<Tuple<[{a: string}], 2>>()).toMatchType<PrefixedText>(
         v => `
-      declare var a: ${v}
-      var b = a[33] // it does not fail!
-      `,
+        var a: ${v.text} = null as any as ${v.text}
+        var b = a[33] // it does not fail!
+        `,
         {asString: true},
       )
 
       expect(
         expectType(
           v => `
-    declare var a: ${v}
-    var b = a[33] // it does not fail!
-    `,
-          TypeText<Tuple<[{a: string}], 2>>(),
+          var a: ${v.text} = null as any as ${v.text}
+          var b = a[33] // it does not fail!
+           `,
+          Type<Tuple<[{a: string}], 2>>(),
           {asString: true},
         ),
       ).toBe(true) // doesn't validate accessing out of range
-    })
-
-    it('ArrayLiteral', () => {
-      expect([[{a: 1}], [{a: '2'}]]).not.toMatchType(
-        TypeText<ArrayLiteral<[{a: string}], 2>>(),
-      )
-      expect([[{a: '2'}], [{a: '2'}]]).toMatchType(
-        TypeText<ArrayLiteral<[{a: string}], 2>>(),
-      )
-
-      // dont validate accessing out of range - see ArrayLiteral next that it does but is hard coded
-      expect(TypeText<ArrayLiteral<[{a: string}], 2>>()).toMatchType(
-        v => `
-      declare var a: ${v}
-      var b = a[33] // it does not fail!
-      `,
-      ),
-        {asString: true}
 
       expect(
         expectType(
           v => `
-    declare var a: ${v}
-    var b = a[33] // it does not fail!
-    `,
-          TypeText<ArrayLiteral<[{a: string}], 2>>(),
+          var a: ${v.text} = null as any as ${v.text}
+          var b = a[1] // it does not fail!
+          `,
+          Type<Tuple<[{a: string}], 2>>(),
           {asString: true},
         ),
-      ).toBe(false) // because it validates accesssing out of range - see ArrayLiteral next that it does but is hard coded
+      ).toBe(true)
     })
   })
 
-  describe('the rest', () => {
-    it('LengthOf', () => {
-      expect(1).not.toMatchType(TypeText<ArrayLength<[1, false]>>())
-      expect(2).toMatchType(TypeText<ArrayLength<[1, false]>>())
-    })
+  it('ArrayLiteral', () => {
+    expect([[{a: 1}], [{a: '2'}]]).not.toMatchType(
+      Type<ArrayLiteral<[{a: string}], 2>>(),
+    )
+    expect([[{a: '2'}], [{a: '2'}]]).toMatchType(
+      Type<ArrayLiteral<[{a: string}], 2>>(),
+    )
+    expect([1, 2, 3]).not.toMatchType(Type<ArrayLiteral<number, 2>>())
+    expect([1, 2]).toMatchType(Type<ArrayLiteral<number, 2>>())
+    expect([1]).not.toMatchType(Type<ArrayLiteral<number, 2>>())
+    // validates accessing out of range - see ArrayLiteral next that it does but is hard coded
+    expect(
+      Type<ArrayLiteral<[{a: string}], 2>>(),
+    ).not.toMatchType<PrefixedText>(
+      v => `
+        var a: ${v.text} = null as any as ${v.text}
+        var b = a[33] // it does not fail!
+        `,
+      {asString: true},
+    ),
+      expect(
+        Type<ArrayLiteral<[{a: string}], 2>>(),
+      ).toMatchType<PrefixedText>(
+        v => `
+        var a: ${v.text} = null as any as ${v.text}
+        var b = a[1] // it does not fail!
+        `,
+        {asString: true},
+      ),
+      expect(
+        expectType(
+          v => `
+            var a: ${v.text} = null as any as ${v.text}
+            var b = a[33] // it does not fail!
+            `,
+          Type<ArrayLiteral<[{a: string}], 2>>(),
+          {asString: true},
+        ),
+      ).toBe(false)
+  })
+})
 
-    it('ArrayTail', () => {
-      expect([2, 1]).toMatchType(TypeText<ArrayTail<[3, 2, 1]>>())
-      expect([1, 2]).not.toMatchType(TypeText<ArrayTail<[3, 2, 1]>>())
-    })
+describe('the rest', () => {
+  it('LengthOf', () => {
+    expect(1).not.toMatchType(Type<ArrayLength<[1, false]>>())
+    expect(2).toMatchType(Type<ArrayLength<[1, false]>>())
+  })
 
-    it('ArrayUnshift', () => {
-      expect([1, 3, 2]).toMatchType(TypeText<ArrayUnshift<[3, 2], 1>>())
-      expect([1, 2, 3]).not.toMatchType(TypeText<ArrayUnshift<[3, 2, 1], 1>>())
-    })
+  it('ArrayTail', () => {
+    expect([2, 1]).toMatchType(Type<ArrayTail<[3, 2, 1]>>())
+    expect([1, 2]).not.toMatchType(Type<ArrayTail<[3, 2, 1]>>())
+  })
 
-    it('ArrayValueOfStringKey', () => {
-      expect(number() || string() || boolean()).not.toMatchType(
-        TypeText<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(
-          
-        ),
-      )
-      expect([string()] || boolean() || number() * 2).not.toMatchType(
-        TypeText<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(
-          
-        ),
-      )
-      expect(true).toMatchType(
-        TypeText<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(
-          
-        ),
-      )
+  it('ArrayUnshift', () => {
+    expect([1, 3, 2]).toMatchType(Type<ArrayUnshift<[3, 2], 1>>())
+    expect([1, 2, 3]).not.toMatchType(
+      Type<ArrayUnshift<[3, 2, 1], 1>>(),
+    )
+  })
 
-      expect(true || 's' || 1).toMatchType(
-        TypeText<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(
-          
-        ),
-      )
-    })
+  it('ArrayValueOfStringKey', () => {
+    expect(number() || string() || boolean()).not.toMatchType(
+      Type<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(),
+    )
+    expect([string()] || boolean() || number() * 2).not.toMatchType(
+      Type<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(),
+    )
+    expect(true).toMatchType(
+      Type<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(),
+    )
 
-    it('ArrayStringKeyValueUnion', () => {
-      expect('b').toMatchType(
-        TypeText<ArrayStringKeyIntersection<[{a: 1; b: 6; c: 4}, {b: 's'}, {c: true; b: 0}]>>(
-          
-        ),
-      )
+    expect(true || 's' || 1).toMatchType(
+      Type<ArrayValueOfStringKey<[{a: 1}, {a: 's'}, {a: true}], 'a'>>(),
+    )
+  })
 
-      expect('a').not.toMatchType(
-        TypeText<ArrayStringKeyIntersection<[{a: 1; b: 6; c: 4}, {b: 's'}, {c: true; b: 0}]>>(
-          
-        ),
-      )
+  it('ArrayStringKeyValueUnion', () => {
+    expect('b').toMatchType(
+      Type<ArrayStringKeyIntersection<[{a: 1; b: 6; c: 4}, {b: 's'}, {c: true; b: 0}]>>(),
+    )
 
-      // let c:ArrayStringKeyIntersection<[{a: 1; b: 6; c: 4}, {b: 's', c: 9}, {c: true; b: 0}]>
-      expect('b').not.toMatchType(
-        TypeText<ArrayStringKeyIntersection<[{a: 1; c: 4}, {b: 's'}, {c: true; b: 0}]>>(
-          
-        ),
-      )
-    })
+    expect('a').not.toMatchType(
+      Type<ArrayStringKeyIntersection<[{a: 1; b: 6; c: 4}, {b: 's'}, {c: true; b: 0}]>>(),
+    )
 
-    it('ArrayIndexUnion', () => {
-      expect('0' || '1' || '2').toMatchType(
-        TypeText<ArrayIndexUnion<[{a: 1; b: 6; c: 4}, {b: 's'}, {c: true; b: 0}]>>(
-          
-        ),
-      )
-      expect(union('0', '1', '2')).toMatchType(
-        TypeText<ArrayIndexUnion<[{a: 1; c: 4}, {b: 's'}, {c: true; b: 0}]>>(
-          
-        ),
-      )
-    })
+    // let c:ArrayStringKeyIntersection<[{a: 1; b: 6; c: 4}, {b: 's', c: 9}, {c: true; b: 0}]>
+    expect('b').not.toMatchType(
+      Type<ArrayStringKeyIntersection<[{a: 1; c: 4}, {b: 's'}, {c: true; b: 0}]>>(),
+    )
+  })
 
-    it('ArrayItemKeyUnion', () => {
-      expect('b' || 'c').toMatchType(
-        TypeText<ArrayItemKeyUnion<[{a: 1; b: 6; c: 4}, {b: 's'; a: null; c: 1.2}, {c: true; b: 0}]>>(
-          
-        ),
-      )
-      expect('a' || 'c').not.toMatchType(
-        TypeText<ArrayItemKeyUnion<[{a: 1; b: 6; c: 4}, {b: 's'; a: null; c: 1.2}, {c: true; b: 0}]>>(
-          
-        ),
-      )
-    })
+  it('ArrayIndexUnion', () => {
+    expect('0' || '1' || '2').toMatchType(
+      Type<ArrayIndexUnion<[{a: 1; b: 6; c: 4}, {b: 's'}, {c: true; b: 0}]>>(),
+    )
+    expect(union('0', '1', '2')).toMatchType(
+      Type<ArrayIndexUnion<[{a: 1; c: 4}, {b: 's'}, {c: true; b: 0}]>>(),
+    )
+  })
+
+  it('ArrayItemKeyUnion', () => {
+    expect('b' || 'c').toMatchType(
+      Type<ArrayItemKeyUnion<[{a: 1; b: 6; c: 4}, {b: 's'; a: null; c: 1.2}, {c: true; b: 0}]>>(),
+    )
+    expect('a' || 'c').not.toMatchType(
+      Type<ArrayItemKeyUnion<[{a: 1; b: 6; c: 4}, {b: 's'; a: null; c: 1.2}, {c: true; b: 0}]>>(),
+    )
   })
 })
 
 describe('particular problem tsd-check-runtime is good at', () => {
   it('Tuple wont verify out of range access', () => {
     expect(`
-      declare var a: Tuple<number, 2>
-      var c = a[3] 
+      var a: Tuple<number, 2> = null as any as Tuple<number, 2>
+      var c:any = a[3] 
     `).toCompile()
   })
   it('ArrayLiteral will verify out of range access', () => {
     expect(`
-      declare var a: ArrayLiteral<number, 2>
-      var c = a[3] 
+      var a: ArrayLiteral<number, 2> = null as any as ArrayLiteral<number, 2>
+      var c:any = a[3] 
     `).not.toCompile()
   })
 })

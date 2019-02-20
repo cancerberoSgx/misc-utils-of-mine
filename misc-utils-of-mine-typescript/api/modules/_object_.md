@@ -18,6 +18,10 @@
 * [ObjectStringKeyValueUnion](_object_.md#objectstringkeyvalueunion)
 * [ObjectStringValueIntersection](_object_.md#objectstringvalueintersection)
 
+### Variables
+
+* [__CE](_object_.md#__ce)
+
 ---
 
 ## Type aliases
@@ -28,7 +32,7 @@
 
 **Ƭ EmptyObject**: *`object`*
 
-*Defined in [object.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L3)*
+*Defined in [object.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L3)*
 
 #### Type declaration
 
@@ -39,7 +43,7 @@ ___
 
 **Ƭ IntersectionOfFunctionsToTuple**: *`IntersectionOfFunctionsToTuple<F>`*
 
-*Defined in [object.ts:65](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L65)*
+*Defined in [object.ts:65](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L65)*
 
 ___
 <a id="keystotuple"></a>
@@ -48,7 +52,7 @@ ___
 
 **Ƭ KeysToTuple**: *[IntersectionOfFunctionsToTuple](_object_.md#intersectionoffunctionstotuple)<[ObjectStringValueIntersection](_object_.md#objectstringvalueintersection)<`object`>>*
 
-*Defined in [object.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L54)*
+*Defined in [object.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L54)*
 
 KeysToTuple<{a:1,b:5,9:2}> === \['a','b',9\]
 
@@ -59,7 +63,7 @@ ___
 
 **Ƭ ObjectKeyLength**: *`IntersectionOfFunctionsToTuple<ObjectStringValueIntersection<{ [K in keyof T]: (v: K) => void; }>>["length"]`*
 
-*Defined in [object.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L50)*
+*Defined in [object.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L50)*
 
 counts given object keys : CountKeys<{a:5,g:0,b:'s'}> === 3
 
@@ -70,7 +74,7 @@ ___
 
 **Ƭ ObjectKeyValue**: *`T[K]`*
 
-*Defined in [object.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L6)*
+*Defined in [object.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L6)*
 
 ObjectKeyValue<{a:1,b:'s',2:9},2>===9 ObjectKeyValue<{a:1,b:'s',2:'b'},'s'>.
 
@@ -81,7 +85,7 @@ ___
 
 **Ƭ ObjectNumberKeyUnion**: *`Extract`<`keyof T`, `number`>*
 
-*Defined in [object.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L21)*
+*Defined in [object.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L21)*
 
 ObjectNumberKeyUnion<{1:'g',7:false}> === 1\|7
 
@@ -92,7 +96,7 @@ ___
 
 **Ƭ ObjectNumberKeyValue**: *`T[K]`*
 
-*Defined in [object.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L13)*
+*Defined in [object.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L13)*
 
 ValueOfNumberKey<{a:1,b:'s',2:9},2>===9
 
@@ -103,7 +107,7 @@ ___
 
 **Ƭ ObjectStringKeyUnion**: *`Extract`<`keyof T`, `string`>*
 
-*Defined in [object.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L17)*
+*Defined in [object.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L17)*
 
 c:ObjectStringKeyUnion<{a:1,b:'s'}> === 'a'\|'b'
 
@@ -114,7 +118,7 @@ ___
 
 **Ƭ ObjectStringKeyValue**: *`T[K]`*
 
-*Defined in [object.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L9)*
+*Defined in [object.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L9)*
 
 ObjectStringKey<{a:1,b:'s',2:9},'b'> === 9 ObjectStringKey<{a:1,b:'s',2:9},2> fails
 
@@ -125,7 +129,7 @@ ___
 
 **Ƭ ObjectStringKeyValueUnion**: *[ObjectStringKeyValue](_object_.md#objectstringkeyvalue)<`K`, [ObjectStringKeyUnion](_object_.md#objectstringkeyunion)<`K`>>*
 
-*Defined in [object.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L28)*
+*Defined in [object.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L28)*
 
 ObjectStringKeyValueUnion<{a:1,b:'s'}>===1\|'s'
 
@@ -136,9 +140,21 @@ ___
 
 **Ƭ ObjectStringValueIntersection**: *`ObjectStringValueIntersection<T>`*
 
-*Defined in [object.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/0f645ca/misc-utils-of-mine-typescript/src/object.ts#L41)*
+*Defined in [object.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L41)*
 
 takes an object, and returns its values in an intersection. ObjectStringValueIntersection<{a:2,b:'0'}> === 'a'&2
+
+___
+
+## Variables
+
+<a id="__ce"></a>
+
+### `<Const>` __CE
+
+**● __CE**: *`any`[]* =  []
+
+*Defined in [object.ts:81](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d172c0e/misc-utils-of-mine-typescript/src/object.ts#L81)*
 
 ___
 

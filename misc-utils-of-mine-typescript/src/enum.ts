@@ -1,4 +1,4 @@
-/** easily list given enum's keys as an array */
+/** List given enum keys as array */
 export function enumKeys(anEnum: any): string[] {
   const a = []
   for (let i in anEnum) {
