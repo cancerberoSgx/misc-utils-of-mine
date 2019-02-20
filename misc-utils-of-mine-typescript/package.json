@@ -1,6 +1,6 @@
 {
   "name": "misc-utils-of-mine-typescript",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "TypeScript type helpers and related misc utilities",
   "types": "dist/src/index.d.ts",
   "main": "dist/src/index.js",
@@ -23,7 +23,7 @@
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
     "ts-node": "^7.0.1",
-    "tsd-check-runtime": "../../tsd-check-runtime",
+    "tsd-check-runtime": "0.0.9",
     "typedoc": "^0.13.0",
     "typedoc-plugin-markdown": "^1.1.27",
     "typescript": "^3.3.3333"
