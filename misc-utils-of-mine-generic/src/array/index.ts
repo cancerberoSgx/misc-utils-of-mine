@@ -15,7 +15,9 @@ export function asArray<T>(selectors: T | T[]): T[] {
   return Array.isArray(selectors) ? selectors : [selectors];
 }
 
-
-export function flat<T>(arr: T[][]): T[] {
-  return arr.length ? arr.reduce((a, b) => a.concat(b)) : []
+export function unionEquals<T>(left: T[], right: T[], equals: (a: T, b: T) => boolean): T[] {
+  return left.concat(right).reduce((acc, element) => {
+    //@ts-ignore
+    return acc.some(elt => equals(elt, element)) ? acc : acc.concat(element)
+  }, [])
 }

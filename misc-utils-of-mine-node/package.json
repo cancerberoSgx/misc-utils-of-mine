@@ -34,5 +34,7 @@
     "ts-node": "^7.0.1",
     "typescript": "^3.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
+  }
 }
