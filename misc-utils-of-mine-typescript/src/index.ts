@@ -1,1 +1,5 @@
-export * from './types'
+export * from './object'
+export * from './misc'
+export * from './array'
+export * from './inheritance'
+export * from './json'
