@@ -1,4 +1,4 @@
-// import {EmptyObject, StringKeyOf} from 'misc-utils-of-mine-typescript'
+import {EmptyObject, StringKeyOf} from 'misc-utils-of-mine-typescript'
 
 export function sleep(ms: number): Promise<void>{
   return new Promise(resolve=>{
@@ -14,9 +14,9 @@ export function unique(prefix: string='_'): string {
   return prefix+_unique++
 }
 
-// export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): StringKeyOf<Field>[] {
-//   return Object.keys(o) as StringKeyOf<Field>[]
-// }
+export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): StringKeyOf<Field>[] {
+  return Object.keys(o) as StringKeyOf<Field>[]
+}
 
 
 export function randomIntBetween(a: number, b: number){
@@ -34,23 +34,3 @@ export function tryTo<F extends (...args: any[]) => any>(f: F): ReturnType<F> | 
   }
 }
 
-
-// export type EmptyObject = {}
-
-
-// strings
-
-
-// export function escapeHtmlAttribute(code: string) {
-//   return code.replace(/\"/gmi, '&quot;');
-// }
-// export function unEscapeHtmlAttribute(code: string) {
-//   return code.replace(/\&quot\;/gmi, '"');
-// }
-
-// export function repeat(n: number, s: string): string {
-//   return array(n, s).join('')
-// }
-// export function indent(i: number = 1, tabSize = 2): string {
-//   return repeat(i * tabSize, ' ')
-// }
