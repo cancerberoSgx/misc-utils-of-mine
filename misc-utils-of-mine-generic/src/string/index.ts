@@ -26,3 +26,7 @@ export function indent(i: number = 1, tabSize = 2): string {
 export function getPosition(string: string, subString: string, index: number) {
   return string.split(subString, index).join(subString).length;
 }
+
+export function removeWhites(s: string, replaceWith=' '){
+  return s.replace(/\s+/gm, replaceWith).trim()
+}

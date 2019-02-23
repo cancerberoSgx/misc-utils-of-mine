@@ -14,5 +14,11 @@
     {
         "name": "misc-utils-of-mine-dom",
         "path": "./misc-utils-of-mine-dom"
+    },
+
+    {
+        "name": "isc-utils-of-mine-describe-it-expect",
+        "path": "./isc-utils-of-mine-describe-it-expect"
     }
+    
 ]

@@ -28,8 +28,7 @@
     "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
   },
   "license": "MIT",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "yamat": "^0.1.1"
   }

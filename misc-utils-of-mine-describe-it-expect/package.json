@@ -1,18 +1,23 @@
 {
-  "name": "misc-utils-of-mine-generic",
+  "name": "misc-utils-of-mine-describe-it-expect",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
-  "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.5",
+  "description": "Utilities for test written with describe() it() expect() syntax (jest, jasmine, mocha, etc)",
+  "version": "0.0.4",
+  "author": "Sebastián Gurin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
+  },
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
     "clean": "rm -rf dist tmp",
     "test": "npx jest --testPathIgnorePatterns /dist/",
-    "test-js": "npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
+    "test-js": "npm run build && npx jest --testMatch \"**/dist/**/__tests__/**/*.js\"",
     "test-watch": "npm test -- --watch",
-    "all": "npm run clean && npm run build && npm run test-js && npm run test",
+    "all": "npm run clean && npm run build && npm test",
     "prepare": "npm run all"
   },
   "devDependencies": {
@@ -20,10 +25,13 @@
     "@types/node": "^10.12.18",
     "jest": "^24.1.0",
     "ts-jest": "^24.0.0",
+    "ts-node": "^7.0.1",
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
   },
+  "license": "MIT",
   "keywords": [
     "JavaScript",
     "TypeScript",
@@ -32,11 +40,5 @@
   ],
   "jest": {
     "preset": "ts-jest"
-  },
-  "author": "Sebastián Gurin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
-  },
-  "license": "MIT"
+  }
 }

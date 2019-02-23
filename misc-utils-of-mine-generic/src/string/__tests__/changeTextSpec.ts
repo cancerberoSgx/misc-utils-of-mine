@@ -1,4 +1,4 @@
-import { changeText } from "../../src";
+import { changeText } from "../..";
 
 describe('changeText', () => {
   it('add only', () => {

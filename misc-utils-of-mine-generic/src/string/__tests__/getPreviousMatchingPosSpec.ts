@@ -1,4 +1,5 @@
-import { changeText, getPreviousMatchingPos } from "../../src";
+import { changeText, getPreviousMatchingPos } from "../..";
+
 describe('getPreviousMatchingPos', () => {
   it('using literal', () => {
     const s = `hello how are you? I hope you are fine`
