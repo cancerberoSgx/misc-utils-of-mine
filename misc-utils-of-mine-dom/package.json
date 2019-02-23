@@ -35,6 +35,6 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
-    "misc-utils-of-mine-generic": "0.0.5"
+    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
   }
 }
