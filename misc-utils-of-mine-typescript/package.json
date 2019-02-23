@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "build": "tsc ",
     "build-watch": "tsc -w",

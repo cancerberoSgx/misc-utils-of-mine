@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
@@ -22,8 +22,7 @@
     "ts-jest": "^24.0.0",
     "typescript": "^3.2.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "keywords": [
     "JavaScript",
     "TypeScript",
