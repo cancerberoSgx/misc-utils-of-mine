@@ -10,7 +10,7 @@
     "build-watch": "npx tsc -w",
     "clean": "rm -rf dist tmp",
     "test": "npx jest --testPathIgnorePatterns /dist/",
-    "test-js": "npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
+    "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "test-watch": "npm test -- --watch",
     "all": "npm run clean && npm run build && npm run test-js && npm run test",
     "prepare": "npm run all"
@@ -30,13 +30,13 @@
     "utilities",
     "miscellaneous"
   ],
-  "jest": {
-    "preset": "ts-jest"
-  },
   "author": "Sebastián Gurin",
   "repository": {
     "type": "git",
     "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "jest": {
+    "preset": "ts-jest"
+  }
 }
