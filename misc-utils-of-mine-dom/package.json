@@ -32,7 +32,7 @@
     "@types/node": "^10.12.18",
     "jasmine": "^3.3.1",
     "ts-node": "^7.0.1",
-    "typescript": "^3.2.2"
+    "typescript": "^3.3.3"
   },
   "dependencies": {
     "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
