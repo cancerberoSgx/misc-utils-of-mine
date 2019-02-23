@@ -10,5 +10,9 @@
     {
         "name": "misc-utils-of-mine-node",
         "path": "./misc-utils-of-mine-node"
+    },
+    {
+        "name": "misc-utils-of-mine-dom",
+        "path": "./misc-utils-of-mine-dom"
     }
 ]

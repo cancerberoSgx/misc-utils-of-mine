@@ -1,0 +1,40 @@
+{
+  "name": "misc-utils-of-mine-dom",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "typings": "dist/src/index.d.ts",
+  "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
+  "version": "0.0.4",
+  "scripts": {
+    "build": "npm run clean && tsc && npm run copy",
+    "build-watch": "tsc -w",
+    "copy": "rm -rf dist/spec/support && mkdir -p dist/spec/support && cp -r spec/support/jasmine-js-debug.json dist/spec/support/jasmine.json",
+    "clean": "rm -rf dist tmp",
+    "test": "ts-node node_modules/jasmine/bin/jasmine",
+    "test-js": "jasmine --config=spec/support/jasmine-js.json",
+    "all": "npm run clean && npm run build && npm run test-js && npm run test",
+    "prepare": "npm run all"
+  },
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "utilities",
+    "miscellaneous"
+  ],
+  "author": "Sebastián Gurin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.5",
+    "@types/node": "^10.12.18",
+    "jasmine": "^3.3.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
+  }
+}
