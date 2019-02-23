@@ -7,6 +7,10 @@ export function parseJSON<K=any>(s: string, defaultValue?: K): K|undefined {
   }
 }
 
+export function clone<T>(a: T): T {
+  return JSON.parse(JSON.stringify(a))
+}
+
 // export function jsonParseOr<K>(s: string, defaultValue: K): K {
 //   return parseJSON(s) || defaultValue
 // }

@@ -1,2 +1,6 @@
 export * from './element'
 export * from './safeEval'
+export * from './url'
+export * from './urlOptions'
+export * from './localStorage'
+export * from './fileArrayBuffer'

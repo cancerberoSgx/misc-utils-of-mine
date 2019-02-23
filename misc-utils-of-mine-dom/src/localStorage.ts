@@ -1,22 +1,16 @@
-import { parseJSON } from 'misc-utils-of-mine-generic';
-import { JSON } from 'misc-utils-of-mine-typescript';
-export function localStorageGetJSON<K>(key:string) {
-  let ls : {[s:string]:any}= {}
+import { parseJSON } from 'misc-utils-of-mine-generic'
+
+export function localStorageGetJSON<K>(key: string): K | undefined {
   if (window.localStorage) {
     const v = window.localStorage.getItem(key)
-    if(v){
+    if (v) {
       return parseJSON<K>(v)
     }
   }
 }
 
-export function localStorageSetJSON(key:string, value:JSONV) {
+export function localStorageSetJSON<T>(key: string, value: T) {
   if (window.localStorage) {
-    window.localStorage.setItem(
-      key,
-      JSON.stringify({
-        [key]: value
-      })
-    )
+    window.localStorage.setItem(key, JSON.stringify(value))
   }
 }

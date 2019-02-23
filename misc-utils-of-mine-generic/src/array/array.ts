@@ -17,3 +17,11 @@ export function unionEquals<T>(left: T[], right: T[], equals: (a: T, b: T) => bo
     return acc.some(elt => equals(elt, element)) ? acc : acc.concat(element);
   }, []);
 }
+
+export function seq(start: number=0, step: number=1, max: number=0): number[]{
+  const result = []
+  for (let i = start; i < max; i+=step) {
+    result.push(i)
+  }
+  return result
+}
