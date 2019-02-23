@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2018",
+    "target": "es6",
     "module": "commonjs",
     "moduleResolution":"node",
     "lib": [
-      "es2018", "dom","es2018.promise"
+      "es6", "dom","es2018.promise"
     ],
     "outDir": "./dist",
     "rootDir": ".",

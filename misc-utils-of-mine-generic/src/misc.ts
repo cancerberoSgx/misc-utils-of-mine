@@ -1,6 +1,5 @@
-import { array } from './array';
+// import {EmptyObject, StringKeyOf} from 'misc-utils-of-mine-typescript'
 
-// TODO: relocate all of these
 export function sleep(ms: number): Promise<void>{
   return new Promise(resolve=>{
     setTimeout(() => {
@@ -8,12 +7,12 @@ export function sleep(ms: number): Promise<void>{
     }, ms);
   })
 }
+export const wait = sleep
 
 let _unique: number = 0
 export function unique(prefix: string='_'): string {
   return prefix+_unique++
 }
-
 
 // export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): StringKeyOf<Field>[] {
 //   return Object.keys(o) as StringKeyOf<Field>[]
