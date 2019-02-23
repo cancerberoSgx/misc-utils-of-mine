@@ -1,0 +1,14 @@
+[
+    {
+        "name": "misc-utils-of-mine-typescript",
+        "path": "./misc-utils-of-mine-typescript"
+    },
+    {
+        "name": "misc-utils-of-mine-generic",
+        "path": "./misc-utils-of-mine-generic"
+    },
+    {
+        "name": "misc-utils-of-mine-node",
+        "path": "./misc-utils-of-mine-node"
+    }
+]

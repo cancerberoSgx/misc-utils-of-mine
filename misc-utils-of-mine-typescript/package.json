@@ -5,12 +5,13 @@
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
   "version": "0.0.4",
-  "private": true,
   "scripts": {
-    "build": "npx yamat run npm run build",
-    "clean": "npx yamat run npm run clean",
-    "test": "npx yamat run npm test",
-    "all": "npm run clean && npm run build && npm test"
+    "build": "tsc ",
+    "build-watch": "tsc -w",
+    "clean": "rm -rf dist tmp",
+    "test": "npm run build",
+    "all": "npm run clean && npm run build && npm run test-js && npm run test",
+    "prepare": "npm run all"
   },
   "keywords": [
     "JavaScript",
@@ -25,8 +26,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/jasmine": "^3.3.5",
+    "@types/node": "^10.12.18",
+    "jasmine": "^3.3.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
-    "yamat": "^0.1.1"
   }
 }
