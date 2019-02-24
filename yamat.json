@@ -18,6 +18,9 @@
     {
         "name": "misc-utils-of-mine-describe-it-expect",
         "path": "./misc-utils-of-mine-describe-it-expect"
+    },    
+    {
+        "name": "misc-utils-of-mine-random-data",
+        "path": "./misc-utils-of-mine-random-data"
     }
-    
 ]

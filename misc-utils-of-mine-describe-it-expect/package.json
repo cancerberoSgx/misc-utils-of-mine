@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Utilities for test written with describe() it() expect() syntax (jest, jasmine, mocha, etc)",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Sebastián Gurin",
   "repository": {
     "type": "git",
@@ -21,15 +21,14 @@
     "prepare": "npm run all"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.6",
     "@types/node": "^10.12.18",
     "jest": "^24.1.0",
+    "@types/jest": "^24.0.6",
     "ts-jest": "^24.0.0",
-    "ts-node": "^7.0.1",
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
+    "misc-utils-of-mine-generic": "0.0.8"
   },
   "license": "MIT",
   "keywords": [

@@ -1,10 +1,10 @@
 {
-  "name": "misc-utils-of-mine-dom",
+  "name": "misc-utils-of-mine-random-data",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
-  "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.7",
+  "description": "Generate random fake data like names, phones, etc. It's lightweight so it can be combined in a web page.",
+  "version": "0.0.1",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
@@ -23,13 +23,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "misc-utils-of-mine-generic": "0.0.8",
     "misc-utils-of-mine-typescript": "0.0.8"
-  },
-  "author": "Sebastián Gurin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
   },
   "keywords": [
     "JavaScript",
@@ -37,6 +31,11 @@
     "utilities",
     "miscellaneous"
   ],
+  "author": "Sebastián Gurin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cancerberoSgx/misc-utils-of-mine.git"
+  },
   "license": "MIT",
   "jest": {
     "preset": "ts-jest"

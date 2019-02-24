@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution":"node",
+    "lib": [
+      "es6", "dom","es2018.promise"
+    ],
+    "outDir": "./dist",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true
+  },
+  "include":["src", "spec"],
+}

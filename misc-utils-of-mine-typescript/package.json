@@ -3,7 +3,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "TypeScript type helpers and related misc utilities",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "scripts": {
     "build": "tsc ",
     "build-watch": "tsc -w",

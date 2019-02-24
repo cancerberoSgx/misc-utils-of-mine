@@ -1,14 +1,5 @@
 import {EmptyObject, StringKeyOf} from 'misc-utils-of-mine-typescript'
 
-export function sleep(ms: number): Promise<void>{
-  return new Promise(resolve=>{
-    setTimeout(() => {
-      resolve()
-    }, ms);
-  })
-}
-export const wait = sleep
-
 let _unique: number = 0
 export function unique(prefix: string='_'): string {
   return prefix+_unique++
@@ -17,7 +8,6 @@ export function unique(prefix: string='_'): string {
 export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): StringKeyOf<Field>[] {
   return Object.keys(o) as StringKeyOf<Field>[]
 }
-
 
 export function randomIntBetween(a: number, b: number){
   return Math.floor(Math.random() * b) + a
