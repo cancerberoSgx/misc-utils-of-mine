@@ -25,7 +25,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "misc-utils-of-mine-generic": "0.0.11"
+    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic"
   },
   "repository": {
     "type": "git",
