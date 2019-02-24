@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Generate random fake data like names, phones, etc. It's lightweight so it can be combined in a web page.",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
@@ -13,17 +13,17 @@
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "test-watch": "npm test -- --watch",
     "all": "npm run clean && npm run build && npm run test-js && npm run test",
-    "prepare": "npm run all"
+    "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
   },
   "devDependencies": {
     "@types/jest": "^24.0.6",
     "@types/node": "^10.12.18",
     "jest": "^24.1.0",
+    "shx": "^0.3.2",
     "ts-jest": "^24.0.0",
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "misc-utils-of-mine-typescript": "0.0.8"
   },
   "keywords": [
     "JavaScript",

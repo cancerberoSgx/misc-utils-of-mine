@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "scripts": {
     "build": "npm run clean && tsc && npm run copy",
     "build-watch": "tsc -w",
@@ -13,7 +13,7 @@
     "test": "ts-node node_modules/jasmine/bin/jasmine",
     "test-js": "jasmine --config=spec/support/jasmine-js.json",
     "all": "npm run clean && npm run build && npm run test-js && npm run test",
-    "prepare": "npm run all"
+    "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
   },
   "keywords": [
     "JavaScript",
@@ -31,10 +31,11 @@
     "@types/jasmine": "^3.3.5",
     "@types/node": "^10.12.18",
     "jasmine": "^3.3.1",
+    "shx": "^0.3.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.3.3"
   },
   "dependencies": {
-    "misc-utils-of-mine-generic": "0.0.8"
+    "misc-utils-of-mine-generic": "0.0.11"
   }
 }

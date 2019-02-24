@@ -1,24 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es2018",
+    "target": "es6",
     "module": "commonjs",
     "moduleResolution":"node",
     "lib": [
-      "es2018", "dom","es2018.promise"
+      "es6"
     ],
     "outDir": "./dist",
     "rootDir": ".",
     "esModuleInterop": true,
     "strict": true,
     "declaration": true
-    // "noStrictGenericChecks": true,
-    // "strictBindCallApply": false,
-    // "strictNullChecks": false,
-    // "strictFunctionTypes": false,
-    // "strictPropertyInitialization": false,
-    // "stripInternal": false,
-    // "noImplicitAny": false
   },
-  "include":["src", "spec"],
-  // "exclude": ["node_modules", "dist"]
+  "include":["src", "spec"]
 }

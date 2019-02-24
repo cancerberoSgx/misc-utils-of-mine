@@ -1,16 +1,17 @@
 {
   "name": "misc-utils-of-mine-typescript",
   "types": "dist/src/index.d.ts",
+  "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
   "description": "TypeScript type helpers and related misc utilities",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "scripts": {
     "build": "tsc ",
     "build-watch": "tsc -w",
     "clean": "rm -rf dist tmp",
     "test": "npm run build",
     "all": "npm run clean && npm run build && npm run test",
-    "prepare": "npm run all"
+    "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
   },
   "keywords": [
     "JavaScript",
@@ -28,6 +29,7 @@
     "@types/jasmine": "^3.3.5",
     "@types/node": "^10.12.18",
     "jasmine": "^3.3.1",
+    "shx": "^0.3.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.3.3"
   },

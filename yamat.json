@@ -4,6 +4,10 @@
         "path": "./misc-utils-of-mine-typescript"
     },
     {
+        "name": "misc-utils-of-mine-random-data",
+        "path": "./misc-utils-of-mine-random-data"
+    },
+    {
         "name": "misc-utils-of-mine-generic",
         "path": "./misc-utils-of-mine-generic"
     },
@@ -18,9 +22,5 @@
     {
         "name": "misc-utils-of-mine-describe-it-expect",
         "path": "./misc-utils-of-mine-describe-it-expect"
-    },    
-    {
-        "name": "misc-utils-of-mine-random-data",
-        "path": "./misc-utils-of-mine-random-data"
     }
 ]

@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
@@ -13,17 +13,18 @@
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "test-watch": "npm test -- --watch",
     "all": "npm run clean && npm run build && npm run test-js && npm run test",
-    "prepare": "npm run all"
+    "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
   },
   "devDependencies": {
     "@types/jest": "^24.0.6",
     "@types/node": "^10.12.18",
     "jest": "^24.1.0",
+    "shx": "^0.3.2",
     "ts-jest": "^24.0.0",
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "misc-utils-of-mine-typescript": "0.0.8"
+    "misc-utils-of-mine-typescript": "0.0.11"
   },
   "keywords": [
     "JavaScript",

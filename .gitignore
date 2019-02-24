@@ -3,3 +3,4 @@ dist
 *.tgz
 misc-utils-of-mine-jasmine
 misc-utils-of-mine-puppeteer
+.yamat
