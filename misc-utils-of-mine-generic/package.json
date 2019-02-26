@@ -24,8 +24,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "misc-utils-of-mine-typescript": "file:../misc-utils-of-mine-typescript",
-    "tsyringe": "^3.0.1"
+    "misc-utils-of-mine-typescript": "file:../misc-utils-of-mine-typescript"
   },
   "keywords": [
     "JavaScript",
