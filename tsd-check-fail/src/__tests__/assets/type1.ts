@@ -13,3 +13,5 @@ type Bool = False | True;
 
 export type If<Cond extends Bool, Then, Else> = Cond extends True ? Then : Else;
 export type IsString<T> = T extends string ? True : False;
+
+export type Equal<A, B> = [A] extends [B] ? [B] extends [A] ? true : false : false

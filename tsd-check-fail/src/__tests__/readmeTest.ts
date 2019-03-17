@@ -1,15 +1,21 @@
 import { expectTypeNotToBe } from '../expectNotType';
-import { KeysToTuple } from './assets/type2';
-import { If, IsString } from './assets/type1';
+
+type UnionOf<T extends any[]> = T[number]
 
 test('should not fail if type don\'t match', () => {
-  const result = expectTypeNotToBe('number', '1')
+  const result = expectTypeNotToBe('UnionOf<[1,2]>', 'will fail')
   expect(result.fail).toBe(true)
 })
 
+import { KeysToTuple } from './assets/type2';
+import { If, IsString } from './assets/type1';
+
 test('should not fail if type match', () => {
-  const result = expectTypeNotToBe('number', 1)
-  expect(result.fail).toBe(false)
+  let result = expectTypeNotToBe(value => `
+  var b = Math.random()>0.5 ? 1 : '1'
+  type CoolType = If<IsString<typeof b>, 'greater than 0.5', 'lower than 0.5'>
+  var a: CoolType = '${value}'`, 'equals 2 * 3')
+  expect(result.fail).toBe(true)
 })
 
 test('can reference types from other files', () => {

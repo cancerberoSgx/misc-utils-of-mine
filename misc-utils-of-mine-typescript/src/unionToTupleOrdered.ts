@@ -2,6 +2,7 @@
 type UnionToIoF<U> =
   (U extends any ? (k: (x: U) => void) => void : never) extends
   ((k: infer I) => void) ? I : never
+type _UnionToIoF_test = UnionToIoF<1|2>
 
 // return last element from Union
 type UnionPop<U> = UnionToIoF<U> extends { (a: infer A): void; } ? A : never;
@@ -17,6 +18,6 @@ type UnionToTupleRecursively<Union, Result extends any[]> = {
 }[[Union] extends [never] ? 1 : 0];
 
 type UnionToTupleRecursively_<Union, Element, Result extends any[]> =
-  UnionToTupleRecursively<Exclude<Union, Element>, Prepend<Element, Result>>;
+UnionToTupleRecursively<Exclude<Union, Element>, Prepend<Element, Result>>;
 
 export type UnionToTupleOrdered<U> = UnionToTupleRecursively<U, []>;
