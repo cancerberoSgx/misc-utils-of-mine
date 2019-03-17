@@ -12,6 +12,7 @@
     "test-watch": "npm test -- --watch",
     "prettier": " npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma all --end-of-line lf --prose-wrap preserve --print-width 120 --no-bracket-spacing  --jsx-bracket-same-line true \"src/**/*.ts*\"",
     "all": "npm run clean && npm run prettier && npm run build && npm run test",
+    "docs": "npx typedoc src/toHave/types.ts src/toEdit/types.ts src/toTrigger/types.ts --out docs/api &&  npx typedoc src/toHave/types.ts src/toEdit/types.ts src/toTrigger/types.ts --theme markdown --out docs/api-md",
     "clean": "rm -rf dist docs",
     "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
   },
@@ -22,6 +23,8 @@
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
     "ts-node": "^7.0.1",
+    "typedoc": "^0.13.0",
+    "typedoc-plugin-markdown": "^1.1.27",
     "ts-simple-ast": "^21.0.4",
     "typescript": "^3.3.3333"
   },

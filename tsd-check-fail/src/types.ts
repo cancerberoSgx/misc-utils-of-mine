@@ -1,13 +1,16 @@
 let types = 1
 export interface Options {
   tsConfigFilePath?: string
+  enforceJsonValues?: boolean
   folder?: string
   dontVerifyFile?: boolean
   dontVerifyProject?: boolean
   /** pass true if you are already passing a quoted value. By default value is escaped in the output */
-  valueAsString?: boolean
+  dontEscape?: boolean
   verifyProject?: boolean
   printResultIfFail?: boolean
+  printResult?: boolean
+
 }
 export interface Fail {
   pass: boolean
@@ -28,3 +31,4 @@ export interface CompilationError {
   endColumn: number
   endLineNumber: number
 }
+export type TypeRepresentation<T> = string | ((value: T | string) => string)
