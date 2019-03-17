@@ -1,6 +1,6 @@
 import {expectType} from '../expectType'
 import {KeysToTuple} from './assets/type2'
-import { checkType } from '../checkType';
+import {checkType} from '../checkType'
 type UnionOf<T extends any[]> = T[number]
 
 test('expectType - the high level API', () => {
@@ -44,5 +44,3 @@ test('expectType - the high level API', () => {
   // are enforced:
   expect(expectType(value => `const v: typeof describe = ${value}`, describe, {enforceJsonValues: true})).toBe(false)
 })
-
-

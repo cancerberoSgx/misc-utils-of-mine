@@ -88,12 +88,13 @@ test('should allow intermediate function calls', () => {
 })
 
 test('expectType - the low level API', () => {
-  const result = checkType(value => `
+  const result = checkType(
+    value => `
       var a: KeysToTuple<Date> = ${value}`,
     ['toUTCString', 'toISOString', 'toJSON'],
   )
-  if(!result.pass){
-    console.error(result.error, result.code, result.failErrors, result.testCode);
+  if (!result.pass) {
+    console.error(result.error, result.code, result.failErrors, result.testCode)
   }
   expect(result.pass).toBe(true)
   expect(typeof result.code).toBe('string')
