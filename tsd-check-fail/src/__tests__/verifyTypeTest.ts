@@ -1,10 +1,10 @@
-import { checkType } from "../checkType";
-import { KeysToTuple } from './assets/type2';
-import { If, IsString } from './assets/type1';
-import { intermediateFunction } from './assets/intermediaFunction';
-import { intermediateFunction2 } from './assets/intermediaFunction2';
+import {checkType} from '../checkType'
+import {KeysToTuple} from './assets/type2'
+import {If, IsString} from './assets/type1'
+import {intermediateFunction} from './assets/intermediaFunction'
+import {intermediateFunction2} from './assets/intermediaFunction2'
 
-test('should not fail if type don\'t match', () => {
+test("should not fail if type don't match", () => {
   const result = checkType('number', '1')
   expect(result.pass).toBe(false)
 })
@@ -15,42 +15,59 @@ test('should not fail if type match', () => {
 })
 
 test('can reference types from other files', () => {
-  type CoolType = If<IsString<1>, 1, 0>  // we want to keep this code here because we cannot remove the imports
-  let result = checkType(value => `
+  type CoolType = If<IsString<1>, 1, 0> // we want to keep this code here because we cannot remove the imports
+  let result = checkType(
+    value => `
       var b = Math.random()>0.5 ? 1 : '1'
       type CoolType = If<IsString<typeof b>, 'greater than 0.5', 'lower than 0.5'>
-      var a: CoolType = '${value}'`, 'equals 2 * 3')
+      var a: CoolType = '${value}'`,
+    'equals 2 * 3',
+  )
   expect(result.pass).toBe(false)
 
-  let result2 = checkType(value => `
+  let result2 = checkType(
+    value => `
       var b = Math.random()>0.5 ? 1 : '1'
-      var a: If<IsString<typeof b>, 'greater than 0.5', 'lower than 0.5'> = '${value}'`, 'greater than 0.5', {printResultIfFail: true})
+      var a: If<IsString<typeof b>, 'greater than 0.5', 'lower than 0.5'> = '${value}'`,
+    'greater than 0.5',
+    {printResultIfFail: true},
+  )
   expect(result2.pass).toBe(true)
 })
 
 test('should allow to pass an array value', () => {
   type CoolType = KeysToTuple<Date> // we want to keep this code here because we cannot remove the imports
-  let result = checkType(value => `
-      var a: KeysToTuple<Date> = ${JSON.stringify(value)}`, ['these are', 'not the keys of Date'])
+  let result = checkType(
+    value => `
+      var a: KeysToTuple<Date> = ${JSON.stringify(value)}`,
+    ['these are', 'not the keys of Date'],
+  )
   expect(result.pass).toBe(false)
-  result = checkType(value => `
-      var a: KeysToTuple<Date> = ${JSON.stringify(value)}`, ["toUTCString", "toISOString", "toJSON"])
+  result = checkType(
+    value => `
+      var a: KeysToTuple<Date> = ${JSON.stringify(value)}`,
+    ['toUTCString', 'toISOString', 'toJSON'],
+  )
   expect(result.pass).toBe(true)
-
 })
 
 test('should allow to pass an function value', () => {
-  let result = checkType(value => `
+  let result = checkType(
+    value => `
       type F = (...args: any[])=>number
-      var a: F = ${value.toString()}`, () => 'fails')
+      var a: F = ${value.toString()}`,
+    () => 'fails',
+  )
   expect(result.pass).toBe(false)
 
-  result = checkType(value => `
+  result = checkType(
+    value => `
       type F = (...args: any[])=>number
-      var a: F = ${value.toString()}`, () => Math.PI)
+      var a: F = ${value.toString()}`,
+    () => Math.PI,
+  )
   expect(result.pass).toBe(true)
 })
-
 
 test('should reference types in the global scope', () => {
   let result = checkType(`Global<'hello'>`, 1)
@@ -59,7 +76,6 @@ test('should reference types in the global scope', () => {
   result = checkType(`Global<'hello'>`, '')
   expect(result.pass).toBe(true)
 })
-
 
 test('should allow intermediate function calls', () => {
   let result = intermediateFunction(`number`, 1)

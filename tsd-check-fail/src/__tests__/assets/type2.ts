@@ -1,46 +1,46 @@
 interface I {
-  hi: number;
-  there: string;
-  friend: string;
+  hi: number
+  there: string
+  friend: string
 }
 
 // takes an object, and returns its values in an intersection
-type IntersectionOfValues<T> =
-  { [K in keyof T]: (p: T[K]) => void } extends
-  { [n: string]: (p: infer I) => void }
+type IntersectionOfValues<T> = {[K in keyof T]: (p: T[K]) => void} extends {[n: string]: (p: infer I) => void}
   ? I
-  : never;
+  : never
 
 // example:
-type a = IntersectionOfValues<I>; // => number & string & string
+type a = IntersectionOfValues<I> // => number & string & string
 // which simplifies to // => number & string
 
 // takes the first argument of each function in the intersection and puts it into the tuple
 // order is not guaranteed, so this isn't a very useful type outside of this context
-type IntersectionOfFunctionsToTuple<F> =
-  F extends {
-    (a: infer A): void;
-    (b: infer B): void;
-    (c: infer C): void;
-  } ? [A, B, C] :
-  F extends {
-    (a: infer A): void;
-    (b: infer B): void;
-  } ? [A, B] :
-  F extends {
-    (a: infer A): void
-  } ? [A] :
-  never;
+type IntersectionOfFunctionsToTuple<F> = F extends {
+  (a: infer A): void
+  (b: infer B): void
+  (c: infer C): void
+}
+  ? [A, B, C]
+  : F extends {
+      (a: infer A): void
+      (b: infer B): void
+    }
+  ? [A, B]
+  : F extends {
+      (a: infer A): void
+    }
+  ? [A]
+  : never
 
 export type KeysToTuple<T> =
   // pass the intersection of these functions to create the tuple type
   // store the keys as arguments to functions so that they can be retrieved with inference later
   IntersectionOfFunctionsToTuple<
     // convert each key into a function that takes that key type as an argument
-    IntersectionOfValues<{ [K in keyof T]: (v: K) => void }>
-  >;
+    IntersectionOfValues<{[K in keyof T]: (v: K) => void}>
+  >
 
-export type CountKeys<T> = KeysToTuple<T>['length'];
+export type CountKeys<T> = KeysToTuple<T>['length']
 // let a : KeysToTuple<{a:1}>
 // type ArrayOfLength<T, L> = 1 extends L ? [T] : 2 extends L ? [T, T] : 3 extends L ? [T, T, T] : never
 // export type input = ArrayOfLength<I, 2>
@@ -55,7 +55,6 @@ export type CountKeys<T> = KeysToTuple<T>['length'];
 // // type t = ToTuple<1 | 2>
 // // type tt = Tuple<1 | 2, 8>
 // // const c: t = [1, 2]
-
 
 // // union to intersection of functions
 // type UnionToIoF<U> =
@@ -88,15 +87,9 @@ export type CountKeys<T> = KeysToTuple<T>['length'];
 //     40 | 41 | 42 | 43;
 // type Tuple = UnionToTuple<Union43>;
 
-
 // // type ttt = 1|2
 // // type ff = UnionToTuple<ttt>
 // const fffa:UnionToTuple<1|3> = [3, 1]
-
-
-
-
-
 
 // // // union to intersection of functions
 // // type UnionToIoF<U> =
@@ -186,4 +179,3 @@ export type CountKeys<T> = KeysToTuple<T>['length'];
 // const c: t = [1, 2]
 
 // // type Tuple = UnionToTuple<Union43>;
-
