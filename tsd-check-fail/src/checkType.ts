@@ -59,10 +59,10 @@ export function checkTypeCore<T>(typeOrFunction: TypeRepresentation<T>, value: T
   const filePath = join(folderName, fileName)
   let testCode: string
   const escapedValue = options.dontEscape ? value : escapeValue(value, options)
-  if(escapedValue===undefined) {
+  if (escapedValue === undefined) {
     return {
       pass: false,
-      error: `Value is not JSON and option enforceJsonValues was used`
+      error: `Value is not JSON and option enforceJsonValues was used`,
     }
   }
   if (typeof typeOrFunction === 'string') {
@@ -81,7 +81,7 @@ export function checkTypeCore<T>(typeOrFunction: TypeRepresentation<T>, value: T
     code,
     testCode,
   }
-  if (options.printResult || !r.pass && options.printResultIfFail) {
+  if (options.printResult || (!r.pass && options.printResultIfFail)) {
     console.log(r)
   }
   return r

@@ -37,8 +37,7 @@ test('should use functions and value is escaped automatically', () => {
   ).toBe(true)
 })
 
-test('types lost wont impact if types can be inferred, but it will cause false positives', ()=>{
-  expect(expectType(value=>`const v: typeof Math.pow = ${value}`, (a:number, b:number)=>1)).toBe(true)
-  expect(expectType(value=>`const v: typeof Math.pow = ${value}`, (a:string, b:Date)=>1)).toBe(true) // this should not match, but because types are lost it does
-
+test('types lost wont impact if types can be inferred, but it will cause false positives', () => {
+  expect(expectType(value => `const v: typeof Math.pow = ${value}`, (a: number, b: number) => 1)).toBe(true)
+  expect(expectType(value => `const v: typeof Math.pow = ${value}`, (a: string, b: Date) => 1)).toBe(true) // this should not match, but because types are lost it does
 })

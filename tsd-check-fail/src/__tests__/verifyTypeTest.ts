@@ -87,4 +87,18 @@ test('should allow intermediate function calls', () => {
   expect(result.pass).toBe(false)
 })
 
+test('expectType - the low level API', () => {
+  const result = checkType(value => `
+      var a: KeysToTuple<Date> = ${value}`,
+    ['toUTCString', 'toISOString', 'toJSON'],
+  )
+  if(!result.pass){
+    console.error(result.error, result.code, result.failErrors, result.testCode);
+  }
+  expect(result.pass).toBe(true)
+  expect(typeof result.code).toBe('string')
+  expect(result.failErrors).toHaveLength(0)
+  expect(typeof result.testCode).toBe('string')
+})
+
 type Global<T> = T extends string ? string : never

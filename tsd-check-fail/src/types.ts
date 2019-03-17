@@ -10,7 +10,6 @@ export interface Options {
   verifyProject?: boolean
   printResultIfFail?: boolean
   printResult?: boolean
-
 }
 export interface Fail {
   pass: boolean

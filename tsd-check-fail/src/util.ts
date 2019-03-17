@@ -27,15 +27,14 @@ export function unique(prefix: string = '_'): string {
 export function quote(s: string, q: string = '"'): string {
   return q + s.replace(new RegExp(q, 'g'), '\\' + q) + q
 }
-export function escapeValue<T>(v: T, options: Options): string|undefined {
-  if(options.enforceJsonValues){
+export function escapeValue<T>(v: T, options: Options): string | undefined {
+  if (options.enforceJsonValues) {
     try {
       return JSON.stringify(v)
     } catch (error) {
       return undefined
     }
-  }
-  else if (typeof v === 'string') {
+  } else if (typeof v === 'string') {
     return quote(v)
   } else if (typeof v === 'undefined') {
     return 'undefined'
