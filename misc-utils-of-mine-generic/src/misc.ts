@@ -24,3 +24,11 @@ export function tryTo<F extends (...args: any[]) => any>(f: F): ReturnType<F> | 
   }
 }
 
+
+export function objectMap(o: {[k:string]:any}, f: (k:string, v:any)=>any){
+  var r:any = {}
+  Object.keys(o).forEach(k=>{
+    r[k] = f(k, o[k])
+  })
+  return r
+}

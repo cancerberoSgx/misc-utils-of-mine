@@ -1,0 +1,1 @@
+like tsd-check but allows to check for false, this is a function like expectNotType(). Works by compiling given string and check for errors

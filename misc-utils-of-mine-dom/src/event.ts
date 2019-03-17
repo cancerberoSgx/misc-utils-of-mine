@@ -1,5 +1,5 @@
 /**
- * Fire an event handler to the specified node. Event handlers can detect that the event was fired programatically
+ * Fire an event handler to the specified node. Event handlers can detect that the event was fired programmatically
  * by testing for a 'synthetic=true' property on the event object
  * @param {HTMLNode} node The node to fire the event handler on.
  * @param {String} eventName The name of the event without the "on" (e.g., "focus")
