@@ -31,9 +31,6 @@
 // type UserTuple = UnionToTuple<1|2, 2>
 // var c : UserTuple = [1, 2]
 
-
-
-
 // // takes an object, and returns its values in an intersection
 // type IntersectionOfValues<T> =
 //   { [K in keyof T]: (p: T[K]) => void } extends
@@ -71,8 +68,6 @@
 //   >;
 // type CountKeys<T> = ToTuple<T>['length'];
 
-
-
 // type T = UnionToTupleOrdered<1|2>
 // type T3 = Tuple<1|2, 2>
 // var c : T3 = [1, 2]
@@ -87,9 +82,6 @@
 // // type ff = UnionToTupleOrdered<I>['length']
 // // type T2 = Tuple<I,  UnionToTupleOrdered<I>['length']>
 // var c : UnionToTuple<I> = [1, 2, 3, 4]
-
-
-
 
 // type T = UnionToTupleOrdered<1|2>
 // type T3 = Tuple<1|2, 2>
