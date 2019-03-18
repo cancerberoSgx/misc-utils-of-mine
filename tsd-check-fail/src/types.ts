@@ -1,10 +1,10 @@
-let types = 1
 export interface Options {
+  /** Use another tsconfig.json file than the default './tsconfig.json'. If so make sure you also set the property `folder` if it's in another folder */
   tsConfigFilePath?: string
   enforceJsonValues?: boolean
+  /** When using `tsConfigFilePath`  that's in another folder specify it with this option.*/
   folder?: string
   dontVerifyFile?: boolean
-  dontVerifyProject?: boolean
   /** pass true if you are already passing a quoted value. By default value is escaped in the output */
   dontEscape?: boolean
   verifyProject?: boolean

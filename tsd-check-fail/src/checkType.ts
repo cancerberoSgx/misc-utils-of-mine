@@ -7,7 +7,7 @@ import {getCallerFile, formatDiagnostics, unique, escapeValue} from './util'
 export function checkType<T>(typeOrFunction: TypeRepresentation<T>, value: T, options: Options = {}): Fail {
   return checkTypeCore(typeOrFunction, value, options)
 }
-
+/** @internal */
 export function checkTypeCore<T>(typeOrFunction: TypeRepresentation<T>, value: T, options: Options = {}): Fail {
   let d: Diagnostic<ts.Diagnostic>[]
   let sourceFile: SourceFile

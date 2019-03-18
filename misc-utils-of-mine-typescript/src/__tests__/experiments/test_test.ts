@@ -87,3 +87,21 @@
 // // type ff = UnionToTupleOrdered<I>['length']
 // // type T2 = Tuple<I,  UnionToTupleOrdered<I>['length']>
 // var c : UnionToTuple<I> = [1, 2, 3, 4]
+
+
+
+
+// type T = UnionToTupleOrdered<1|2>
+// type T3 = Tuple<1|2, 2>
+// var c : T3 = [1, 2]
+
+/** return an fixed length array with item type TItem */
+// type Tuple<TItem, TLength extends number> = [TItem, ...TItem[]] & {
+// 	length: TLength;
+// };
+
+// // type UnionToTuple<T, L  extends number> = Tuple<T,  UnionToTupleOrdered<T>['length']>
+// type I = 1|2
+// // type ff = UnionToTupleOrdered<I>['length']
+// // type T2 = Tuple<I,  UnionToTupleOrdered<I>['length']>
+// var c : UnionToTuple<I> = [1, 2, 3, 4]

@@ -8,17 +8,26 @@
   "scripts": {
     "build": "tsc ",
     "build-watch": "tsc -w",
-    "clean": "rm -rf dist tmp",
-    "test": "npm run build",
-    "all": "npm run clean && npm run build && npm run test",
-    "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
+    "clean": "rm -rf dist docs api",
+    "test": "npx get-type-text && jest --config ./jest.config-spec.js ",
+    "test-watch": "npm test -- --watch",
+    "prettier": " npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma all --end-of-line lf --prose-wrap preserve --print-width 120 --no-bracket-spacing  --jsx-bracket-same-line true \"src/**/*.ts*\"",
+    "all": "npm run clean && npm run prettier && npm run build && npm run test && npm run docs && npx get-type-text --cleanArguments",
+    "docs": "npx typedoc src/types.ts src/checkType.ts src/expectType.ts --theme markdown --out api",
+    "prepare": "npm run build && npx get-type-text --cleanArguments"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.11",
     "@types/node": "^10.12.18",
-    "shx": "^0.3.2",
+    "get-type-text": "0.0.4",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
     "ts-node": "^7.0.1",
-    "tsd-check": "^0.3.0",
-    "typescript": "^3.3.3"
+    "tsd-check-runtime": "file:../../tsd-check-runtime",
+    "typedoc": "^0.13.0",
+    "typedoc-plugin-markdown": "^1.1.27",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {},
   "keywords": [
