@@ -78,3 +78,12 @@ type IntersectionOfFunctionsToTuple<F> = F extends {
     }
   ? [A]
   : never
+
+
+  export type Map<V> = {[key:string]: V}
+
+export type ValueOfNumberKey<T extends {
+	[k: number]: any;
+}, K extends number> = T[K];
+export type StringKeyOf<T extends any> = Extract<keyof T, string>;
+export type NumberKeyOf<T extends any> = Extract<keyof T, number>;

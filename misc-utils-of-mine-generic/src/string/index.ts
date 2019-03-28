@@ -1,12 +1,11 @@
-import { array } from "../array";
+import { array } from '../array'
 
-export * from "./changeText";
+export * from './changeText'
 export * from './getPreviousMatchingPos'
 export * from './quote'
 export * from './json'
 export * from './shorter'
 export * from './html'
-
 
 export function repeat(n: number, s: string): string {
   return array(n, s).join('')
@@ -16,9 +15,9 @@ export function indent(i: number = 1, tabSize = 2): string {
 }
 
 export function getPosition(string: string, subString: string, index: number) {
-  return string.split(subString, index).join(subString).length;
+  return string.split(subString, index).join(subString).length
 }
 
-export function removeWhites(s: string, replaceWith=' '){
+export function removeWhites(s: string, replaceWith = ' ') {
   return s.replace(/\s+/gm, replaceWith).trim()
 }

@@ -1,8 +1,8 @@
 export function escapeHtmlAttribute(code: string) {
-  return code.replace(/\"/gmi, '&quot;');
+  return code.replace(/\"/gim, '&quot;')
 }
 export function unEscapeHtmlAttribute(code: string) {
-  return code.replace(/\&quot\;/gmi, '"');
+  return code.replace(/\&quot\;/gim, '"')
 }
 
 export function wrapInHtml(s: string): string {
@@ -19,5 +19,5 @@ export function wrapInHtml(s: string): string {
 ${s}
 </body>
 </html>
-`;
+`
 }

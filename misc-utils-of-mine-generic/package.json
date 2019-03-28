@@ -4,27 +4,28 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
+    "prettier": "npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma none --end-of-line lf --prose-wrap preserve --print-width 120  --jsx-bracket-same-line true \"src/**/*.ts*\"",
     "clean": "rm -rf dist tmp",
     "test": "npx jest --testPathIgnorePatterns /dist/",
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "test-watch": "npm test -- --watch",
-    "all": "npm run clean && npm run build && npm run test-js && npm run test",
-    "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
+    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@types/jest": "^24.0.6",
     "@types/node": "^10.12.18",
     "jest": "^24.1.0",
-    "shx": "^0.3.2",
+    "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
-    "typescript": "^3.2.2"
+    "typescript": "^3.3.33"
   },
   "dependencies": {
-    "misc-utils-of-mine-typescript": "file:../misc-utils-of-mine-typescript"
+    "misc-utils-of-mine-typescript": "0.0.12"
   },
   "keywords": [
     "JavaScript",
