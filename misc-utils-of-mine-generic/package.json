@@ -4,7 +4,7 @@
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
@@ -12,8 +12,9 @@
     "clean": "rm -rf dist tmp",
     "test": "npx jest --testPathIgnorePatterns /dist/",
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
+    "docs": "npx typedoc 'src/index.ts' --theme markdown --out api",
     "test-watch": "npm test -- --watch",
-    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test",
+    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test && npm run docs",
     "prepare": "npm run build"
   },
   "devDependencies": {
@@ -22,7 +23,9 @@
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
-    "typescript": "^3.3.33"
+    "typedoc": "^0.13.0",
+    "typedoc-plugin-markdown": "^1.1.27",
+    "typescript": "^3.3.400"
   },
   "dependencies": {
     "misc-utils-of-mine-typescript": "0.0.12"

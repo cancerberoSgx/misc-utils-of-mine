@@ -1,4 +1,4 @@
-import {  getPreviousMatchingPos } from '../..'
+import { getPreviousMatchingPos } from '../..'
 
 describe('getPreviousMatchingPos', () => {
   it('using literal', () => {
