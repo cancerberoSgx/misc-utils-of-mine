@@ -22,7 +22,7 @@
 
 ▸ **array**<`T`>(n: *`number`*, sample?: *[T]()*): `T`[]
 
-*Defined in [array/array.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/array/array.ts#L1)*
+*Defined in [array/array.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/array/array.ts#L1)*
 
 **Type parameters:**
 
@@ -43,7 +43,7 @@ ___
 
 ▸ **asArray**<`T`>(selectors: *`T` \| `T`[]*): `T`[]
 
-*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/array/array.ts#L11)*
+*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/array/array.ts#L11)*
 
 **Type parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **dedup**<`T`>(a: *`T`[]*, p: *`function`*): `T`[]
 
-*Defined in [array/array.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/array/array.ts#L8)*
+*Defined in [array/array.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/array/array.ts#L8)*
 
 **Type parameters:**
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **seq**(start?: *`number`*, step?: *`number`*, max?: *`number`*): `number`[]
 
-*Defined in [array/array.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/array/array.ts#L21)*
+*Defined in [array/array.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/array/array.ts#L21)*
 
 **Parameters:**
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **unionEquals**<`T`>(left: *`T`[]*, right: *`T`[]*, equals: *`function`*): `T`[]
 
-*Defined in [array/array.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/array/array.ts#L14)*
+*Defined in [array/array.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/array/array.ts#L14)*
 
 **Type parameters:**
 

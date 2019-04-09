@@ -1,4 +1,5 @@
 import { basename, dirname, withoutExtension } from '..'
+import { getRelativePath, pathJoin } from '../file'
 
 describe('file', () => {
   it('basename', () => {
@@ -14,5 +15,13 @@ describe('file', () => {
 
   it('withoutExtension', () => {
     expect(withoutExtension('/usr/name.txt')).toBe('/usr/name')
+  })
+
+  it('getRelativePath', () => {
+    expect(getRelativePath('/users/eric/src/csslint', '/users/eric/style.css')).toBe('../../style.css')
+  })
+
+  it('pathJoin', () => {
+    expect(pathJoin('s', '..', 'b')).toBe('s/../b')
   })
 })

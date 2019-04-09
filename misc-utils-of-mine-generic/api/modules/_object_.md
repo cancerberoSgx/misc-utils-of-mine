@@ -23,7 +23,7 @@
 
 **● object**: *`any`*
 
-*Defined in [object.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/object.ts#L2)*
+*Defined in [object.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/object.ts#L2)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **objectKeys**<`Field`>(o: *`Field`*): `ObjectStringKeyUnion`<`Field`>[]
 
-*Defined in [object.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/object.ts#L3)*
+*Defined in [object.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/object.ts#L3)*
 
 **Type parameters:**
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **objectMap**(o: *`object`*, f: *`function`*): `any`
 
-*Defined in [object.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/object.ts#L6)*
+*Defined in [object.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/object.ts#L6)*
 
 **Parameters:**
 

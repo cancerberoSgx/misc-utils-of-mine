@@ -1,10 +1,10 @@
 {
   "name": "misc-utils-of-mine-generic",
   "main": "dist/src/index.js",
+  "version": "0.0.14",
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
-  "version": "0.0.13",
   "scripts": {
     "build": "npx tsc",
     "build-watch": "npx tsc -w",
@@ -19,13 +19,13 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.6",
-    "@types/node": "^10.12.18",
+    "@types/node": "^10.5.2",
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
     "typedoc": "^0.13.0",
     "typedoc-plugin-markdown": "^1.1.27",
-    "typescript": "^3.3.400"
+    "typescript": "^3.4.1"
   },
   "dependencies": {
     "misc-utils-of-mine-typescript": "0.0.12"

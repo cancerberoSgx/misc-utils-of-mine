@@ -18,7 +18,7 @@
 
 ▸ **getPreviousMatchingPos**(text: *`string`*, pos: *`number`*, condition: *`string` \| `function`*): `number`
 
-*Defined in [string/getPreviousMatchingPos.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b89f98c/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L1)*
+*Defined in [string/getPreviousMatchingPos.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/217bd9b/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L1)*
 
 **Parameters:**
 
