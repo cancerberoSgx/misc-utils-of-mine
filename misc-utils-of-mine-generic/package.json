@@ -1,7 +1,7 @@
 {
   "name": "misc-utils-of-mine-generic",
+  "version": "0.0.15",
   "main": "dist/src/index.js",
-  "version": "0.0.14",
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
   "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
