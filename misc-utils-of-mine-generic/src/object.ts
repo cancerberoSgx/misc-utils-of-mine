@@ -6,18 +6,24 @@ export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): O
 /**
  * Returns a new object with the same keys of given one, and values mapped with given function
  */
-export function objectMap(
-  o: {
-    [k: string]: any
-  },
-  f: (k: string, v: any) => any
-) {
-  var r: any = {}
-  Object.keys(o).forEach(k => {
-    r[k] = f(k, o[k])
+export function objectMapValues<O extends {[k in keyof O]: O[keyof O]} = any, T = any>(o: O, p:(k: keyof O, v: O[keyof O])=>T): {[k in keyof O]: T}{
+  var r: {[k in keyof O]: T} = {} as any
+  objectKeys(o).forEach(k=> {
+    r[k] = p(k, o[k])
   })
   return r
 }
+export const objectMap = objectMapValues
+
+
+export function objectFilter<O extends {[k in keyof O]: O[keyof O]} = any>(o: O, p:(k: keyof O, v: O[keyof O])=>boolean): Partial<O>{
+  var r: Partial<O> = {}
+  objectKeys(o).filter((k,v)=>p(k,o[k])).forEach(k=> {
+    r[k] = o[k]
+  })
+  return r
+}
+
 
 /**
  * build an object using keys in [[a]] and values returning from [[fn]] as long as they are not undefined
