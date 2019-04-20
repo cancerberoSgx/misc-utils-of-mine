@@ -50,7 +50,7 @@ export function arrayToObject<T = any>(a: string[], fn: (a: string) => T | undef
  */
 export function getObjectProperty<T>(
   object: any,
-  path: string | string[],
+  path: string | (string | number)[],
   defaultValue: T | undefined = undefined
 ): T | undefined {
   if (!path) {
@@ -70,24 +70,37 @@ export function getObjectProperty<T>(
 }
 
 /**
- * sets a nested property on given path. For example path could be 'foo.bar' and it will set `object.foo.bar = value`
+ * sets a nested property on given path. For example path could be 'foo.bar' and it will set `object.foo.bar = value`.
+ * If the path given as array contains numbers, then or those items arrays will be created instead of objects. For example:
+ *
+ * `setObjectProperty({}, ['foo', 0, 1, 'bar'], 'hello)`
  */
-export function setObjectProperty<T>(object: any, path: string | string[], value: T) {
-  if (!path) {
-    return
-  } else if (!object) {
-    return
+export function setObjectProperty(object: any, path: string | (string | number)[], value: any): any {
+  if (!path || !object) {
+    throw new Error('Insufficient arguments')
   }
   var tokens = typeof path === 'string' ? path.split('.') : path,
     prev = object
+  // console.log({tokens});
+
   for (var i = 0; i < tokens.length - 1; ++i) {
     var currentToken = tokens[i]
+    // console.log(' prev[currenCtToken]',  i, prev[currentToken]);
     if (typeof prev[currentToken] === 'undefined') {
-      prev[currentToken] = {}
+      prev[currentToken] = typeof tokens[i + 1] === 'number' ? [] : {}
+    } else {
+      if (typeof tokens[i + 1] === 'number' && !Array.isArray(prev[currentToken])) {
+        throw new Error(
+          `Detected number path item on non array value. Path: ${path}, item: ${tokens[i + 1]}, Value: ${
+            prev[currentToken]
+          }`
+        )
+      }
     }
     prev = prev[currentToken]
   }
   if (tokens.length) {
     prev[tokens[tokens.length - 1]] = value
   }
+  return object
 }
