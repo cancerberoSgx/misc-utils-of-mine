@@ -21,7 +21,7 @@
 
 ▸ **getPosition**(string: *`string`*, subString: *`string`*, index: *`number`*): `number`
 
-*Defined in [string/index.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/385e9dc/misc-utils-of-mine-generic/src/string/index.ts#L17)*
+*Defined in [string/index.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/string/index.ts#L17)*
 
 **Parameters:**
 
@@ -40,7 +40,7 @@ ___
 
 ▸ **indent**(i?: *`number`*, tabSize?: *`number`*): `string`
 
-*Defined in [string/index.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/385e9dc/misc-utils-of-mine-generic/src/string/index.ts#L13)*
+*Defined in [string/index.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/string/index.ts#L13)*
 
 **Parameters:**
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **removeWhites**(s: *`string`*, replaceWith?: *`string`*): `string`
 
-*Defined in [string/index.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/385e9dc/misc-utils-of-mine-generic/src/string/index.ts#L21)*
+*Defined in [string/index.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/string/index.ts#L21)*
 
 **Parameters:**
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **repeat**(n: *`number`*, s: *`string`*): `string`
 
-*Defined in [string/index.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/385e9dc/misc-utils-of-mine-generic/src/string/index.ts#L10)*
+*Defined in [string/index.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/string/index.ts#L10)*
 
 **Parameters:**
 

@@ -87,3 +87,8 @@ export type ValueOfNumberKey<T extends {
 }, K extends number> = T[K];
 export type StringKeyOf<T extends any> = Extract<keyof T, string>;
 export type NumberKeyOf<T extends any> = Extract<keyof T, number>;
+
+
+export type RemoveProperties<O, K extends keyof O>=Pick<O, Exclude<keyof O, K>>
+// type o = {a: number, b: boolean}
+// type o1 = RemoveProperties<o, 'a'>

@@ -43,3 +43,11 @@ setDevelopers(team1, [{name: 'Sebastian'}])
 setDevelopers(team2, []) 
 setDevelopers(team1, [{name: 'Sebastian'}, {name: 'Andrew'}])
 ```
+
+
+
+// projects
+
+https://github.com/kgtkr/typepark/blob/master/src/list.spec.ts
+https://github.com/piotrwitek/utility-types#setdifferencea-b-same-as-exclude
+https://github.com/Microsoft/TypeScript/issues/12215
