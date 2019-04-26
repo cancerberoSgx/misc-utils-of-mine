@@ -4,6 +4,6 @@ export type JSONValue = JSONPrimitive | JSONObject | JSONArray
 export type JSONObject = { [member: string]: JSONValue }
 export interface JSONArray extends Array<JSONValue> {}
 
-export function isJSONObject(o:any): o is JSONObject{
+export function isJSONObject(o: any): o is JSONObject {
   return typeof o === 'object' && !Array.isArray(o)
 }

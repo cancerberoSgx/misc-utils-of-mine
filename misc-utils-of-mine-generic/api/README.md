@@ -19,6 +19,7 @@ API
 * ["array/index"](modules/_array_index_.md)
 * ["array/prototypeFind"](modules/_array_prototypefind_.md)
 * ["evaluate"](modules/_evaluate_.md)
+* ["event"](modules/_event_.md)
 * ["exceptions"](modules/_exceptions_.md)
 * ["file"](modules/_file_.md)
 * ["index"](modules/_index_.md)
@@ -34,7 +35,9 @@ API
 * ["time/formatDate"](modules/_time_formatdate_.md)
 * ["time/index"](modules/_time_index_.md)
 * ["time/printMs"](modules/_time_printms_.md)
+* ["time/throttle"](modules/_time_throttle_.md)
 * ["time/time"](modules/_time_time_.md)
+* ["type"](modules/_type_.md)
 
 ---
 

@@ -11,7 +11,8 @@
 * [dedup](_array_array_.md#dedup)
 * [enumKeys](_array_array_.md#enumkeys)
 * [enumNoValueKeys](_array_array_.md#enumnovaluekeys)
-* [enumValueFromString](_array_array_.md#enumvaluefromstring)
+* [notSame](_array_array_.md#notsame)
+* [notSameNotFalsy](_array_array_.md#notsamenotfalsy)
 * [seq](_array_array_.md#seq)
 * [unionEquals](_array_array_.md#unionequals)
 
@@ -25,7 +26,7 @@
 
 ▸ **array**<`T`>(n: *`number`*, sample?: *[T]()*): `T`[]
 
-*Defined in [array/array.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L1)*
+*Defined in [array/array.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L3)*
 
 **Type parameters:**
 
@@ -46,7 +47,7 @@ ___
 
 ▸ **asArray**<`T`>(selectors: *`T` \| `T`[]*): `T`[]
 
-*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L11)*
+*Defined in [array/array.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L15)*
 
 **Type parameters:**
 
@@ -66,7 +67,7 @@ ___
 
 ▸ **dedup**<`T`>(a: *`T`[]*, p: *`function`*): `T`[]
 
-*Defined in [array/array.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L8)*
+*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L11)*
 
 **Type parameters:**
 
@@ -87,7 +88,7 @@ ___
 
 ▸ **enumKeys**(anEnum: *`any`*): `string`[]
 
-*Defined in [array/array.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L31)*
+*Defined in [array/array.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L37)*
 
 List given enum keys as array. Must be used on enums with declared values (enum E {a='a', b='b'}, if not values could be also returned . For enums without declared values, use enumNoValueKeys
 
@@ -106,7 +107,7 @@ ___
 
 ▸ **enumNoValueKeys**(anEnum: *`any`*): `string`[]
 
-*Defined in [array/array.ts:43](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L43)*
+*Defined in [array/array.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L50)*
 
 List given enum keys as array. Differently to [enumKeys](_array_array_.md#enumkeys), is should be used only on enums that doesn't have assigned values or other wise on those which values are identical to the keys or not strings. If not, they will be returned also!
 
@@ -119,15 +120,15 @@ List given enum keys as array. Differently to [enumKeys](_array_array_.md#enumke
 **Returns:** `string`[]
 
 ___
-<a id="enumvaluefromstring"></a>
+<a id="notsame"></a>
 
-###  enumValueFromString
+###  notSame
 
-▸ **enumValueFromString**<`T`>(key: *`string`*, anEnum: *`any`*): `T` \| `undefined`
+▸ **notSame**<`T`>(t: *`T`*, i: *`number`*, a: *`T`[]*): `boolean`
 
-*Defined in [array/array.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L52)*
+*Defined in [array/array.ts:65](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L65)*
 
-return the Enum type from given string enum key obtained with key [enumNoValueKeys](_array_array_.md#enumnovaluekeys)
+use it to remove duplicates in .filter expressions like `array.filter(notSame)`
 
 **Type parameters:**
 
@@ -136,10 +137,35 @@ return the Enum type from given string enum key obtained with key [enumNoValueKe
 
 | Name | Type |
 | ------ | ------ |
-| key | `string` |
-| anEnum | `any` |
+| t | `T` |
+| i | `number` |
+| a | `T`[] |
 
-**Returns:** `T` \| `undefined`
+**Returns:** `boolean`
+
+___
+<a id="notsamenotfalsy"></a>
+
+###  notSameNotFalsy
+
+▸ **notSameNotFalsy**<`T`>(t: *`T`*, i: *`number`*, a: *`T`[]*): `boolean`
+
+*Defined in [array/array.ts:69](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L69)*
+
+use it remove duplicates and falsy values in filter() expressions like `array.filter(notSameNotFalsy)`
+
+**Type parameters:**
+
+#### T 
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| t | `T` |
+| i | `number` |
+| a | `T`[] |
+
+**Returns:** `boolean`
 
 ___
 <a id="seq"></a>
@@ -148,7 +174,7 @@ ___
 
 ▸ **seq**(start?: *`number`*, step?: *`number`*, max?: *`number`*): `number`[]
 
-*Defined in [array/array.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L21)*
+*Defined in [array/array.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L26)*
 
 **Parameters:**
 
@@ -167,7 +193,7 @@ ___
 
 ▸ **unionEquals**<`T`>(left: *`T`[]*, right: *`T`[]*, equals: *`function`*): `T`[]
 
-*Defined in [array/array.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/array/array.ts#L14)*
+*Defined in [array/array.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/array/array.ts#L19)*
 
 **Type parameters:**
 

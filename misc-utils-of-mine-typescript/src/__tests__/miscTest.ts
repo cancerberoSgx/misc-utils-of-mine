@@ -3,12 +3,13 @@ import { Type } from 'tsd-check-runtime'
 import { ArrayLiteral } from '../array'
 import { Falsy, NotFalsy } from '../misc'
 import { number, boolean } from './testUtil'
+import { get, fileVariables } from './__tsd_check_runtime__'
 
 describe('misc', () => {
   it('NotFalsy', () => {
-    const t1 = Type<NotFalsy<number | boolean | undefined | null>>().text
-    const t2 = Type<number | boolean>().text
-    const t3 = Type<number | true>().text
+    const t1 = Type<NotFalsy<number | boolean | undefined | null>>(get(4, 0)).text
+    const t2 = Type<number | boolean>(get(4, 1)).text
+    const t3 = Type<number | true>(get(4, 2)).text
     expect(`
     const f2: ${t2} = null as any as ${t2}
     const f1: ${t1} = f2

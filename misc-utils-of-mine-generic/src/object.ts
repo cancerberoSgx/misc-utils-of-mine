@@ -1,4 +1,5 @@
 import { EmptyObject, ObjectStringKeyUnion } from 'misc-utils-of-mine-typescript'
+import { isObject, isArray } from './type'
 
 export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): ObjectStringKeyUnion<Field>[] {
   return Object.keys(o) as ObjectStringKeyUnion<Field>[]
@@ -46,7 +47,8 @@ export function arrayToObject<T = any>(a: string[], fn: (a: string) => T | undef
 }
 
 /**
- * Returns a nested property of given object and given path. For example path could be 'foo.bar' and it will return `object['foo']['bar']`
+ * Returns a nested property of given object and given path. For example path could be 'foo.bar' and it will
+ * return `object['foo']['bar']`
  */
 export function getObjectProperty<T>(
   object: any,
@@ -81,11 +83,12 @@ export function setObjectProperty(object: any, path: string | (string | number)[
   }
   var tokens = typeof path === 'string' ? path.split('.') : path,
     prev = object
-  // console.log({tokens});
-
+  if (tokens.length === 0) {
+    Object.assign(object, value)
+    return object
+  }
   for (var i = 0; i < tokens.length - 1; ++i) {
     var currentToken = tokens[i]
-    // console.log(' prev[currenCtToken]',  i, prev[currentToken]);
     if (typeof prev[currentToken] === 'undefined') {
       prev[currentToken] = typeof tokens[i + 1] === 'number' ? [] : {}
     } else {
@@ -103,4 +106,48 @@ export function setObjectProperty(object: any, path: string | (string | number)[
     prev[tokens[tokens.length - 1]] = value
   }
   return object
+}
+
+export function getObjectPropertyPaths(
+  object: any,
+  options: { ignoreArrayElements?: boolean; leafsOnly?: boolean } = { ignoreArrayElements: true, leafsOnly: false }
+) {
+  function visit(object: any, p: (number | string)[][] = [], p2: (number | string)[] = []) {
+    const objectIsArray = isArray(object)
+    if (options.ignoreArrayElements && objectIsArray) {
+      return
+    }
+    for (var i in object) {
+      var v = object[i]
+      const objectName = objectIsArray ? parseInt(i) : i + ''
+      const p3: (number | string)[] = [...p2, objectName]
+      if (isObject(v) || isArray(v)) {
+        visit(v, p, p3)
+      }
+      p.push(p3)
+      p.push(p2)
+    }
+  }
+  const p: (number | string)[][] = []
+  const p2: (number | string)[] = []
+  visit(object, p, p2)
+
+  const result = p
+    .filter((p, i, a) => a.length && a.findIndex(o => JSON.stringify(o) === JSON.stringify(p)) === i)
+    .sort((a, b) => a.length - b.length)
+    .filter(a => a.length > 0)
+  if (options.leafsOnly) {
+    return result.filter(
+      p =>
+        !result.find(
+          p2 => p2 !== p && p2.length > p.length && JSON.stringify(p) === JSON.stringify(p2.slice(0, p.length))
+        )
+    )
+  } else {
+    return result
+  }
+}
+
+function isNotArrayOfArray<T>(a: T[] | T[][]): a is T[] {
+  return a.length === 0 || !isArray(a[0])
 }

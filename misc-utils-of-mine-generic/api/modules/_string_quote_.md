@@ -19,7 +19,7 @@
 
 ▸ **quote**(s: *`string`*, q?: *`string`*): `string`
 
-*Defined in [string/quote.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/string/quote.ts#L1)*
+*Defined in [string/quote.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/string/quote.ts#L1)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **unquote**(s: *`string`*): `string`
 
-*Defined in [string/quote.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e02b274/misc-utils-of-mine-generic/src/string/quote.ts#L5)*
+*Defined in [string/quote.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2f17993/misc-utils-of-mine-generic/src/string/quote.ts#L5)*
 
 **Parameters:**
 
