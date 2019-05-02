@@ -23,7 +23,7 @@
 
 **● _unique**: *`number`* = 0
 
-*Defined in [number.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/number.ts#L1)*
+*Defined in [number.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/number.ts#L1)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **randomIntBetween**(a: *`number`*, b: *`number`*): `number`
 
-*Defined in [number.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/number.ts#L5)*
+*Defined in [number.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/number.ts#L5)*
 
 **Parameters:**
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **unique**(prefix?: *`string`*): `string`
 
-*Defined in [number.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/number.ts#L2)*
+*Defined in [number.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/number.ts#L2)*
 
 **Parameters:**
 

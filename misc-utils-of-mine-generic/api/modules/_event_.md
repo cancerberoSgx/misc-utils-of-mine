@@ -8,5 +8,32 @@
 
 * [Emitter](../classes/_event_.emitter.md)
 
+### Type aliases
+
+* [Listener](_event_.md#listener)
+
 ---
+
+## Type aliases
+
+<a id="listener"></a>
+
+###  Listener
+
+**Ƭ Listener**: *`function`*
+
+*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/event.ts#L16)*
+
+#### Type declaration
+▸(e: *`E`*): `void`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| e | `E` |
+
+**Returns:** `void`
+
+___
 

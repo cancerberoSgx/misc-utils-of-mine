@@ -2,11 +2,11 @@
 
 # Class: Emitter
 
-Simpler event emitter.
+The simplest implementation of an event emitter.
 
 ## Type parameters
 #### E 
-#### L :  `function`
+#### L :  [Listener](../modules/_event_.md#listener)<`E`>
 ## Hierarchy
 
 **Emitter**
@@ -21,6 +21,7 @@ Simpler event emitter.
 
 * [add](_event_.emitter.md#add)
 * [emit](_event_.emitter.md#emit)
+* [remove](_event_.emitter.md#remove)
 
 ---
 
@@ -32,7 +33,7 @@ Simpler event emitter.
 
 **● l**: *`L`[]* =  []
 
-*Defined in [event.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/event.ts#L3)*
+*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/event.ts#L5)*
 
 ___
 
@@ -44,7 +45,7 @@ ___
 
 ▸ **add**(l: *`L`*): `void`
 
-*Defined in [event.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/event.ts#L4)*
+*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/event.ts#L6)*
 
 **Parameters:**
 
@@ -61,13 +62,30 @@ ___
 
 ▸ **emit**(e: *`E`*): `void`
 
-*Defined in [event.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/event.ts#L7)*
+*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/event.ts#L9)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
 | e | `E` |
+
+**Returns:** `void`
+
+___
+<a id="remove"></a>
+
+###  remove
+
+▸ **remove**(l: *`L`*): `void`
+
+*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/event.ts#L12)*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| l | `L` |
 
 **Returns:** `void`
 
