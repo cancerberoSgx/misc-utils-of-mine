@@ -15,6 +15,16 @@ export function basename(f: string) {
   const i = f.lastIndexOf('/')
   return i === -1 ? f : f.substring(i + 1, f.length)
 }
+/**
+ * Gets given file path extension.
+ */
+export function getFileExtension(s: string) {
+  const i = s.lastIndexOf('.')
+  if (i == -1 || i === s.length - 1) {
+    return ''
+  }
+  return s.substring(i + 1, s.length)
+}
 
 /**
  * Supports only '/' as folder separator.

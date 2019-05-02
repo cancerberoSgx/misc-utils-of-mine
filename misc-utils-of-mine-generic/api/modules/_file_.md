@@ -9,6 +9,7 @@
 * [basename](_file_.md#basename)
 * [bytesToKiloBytes](_file_.md#bytestokilobytes)
 * [dirname](_file_.md#dirname)
+* [getFileExtension](_file_.md#getfileextension)
 * [getRelativePath](_file_.md#getrelativepath)
 * [pathJoin](_file_.md#pathjoin)
 * [withoutExtension](_file_.md#withoutextension)
@@ -23,7 +24,7 @@
 
 ▸ **basename**(f: *`string`*): `string`
 
-*Defined in [file.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/file.ts#L14)*
+*Defined in [file.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L14)*
 
 Supports only '/' as folder separator. Similar to node.jspath basename, returns the file name without folder and with the extension. ues withoutExtension to remove it
 
@@ -42,7 +43,7 @@ ___
 
 ▸ **bytesToKiloBytes**(fileSizeInBytes: *`number`*): `number`
 
-*Defined in [file.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/file.ts#L1)*
+*Defined in [file.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L1)*
 
 **Parameters:**
 
@@ -59,9 +60,28 @@ ___
 
 ▸ **dirname**(s: *`string`*): `string`
 
-*Defined in [file.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/file.ts#L22)*
+*Defined in [file.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L32)*
 
 Supports only '/' as folder separator.
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| s | `string` |
+
+**Returns:** `string`
+
+___
+<a id="getfileextension"></a>
+
+###  getFileExtension
+
+▸ **getFileExtension**(s: *`string`*): `string`
+
+*Defined in [file.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L21)*
+
+Gets given file path extension.
 
 **Parameters:**
 
@@ -78,7 +98,7 @@ ___
 
 ▸ **getRelativePath**(source: *`string`*, target: *`string`*): `string`
 
-*Defined in [file.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/file.ts#L34)*
+*Defined in [file.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L44)*
 
 Given a source directory and a target filename, return the relative file path from source to target.
 
@@ -99,7 +119,7 @@ ___
 
 ▸ **pathJoin**(...parts: *`string`[]*): `string`
 
-*Defined in [file.ts:56](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/file.ts#L56)*
+*Defined in [file.ts:66](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L66)*
 
 similar to node.js path.join(), using separator '/'
 
@@ -118,7 +138,7 @@ ___
 
 ▸ **withoutExtension**(f: *`string`*): `string`
 
-*Defined in [file.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/file.ts#L6)*
+*Defined in [file.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L6)*
 
 Supports only '/' as folder separator.
 

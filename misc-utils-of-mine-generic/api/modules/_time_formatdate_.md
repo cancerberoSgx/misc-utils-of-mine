@@ -19,7 +19,7 @@
 
 ▸ **formatDate**(date: *`Date`*, format: *"YYYY-MM-DD" \| "MM/DD/YYYY"*): `string`
 
-*Defined in [time/formatDate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/time/formatDate.ts#L1)*
+*Defined in [time/formatDate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/time/formatDate.ts#L1)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **formatDateTime**(date: *`Date`*, format: *"YYYY-MM-DDTHH:MMZ"*): `string`
 
-*Defined in [time/formatDate.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/time/formatDate.ts#L22)*
+*Defined in [time/formatDate.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/time/formatDate.ts#L22)*
 
 **Parameters:**
 

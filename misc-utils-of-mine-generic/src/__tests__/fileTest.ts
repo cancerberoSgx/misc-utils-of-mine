@@ -1,5 +1,5 @@
 import { basename, dirname, withoutExtension } from '..'
-import { getRelativePath, pathJoin } from '../file'
+import { getRelativePath, pathJoin, getFileExtension } from '../file'
 
 describe('file', () => {
   it('basename', () => {
@@ -23,5 +23,9 @@ describe('file', () => {
 
   it('pathJoin', () => {
     expect(pathJoin('s', '..', 'b')).toBe('s/../b')
+  })
+
+  it('getFileExtension', () => {
+    expect(getFileExtension('foo.min.js')).toBe('js')
   })
 })

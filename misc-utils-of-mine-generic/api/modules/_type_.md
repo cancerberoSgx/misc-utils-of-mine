@@ -29,7 +29,7 @@
     return toStr.call(obj) === '[object Array]'
   }
 
-*Defined in [type.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/type.ts#L10)*
+*Defined in [type.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/type.ts#L10)*
 
 ___
 <a id="tostr"></a>
@@ -38,7 +38,7 @@ ___
 
 **● toStr**: *`toString`* =  Object.prototype.toString
 
-*Defined in [type.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/type.ts#L1)*
+*Defined in [type.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/type.ts#L1)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **getTypeScript**(type: *`any`*): `string`
 
-*Defined in [type.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/type.ts#L3)*
+*Defined in [type.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/type.ts#L3)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ ___
 
 ▸ **isBoolean**(obj: *`any`*): `boolean`
 
-*Defined in [type.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/type.ts#L16)*
+*Defined in [type.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/type.ts#L16)*
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **isObject**(obj: *`any`*): `boolean`
 
-*Defined in [type.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6b96879/misc-utils-of-mine-generic/src/type.ts#L6)*
+*Defined in [type.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/type.ts#L6)*
 
 **Parameters:**
 
