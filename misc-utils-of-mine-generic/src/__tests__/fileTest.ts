@@ -1,5 +1,5 @@
 import { basename, dirname, withoutExtension } from '..'
-import { getRelativePath, pathJoin, getFileExtension } from '../file'
+import { getRelativePath, pathJoin, getFileExtension, parseGitIgnore } from '../file'
 
 describe('file', () => {
   it('basename', () => {
@@ -19,6 +19,8 @@ describe('file', () => {
 
   it('getRelativePath', () => {
     expect(getRelativePath('/users/eric/src/csslint', '/users/eric/style.css')).toBe('../../style.css')
+
+    expect(getRelativePath('.', 'foo.txt')).toBe('foo.txt')
   })
 
   it('pathJoin', () => {
@@ -27,5 +29,16 @@ describe('file', () => {
 
   it('getFileExtension', () => {
     expect(getFileExtension('foo.min.js')).toBe('js')
+  })
+
+  it('parseGitIgnore', () => {
+    expect(
+      parseGitIgnore(`
+node_modules
+dist
+# npm pack files
+*.tgz
+`)
+    ).toEqual(['node_modules', 'dist', '*.tgz'])
   })
 })

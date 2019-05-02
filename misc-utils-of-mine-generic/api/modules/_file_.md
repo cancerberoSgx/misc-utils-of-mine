@@ -11,7 +11,9 @@
 * [dirname](_file_.md#dirname)
 * [getFileExtension](_file_.md#getfileextension)
 * [getRelativePath](_file_.md#getrelativepath)
+* [parseGitIgnore](_file_.md#parsegitignore)
 * [pathJoin](_file_.md#pathjoin)
+* [slash](_file_.md#slash)
 * [withoutExtension](_file_.md#withoutextension)
 
 ---
@@ -24,9 +26,9 @@
 
 ▸ **basename**(f: *`string`*): `string`
 
-*Defined in [file.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L14)*
+*Defined in [file.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L16)*
 
-Supports only '/' as folder separator. Similar to node.jspath basename, returns the file name without folder and with the extension. ues withoutExtension to remove it
+Similar to node's' path.basename, returns the file name without folder and with the extension. Use [withoutExtension](_file_.md#withoutextension) to remove it.
 
 **Parameters:**
 
@@ -43,7 +45,7 @@ ___
 
 ▸ **bytesToKiloBytes**(fileSizeInBytes: *`number`*): `number`
 
-*Defined in [file.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L1)*
+*Defined in [file.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L1)*
 
 **Parameters:**
 
@@ -58,17 +60,17 @@ ___
 
 ###  dirname
 
-▸ **dirname**(s: *`string`*): `string`
+▸ **dirname**(path: *`string`*): `string`
 
-*Defined in [file.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L32)*
+*Defined in [file.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L34)*
 
-Supports only '/' as folder separator.
+Gets the directory path of given path converting `\\` path separator to `/`.
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| s | `string` |
+| path | `string` |
 
 **Returns:** `string`
 
@@ -79,7 +81,7 @@ ___
 
 ▸ **getFileExtension**(s: *`string`*): `string`
 
-*Defined in [file.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L21)*
+*Defined in [file.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L23)*
 
 Gets given file path extension.
 
@@ -98,9 +100,9 @@ ___
 
 ▸ **getRelativePath**(source: *`string`*, target: *`string`*): `string`
 
-*Defined in [file.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L44)*
+*Defined in [file.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L45)*
 
-Given a source directory and a target filename, return the relative file path from source to target.
+Given a source directory and a target file name, return the relative file path from source to target, converting `\\` path separator to `/`.
 
 **Parameters:**
 
@@ -110,7 +112,31 @@ Given a source directory and a target filename, return the relative file path fr
 | target | `string` |  directory path and filename to seek from source |
 
 **Returns:** `string`
-Relative path (e.g. "../../style.css") as {String}
+Relative path from `source` to `target` (e.g. `"../../style.css"`), converting `\\` path separator to `/`.
+
+___
+<a id="parsegitignore"></a>
+
+###  parseGitIgnore
+
+▸ **parseGitIgnore**(content: *`string`*, options?: *`object`*): `string`[]
+
+*Defined in [file.ts:82](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L82)*
+
+Parses given .gitignore file contents to an array of string patterns. Adapted from [https://github.com/sindresorhus/globby](https://github.com/sindresorhus/globby) .
+
+**Parameters:**
+
+**content: `string`**
+
+**`Default value` options: `object`**
+
+| Name | Type |
+| ------ | ------ |
+| cwd | `string` |
+| fileName | `string` |
+
+**Returns:** `string`[]
 
 ___
 <a id="pathjoin"></a>
@@ -119,9 +145,9 @@ ___
 
 ▸ **pathJoin**(...parts: *`string`[]*): `string`
 
-*Defined in [file.ts:66](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L66)*
+*Defined in [file.ts:69](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L69)*
 
-similar to node.js path.join(), using separator '/'
+Similar to node's' `path.join()`. It will return the path resulting of join given path parts, converting `\\` path separator to `/`.
 
 **Parameters:**
 
@@ -132,15 +158,34 @@ similar to node.js path.join(), using separator '/'
 **Returns:** `string`
 
 ___
+<a id="slash"></a>
+
+###  slash
+
+▸ **slash**(path: *`string`*): `string`
+
+*Defined in [file.ts:103](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L103)*
+
+Converts Windows backslash paths to slash paths: `foo\\bar` ➔ `foo/bar`. Adapted from [https://github.com/sindresorhus/slash/](https://github.com/sindresorhus/slash/) .
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| path | `string` |
+
+**Returns:** `string`
+
+___
 <a id="withoutextension"></a>
 
 ###  withoutExtension
 
 ▸ **withoutExtension**(f: *`string`*): `string`
 
-*Defined in [file.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/file.ts#L6)*
+*Defined in [file.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/file.ts#L8)*
 
-Supports only '/' as folder separator.
+Gets given path extension or empty string if any
 
 **Parameters:**
 

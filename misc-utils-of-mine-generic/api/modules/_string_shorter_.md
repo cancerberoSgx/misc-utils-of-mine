@@ -18,7 +18,7 @@
 
 ▸ **shorter**(text: *`string`*, much?: *`number`*): `string`
 
-*Defined in [string/shorter.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/string/shorter.ts#L1)*
+*Defined in [string/shorter.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/string/shorter.ts#L1)*
 
 **Parameters:**
 

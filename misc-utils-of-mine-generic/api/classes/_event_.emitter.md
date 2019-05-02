@@ -32,7 +32,7 @@ Simpler event emitter.
 
 **● l**: *`L`[]* =  []
 
-*Defined in [event.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/event.ts#L3)*
+*Defined in [event.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/event.ts#L3)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 ▸ **add**(l: *`L`*): `void`
 
-*Defined in [event.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/event.ts#L4)*
+*Defined in [event.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/event.ts#L4)*
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **emit**(e: *`E`*): `void`
 
-*Defined in [event.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f96cdd6/misc-utils-of-mine-generic/src/event.ts#L7)*
+*Defined in [event.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/eabad80/misc-utils-of-mine-generic/src/event.ts#L7)*
 
 **Parameters:**
 

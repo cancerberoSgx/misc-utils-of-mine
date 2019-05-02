@@ -2,17 +2,19 @@ export function bytesToKiloBytes(fileSizeInBytes: number) {
   return fileSizeInBytes / 1000.0
 }
 
-/** Supports only '/' as folder separator.  */
+/**
+ * Gets given path extension or empty string if any
+ */
 export function withoutExtension(f: string) {
-  return f.substring(0, f.lastIndexOf('.'))
+  const i = slash(f).lastIndexOf('.')
+  return f.substring(0, i)
 }
 
 /**
- * Supports only '/' as folder separator. Similar to node.jspath basename, returns the file name without
- * folder and with the extension. ues withoutExtension to remove it
+ * Similar to node's' path.basename, returns the file name without folder and with the extension. Use [[withoutExtension]] to remove it.
  */
 export function basename(f: string) {
-  const i = f.lastIndexOf('/')
+  const i = slash(f).lastIndexOf('/')
   return i === -1 ? f : f.substring(i + 1, f.length)
 }
 /**
@@ -27,44 +29,82 @@ export function getFileExtension(s: string) {
 }
 
 /**
- * Supports only '/' as folder separator.
+ * Gets the directory path of given path converting `\\` path separator to `/`.
  */
-export function dirname(s: string) {
-  const i = s.lastIndexOf('/')
-  return i === -1 ? '' : s.substring(0, i)
+export function dirname(path: string) {
+  const i = slash(path).lastIndexOf('/')
+  return i === -1 ? '' : path.substring(0, i)
 }
 
 /**
- * Given a source directory and a target filename, return the relative
- * file path from source to target.
+ * Given a source directory and a target file name, return the relative file path from source to target, converting `\\` path separator to `/`.
  * @param source {String} directory path to start from for traversal
  * @param target {String} directory path and filename to seek from source
- * @return Relative path (e.g. "../../style.css") as {String}
+ * @return Relative path from `source` to `target` (e.g. `"../../style.css"`), converting `\\` path separator to `/`.
  */
 export function getRelativePath(source: string, target: string) {
-  var sep = source.indexOf('/') !== -1 ? '/' : '\\',
+  source = slash(source)
+  target = slash(target)
+  const sep = '/', //source.indexOf('/') !== -1 ? '/' : '\\',
     targetArr = target.split(sep),
     sourceArr = source.split(sep),
     filename = targetArr.pop(),
-    targetPath = targetArr.join(sep),
-    relativePath = ''
-
+    targetPath = targetArr.join(sep)
+  if (targetArr.length < 2 && sourceArr.length < 2) {
+    return target
+  }
+  let relativePath = ''
   while (targetPath.indexOf(sourceArr.join(sep)) === -1) {
     sourceArr.pop()
     relativePath += '..' + sep
   }
-
-  var relPathArr = targetArr.slice(sourceArr.length)
+  const relPathArr = targetArr.slice(sourceArr.length)
   relPathArr.length && (relativePath += relPathArr.join(sep) + sep)
-
   return relativePath + filename
 }
 
 /**
- * similar to node.js path.join(), using separator '/'
+ * Similar to node's' `path.join()`. It will return the path resulting of join given path parts, converting `\\` path separator to `/`.
  */
 export function pathJoin(...parts: string[]) {
   var separator = '/'
   var replace = new RegExp(separator + '{1,}', 'g')
-  return parts.join(separator).replace(replace, separator)
+  return parts
+    .filter(Boolean)
+    .map(slash)
+    .join(separator)
+    .replace(replace, separator)
+}
+
+/**
+ * Parses given .gitignore file contents to an array of string patterns. Adapted from https://github.com/sindresorhus/globby .
+ */
+export function parseGitIgnore(
+  content: string,
+  options: { cwd: string; fileName: string } = { cwd: '.', fileName: '.gitignore' }
+) {
+  const mapGitIgnorePatternTo = (base: string) => (ignore: string) => {
+    if (ignore.startsWith('!')) {
+      return '!' + pathJoin(base, ignore.slice(1))
+    }
+    return pathJoin(base, ignore)
+  }
+  const base = getRelativePath(options.cwd, dirname(options.fileName))
+  return content
+    .split(/\r?\n/)
+    .filter(Boolean)
+    .filter(line => line.charAt(0) !== '#')
+    .map(mapGitIgnorePatternTo(base))
+}
+
+/**
+ * Converts Windows backslash paths to slash paths: `foo\\bar` ➔ `foo/bar`. Adapted from https://github.com/sindresorhus/slash/ .
+ */
+export function slash(path: string) {
+  const isExtendedLengthPath = /^\\\\\?\\/.test(path)
+  const hasNonAscii = /[^\u0000-\u0080]+/.test(path)
+  if (isExtendedLengthPath || hasNonAscii) {
+    return path
+  }
+  return path.replace(/\\/g, '/')
 }
