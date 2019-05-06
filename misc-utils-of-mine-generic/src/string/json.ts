@@ -7,7 +7,7 @@ export function parseJSON<K = any>(s: string, defaultValue?: K): K | undefined {
   }
 }
 
-export function clone<T>(a: T): T {
+export function cloneJSON<T>(a: T): T {
   return JSON.parse(JSON.stringify(a))
 }
 

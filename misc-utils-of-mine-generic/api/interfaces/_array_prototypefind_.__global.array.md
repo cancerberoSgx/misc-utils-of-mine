@@ -26,7 +26,7 @@
 
 ▸ **find**(predicate: *[FindPredicate](../modules/_array_prototypefind_.md#findpredicate)<`T`, `any`>*, thisArg?: *`any`*): `T` \| `undefined`
 
-*Defined in [array/prototypeFind.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L19)*
+*Defined in [array/prototypeFind.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L19)*
 
 **Type parameters:**
 
@@ -40,7 +40,7 @@
 
 **Returns:** `S` \| `undefined`
 
-*Defined in [array/prototypeFind.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L20)*
+*Defined in [array/prototypeFind.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L20)*
 
 **Parameters:**
 

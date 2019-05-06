@@ -23,7 +23,7 @@
 
 **● exceptions**: *`number`* = 1
 
-*Defined in [exceptions.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/exceptions.ts#L1)*
+*Defined in [exceptions.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/exceptions.ts#L1)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **checkThrow**<`T`>(r?: *[T]()*, msg?: *`string`*): `T`
 
-*Defined in [exceptions.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/exceptions.ts#L2)*
+*Defined in [exceptions.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/exceptions.ts#L2)*
 
 **Type parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **tryTo**<`F`>(f: *`F`*): `ReturnType`<`F`> \| `undefined`
 
-*Defined in [exceptions.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb2e71a/misc-utils-of-mine-generic/src/exceptions.ts#L8)*
+*Defined in [exceptions.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/exceptions.ts#L8)*
 
 **Type parameters:**
 

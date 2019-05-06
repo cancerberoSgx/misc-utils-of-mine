@@ -16,3 +16,17 @@ export var isArray =
 export function isBoolean(obj: any) {
   return typeof obj === 'boolean' || getTypeScript(obj) === '[object Boolean]'
 }
+
+/**
+ * Get type of variable
+ * @param mixed input
+ * @return string
+ *
+ * @see http://jsperf.com/typeofvar
+ */
+export function typeOf(input: any) {
+  return {}.toString
+    .call(input)
+    .slice(8, -1)
+    .toLowerCase()
+}
