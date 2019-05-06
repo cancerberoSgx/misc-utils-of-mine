@@ -28,3 +28,9 @@ export function formatDateTime(date: Date, format: 'YYYY-MM-DDTHH:MMZ'): string 
   let mm = `${date.getMinutes()}`.length < 2 ? `0${date.getMinutes()}` : `${date.getMinutes()}`
   return `${formatDate(date, 'YYYY-MM-DD')}T${hh}:${mm}`
 }
+/**
+ * shirks Date.now number to 7 digits so is better for filenames. respect date order and  milliseconds
+ */
+function timeHash() {
+  return Date.now().toString(36)
+}
