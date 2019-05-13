@@ -42,6 +42,7 @@ API
 * ["time/throttle"](modules/_time_throttle_.md)
 * ["time/time"](modules/_time_time_.md)
 * ["type"](modules/_type_.md)
+* ["waitFor"](modules/_waitfor_.md)
 
 ---
 

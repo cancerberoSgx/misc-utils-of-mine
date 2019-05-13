@@ -19,7 +19,7 @@
 
 ▸ **cloneJSON**<`T`>(a: *`T`*): `T`
 
-*Defined in [string/json.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/string/json.ts#L10)*
+*Defined in [string/json.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/json.ts#L10)*
 
 **Type parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **parseJSON**<`K`>(s: *`string`*, defaultValue?: *[K]()*): `K` \| `undefined`
 
-*Defined in [string/json.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/string/json.ts#L2)*
+*Defined in [string/json.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/json.ts#L2)*
 
 try to parse given json string. return undefined in case there is an error.
 

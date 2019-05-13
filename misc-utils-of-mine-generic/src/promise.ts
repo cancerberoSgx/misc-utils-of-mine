@@ -1,5 +1,5 @@
 /**
- * execute given functions returning promises serially. returns a promise resolving when all finish with they results
+ * Execute given functions returning promises serially. Returns a promise that resolves when all finish with they results as array.
  */
 export function serial<T = any>(p: (() => Promise<T>)[]): Promise<T[]> {
   return new Promise(resolve => {

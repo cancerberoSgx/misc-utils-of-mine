@@ -18,9 +18,9 @@
 
 ▸ **serial**<`T`>(p: *`function`[]*): `Promise`<`T`[]>
 
-*Defined in [promise.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/promise.ts#L4)*
+*Defined in [promise.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/promise.ts#L4)*
 
-execute given functions returning promises serially. returns a promise resolving when all finish with they results
+Execute given functions returning promises serially. Returns a promise that resolves when all finish with they results as array.
 
 **Type parameters:**
 

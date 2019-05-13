@@ -30,3 +30,6 @@ export function typeOf(input: any) {
     .slice(8, -1)
     .toLowerCase()
 }
+
+export type RemoveProperties<O, K extends keyof O> = Pick<O, Exclude<keyof O, K>>
+export type PropertyOptional<O, K extends keyof O> = RemoveProperties<O, K> & ({ [a in K]?: O[K] })

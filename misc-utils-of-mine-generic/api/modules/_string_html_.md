@@ -20,7 +20,7 @@
 
 ▸ **escapeHtmlAttribute**(code: *`string`*): `string`
 
-*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/string/html.ts#L1)*
+*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/html.ts#L1)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **unEscapeHtmlAttribute**(code: *`string`*): `string`
 
-*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/string/html.ts#L4)*
+*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/html.ts#L4)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **wrapInHtml**(s: *`string`*): `string`
 
-*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a3179d1/misc-utils-of-mine-generic/src/string/html.ts#L8)*
+*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/html.ts#L8)*
 
 **Parameters:**
 
