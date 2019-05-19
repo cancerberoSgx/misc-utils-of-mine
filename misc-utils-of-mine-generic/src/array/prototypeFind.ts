@@ -12,14 +12,8 @@ export function arrayPrototypeFind<T, E = any>(
   }
 }
 
-type FindPredicate<T, E = any> = (this: E, value: T, index: number, obj: T[]) => boolean
+export type FindPredicate<T, E = any> = (this: E, value: T, index: number, obj: T[]) => boolean
 
-declare global {
-  interface Array<T> {
-    find<S extends T>(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): S | undefined
-    find(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): T | undefined
-  }
-}
 export function installArrayPrototypeFind(force = false) {
   Array.prototype.find =
     typeof Array.prototype.find === 'undefined' || force

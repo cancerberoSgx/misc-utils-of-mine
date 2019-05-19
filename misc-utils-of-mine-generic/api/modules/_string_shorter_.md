@@ -21,7 +21,7 @@
 
 ▸ **removeEmptyLines**(c: *`string`*): `string`
 
-*Defined in [string/shorter.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/shorter.ts#L9)*
+*Defined in [string/shorter.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6dd6af9/misc-utils-of-mine-generic/src/string/shorter.ts#L9)*
 
 **Parameters:**
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **removeWhites**(s: *`string`*, replaceWith?: *`string`*): `string`
 
-*Defined in [string/shorter.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/shorter.ts#L5)*
+*Defined in [string/shorter.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6dd6af9/misc-utils-of-mine-generic/src/string/shorter.ts#L5)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **shorter**(text: *`string`*, much?: *`number`*): `string`
 
-*Defined in [string/shorter.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/shorter.ts#L1)*
+*Defined in [string/shorter.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6dd6af9/misc-utils-of-mine-generic/src/string/shorter.ts#L1)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **trimRightLines**(s: *`string`*): `string`
 
-*Defined in [string/shorter.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/087758d/misc-utils-of-mine-generic/src/string/shorter.ts#L16)*
+*Defined in [string/shorter.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6dd6af9/misc-utils-of-mine-generic/src/string/shorter.ts#L16)*
 
 **Parameters:**
 

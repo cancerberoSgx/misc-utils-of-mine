@@ -1,5 +1,11 @@
 import { installArrayPrototypeFind } from '../..'
-
+import { FindPredicate } from '../prototypeFind'
+declare global {
+  interface Array<T> {
+    find<S extends T>(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): S | undefined
+    find(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): T | undefined
+  }
+}
 describe('array', () => {
   it('prototypeFind', () => {
     const originalFind = Array.prototype.find

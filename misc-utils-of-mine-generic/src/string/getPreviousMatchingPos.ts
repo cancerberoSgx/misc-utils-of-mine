@@ -1,5 +1,5 @@
 /**
- * Get index of the previous match of given predicate or substring, before given pos, on given text.
+ * Get index of the previous match of given predicate or substring, before given pos, on given text. For the next matching position you can use `String.prototype.findIndexOf` function.
  */
 export function getPreviousMatchingPos(text: string, pos: number, predicate: string | ((char: string) => boolean)) {
   pos = text.length <= pos ? text.length : pos
