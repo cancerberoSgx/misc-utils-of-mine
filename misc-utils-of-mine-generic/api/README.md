@@ -23,6 +23,7 @@ API
 * ["event"](modules/_event_.md)
 * ["exceptions"](modules/_exceptions_.md)
 * ["file"](modules/_file_.md)
+* ["geometry"](modules/_geometry_.md)
 * ["index"](modules/_index_.md)
 * ["merge"](modules/_merge_.md)
 * ["misc"](modules/_misc_.md)
