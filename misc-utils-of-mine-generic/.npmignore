@@ -6,3 +6,4 @@ dist/spec
 tsconfig.json
 .vscode
 *.tgz
+api
