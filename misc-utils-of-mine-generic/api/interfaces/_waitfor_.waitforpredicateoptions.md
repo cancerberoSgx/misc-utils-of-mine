@@ -24,7 +24,7 @@
 
 **● interval**: *`undefined` \| `number`*
 
-*Defined in [waitFor.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/waitFor.ts#L6)*
+*Defined in [waitFor.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L6)*
 
 ___
 <a id="timeout"></a>
@@ -33,7 +33,7 @@ ___
 
 **● timeout**: *`undefined` \| `number`*
 
-*Defined in [waitFor.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/waitFor.ts#L7)*
+*Defined in [waitFor.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L7)*
 
 ___
 <a id="timeouterror"></a>
@@ -42,7 +42,7 @@ ___
 
 **● timeoutError**: *`undefined` \| `string`*
 
-*Defined in [waitFor.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/waitFor.ts#L8)*
+*Defined in [waitFor.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L8)*
 
 ___
 
