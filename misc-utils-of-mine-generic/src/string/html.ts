@@ -25,11 +25,9 @@ ${s}
 /**
  * transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
  */
-export function styleObjectToCss(o: Partial<{[k: string]: string|null|undefined}>, propertiesSeparator= '') {
+export function styleObjectToCss(o: Partial<{ [k: string]: string | null | undefined }>, propertiesSeparator = '') {
   return Object.keys(o)
-  .map(p =>
-    `${stylePropertyNameToCssSyntax(p)}: ${(o as any)[p]};`
-    )
+    .map(p => `${stylePropertyNameToCssSyntax(p)}: ${(o as any)[p]};`)
     .join(propertiesSeparator)
 }
 
@@ -37,10 +35,9 @@ export function styleObjectToCss(o: Partial<{[k: string]: string|null|undefined}
  * Transform a string like `fooBar` to `foo-bar`
  */
 export function stylePropertyNameToCssSyntax(s: string): string {
- let t
- while (t = /([A-Z])/.exec(s)) {
-   s = s.substring(0, t.index) + '-' + t[1].toLowerCase() + s.substring(t.index + 1, s.length)
- }
- return s
+  let t
+  while ((t = /([A-Z])/.exec(s))) {
+    s = s.substring(0, t.index) + '-' + t[1].toLowerCase() + s.substring(t.index + 1, s.length)
+  }
+  return s
 }
-

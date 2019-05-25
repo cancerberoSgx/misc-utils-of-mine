@@ -7,6 +7,8 @@
 ### Functions
 
 * [escapeHtmlAttribute](_string_html_.md#escapehtmlattribute)
+* [styleObjectToCss](_string_html_.md#styleobjecttocss)
+* [stylePropertyNameToCssSyntax](_string_html_.md#stylepropertynametocsssyntax)
 * [unEscapeHtmlAttribute](_string_html_.md#unescapehtmlattribute)
 * [wrapInHtml](_string_html_.md#wrapinhtml)
 
@@ -20,7 +22,7 @@
 
 ▸ **escapeHtmlAttribute**(code: *`string`*): `string`
 
-*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e293445/misc-utils-of-mine-generic/src/string/html.ts#L1)*
+*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/string/html.ts#L1)*
 
 **Parameters:**
 
@@ -31,13 +33,52 @@
 **Returns:** `string`
 
 ___
+<a id="styleobjecttocss"></a>
+
+###  styleObjectToCss
+
+▸ **styleObjectToCss**(o: *`Partial`<`object`>*, propertiesSeparator?: *`string`*): `string`
+
+*Defined in [string/html.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/string/html.ts#L28)*
+
+transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
+
+**Parameters:**
+
+| Name | Type | Default value |
+| ------ | ------ | ------ |
+| o | `Partial`<`object`> | - |
+| `Default value` propertiesSeparator | `string` | &quot;&quot; |
+
+**Returns:** `string`
+
+___
+<a id="stylepropertynametocsssyntax"></a>
+
+###  stylePropertyNameToCssSyntax
+
+▸ **stylePropertyNameToCssSyntax**(s: *`string`*): `string`
+
+*Defined in [string/html.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/string/html.ts#L37)*
+
+Transform a string like `fooBar` to `foo-bar`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| s | `string` |
+
+**Returns:** `string`
+
+___
 <a id="unescapehtmlattribute"></a>
 
 ###  unEscapeHtmlAttribute
 
 ▸ **unEscapeHtmlAttribute**(code: *`string`*): `string`
 
-*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e293445/misc-utils-of-mine-generic/src/string/html.ts#L4)*
+*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/string/html.ts#L4)*
 
 **Parameters:**
 
@@ -54,7 +95,7 @@ ___
 
 ▸ **wrapInHtml**(s: *`string`*): `string`
 
-*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/e293445/misc-utils-of-mine-generic/src/string/html.ts#L8)*
+*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ec47efe/misc-utils-of-mine-generic/src/string/html.ts#L8)*
 
 **Parameters:**
 
