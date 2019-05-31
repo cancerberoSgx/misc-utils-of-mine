@@ -15,6 +15,7 @@ API
 ### External modules
 
 * ["array/array"](modules/_array_array_.md)
+* ["array/enumKeys"](modules/_array_enumkeys_.md)
 * ["array/flat"](modules/_array_flat_.md)
 * ["array/index"](modules/_array_index_.md)
 * ["array/prototypeFind"](modules/_array_prototypefind_.md)

@@ -14,18 +14,20 @@
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "docs": "npx typedoc 'src/index.ts' --theme markdown --out api",
     "test-watch": "npm test -- --watch",
-    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test && npm run docs",
+    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test && npm run docs",    
+    "all-publish": "npm run all && git commit -a -m \"version patch\" && npm version patch && npm publish",
+
     "prepare": "npm run build"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/node": "^11.13.7",
-    "jest": "^24.7.1",
-    "prettier": "^1.17.0",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.4",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
     "ts-jest": "^24.0.2",
     "typedoc": "^0.14.2",
-    "typedoc-plugin-markdown": "^1.2.0",
-    "typescript": "^3.4.5"
+    "typedoc-plugin-markdown": "^1.2.1",
+    "typescript": "^3.5.1"
   },
   "dependencies": {
     "misc-utils-of-mine-typescript": "0.0.12"

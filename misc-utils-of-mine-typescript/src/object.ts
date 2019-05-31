@@ -93,3 +93,5 @@ export type NumberKeyOf<T extends any> = Extract<keyof T, number>
 export type RemoveProperties<O, K extends keyof O> = Pick<O, Exclude<keyof O, K>>
 // type o = {a: number, b: boolean}
 // type o1 = RemoveProperties<o, 'a'>
+
+export type PropertyOptional<O, K extends keyof O> = RemoveProperties<O, K> & ({ [a in K]?: O[K] })

@@ -26,7 +26,9 @@
 
 ▸ **waitForPredicate**<`T`>(p: *`function`*, options?: *[WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) \| `string`*): `Promise`<`T`>
 
-*Defined in [waitFor.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L12)*
+*Defined in [waitFor.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/waitFor.ts#L23)*
+
+Returns a promise that is resolved when given predicate function returns truthy or timeout (see options). The function is called in given option's [interval](../interfaces/_waitfor_.waitforpredicateoptions.md#interval) times.
 
 **Type parameters:**
 
@@ -50,7 +52,7 @@ ___
 
 **defaultOptions**: *`object`*
 
-*Defined in [waitFor.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L11)*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
 <a id="defaultoptions.interval"></a>
 
@@ -58,7 +60,7 @@ ___
 
 **● interval**: *`number`* = 200
 
-*Defined in [waitFor.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L11)*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
 ___
 <a id="defaultoptions.timeout"></a>
@@ -67,7 +69,7 @@ ___
 
 **● timeout**: *`number`* = 3000
 
-*Defined in [waitFor.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/waitFor.ts#L11)*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
 ___
 

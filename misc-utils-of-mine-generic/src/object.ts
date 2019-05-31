@@ -1,9 +1,13 @@
 import { EmptyObject, ObjectStringKeyUnion } from 'misc-utils-of-mine-typescript'
 import { isObject, isArray } from './type'
 
+/**
+ * Same as `Object.keys()` but with types.
+ */
 export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): ObjectStringKeyUnion<Field>[] {
   return Object.keys(o) as ObjectStringKeyUnion<Field>[]
 }
+
 /**
  * Returns a new object with the same keys of given one, and values mapped with given function
  */
@@ -146,8 +150,4 @@ export function getObjectPropertyPaths(
   } else {
     return result
   }
-}
-
-function isNotArrayOfArray<T>(a: T[] | T[][]): a is T[] {
-  return a.length === 0 || !isArray(a[0])
 }

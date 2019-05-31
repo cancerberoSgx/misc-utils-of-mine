@@ -4,28 +4,12 @@
 
 ## Index
 
-### Variables
-
-* [exceptions](_exceptions_.md#exceptions)
-
 ### Functions
 
 * [checkThrow](_exceptions_.md#checkthrow)
 * [tryTo](_exceptions_.md#tryto)
 
 ---
-
-## Variables
-
-<a id="exceptions"></a>
-
-### `<Let>` exceptions
-
-**● exceptions**: *`number`* = 1
-
-*Defined in [exceptions.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/exceptions.ts#L1)*
-
-___
 
 ## Functions
 
@@ -35,7 +19,7 @@ ___
 
 ▸ **checkThrow**<`T`>(r?: *[T]()*, msg?: *`string`*): `T`
 
-*Defined in [exceptions.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/exceptions.ts#L2)*
+*Defined in [exceptions.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/exceptions.ts#L1)*
 
 **Type parameters:**
 
@@ -56,7 +40,7 @@ ___
 
 ▸ **tryTo**<`F`>(f: *`F`*): `ReturnType`<`F`> \| `undefined`
 
-*Defined in [exceptions.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1dd402e/misc-utils-of-mine-generic/src/exceptions.ts#L8)*
+*Defined in [exceptions.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/exceptions.ts#L8)*
 
 **Type parameters:**
 

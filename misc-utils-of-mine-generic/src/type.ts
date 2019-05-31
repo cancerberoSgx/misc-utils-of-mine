@@ -1,10 +1,11 @@
 var toStr = Object.prototype.toString
 
-export function getTypeScript(type: any) {
+export function getType(type: any) {
   return toStr.call(type)
 }
+
 export function isObject(obj: any) {
-  return typeof obj === 'object' && getTypeScript(obj) === '[object Object]'
+  return typeof obj === 'object' && getType(obj) === '[object Object]'
 }
 
 export var isArray =
@@ -14,7 +15,7 @@ export var isArray =
   }
 
 export function isBoolean(obj: any) {
-  return typeof obj === 'boolean' || getTypeScript(obj) === '[object Boolean]'
+  return typeof obj === 'boolean' || getType(obj) === '[object Boolean]'
 }
 
 /**
@@ -32,4 +33,7 @@ export function typeOf(input: any) {
 }
 
 export type RemoveProperties<O, K extends keyof O> = Pick<O, Exclude<keyof O, K>>
+
 export type PropertyOptional<O, K extends keyof O> = RemoveProperties<O, K> & ({ [a in K]?: O[K] })
+
+export { notFalsy, notUndefined } from 'misc-utils-of-mine-typescript'

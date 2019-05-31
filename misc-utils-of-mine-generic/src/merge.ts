@@ -5,11 +5,10 @@
  * Copyright 2014 yeikos - MIT license
  * https://raw.github.com/yeikos/js.merge/master/LICENSE
  */
-
 import { typeOf } from './type'
 
 /**
- * Merge two or more objects recursively
+ * Merge two or more objects recursively.
  */
 export function recursive(clone?: boolean) {
   //@ts-ignore
@@ -17,7 +16,7 @@ export function recursive(clone?: boolean) {
 }
 
 /**
- * Clone the input removing any reference
+ * Clone the input removing any reference.
  */
 export function clone(input: any) {
   var output = input,
@@ -36,7 +35,7 @@ export function clone(input: any) {
 }
 
 /**
- * Merge two objects recursively
+ * Merges two objects recursively.
  */
 export function mergeRecursive(base: any, extend: any) {
   if (typeOf(base) !== 'object') return extend
@@ -51,7 +50,7 @@ export function mergeRecursive(base: any, extend: any) {
 }
 
 /**
- * Merge two or more objects
+ * Mergestwo or more objects.
  */
 export function merge(clone_: boolean, recursive: boolean, ...argv: any[]) {
   var result = argv[0],
