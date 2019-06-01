@@ -1,3 +1,5 @@
+import { tryTo } from '../exceptions'
+
 export function shorter(text: string, much: number = 10): string {
   return text.trim().substring(0, Math.min(text.length, much)) + '...'
 }
@@ -20,14 +22,18 @@ export function trimRightLines(s: string) {
     .join('\n')
 }
 
-export function commaColonStringToObject(s: string = '') {
-  if (!s || !s.includes(',')) {
-    return {}
-  }
-  const a = s.split(',').map(s => s.trim())
+/**
+ * Transform a string like `foo: 2, bar: hello world` to an object like `{foo: '2', bar: 'hello world}`
+ */
+export function stringToObject(s: string = '', propSep = ',', nameValueSep = ':') {
+  const a = s.split(propSep).map(s => s.trim())
   const o: any = {}
-  for (let i = 0; i < a.length; i += 2) {
-    o[a[i]] = a[i + 1]
-  }
+  a.forEach(f => {
+    const b = f.split(nameValueSep).map(a => a.trim())
+    if (b.length !== 2) {
+      return
+    }
+    o[b[0]] = b[1]
+  })
   return o
 }

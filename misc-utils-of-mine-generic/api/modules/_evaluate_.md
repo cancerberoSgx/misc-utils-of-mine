@@ -18,7 +18,7 @@
 
 ▸ **evaluate**<`T`>(s: *`string`*, defaultValue?: *`undefined`*): `T` \| `undefined`
 
-*Defined in [evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/evaluate.ts#L1)*
+*Defined in [evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/evaluate.ts#L1)*
 
 **Type parameters:**
 

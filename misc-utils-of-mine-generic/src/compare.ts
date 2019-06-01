@@ -26,9 +26,6 @@ export function compareTexts(actual: string | string[], expected: string | strin
 }
 
 export function compareText(actual: string, expected: string, options: CompareTextOptions) {
-  // if ((actual === undefined && expected !== undefined) || (actual !== undefined && expected === undefined)) {
-  //   return options.negate ? negate(false) : false
-  // }
   if (actual === expected) {
     return options.negate ? negate(true) : true
   }
@@ -57,20 +54,15 @@ function compareWithMultiplicity<T>(
 ) {
   const actual = asArray(_actual)
   const expected = asArray(_expected)
-  // if ((actual === undefined && expected !== undefined) || (actual !== undefined && expected === undefined)) {
-  //   return false
-  // }
   if (actual === expected) {
     return options.negate ? negate(true) : true
   }
   if (!options.multiplicity || options.multiplicity === 'anyOf') {
-    return options.negate
-      ? negate(!!actual.find(a => !!expected!.find(e => predicate(a, e, options))))
-      : !!actual.find(a => !!expected!.find(e => predicate(a, e, options)))
+    const r = !!actual.find(a => !!expected.find(e => predicate(a, e, options)))
+    return options.negate ? negate(r) : r
   } else if (options.multiplicity === 'allOf') {
-    return options.negate
-      ? negate(!actual.find(a => !!expected!.find(e => !predicate(a, e, options))))
-      : !actual.find(a => !!expected!.find(e => !predicate(a, e, options)))
+    const r = !actual.find(a => !expected.find(e => predicate(a, e, options)))
+    return options.negate ? negate(r) : r
   } else {
     return options.negate ? negate(false) : false
   }
