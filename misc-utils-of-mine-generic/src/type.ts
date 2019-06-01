@@ -14,6 +14,10 @@ export var isArray =
     return toStr.call(obj) === '[object Array]'
   }
 
+export function isString(a: any): a is string {
+  return typeof a === 'string'
+}
+
 export function isBoolean(obj: any) {
   return typeof obj === 'boolean' || getType(obj) === '[object Boolean]'
 }

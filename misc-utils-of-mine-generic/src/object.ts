@@ -1,4 +1,4 @@
-import { EmptyObject, ObjectStringKeyUnion } from 'misc-utils-of-mine-typescript'
+import { EmptyObject, ObjectStringKeyUnion, notUndefined } from 'misc-utils-of-mine-typescript'
 import { isObject, isArray } from './type'
 
 /**
@@ -9,7 +9,7 @@ export function objectKeys<Field extends EmptyObject = EmptyObject>(o: Field): O
 }
 
 /**
- * Returns a new object with the same keys of given one, and values mapped with given function
+ * Returns a new object with the same keys of given one, and values mapped with given function.
  */
 export function objectMapValues<O extends { [k in keyof O]: O[keyof O] } = any, T = any>(
   o: O,
@@ -37,15 +37,12 @@ export function objectFilter<O extends { [k in keyof O]: O[keyof O] } = any>(
 }
 
 /**
- * build an object using keys in [[a]] and values returning from [[fn]] as long as they are not undefined
+ * Builds an object using keys in [[a]] and values returning from [[fn]] as long as they are not undefined.
  */
 export function arrayToObject<T = any>(a: string[], fn: (a: string) => T | undefined) {
-  const o: { [s: string]: T } = {}
-  a.forEach(k => {
-    const v = fn(k)
-    if (typeof v !== 'undefined') {
-      o[k] = v
-    }
+  const o: { [s: string]: T | undefined } = {}
+  a.filter(notUndefined).forEach(k => {
+    o[k] = fn(k)
   })
   return o
 }

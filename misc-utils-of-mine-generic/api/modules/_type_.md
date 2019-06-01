@@ -19,6 +19,7 @@
 * [getType](_type_.md#gettype)
 * [isBoolean](_type_.md#isboolean)
 * [isObject](_type_.md#isobject)
+* [isString](_type_.md#isstring)
 * [typeOf](_type_.md#typeof)
 
 ---
@@ -31,7 +32,7 @@
 
 **Ƭ PropertyOptional**: *[RemoveProperties](_type_.md#removeproperties)<`O`, `K`> & `object`*
 
-*Defined in [type.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L37)*
+*Defined in [type.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L41)*
 
 ___
 <a id="removeproperties"></a>
@@ -40,7 +41,7 @@ ___
 
 **Ƭ RemoveProperties**: *`Pick`<`O`, `Exclude`<`keyof O`, `K`>>*
 
-*Defined in [type.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L35)*
+*Defined in [type.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L39)*
 
 ___
 
@@ -56,7 +57,7 @@ ___
     return toStr.call(obj) === '[object Array]'
   }
 
-*Defined in [type.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L11)*
+*Defined in [type.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L11)*
 
 ___
 <a id="tostr"></a>
@@ -65,7 +66,7 @@ ___
 
 **● toStr**: *`toString`* =  Object.prototype.toString
 
-*Defined in [type.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L1)*
+*Defined in [type.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L1)*
 
 ___
 
@@ -77,7 +78,7 @@ ___
 
 ▸ **getType**(type: *`any`*): `string`
 
-*Defined in [type.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L3)*
+*Defined in [type.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L3)*
 
 **Parameters:**
 
@@ -94,7 +95,7 @@ ___
 
 ▸ **isBoolean**(obj: *`any`*): `boolean`
 
-*Defined in [type.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L17)*
+*Defined in [type.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L21)*
 
 **Parameters:**
 
@@ -111,7 +112,7 @@ ___
 
 ▸ **isObject**(obj: *`any`*): `boolean`
 
-*Defined in [type.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L7)*
+*Defined in [type.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L7)*
 
 **Parameters:**
 
@@ -122,13 +123,30 @@ ___
 **Returns:** `boolean`
 
 ___
+<a id="isstring"></a>
+
+###  isString
+
+▸ **isString**(a: *`any`*): `boolean`
+
+*Defined in [type.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L17)*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| a | `any` |
+
+**Returns:** `boolean`
+
+___
 <a id="typeof"></a>
 
 ###  typeOf
 
 ▸ **typeOf**(input: *`any`*): `string`
 
-*Defined in [type.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1466ef5/misc-utils-of-mine-generic/src/type.ts#L28)*
+*Defined in [type.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/94cb991/misc-utils-of-mine-generic/src/type.ts#L32)*
 
 Get type of variable
 

@@ -1,6 +1,6 @@
 {
   "name": "misc-utils-of-mine-generic",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
@@ -14,9 +14,8 @@
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "docs": "npx typedoc 'src/index.ts' --theme markdown --out api",
     "test-watch": "npm test -- --watch",
-    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test && npm run docs",    
+    "all": "npm run clean && npm run prettier && npm run build && npm run test-js && npm run test && npm run docs",
     "all-publish": "npm run all && git commit -a -m \"version patch\" && npm version patch && npm publish",
-
     "prepare": "npm run build"
   },
   "devDependencies": {

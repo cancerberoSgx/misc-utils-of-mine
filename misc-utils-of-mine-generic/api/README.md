@@ -20,6 +20,7 @@ API
 * ["array/index"](modules/_array_index_.md)
 * ["array/prototypeFind"](modules/_array_prototypefind_.md)
 * ["color"](modules/_color_.md)
+* ["compare"](modules/_compare_.md)
 * ["evaluate"](modules/_evaluate_.md)
 * ["event"](modules/_event_.md)
 * ["exceptions"](modules/_exceptions_.md)
