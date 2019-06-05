@@ -19,7 +19,7 @@
 
 ▸ **checkThrow**<`T`>(r?: *[T]()*, msg?: *`string`*): `T`
 
-*Defined in [exceptions.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/exceptions.ts#L1)*
+*Defined in [exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
 
 **Type parameters:**
 
@@ -38,20 +38,22 @@ ___
 
 ###  tryTo
 
-▸ **tryTo**<`F`>(f: *`F`*): `ReturnType`<`F`> \| `undefined`
+▸ **tryTo**<`R`,`D`>(f: *`function`*, def?: *[D]()*): `R` \| `D` \| `undefined`
 
-*Defined in [exceptions.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/exceptions.ts#L8)*
+*Defined in [exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
 
 **Type parameters:**
 
-#### F :  `function`
+#### R 
+#### D 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| f | `F` |
+| f | `function` |
+| `Optional` def | [D]() |
 
-**Returns:** `ReturnType`<`F`> \| `undefined`
+**Returns:** `R` \| `D` \| `undefined`
 
 ___
 

@@ -25,7 +25,7 @@
 
 **● self**: *`any`*
 
-*Defined in [misc.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/misc.ts#L15)*
+*Defined in [misc.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/misc.ts#L15)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **getGlobal**(): `any`
 
-*Defined in [misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/misc.ts#L16)*
+*Defined in [misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/misc.ts#L16)*
 
 **Returns:** `any`
 
@@ -48,7 +48,7 @@ ___
 
 ▸ **inBrowser**(): `boolean`
 
-*Defined in [misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/misc.ts#L5)*
+*Defined in [misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/misc.ts#L5)*
 
 **Returns:** `boolean`
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **isNode**(): `any`
 
-*Defined in [misc.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/misc.ts#L1)*
+*Defined in [misc.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/misc.ts#L1)*
 
 **Returns:** `any`
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **isWebWorker**(): `boolean`
 
-*Defined in [misc.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/misc.ts#L10)*
+*Defined in [misc.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/misc.ts#L10)*
 
 **Returns:** `boolean`
 

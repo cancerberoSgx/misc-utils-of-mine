@@ -1,3 +1,5 @@
+import { CanBeUndefined } from 'misc-utils-of-mine-typescript'
+
 export function checkThrow<T>(r?: T, msg = 'Throwing on undefined value'): T {
   if (!r) {
     throw new Error(msg)
@@ -5,8 +7,10 @@ export function checkThrow<T>(r?: T, msg = 'Throwing on undefined value'): T {
   return r
 }
 
-export function tryTo<F extends (...args: any[]) => any>(f: F): ReturnType<F> | undefined {
+export function tryTo<R = any, D = undefined>(f: (...args: any[]) => R, def?: D): R | D | undefined {
   try {
     return f()
-  } catch (error) {}
+  } catch (error) {
+    return def
+  }
 }

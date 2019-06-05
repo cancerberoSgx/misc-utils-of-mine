@@ -24,6 +24,7 @@
     "jest": "^24.8.0",
     "prettier": "^1.17.1",
     "ts-jest": "^24.0.2",
+    "tsd-check": "^0.6.0",
     "typedoc": "^0.14.2",
     "typedoc-plugin-markdown": "^1.2.1",
     "typescript": "^3.5.1"

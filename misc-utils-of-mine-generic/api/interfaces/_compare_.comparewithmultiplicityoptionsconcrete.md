@@ -26,7 +26,7 @@
 
 **● multiplicity**: *[Multiplicity](../modules/_compare_.md#multiplicity)*
 
-*Defined in [compare.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/compare.ts#L17)*
+*Defined in [compare.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L17)*
 
 ___
 

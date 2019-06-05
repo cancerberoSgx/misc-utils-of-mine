@@ -22,7 +22,7 @@
 
 ▸ **removeEmptyLines**(c: *`string`*): `string`
 
-*Defined in [string/misc.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/string/misc.ts#L11)*
+*Defined in [string/misc.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/string/misc.ts#L9)*
 
 **Parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **removeWhites**(s: *`string`*, replaceWith?: *`string`*): `string`
 
-*Defined in [string/misc.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/string/misc.ts#L7)*
+*Defined in [string/misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/string/misc.ts#L5)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **shorter**(text: *`string`*, much?: *`number`*): `string`
 
-*Defined in [string/misc.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/string/misc.ts#L3)*
+*Defined in [string/misc.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/string/misc.ts#L1)*
 
 **Parameters:**
 
@@ -75,7 +75,7 @@ ___
 
 ▸ **stringToObject**(s?: *`string`*, propSep?: *`string`*, nameValueSep?: *`string`*): `any`
 
-*Defined in [string/misc.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/string/misc.ts#L28)*
+*Defined in [string/misc.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/string/misc.ts#L26)*
 
 Transform a string like `foo: 2, bar: hello world` to an object like `{foo: '2', bar: 'hello world}`
 
@@ -96,7 +96,7 @@ ___
 
 ▸ **trimRightLines**(s: *`string`*): `string`
 
-*Defined in [string/misc.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/string/misc.ts#L18)*
+*Defined in [string/misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/string/misc.ts#L16)*
 
 **Parameters:**
 

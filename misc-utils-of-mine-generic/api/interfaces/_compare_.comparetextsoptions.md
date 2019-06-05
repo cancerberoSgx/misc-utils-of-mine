@@ -32,7 +32,7 @@
 
 *Inherited from [CompareTextOptions](_compare_.comparetextoptions.md).[asCode](_compare_.comparetextoptions.md#ascode)*
 
-*Defined in [compare.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/compare.ts#L12)*
+*Defined in [compare.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L12)*
 
 ___
 <a id="caseinsensitive"></a>
@@ -43,7 +43,7 @@ ___
 
 *Inherited from [CompareTextOptions](_compare_.comparetextoptions.md).[caseInsensitive](_compare_.comparetextoptions.md#caseinsensitive)*
 
-*Defined in [compare.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/compare.ts#L11)*
+*Defined in [compare.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L11)*
 
 ___
 <a id="multiplicity"></a>
@@ -54,7 +54,7 @@ ___
 
 *Inherited from [CompareWithMultiplicityOptionsConcrete](_compare_.comparewithmultiplicityoptionsconcrete.md).[multiplicity](_compare_.comparewithmultiplicityoptionsconcrete.md#multiplicity)*
 
-*Defined in [compare.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/compare.ts#L17)*
+*Defined in [compare.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L17)*
 
 ___
 <a id="negate"></a>
@@ -65,7 +65,7 @@ ___
 
 *Inherited from [BaseCompareOptions](_compare_.basecompareoptions.md).[negate](_compare_.basecompareoptions.md#negate)*
 
-*Defined in [compare.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/compare.ts#L7)*
+*Defined in [compare.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L7)*
 
 ___
 <a id="verb"></a>
@@ -76,7 +76,7 @@ ___
 
 *Inherited from [CompareTextOptions](_compare_.comparetextoptions.md).[verb](_compare_.comparetextoptions.md#verb)*
 
-*Defined in [compare.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a7a1c9f/misc-utils-of-mine-generic/src/compare.ts#L13)*
+*Defined in [compare.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L13)*
 
 ___
 
