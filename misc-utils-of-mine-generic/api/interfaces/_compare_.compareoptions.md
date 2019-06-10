@@ -29,7 +29,7 @@
 
 *Inherited from [CompareWithMultiplicityOptionsConcrete](_compare_.comparewithmultiplicityoptionsconcrete.md).[multiplicity](_compare_.comparewithmultiplicityoptionsconcrete.md#multiplicity)*
 
-*Defined in [compare.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L17)*
+*Defined in [compare.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dca33e4/misc-utils-of-mine-generic/src/compare.ts#L17)*
 
 ___
 <a id="negate"></a>
@@ -40,7 +40,7 @@ ___
 
 *Inherited from [BaseCompareOptions](_compare_.basecompareoptions.md).[negate](_compare_.basecompareoptions.md#negate)*
 
-*Defined in [compare.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L7)*
+*Defined in [compare.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dca33e4/misc-utils-of-mine-generic/src/compare.ts#L7)*
 
 ___
 

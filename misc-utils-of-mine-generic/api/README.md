@@ -29,6 +29,7 @@ API
 * ["geometry"](modules/_geometry_.md)
 * ["index"](modules/_index_.md)
 * ["merge"](modules/_merge_.md)
+* ["mime"](modules/_mime_.md)
 * ["misc"](modules/_misc_.md)
 * ["number"](modules/_number_.md)
 * ["object"](modules/_object_.md)
