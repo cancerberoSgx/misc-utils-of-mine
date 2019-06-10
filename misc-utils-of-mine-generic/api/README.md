@@ -25,6 +25,7 @@ API
 * ["event"](modules/_event_.md)
 * ["exceptions"](modules/_exceptions_.md)
 * ["file"](modules/_file_.md)
+* ["function"](modules/_function_.md)
 * ["geometry"](modules/_geometry_.md)
 * ["index"](modules/_index_.md)
 * ["merge"](modules/_merge_.md)
@@ -45,6 +46,7 @@ API
 * ["time/throttle"](modules/_time_throttle_.md)
 * ["time/time"](modules/_time_time_.md)
 * ["type"](modules/_type_.md)
+* ["url"](modules/_url_.md)
 * ["waitFor"](modules/_waitfor_.md)
 
 ---

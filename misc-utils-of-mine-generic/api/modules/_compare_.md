@@ -35,7 +35,7 @@
 
 **Ƭ Multiplicity**: *"anyOf" \| "allOf"*
 
-*Defined in [compare.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L4)*
+*Defined in [compare.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L4)*
 
 ___
 <a id="textcomparemode"></a>
@@ -44,7 +44,7 @@ ___
 
 **Ƭ TextCompareMode**: *"contains" \| "contained" \| "equals" \| "startsWith" \| "endsWith"*
 
-*Defined in [compare.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L3)*
+*Defined in [compare.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L3)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **buildText**(text: *`string`*, options: *[CompareTextOptions](../interfaces/_compare_.comparetextoptions.md)*): `string`
 
-*Defined in [compare.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L75)*
+*Defined in [compare.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L75)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **compareText**(actual: *`string`*, expected: *`string`*, options: *[CompareTextOptions](../interfaces/_compare_.comparetextoptions.md)*): `boolean`
 
-*Defined in [compare.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L28)*
+*Defined in [compare.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L28)*
 
 **Parameters:**
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **compareTexts**(actual: *`string` \| `string`[]*, expected: *`string` \| `string`[]*, options: *[CompareTextsOptions](../interfaces/_compare_.comparetextsoptions.md)*): `boolean`
 
-*Defined in [compare.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L24)*
+*Defined in [compare.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L24)*
 
 **Parameters:**
 
@@ -112,7 +112,7 @@ ___
 
 ▸ **compareWithMultiplicity**<`T`>(_actual: *`T` \| `T`[]*, _expected: *`T` \| `T`[]*, options: *[CompareOptions](../interfaces/_compare_.compareoptions.md)*, predicate: *`function`*): `boolean`
 
-*Defined in [compare.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L49)*
+*Defined in [compare.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L49)*
 
 **Type parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 ▸ **negate**(b: *`boolean`*): `boolean`
 
-*Defined in [compare.ts:71](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/compare.ts#L71)*
+*Defined in [compare.ts:71](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/compare.ts#L71)*
 
 **Parameters:**
 

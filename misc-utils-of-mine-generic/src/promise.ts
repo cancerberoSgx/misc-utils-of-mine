@@ -1,3 +1,5 @@
+import { promisify } from 'util'
+
 /**
  * Execute given functions returning promises serially. Returns a promise that resolves when all finish with they results as array.
  */

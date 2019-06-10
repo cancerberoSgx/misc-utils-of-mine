@@ -23,7 +23,7 @@
 
 **Ƭ NumberMapFn**: *`function`*
 
-*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/18ba426/misc-utils-of-mine-generic/src/geometry.ts#L5)*
+*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/85b0b78/misc-utils-of-mine-generic/src/geometry.ts#L5)*
 
 #### Type declaration
 ▸(n: *`number`*): `number`
