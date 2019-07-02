@@ -19,7 +19,7 @@
 
 ▸ **isGenerator**(obj: *`any`*): `boolean`
 
-*Defined in [function.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/function.ts#L4)*
+*Defined in [function.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/function.ts#L4)*
 
 Check whether an object is a generator.
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **isGeneratorFunction**(fn: *`any`*): `boolean`
 
-*Defined in [function.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/function.ts#L11)*
+*Defined in [function.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/function.ts#L11)*
 
 Check whether a function is generator.
 

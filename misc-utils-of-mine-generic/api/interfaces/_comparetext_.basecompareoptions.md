@@ -26,7 +26,7 @@
 
 **● negate**: *`undefined` \| `false` \| `true`*
 
-*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/compareText.ts#L7)*
+*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/compareText.ts#L7)*
 
 ___
 

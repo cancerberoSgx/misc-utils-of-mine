@@ -34,7 +34,7 @@
 
 **● Node**: *`any`*
 
-*Defined in [environment.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L1)*
+*Defined in [environment.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L1)*
 
 ___
 <a id="_this"></a>
@@ -43,7 +43,7 @@ ___
 
 **● _this**: *`any`* =  this
 
-*Defined in [environment.ts:43](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L43)*
+*Defined in [environment.ts:43](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L43)*
 
 ___
 <a id="document"></a>
@@ -52,7 +52,7 @@ ___
 
 **● document**: *`any`*
 
-*Defined in [environment.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L1)*
+*Defined in [environment.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L1)*
 
 ___
 <a id="indom"></a>
@@ -61,7 +61,7 @@ ___
 
 **● inDOM**: *[inBrowser](_environment_.md#inbrowser)* =  inBrowser
 
-*Defined in [environment.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L32)*
+*Defined in [environment.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L32)*
 
 ___
 <a id="innode"></a>
@@ -70,7 +70,7 @@ ___
 
 **● inNode**: *[isNode](_environment_.md#isnode)* =  isNode
 
-*Defined in [environment.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L18)*
+*Defined in [environment.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L18)*
 
 ___
 <a id="isbrowser"></a>
@@ -79,7 +79,7 @@ ___
 
 **● isBrowser**: *[inBrowser](_environment_.md#inbrowser)* =  inBrowser
 
-*Defined in [environment.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L30)*
+*Defined in [environment.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L30)*
 
 ___
 <a id="isdom"></a>
@@ -88,7 +88,7 @@ ___
 
 **● isDOM**: *[inBrowser](_environment_.md#inbrowser)* =  inBrowser
 
-*Defined in [environment.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L34)*
+*Defined in [environment.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L34)*
 
 ___
 <a id="self"></a>
@@ -97,7 +97,7 @@ ___
 
 **● self**: *`any`*
 
-*Defined in [environment.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L41)*
+*Defined in [environment.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L41)*
 
 ___
 <a id="window"></a>
@@ -106,7 +106,7 @@ ___
 
 **● window**: *`any`*
 
-*Defined in [environment.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L41)*
+*Defined in [environment.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L41)*
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **getGlobal**(): `any`
 
-*Defined in [environment.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L44)*
+*Defined in [environment.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L44)*
 
 **Returns:** `any`
 
@@ -129,7 +129,7 @@ ___
 
 ▸ **inBrowser**(): `boolean`
 
-*Defined in [environment.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L20)*
+*Defined in [environment.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L20)*
 
 **Returns:** `boolean`
 
@@ -140,7 +140,7 @@ ___
 
 ▸ **isJSDOM**(): `boolean`
 
-*Defined in [environment.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L14)*
+*Defined in [environment.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L14)*
 
 **Returns:** `boolean`
 
@@ -151,7 +151,7 @@ ___
 
 ▸ **isNode**(): `boolean`
 
-*Defined in [environment.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L3)*
+*Defined in [environment.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L3)*
 
 **Returns:** `boolean`
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **isWebWorker**(): `boolean`
 
-*Defined in [environment.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/environment.ts#L36)*
+*Defined in [environment.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/environment.ts#L36)*
 
 **Returns:** `boolean`
 

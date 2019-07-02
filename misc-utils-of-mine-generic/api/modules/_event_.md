@@ -22,7 +22,7 @@
 
 **Ƭ Listener**: *`function`*
 
-*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/event.ts#L16)*
+*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/event.ts#L16)*
 
 #### Type declaration
 ▸(e: *`E`*): `void`

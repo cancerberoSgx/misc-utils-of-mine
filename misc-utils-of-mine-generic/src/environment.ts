@@ -5,7 +5,7 @@ export function isNode() {
     typeof process !== 'undefined' &&
     typeof module !== 'undefined' &&
     typeof module.exports !== 'undefined' &&
-    (typeof document !== 'undefined' ? document.nodeType !== 9 : true) &&
+    (typeof document !== 'undefined' ? document.nodeType !== 9 : false) &&
     typeof module === 'object' &&
     !!module.exports
   )
