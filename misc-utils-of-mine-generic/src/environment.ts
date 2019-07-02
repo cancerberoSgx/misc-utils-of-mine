@@ -3,11 +3,14 @@ declare var document: any, Node: any
 export function isNode() {
   return (
     typeof process !== 'undefined' &&
+    typeof global !== 'undefined' &&
+    typeof process.exit === 'function' &&
     typeof module !== 'undefined' &&
-    typeof module.exports !== 'undefined' &&
-    (typeof document !== 'undefined' ? document.nodeType !== 9 : false) &&
-    typeof module === 'object' &&
-    !!module.exports
+    typeof require === 'function' &&
+    typeof require('fs') !== 'undefined' &&
+    typeof require('fs').writeFileSync === 'function' &&
+    typeof require('child_process') !== 'undefined' &&
+    typeof require('child_process').execSync === 'function'
   )
 }
 

@@ -26,7 +26,7 @@
 
 **● multiplicity**: *[Multiplicity](../modules/_comparetext_.md#multiplicity)*
 
-*Defined in [compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1934db3/misc-utils-of-mine-generic/src/compareText.ts#L17)*
+*Defined in [compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/999a52b/misc-utils-of-mine-generic/src/compareText.ts#L17)*
 
 ___
 
