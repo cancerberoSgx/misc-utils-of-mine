@@ -7,3 +7,6 @@ tsconfig.json
 .vscode
 *.tgz
 api
+.travis.yml
+formatCodeSettings.json
+dist/**/__tests__
