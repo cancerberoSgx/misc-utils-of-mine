@@ -28,7 +28,7 @@
 
 **● objectMap**: *[objectMapValues](_object_.md#objectmapvalues)* =  objectMapValues
 
-*Defined in [object.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L24)*
+*Defined in [object.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L24)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 ▸ **arrayToObject**<`T`>(a: *`string`[]*, fn: *`function`*): `object`
 
-*Defined in [object.ts:42](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L42)*
+*Defined in [object.ts:42](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L42)*
 
 Builds an object using keys in \[\[a\]\] and values returning from \[\[fn\]\] as long as they are not undefined.
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **getObjectProperty**<`T`>(object: *`any`*, path: *`string` \| (`string` \| `number`)[]*, defaultValue?: *`T` \| `undefined`*): `T` \| `undefined`
 
-*Defined in [object.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L54)*
+*Defined in [object.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L54)*
 
 Returns a nested property of given object and given path. For example path could be 'foo.bar' and it will return `object['foo']['bar']`
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **getObjectPropertyPaths**(object: *`any`*, options?: *`object`*): (`string` \| `number`)[][]
 
-*Defined in [object.ts:112](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L112)*
+*Defined in [object.ts:112](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L112)*
 
 **Parameters:**
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **objectFilter**<`O`>(o: *`O`*, p: *`function`*): `Partial`<`O`>
 
-*Defined in [object.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L26)*
+*Defined in [object.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L26)*
 
 **Type parameters:**
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **objectKeys**<`Field`>(o: *`Field`*): `ObjectStringKeyUnion`<`Field`>[]
 
-*Defined in [object.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L7)*
+*Defined in [object.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L7)*
 
 Same as `Object.keys()` but with types.
 
@@ -152,7 +152,7 @@ ___
 
 ▸ **objectMapValues**<`O`,`T`>(o: *`O`*, p: *`function`*): `object`
 
-*Defined in [object.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L14)*
+*Defined in [object.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L14)*
 
 Returns a new object with the same keys of given one, and values mapped with given function.
 
@@ -176,7 +176,7 @@ ___
 
 ▸ **setObjectProperty**(object: *`any`*, path: *`string` \| (`string` \| `number`)[]*, value: *`any`*): `any`
 
-*Defined in [object.ts:81](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/object.ts#L81)*
+*Defined in [object.ts:81](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06942b5/misc-utils-of-mine-generic/src/object.ts#L81)*
 
 sets a nested property on given path. For example path could be 'foo.bar' and it will set `object.foo.bar = value`. If the path given as array contains numbers, then or those items arrays will be created instead of objects. For example:
 
