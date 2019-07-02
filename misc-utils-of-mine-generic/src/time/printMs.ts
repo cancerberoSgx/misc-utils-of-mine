@@ -12,5 +12,5 @@ export function printMs(
   const milliseconds = config.ms && Math.floor(ms % 1000 || ms)
   return `${minutes ? `${minutes} minutes ` : ''}${seconds ? `${seconds} seconds ` : ''}${
     milliseconds ? `${milliseconds} milliseconds ` : ''
-  }`
+    }`
 }

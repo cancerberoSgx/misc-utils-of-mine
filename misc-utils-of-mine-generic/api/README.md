@@ -1,9 +1,7 @@
 
-Miscellaneous utilities for JavaScript/TypeScript
+Big collection of miscellaneous utilities, compatible with browser and node.js
 
-...that I have to include in all my projects - browser or node.js - so I'm packing all of them here.
-
-These should work on all environments, Browse and node.js and even others like rhino, etc.
+These should work on all es5 compatible environments, Browse and node.js and even others like rhino, etc, since are pure JavaScript.
 
 API
 ---
@@ -20,7 +18,8 @@ API
 * ["array/index"](modules/_array_index_.md)
 * ["array/prototypeFind"](modules/_array_prototypefind_.md)
 * ["color"](modules/_color_.md)
-* ["compare"](modules/_compare_.md)
+* ["compareText"](modules/_comparetext_.md)
+* ["environment"](modules/_environment_.md)
 * ["evaluate"](modules/_evaluate_.md)
 * ["event"](modules/_event_.md)
 * ["exceptions"](modules/_exceptions_.md)
@@ -30,7 +29,6 @@ API
 * ["index"](modules/_index_.md)
 * ["merge"](modules/_merge_.md)
 * ["mime"](modules/_mime_.md)
-* ["misc"](modules/_misc_.md)
 * ["number"](modules/_number_.md)
 * ["object"](modules/_object_.md)
 * ["promise"](modules/_promise_.md)

@@ -21,7 +21,7 @@
 
 ▸ **clone**(input: *`any`*): `any`
 
-*Defined in [merge.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dca33e4/misc-utils-of-mine-generic/src/merge.ts#L21)*
+*Defined in [merge.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06f30f7/misc-utils-of-mine-generic/src/merge.ts#L21)*
 
 Clone the input removing any reference.
 
@@ -40,7 +40,7 @@ ___
 
 ▸ **merge**(clone_: *`boolean`*, recursive: *`boolean`*, ...argv: *`any`[]*): `any`
 
-*Defined in [merge.ts:55](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dca33e4/misc-utils-of-mine-generic/src/merge.ts#L55)*
+*Defined in [merge.ts:55](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06f30f7/misc-utils-of-mine-generic/src/merge.ts#L55)*
 
 Mergestwo or more objects.
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **mergeRecursive**(base: *`any`*, extend: *`any`*): `any`
 
-*Defined in [merge.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dca33e4/misc-utils-of-mine-generic/src/merge.ts#L40)*
+*Defined in [merge.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06f30f7/misc-utils-of-mine-generic/src/merge.ts#L40)*
 
 Merges two objects recursively.
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **recursive**(clone?: *`undefined` \| `false` \| `true`*): `any`
 
-*Defined in [merge.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dca33e4/misc-utils-of-mine-generic/src/merge.ts#L13)*
+*Defined in [merge.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06f30f7/misc-utils-of-mine-generic/src/merge.ts#L13)*
 
 Merge two or more objects recursively.
 

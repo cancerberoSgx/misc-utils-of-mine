@@ -1,7 +1,14 @@
-declare var document: any
+declare var document: any, Node: any
 
 export function isNode() {
-  return typeof process !== 'undefined' && typeof module !== 'undefined' && typeof module.exports !== 'undefined' && (typeof document !== 'undefined' ? document.nodeType !== 9 : true) && typeof module === 'object' && !!module.exports
+  return (
+    typeof process !== 'undefined' &&
+    typeof module !== 'undefined' &&
+    typeof module.exports !== 'undefined' &&
+    (typeof document !== 'undefined' ? document.nodeType !== 9 : true) &&
+    typeof module === 'object' &&
+    !!module.exports
+  )
 }
 
 export function isJSDOM() {
@@ -12,7 +19,12 @@ export const inNode = isNode
 
 export function inBrowser() {
   // @ts-ignore
-  return typeof window !== 'undefined' && typeof document !== 'undefined' && typeof Node !== 'undefined' && document.nodeType === Node.DOCUMENT_NODE
+  return (
+    typeof window !== 'undefined' &&
+    typeof document !== 'undefined' &&
+    typeof Node !== 'undefined' &&
+    document.nodeType === Node.DOCUMENT_NODE
+  )
 }
 
 export const isBrowser = inBrowser
@@ -26,7 +38,7 @@ export function isWebWorker() {
   return !isDOM() && !isNode() && typeof self !== 'undefined' && typeof self.onmessage !== 'undefined'
 }
 
-declare var self: any, window:any
+declare var self: any, window: any
 //@ts-ignore
 const _this = this
 export function getGlobal(): any {
