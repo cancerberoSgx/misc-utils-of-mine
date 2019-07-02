@@ -10,7 +10,7 @@
     "build-watch": "npm run clean && npx tsc -w",
     "prettier": "npx prettier  --write --arrow-parens avoid --parser typescript --use-tabs false --no-semi true --single-quote true --tab-width 2 --trailing-comma none --end-of-line lf --prose-wrap preserve --print-width 120  --jsx-bracket-same-line true \"src/**/*.ts*\"",
     "clean": "rm -rf dist tmp",
-    "test": "npx jest --testPathIgnorePatterns /dist/",
+    "test": "npm run build && npx jest --testPathIgnorePatterns /dist/",
     "test-js": "npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "docs": "npx typedoc 'src/index.ts' --theme markdown --out api",
     "test-watch": "npm test -- --watch",

@@ -18,7 +18,7 @@
 
 ▸ **getFileNameFromUrl**(url: *`string`*): `string`
 
-*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/06f30f7/misc-utils-of-mine-generic/src/url.ts#L1)*
+*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e57dba/misc-utils-of-mine-generic/src/url.ts#L1)*
 
 **Parameters:**
 
