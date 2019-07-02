@@ -1,8 +1,6 @@
-Miscellaneous utilities for JavaScript/TypeScript 
+Big collection of miscellaneous utilities, compatible with browser and node.js
 
-...that I have to include in all my projects  - browser or node.js - so I'm packing all of them here.
-
-These should work on all environments, Browse and node.js and even others like rhino, etc.
+These should work on all es5 compatible environments, Browse and node.js and even others like rhino, etc, since are pure JavaScript.
 
 ## API
 
