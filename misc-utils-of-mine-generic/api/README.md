@@ -39,6 +39,7 @@ API
 * ["string/json"](modules/_string_json_.md)
 * ["string/misc"](modules/_string_misc_.md)
 * ["string/quote"](modules/_string_quote_.md)
+* ["string/template"](modules/_string_template_.md)
 * ["time/formatDate"](modules/_time_formatdate_.md)
 * ["time/index"](modules/_time_index_.md)
 * ["time/printMs"](modules/_time_printms_.md)
