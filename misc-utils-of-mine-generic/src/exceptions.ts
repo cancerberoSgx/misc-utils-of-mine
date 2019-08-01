@@ -1,5 +1,3 @@
-import { CanBeUndefined } from 'misc-utils-of-mine-typescript'
-
 export function checkThrow<T>(r?: T, msg = 'Throwing on undefined value'): T {
   if (!r) {
     throw new Error(msg)

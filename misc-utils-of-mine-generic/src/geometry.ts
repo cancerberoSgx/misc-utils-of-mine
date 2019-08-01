@@ -68,7 +68,7 @@ export class Point {
  * non-positive widths and heights in that case.
  */
 export class Rect {
-  constructor(public left: number, public top: number, public right: number, public bottom: number) { }
+  constructor(public left: number, public top: number, public right: number, public bottom: number) {}
 
   get x() {
     return this.left

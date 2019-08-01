@@ -1,5 +1,4 @@
-import { EmptyObject, ObjectStringKeyUnion, notUndefined } from 'misc-utils-of-mine-typescript'
-import { isObject, isArray } from './type'
+import { ObjectStringKeyUnion, EmptyObject, notUndefined, isArray, isObject } from './type'
 
 /**
  * Same as `Object.keys()` but with types.
@@ -96,7 +95,7 @@ export function setObjectProperty(object: any, path: string | (string | number)[
       if (typeof tokens[i + 1] === 'number' && !Array.isArray(prev[currentToken])) {
         throw new Error(
           `Detected number path item on non array value. Path: ${path}, item: ${tokens[i + 1]}, Value: ${
-          prev[currentToken]
+            prev[currentToken]
           }`
         )
       }

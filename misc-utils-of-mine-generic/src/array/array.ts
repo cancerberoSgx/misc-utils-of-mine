@@ -1,4 +1,4 @@
-import { NotFalsy } from 'misc-utils-of-mine-typescript'
+import { NotFalsy } from '../type'
 
 export function array<T = number>(n: number, sample?: T): T[] {
   const a: (T | number)[] = []
