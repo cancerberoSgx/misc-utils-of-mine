@@ -17,9 +17,9 @@ interface CompareWithMultiplicityOptionsConcrete {
   multiplicity?: Multiplicity
 }
 
-export interface CompareOptions extends CompareWithMultiplicityOptionsConcrete, BaseCompareOptions {}
+export interface CompareOptions extends CompareWithMultiplicityOptionsConcrete, BaseCompareOptions { }
 
-export interface CompareTextsOptions extends CompareTextOptions, CompareWithMultiplicityOptionsConcrete {}
+export interface CompareTextsOptions extends CompareTextOptions, CompareWithMultiplicityOptionsConcrete { }
 
 export function compareTexts(actual: string | string[], expected: string | string[], options: CompareTextsOptions) {
   return compareWithMultiplicity(actual, expected, options, compareText)
