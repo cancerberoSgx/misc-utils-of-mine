@@ -27,7 +27,7 @@
 
 • **asCode**? : *undefined | false | true*
 
-*Defined in [compareText.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L12)*
+*Defined in [compareText.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/compareText.ts#L12)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **caseInsensitive**? : *undefined | false | true*
 
-*Defined in [compareText.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L11)*
+*Defined in [compareText.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/compareText.ts#L11)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Inherited from [BaseCompareOptions](_comparetext_.basecompareoptions.md).[negate](_comparetext_.basecompareoptions.md#optional-negate)*
 
-*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L7)*
+*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/compareText.ts#L7)*
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 • **verb**? : *[TextCompareMode](../modules/_comparetext_.md#textcomparemode)*
 
-*Defined in [compareText.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L13)*
+*Defined in [compareText.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/compareText.ts#L13)*
