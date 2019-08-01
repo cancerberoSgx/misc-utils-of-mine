@@ -10,3 +10,4 @@ api
 .travis.yml
 formatCodeSettings.json
 dist/**/__tests__
+tmp*
