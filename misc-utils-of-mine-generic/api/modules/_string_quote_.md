@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["string/quote"](../modules/_string_quote_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["string/quote"](_string_quote_.md) /
 
 # External module: "string/quote"
 
@@ -11,79 +13,69 @@
 * [repeat](_string_quote_.md#repeat)
 * [unquote](_string_quote_.md#unquote)
 
----
-
 ## Functions
-
-<a id="indent"></a>
 
 ###  indent
 
-▸ **indent**(i?: *`number`*, tabSize?: *`number`*): `string`
+▸ **indent**(`i`: number, `tabSize`: number): *string*
 
-*Defined in [string/quote.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/quote.ts#L15)*
+*Defined in [string/quote.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/quote.ts#L15)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` i | `number` | 1 |
-| `Default value` tabSize | `number` | 2 |
+Name | Type | Default |
+------ | ------ | ------ |
+`i` | number | 1 |
+`tabSize` | number | 2 |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="quote"></a>
 
 ###  quote
 
-▸ **quote**(s: *`string`*, q?: *`string`*): `string`
+▸ **quote**(`s`: string, `q`: string): *string*
 
-*Defined in [string/quote.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/quote.ts#L3)*
+*Defined in [string/quote.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/quote.ts#L3)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| s | `string` | - |
-| `Default value` q | `string` | &quot;&quot;&quot; |
+Name | Type | Default |
+------ | ------ | ------ |
+`s` | string | - |
+`q` | string | """ |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="repeat"></a>
 
 ###  repeat
 
-▸ **repeat**(n: *`number`*, s: *`string`*): `string`
+▸ **repeat**(`n`: number, `s`: string): *string*
 
-*Defined in [string/quote.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/quote.ts#L11)*
+*Defined in [string/quote.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/quote.ts#L11)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| n | `number` |
-| s | `string` |
+Name | Type |
+------ | ------ |
+`n` | number |
+`s` | string |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="unquote"></a>
 
 ###  unquote
 
-▸ **unquote**(s: *`string`*): `string`
+▸ **unquote**(`s`: string): *string*
 
-*Defined in [string/quote.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/quote.ts#L7)*
+*Defined in [string/quote.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/quote.ts#L7)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| s | `string` |
+Name | Type |
+------ | ------ |
+`s` | string |
 
-**Returns:** `string`
-
-___
-
+**Returns:** *string*

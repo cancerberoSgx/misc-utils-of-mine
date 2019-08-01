@@ -1,21 +1,26 @@
-[misc-utils-of-mine-generic](../README.md) > ["event"](../modules/_event_.md) > [Emitter](../classes/_event_.emitter.md)
+> **[misc-utils-of-mine-generic](../README.md)**
 
-# Class: Emitter
+[Globals](../globals.md) / ["event"](../modules/_event_.md) / [Emitter](_event_.emitter.md) /
+
+# Class: Emitter <**E, L**>
 
 The simplest implementation of an event emitter.
 
 ## Type parameters
-#### E 
-#### L :  [Listener](../modules/_event_.md#listener)<`E`>
+
+▪ **E**
+
+▪ **L**: *[Listener](../modules/_event_.md#listener)‹*`E`*›*
+
 ## Hierarchy
 
-**Emitter**
+* **Emitter**
 
 ## Index
 
 ### Properties
 
-* [l](_event_.emitter.md#l)
+* [l](_event_.emitter.md#private-l)
 
 ### Methods
 
@@ -23,71 +28,58 @@ The simplest implementation of an event emitter.
 * [emit](_event_.emitter.md#emit)
 * [remove](_event_.emitter.md#remove)
 
----
-
 ## Properties
 
-<a id="l"></a>
+### `Private` l
 
-### `<Private>` l
+• **l**: *`L`[]* =  []
 
-**● l**: *`L`[]* =  []
-
-*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/event.ts#L5)*
-
-___
+*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/event.ts#L5)*
 
 ## Methods
 
-<a id="add"></a>
-
 ###  add
 
-▸ **add**(l: *`L`*): `void`
+▸ **add**(`l`: `L`): *void*
 
-*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/event.ts#L6)*
+*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/event.ts#L6)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| l | `L` |
+Name | Type |
+------ | ------ |
+`l` | `L` |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="emit"></a>
 
 ###  emit
 
-▸ **emit**(e: *`E`*): `void`
+▸ **emit**(`e`: `E`): *void*
 
-*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/event.ts#L9)*
+*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/event.ts#L9)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| e | `E` |
+Name | Type |
+------ | ------ |
+`e` | `E` |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="remove"></a>
 
 ###  remove
 
-▸ **remove**(l: *`L`*): `void`
+▸ **remove**(`l`: `L`): *void*
 
-*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/event.ts#L12)*
+*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/event.ts#L12)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| l | `L` |
+Name | Type |
+------ | ------ |
+`l` | `L` |
 
-**Returns:** `void`
-
-___
-
+**Returns:** *void*

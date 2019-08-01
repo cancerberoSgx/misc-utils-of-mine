@@ -8,9 +8,9 @@ export function printMs(
 ) {
   config = { ...{ minutes: false, seconds: true, ms: true }, ...config }
   const seconds = config.seconds && Math.floor(ms / 1000)
-  const minutes = config.minutes && seconds && Math.floor(seconds / 60)
+  const minutes = config.minutes && seconds && (config.ms ? Math.floor(seconds / 60) : Math.round(seconds / 60))
   const milliseconds = config.ms && Math.floor(ms % 1000 || ms)
   return `${minutes ? `${minutes} minutes ` : ''}${seconds ? `${seconds} seconds ` : ''}${
-    milliseconds ? `${milliseconds} milliseconds ` : ''
+    milliseconds ? `${milliseconds} ms ` : ''
     }`
 }

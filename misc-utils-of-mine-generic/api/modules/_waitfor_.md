@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["waitFor"](../modules/_waitfor_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["waitFor"](_waitfor_.md) /
 
 # External module: "waitFor"
 
@@ -14,64 +16,55 @@
 
 ### Object literals
 
-* [defaultOptions](_waitfor_.md#defaultoptions)
-
----
+* [defaultOptions](_waitfor_.md#const-defaultoptions)
 
 ## Functions
 
-<a id="waitforpredicate"></a>
-
 ###  waitForPredicate
 
-▸ **waitForPredicate**<`T`>(p: *`function`*, options?: *[WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) \| `string`*): `Promise`<`T`>
+▸ **waitForPredicate**<**T**>(`p`: function, `options`: [WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) | string): *`Promise<T>`*
 
-*Defined in [waitFor.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/waitFor.ts#L23)*
+*Defined in [waitFor.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/waitFor.ts#L23)*
 
-Returns a promise that is resolved when given predicate function returns truthy or timeout (see options). The function is called in given option's [interval](../interfaces/_waitfor_.waitforpredicateoptions.md#interval) times.
+Returns a promise that is resolved when given predicate function returns truthy or
+timeout (see options). The function is called in given option's [interval](../interfaces/_waitfor_.waitforpredicateoptions.md#optional-interval) times.
 
 **Type parameters:**
 
-#### T 
+▪ **T**
+
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| p | `function` | - |
-| `Default value` options | [WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) \| `string` |  { interval: 200, timeout: 3000 } |
+▪ **p**: *function*
 
-**Returns:** `Promise`<`T`>
+▸ (...`args`: any[]): *`T` | undefined*
 
-___
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`...args` | any[] |
+
+▪`Default value`  **options**: *[WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) | string*=  { interval: 200, timeout: 3000 }
+
+**Returns:** *`Promise<T>`*
 
 ## Object literals
 
-<a id="defaultoptions"></a>
+### `Const` defaultOptions
 
-### `<Const>` defaultOptions
+### ▪ **defaultOptions**: *object*
 
-**defaultOptions**: *`object`*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
-*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
+###  interval
 
-<a id="defaultoptions.interval"></a>
+• **interval**: *number* = 200
 
-####  interval
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
-**● interval**: *`number`* = 200
+###  timeout
 
-*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
+• **timeout**: *number* = 3000
 
-___
-<a id="defaultoptions.timeout"></a>
-
-####  timeout
-
-**● timeout**: *`number`* = 3000
-
-*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
-
-___
-
-___
-
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/waitFor.ts#L17)*

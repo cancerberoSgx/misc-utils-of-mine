@@ -1,6 +1,8 @@
-[misc-utils-of-mine-generic](../README.md) > ["promise"](../modules/_promise_.md) > [Deferred](../classes/_promise_.deferred.md)
+> **[misc-utils-of-mine-generic](../README.md)**
 
-# Class: Deferred
+[Globals](../globals.md) / ["promise"](../modules/_promise_.md) / [Deferred](_promise_.deferred.md) /
+
+# Class: Deferred <**R, J**>
 
 Promise like object that allows to resolve it promise from outside code. Example:
 
@@ -16,11 +18,14 @@ this.fooReady.resolve(data)
 ```
 
 ## Type parameters
-#### R 
-#### J 
+
+▪ **R**
+
+▪ **J**
+
 ## Hierarchy
 
-**Deferred**
+* **Deferred**
 
 ## Index
 
@@ -30,7 +35,7 @@ this.fooReady.resolve(data)
 
 ### Properties
 
-* [promise](_promise_.deferred.md#promise)
+* [promise](_promise_.deferred.md#private-promise)
 * [reject](_promise_.deferred.md#reject)
 * [resolve](_promise_.deferred.md#resolve)
 
@@ -39,114 +44,106 @@ this.fooReady.resolve(data)
 * [catch](_promise_.deferred.md#catch)
 * [then](_promise_.deferred.md#then)
 
----
-
 ## Constructors
-
-<a id="constructor"></a>
 
 ###  constructor
 
-⊕ **new Deferred**(callback?: *`undefined` \| `function`*): [Deferred](_promise_.deferred.md)
+\+ **new Deferred**(`callback?`: undefined | function): *[Deferred](_promise_.deferred.md)*
 
-*Defined in [promise.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/promise.ts#L35)*
+*Defined in [promise.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/promise.ts#L35)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` callback | `undefined` \| `function` |
+Name | Type |
+------ | ------ |
+`callback?` | undefined \| function |
 
-**Returns:** [Deferred](_promise_.deferred.md)
-
-___
+**Returns:** *[Deferred](_promise_.deferred.md)*
 
 ## Properties
 
-<a id="promise"></a>
+### `Private` promise
 
-### `<Private>` promise
+• **promise**: *`Promise<R>`*
 
-**● promise**: *`Promise`<`R`>*
-
-*Defined in [promise.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/promise.ts#L35)*
+*Defined in [promise.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/promise.ts#L35)*
 
 ___
-<a id="reject"></a>
 
 ###  reject
 
-**● reject**: *`function`*
+• **reject**: *function*
 
-*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/promise.ts#L34)*
+*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/promise.ts#L34)*
 
-#### Type declaration
-▸(r: *`J`*): `void`
+#### Type declaration:
+
+▸ (`r`: `J`): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| r | `J` |
-
-**Returns:** `void`
+Name | Type |
+------ | ------ |
+`r` | `J` |
 
 ___
-<a id="resolve"></a>
 
 ###  resolve
 
-**● resolve**: *`function`*
+• **resolve**: *function*
 
-*Defined in [promise.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/promise.ts#L33)*
+*Defined in [promise.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/promise.ts#L33)*
 
-#### Type declaration
-▸(r: *`R`*): `void`
+#### Type declaration:
+
+▸ (`r`: `R`): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| r | `R` |
-
-**Returns:** `void`
-
-___
+Name | Type |
+------ | ------ |
+`r` | `R` |
 
 ## Methods
 
-<a id="catch"></a>
-
 ###  catch
 
-▸ **catch**(r: *`function`*): `Promise`<`void` \| `R`>
+▸ **catch**(`r`: function): *`Promise<void | R>`*
 
-*Defined in [promise.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/promise.ts#L51)*
+*Defined in [promise.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/promise.ts#L51)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| r | `function` |
+▪ **r**: *function*
 
-**Returns:** `Promise`<`void` \| `R`>
+▸ (`reject`: `J`): *void*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`reject` | `J` |
+
+**Returns:** *`Promise<void | R>`*
 
 ___
-<a id="then"></a>
 
 ###  then
 
-▸ **then**(resolve: *`function`*): `Promise`<`void`>
+▸ **then**(`resolve`: function): *`Promise<void>`*
 
-*Defined in [promise.ts:48](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/promise.ts#L48)*
+*Defined in [promise.ts:48](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/promise.ts#L48)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| resolve | `function` |
+▪ **resolve**: *function*
 
-**Returns:** `Promise`<`void`>
+▸ (`r`: `R`): *void*
 
-___
+**Parameters:**
 
+Name | Type |
+------ | ------ |
+`r` | `R` |
+
+**Returns:** *`Promise<void>`*

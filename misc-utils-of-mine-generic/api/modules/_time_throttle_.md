@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["time/throttle"](../modules/_time_throttle_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["time/throttle"](_time_throttle_.md) /
 
 # External module: "time/throttle"
 
@@ -8,35 +10,29 @@
 
 * [throttle](_time_throttle_.md#throttle)
 
----
-
 ## Functions
-
-<a id="throttle"></a>
 
 ###  throttle
 
-▸ **throttle**<`F`>(func: *`F`*, wait: *`number`*, options?: *`object`*): `(Anonymous function)`
+▸ **throttle**<**F**>(`func`: `F`, `wait`: number, `options`: object): *`(Anonymous function)`*
 
-*Defined in [time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
+*Defined in [time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
 
 **Type parameters:**
 
-#### F :  `function`
+▪ **F**: *function*
+
 **Parameters:**
 
-**func: `F`**
+▪ **func**: *`F`*
 
-**wait: `number`**
+▪ **wait**: *number*
 
-**`Default value` options: `object`**
+▪`Default value`  **options**: *object*=  {}
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` leading | `undefined` \| `false` \| `true` |
-| `Optional` trailing | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`leading?` | undefined \| false \| true |
+`trailing?` | undefined \| false \| true |
 
-**Returns:** `(Anonymous function)`
-
-___
-
+**Returns:** *`(Anonymous function)`*

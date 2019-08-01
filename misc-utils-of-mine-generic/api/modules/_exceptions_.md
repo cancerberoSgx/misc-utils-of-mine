@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["exceptions"](../modules/_exceptions_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["exceptions"](_exceptions_.md) /
 
 # External module: "exceptions"
 
@@ -9,51 +11,53 @@
 * [checkThrow](_exceptions_.md#checkthrow)
 * [tryTo](_exceptions_.md#tryto)
 
----
-
 ## Functions
-
-<a id="checkthrow"></a>
 
 ###  checkThrow
 
-▸ **checkThrow**<`T`>(r?: *[T]()*, msg?: *`string`*): `T`
+▸ **checkThrow**<**T**>(`r?`: [T](), `msg`: string): *`T`*
 
-*Defined in [exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
+*Defined in [exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
 
 **Type parameters:**
 
-#### T 
+▪ **T**
+
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Optional` r | [T]() | - |
-| `Default value` msg | `string` | &quot;Throwing on undefined value&quot; |
+Name | Type | Default |
+------ | ------ | ------ |
+`r?` | [T]() | - |
+`msg` | string | "Throwing on undefined value" |
 
-**Returns:** `T`
+**Returns:** *`T`*
 
 ___
-<a id="tryto"></a>
 
 ###  tryTo
 
-▸ **tryTo**<`R`,`D`>(f: *`function`*, def?: *[D]()*): `R` \| `D` \| `undefined`
+▸ **tryTo**<**R**, **D**>(`f`: function, `def?`: [D]()): *`R` | `D` | undefined*
 
-*Defined in [exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
+*Defined in [exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
 
 **Type parameters:**
 
-#### R 
-#### D 
+▪ **R**
+
+▪ **D**
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| f | `function` |
-| `Optional` def | [D]() |
+▪ **f**: *function*
 
-**Returns:** `R` \| `D` \| `undefined`
+▸ (...`args`: any[]): *`R`*
 
-___
+**Parameters:**
 
+Name | Type |
+------ | ------ |
+`...args` | any[] |
+
+▪`Optional`  **def**: *[D]()*
+
+**Returns:** *`R` | `D` | undefined*

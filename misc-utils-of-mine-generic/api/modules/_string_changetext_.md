@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["string/changeText"](../modules/_string_changetext_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["string/changeText"](_string_changetext_.md) /
 
 # External module: "string/changeText"
 
@@ -8,26 +10,19 @@
 
 * [changeText](_string_changetext_.md#changetext)
 
----
-
 ## Functions
-
-<a id="changetext"></a>
 
 ###  changeText
 
-▸ **changeText**(text: *`string`*, toInsert: *`object`[]*): `string`
+▸ **changeText**(`text`: string, `toInsert`: object[]): *string*
 
-*Defined in [string/changeText.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/changeText.ts#L1)*
+*Defined in [string/changeText.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/changeText.ts#L1)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| text | `string` |
-| toInsert | `object`[] |
+Name | Type |
+------ | ------ |
+`text` | string |
+`toInsert` | object[] |
 
-**Returns:** `string`
-
-___
-
+**Returns:** *string*

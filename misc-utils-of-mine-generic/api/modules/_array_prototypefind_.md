@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["array/prototypeFind"](../modules/_array_prototypefind_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["array/prototypeFind"](_array_prototypefind_.md) /
 
 # External module: "array/prototypeFind"
 
@@ -13,75 +15,64 @@
 * [arrayPrototypeFind](_array_prototypefind_.md#arrayprototypefind)
 * [installArrayPrototypeFind](_array_prototypefind_.md#installarrayprototypefind)
 
----
-
 ## Type aliases
-
-<a id="findpredicate"></a>
 
 ###  FindPredicate
 
-**Ƭ FindPredicate**: *`function`*
+Ƭ **FindPredicate**: *function*
 
-*Defined in [array/prototypeFind.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L15)*
+*Defined in [array/prototypeFind.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L15)*
 
-#### Type declaration
-▸(this: *`E`*, value: *`T`*, index: *`number`*, obj: *`T`[]*): `boolean`
+#### Type declaration:
+
+▸ (`this`: `E`, `value`: `T`, `index`: number, `obj`: `T`[]): *boolean*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| this | `E` |
-| value | `T` |
-| index | `number` |
-| obj | `T`[] |
-
-**Returns:** `boolean`
-
-___
+Name | Type |
+------ | ------ |
+`this` | `E` |
+`value` | `T` |
+`index` | number |
+`obj` | `T`[] |
 
 ## Functions
 
-<a id="arrayprototypefind"></a>
-
 ###  arrayPrototypeFind
 
-▸ **arrayPrototypeFind**<`T`,`E`>(this: *`E`*, a: *`T`[]*, predicate: *[FindPredicate](_array_prototypefind_.md#findpredicate)<`T`, `undefined` \| `E`>*, thisArg?: *[E]()*): `T` \| `undefined`
+▸ **arrayPrototypeFind**<**T**, **E**>(`this`: `E`, `a`: `T`[], `predicate`: [FindPredicate](_array_prototypefind_.md#findpredicate)‹*`T`*, *undefined | `E`*›, `thisArg?`: [E]()): *`T` | undefined*
 
-*Defined in [array/prototypeFind.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L1)*
+*Defined in [array/prototypeFind.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L1)*
 
 **Type parameters:**
 
-#### T 
-#### E 
+▪ **T**
+
+▪ **E**
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| this | `E` |
-| a | `T`[] |
-| predicate | [FindPredicate](_array_prototypefind_.md#findpredicate)<`T`, `undefined` \| `E`> |
-| `Optional` thisArg | [E]() |
+Name | Type |
+------ | ------ |
+`this` | `E` |
+`a` | `T`[] |
+`predicate` | [FindPredicate](_array_prototypefind_.md#findpredicate)‹*`T`*, *undefined \| `E`*› |
+`thisArg?` | [E]() |
 
-**Returns:** `T` \| `undefined`
+**Returns:** *`T` | undefined*
 
 ___
-<a id="installarrayprototypefind"></a>
 
 ###  installArrayPrototypeFind
 
-▸ **installArrayPrototypeFind**(force?: *`boolean`*): `void`
+▸ **installArrayPrototypeFind**(`force`: boolean): *void*
 
-*Defined in [array/prototypeFind.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L17)*
+*Defined in [array/prototypeFind.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L17)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` force | `boolean` | false |
+Name | Type | Default |
+------ | ------ | ------ |
+`force` | boolean | false |
 
-**Returns:** `void`
-
-___
-
+**Returns:** *void*

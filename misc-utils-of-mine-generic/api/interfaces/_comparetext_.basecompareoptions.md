@@ -1,32 +1,27 @@
-[misc-utils-of-mine-generic](../README.md) > ["compareText"](../modules/_comparetext_.md) > [BaseCompareOptions](../interfaces/_comparetext_.basecompareoptions.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["compareText"](../modules/_comparetext_.md) / [BaseCompareOptions](_comparetext_.basecompareoptions.md) /
 
 # Interface: BaseCompareOptions
 
 ## Hierarchy
 
-**BaseCompareOptions**
+* **BaseCompareOptions**
 
-↳  [CompareTextOptions](_comparetext_.comparetextoptions.md)
+  * [CompareTextOptions](_comparetext_.comparetextoptions.md)
 
-↳  [CompareOptions](_comparetext_.compareoptions.md)
+  * [CompareOptions](_comparetext_.compareoptions.md)
 
 ## Index
 
 ### Properties
 
-* [negate](_comparetext_.basecompareoptions.md#negate)
-
----
+* [negate](_comparetext_.basecompareoptions.md#optional-negate)
 
 ## Properties
 
-<a id="negate"></a>
+### `Optional` negate
 
-### `<Optional>` negate
+• **negate**? : *undefined | false | true*
 
-**● negate**: *`undefined` \| `false` \| `true`*
-
-*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L7)*
-
-___
-
+*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L7)*

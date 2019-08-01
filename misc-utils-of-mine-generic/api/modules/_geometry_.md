@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["geometry"](../modules/_geometry_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["geometry"](_geometry_.md) /
 
 # External module: "geometry"
 
@@ -13,28 +15,20 @@
 
 * [NumberMapFn](_geometry_.md#numbermapfn)
 
----
-
 ## Type aliases
-
-<a id="numbermapfn"></a>
 
 ###  NumberMapFn
 
-**Ƭ NumberMapFn**: *`function`*
+Ƭ **NumberMapFn**: *function*
 
-*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/geometry.ts#L5)*
+*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/geometry.ts#L5)*
 
-#### Type declaration
-▸(n: *`number`*): `number`
+#### Type declaration:
+
+▸ (`n`: number): *number*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| n | `number` |
-
-**Returns:** `number`
-
-___
-
+Name | Type |
+------ | ------ |
+`n` | number |

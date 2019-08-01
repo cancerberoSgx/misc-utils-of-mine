@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["compareText"](../modules/_comparetext_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["compareText"](_comparetext_.md) /
 
 # External module: "compareText"
 
@@ -25,125 +27,121 @@
 * [compareWithMultiplicity](_comparetext_.md#comparewithmultiplicity)
 * [negate](_comparetext_.md#negate)
 
----
-
 ## Type aliases
-
-<a id="multiplicity"></a>
 
 ###  Multiplicity
 
-**Ƭ Multiplicity**: *"anyOf" \| "allOf"*
+Ƭ **Multiplicity**: *"anyOf" | "allOf"*
 
-*Defined in [compareText.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L4)*
+*Defined in [compareText.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L4)*
 
 ___
-<a id="textcomparemode"></a>
 
 ###  TextCompareMode
 
-**Ƭ TextCompareMode**: *"contains" \| "contained" \| "equals" \| "startsWith" \| "endsWith"*
+Ƭ **TextCompareMode**: *"contains" | "contained" | "equals" | "startsWith" | "endsWith"*
 
-*Defined in [compareText.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L3)*
-
-___
+*Defined in [compareText.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L3)*
 
 ## Functions
 
-<a id="buildtext"></a>
-
 ###  buildText
 
-▸ **buildText**(text: *`string`*, options: *[CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md)*): `string`
+▸ **buildText**(`text`: string, `options`: [CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md)): *string*
 
-*Defined in [compareText.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L75)*
+*Defined in [compareText.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L75)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| text | `string` |
-| options | [CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md) |
+Name | Type |
+------ | ------ |
+`text` | string |
+`options` | [CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md) |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="comparetext"></a>
 
 ###  compareText
 
-▸ **compareText**(actual: *`string`*, expected: *`string`*, options: *[CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md)*): `boolean`
+▸ **compareText**(`actual`: string, `expected`: string, `options`: [CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md)): *boolean*
 
-*Defined in [compareText.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L28)*
+*Defined in [compareText.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L28)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| actual | `string` |
-| expected | `string` |
-| options | [CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md) |
+Name | Type |
+------ | ------ |
+`actual` | string |
+`expected` | string |
+`options` | [CompareTextOptions](../interfaces/_comparetext_.comparetextoptions.md) |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="comparetexts"></a>
 
 ###  compareTexts
 
-▸ **compareTexts**(actual: *`string` \| `string`[]*, expected: *`string` \| `string`[]*, options: *[CompareTextsOptions](../interfaces/_comparetext_.comparetextsoptions.md)*): `boolean`
+▸ **compareTexts**(`actual`: string | string[], `expected`: string | string[], `options`: [CompareTextsOptions](../interfaces/_comparetext_.comparetextsoptions.md)): *boolean*
 
-*Defined in [compareText.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L24)*
+*Defined in [compareText.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L24)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| actual | `string` \| `string`[] |
-| expected | `string` \| `string`[] |
-| options | [CompareTextsOptions](../interfaces/_comparetext_.comparetextsoptions.md) |
+Name | Type |
+------ | ------ |
+`actual` | string \| string[] |
+`expected` | string \| string[] |
+`options` | [CompareTextsOptions](../interfaces/_comparetext_.comparetextsoptions.md) |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="comparewithmultiplicity"></a>
 
 ###  compareWithMultiplicity
 
-▸ **compareWithMultiplicity**<`T`>(_actual: *`T` \| `T`[]*, _expected: *`T` \| `T`[]*, options: *[CompareOptions](../interfaces/_comparetext_.compareoptions.md)*, predicate: *`function`*): `boolean`
+▸ **compareWithMultiplicity**<**T**>(`_actual`: `T` | `T`[], `_expected`: `T` | `T`[], `options`: [CompareOptions](../interfaces/_comparetext_.compareoptions.md), `predicate`: function): *boolean*
 
-*Defined in [compareText.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L49)*
+*Defined in [compareText.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L49)*
 
 **Type parameters:**
 
-#### T 
+▪ **T**
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| _actual | `T` \| `T`[] |
-| _expected | `T` \| `T`[] |
-| options | [CompareOptions](../interfaces/_comparetext_.compareoptions.md) |
-| predicate | `function` |
+▪ **_actual**: *`T` | `T`[]*
 
-**Returns:** `boolean`
+▪ **_expected**: *`T` | `T`[]*
+
+▪ **options**: *[CompareOptions](../interfaces/_comparetext_.compareoptions.md)*
+
+▪ **predicate**: *function*
+
+▸ (`actual`: `T`, `expected`: `T`, `options`: [CompareOptions](../interfaces/_comparetext_.compareoptions.md)): *boolean*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`actual` | `T` |
+`expected` | `T` |
+`options` | [CompareOptions](../interfaces/_comparetext_.compareoptions.md) |
+
+**Returns:** *boolean*
 
 ___
-<a id="negate"></a>
 
 ###  negate
 
-▸ **negate**(b: *`boolean`*): `boolean`
+▸ **negate**(`b`: boolean): *boolean*
 
-*Defined in [compareText.ts:71](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/compareText.ts#L71)*
+*Defined in [compareText.ts:71](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/compareText.ts#L71)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| b | `boolean` |
+Name | Type |
+------ | ------ |
+`b` | boolean |
 
-**Returns:** `boolean`
-
-___
-
+**Returns:** *boolean*

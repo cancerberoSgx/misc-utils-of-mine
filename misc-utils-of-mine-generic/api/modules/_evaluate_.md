@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["evaluate"](../modules/_evaluate_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["evaluate"](_evaluate_.md) /
 
 # External module: "evaluate"
 
@@ -8,29 +10,23 @@
 
 * [evaluate](_evaluate_.md#evaluate)
 
----
-
 ## Functions
-
-<a id="evaluate"></a>
 
 ###  evaluate
 
-▸ **evaluate**<`T`>(s: *`string`*, defaultValue?: *`undefined`*): `T` \| `undefined`
+▸ **evaluate**<**T**>(`s`: string, `defaultValue`: undefined): *`T` | undefined*
 
-*Defined in [evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/evaluate.ts#L1)*
+*Defined in [evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/evaluate.ts#L1)*
 
 **Type parameters:**
 
-#### T 
+▪ **T**
+
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| s | `string` | - |
-| `Default value` defaultValue | `undefined` |  undefined |
+Name | Type | Default |
+------ | ------ | ------ |
+`s` | string | - |
+`defaultValue` | undefined |  undefined |
 
-**Returns:** `T` \| `undefined`
-
-___
-
+**Returns:** *`T` | undefined*

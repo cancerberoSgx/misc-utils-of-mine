@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["string/html"](../modules/_string_html_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["string/html"](_string_html_.md) /
 
 # External module: "string/html"
 
@@ -12,98 +14,87 @@
 * [unEscapeHtmlAttribute](_string_html_.md#unescapehtmlattribute)
 * [wrapInHtml](_string_html_.md#wrapinhtml)
 
----
-
 ## Functions
-
-<a id="escapehtmlattribute"></a>
 
 ###  escapeHtmlAttribute
 
-▸ **escapeHtmlAttribute**(code: *`string`*): `string`
+▸ **escapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/html.ts#L1)*
+*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/html.ts#L1)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| code | `string` |
+Name | Type |
+------ | ------ |
+`code` | string |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="styleobjecttocss"></a>
 
 ###  styleObjectToCss
 
-▸ **styleObjectToCss**(o: *`Partial`<`object`>*, propertiesSeparator?: *`string`*): `string`
+▸ **styleObjectToCss**(`o`: `Partial<object>`, `propertiesSeparator`: string): *string*
 
-*Defined in [string/html.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/html.ts#L28)*
+*Defined in [string/html.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/html.ts#L28)*
 
 transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| o | `Partial`<`object`> | - |
-| `Default value` propertiesSeparator | `string` | &quot;&quot; |
+Name | Type | Default |
+------ | ------ | ------ |
+`o` | `Partial<object>` | - |
+`propertiesSeparator` | string | "" |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="stylepropertynametocsssyntax"></a>
 
 ###  stylePropertyNameToCssSyntax
 
-▸ **stylePropertyNameToCssSyntax**(s: *`string`*): `string`
+▸ **stylePropertyNameToCssSyntax**(`s`: string): *string*
 
-*Defined in [string/html.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/html.ts#L37)*
+*Defined in [string/html.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/html.ts#L37)*
 
 Transform a string like `fooBar` to `foo-bar`
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| s | `string` |
+Name | Type |
+------ | ------ |
+`s` | string |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="unescapehtmlattribute"></a>
 
 ###  unEscapeHtmlAttribute
 
-▸ **unEscapeHtmlAttribute**(code: *`string`*): `string`
+▸ **unEscapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/html.ts#L4)*
+*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/html.ts#L4)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| code | `string` |
+Name | Type |
+------ | ------ |
+`code` | string |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="wrapinhtml"></a>
 
 ###  wrapInHtml
 
-▸ **wrapInHtml**(s: *`string`*): `string`
+▸ **wrapInHtml**(`s`: string): *string*
 
-*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/html.ts#L8)*
+*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/html.ts#L8)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| s | `string` |
+Name | Type |
+------ | ------ |
+`s` | string |
 
-**Returns:** `string`
-
-___
-
+**Returns:** *string*

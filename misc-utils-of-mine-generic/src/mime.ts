@@ -1,8 +1,11 @@
+import { writeFileSync } from 'fs'
+
 /**
  * Returns mimetype associated to given extension or undefined if none is found. This only considers nginx
  * mime type list form https://github.com/jshttp/mime-db
  */
 export function getMimeTypeForExtension(extension: string) {
+  writeFileSync('tmp.txt', JSON.stringify(commonExtensionMimeTypeMap, null, 2))
   return Object.keys(commonExtensionMimeTypeMap).find(a => commonExtensionMimeTypeMap[a].extensions.includes(extension))
 }
 

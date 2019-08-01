@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["string/template"](../modules/_string_template_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["string/template"](_string_template_.md) /
 
 # External module: "string/template"
 
@@ -12,38 +14,27 @@
 
 * [template](_string_template_.md#template)
 
----
-
 ## Variables
-
-<a id="cache"></a>
 
 ###  cache
 
-**● cache**: *`any`*
+• **cache**: *any*
 
-*Defined in string/template.ts:1*
-
-___
+*Defined in [string/template.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/template.ts#L1)*
 
 ## Functions
 
-<a id="template"></a>
-
 ###  template
 
-▸ **template**(str: *`string`*, data?: *`any`*): `any`
+▸ **template**(`str`: string, `data?`: any): *any*
 
-*Defined in string/template.ts:3*
+*Defined in [string/template.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/template.ts#L3)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| str | `string` |
-| `Optional` data | `any` |
+Name | Type |
+------ | ------ |
+`str` | string |
+`data?` | any |
 
-**Returns:** `any`
-
-___
-
+**Returns:** *any*

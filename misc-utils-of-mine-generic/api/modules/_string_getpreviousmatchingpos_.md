@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["string/getPreviousMatchingPos"](../modules/_string_getpreviousmatchingpos_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["string/getPreviousMatchingPos"](_string_getpreviousmatchingpos_.md) /
 
 # External module: "string/getPreviousMatchingPos"
 
@@ -9,50 +11,42 @@
 * [getPosition](_string_getpreviousmatchingpos_.md#getposition)
 * [getPreviousMatchingPos](_string_getpreviousmatchingpos_.md#getpreviousmatchingpos)
 
----
-
 ## Functions
-
-<a id="getposition"></a>
 
 ###  getPosition
 
-▸ **getPosition**(string: *`string`*, subString: *`string`*, n: *`number`*): `number`
+▸ **getPosition**(`string`: string, `subString`: string, `n`: number): *number*
 
-*Defined in [string/getPreviousMatchingPos.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L24)*
+*Defined in [string/getPreviousMatchingPos.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L24)*
 
 Gets index of n-th match of given substring on given string.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| string | `string` |
-| subString | `string` |
-| n | `number` |
+Name | Type |
+------ | ------ |
+`string` | string |
+`subString` | string |
+`n` | number |
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="getpreviousmatchingpos"></a>
 
 ###  getPreviousMatchingPos
 
-▸ **getPreviousMatchingPos**(text: *`string`*, pos: *`number`*, predicate: *`string` \| `function`*): `number`
+▸ **getPreviousMatchingPos**(`text`: string, `pos`: number, `predicate`: string | function): *number*
 
-*Defined in [string/getPreviousMatchingPos.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L4)*
+*Defined in [string/getPreviousMatchingPos.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L4)*
 
 Get index of the previous match of given predicate or substring, before given pos, on given text. For the next matching position you can use `String.prototype.findIndexOf` function.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| text | `string` |
-| pos | `number` |
-| predicate | `string` \| `function` |
+Name | Type |
+------ | ------ |
+`text` | string |
+`pos` | number |
+`predicate` | string \| function |
 
-**Returns:** `number`
-
-___
-
+**Returns:** *number*

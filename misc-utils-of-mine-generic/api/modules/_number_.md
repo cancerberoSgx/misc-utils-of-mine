@@ -1,4 +1,6 @@
-[misc-utils-of-mine-generic](../README.md) > ["number"](../modules/_number_.md)
+> **[misc-utils-of-mine-generic](../README.md)**
+
+[Globals](../globals.md) / ["number"](_number_.md) /
 
 # External module: "number"
 
@@ -6,7 +8,7 @@
 
 ### Variables
 
-* [_unique](_number_.md#_unique)
+* [_unique](_number_.md#let-_unique)
 
 ### Functions
 
@@ -14,73 +16,60 @@
 * [randomIntBetween](_number_.md#randomintbetween)
 * [unique](_number_.md#unique)
 
----
-
 ## Variables
 
-<a id="_unique"></a>
+### `Let` _unique
 
-### `<Let>` _unique
+• **_unique**: *number* = 0
 
-**● _unique**: *`number`* = 0
-
-*Defined in [number.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/number.ts#L1)*
-
-___
+*Defined in [number.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/number.ts#L1)*
 
 ## Functions
 
-<a id="randomfloatbetween"></a>
-
 ###  randomFloatBetween
 
-▸ **randomFloatBetween**(a: *`number`*, b: *`number`*): `number`
+▸ **randomFloatBetween**(`a`: number, `b`: number): *number*
 
-*Defined in [number.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/number.ts#L10)*
+*Defined in [number.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/number.ts#L10)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| a | `number` |
-| b | `number` |
+Name | Type |
+------ | ------ |
+`a` | number |
+`b` | number |
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="randomintbetween"></a>
 
 ###  randomIntBetween
 
-▸ **randomIntBetween**(a: *`number`*, b: *`number`*): `number`
+▸ **randomIntBetween**(`a`: number, `b`: number): *number*
 
-*Defined in [number.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/number.ts#L6)*
+*Defined in [number.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/number.ts#L6)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| a | `number` |
-| b | `number` |
+Name | Type |
+------ | ------ |
+`a` | number |
+`b` | number |
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="unique"></a>
 
 ###  unique
 
-▸ **unique**(prefix?: *`string`*): `string`
+▸ **unique**(`prefix`: string): *string*
 
-*Defined in [number.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6844400/misc-utils-of-mine-generic/src/number.ts#L2)*
+*Defined in [number.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/ca10768/misc-utils-of-mine-generic/src/number.ts#L2)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` prefix | `string` | &quot;_&quot; |
+Name | Type | Default |
+------ | ------ | ------ |
+`prefix` | string | "_" |
 
-**Returns:** `string`
-
-___
-
+**Returns:** *string*
