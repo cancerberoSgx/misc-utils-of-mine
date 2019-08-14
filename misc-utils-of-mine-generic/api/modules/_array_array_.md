@@ -6,9 +6,14 @@
 
 ## Index
 
+### Variables
+
+* [arrayUnion](_array_array_.md#const-arrayunion)
+
 ### Functions
 
 * [array](_array_array_.md#array)
+* [arrayDifference](_array_array_.md#arraydifference)
 * [arrayInterception](_array_array_.md#arrayinterception)
 * [asArray](_array_array_.md#asarray)
 * [dedup](_array_array_.md#dedup)
@@ -17,13 +22,21 @@
 * [seq](_array_array_.md#seq)
 * [unionEquals](_array_array_.md#unionequals)
 
+## Variables
+
+### `Const` arrayUnion
+
+• **arrayUnion**: *[unionEquals](_array_array_.md#unionequals)* =  unionEquals
+
+*Defined in [array/array.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L38)*
+
 ## Functions
 
 ###  array
 
 ▸ **array**<**T**>(`n`: number, `sample?`: [T]()): *`T`[]*
 
-*Defined in [array/array.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L3)*
+*Defined in [array/array.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L3)*
 
 **Type parameters:**
 
@@ -40,26 +53,69 @@ Name | Type |
 
 ___
 
-###  arrayInterception
+###  arrayDifference
 
-▸ **arrayInterception**<**A**, **B**>(`a`: `A`[], `b`: `B`[]): *`A` | `B`[]*
+▸ **arrayDifference**<**A**>(`a`: `A`[], `b`: `A`[], `predicate`: function, `output?`: `A`[]): *`A`[]*
 
-*Defined in [array/array.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L26)*
+*Defined in [array/array.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L52)*
 
 **Type parameters:**
 
 ▪ **A**
 
-▪ **B**
+**Parameters:**
+
+▪ **a**: *`A`[]*
+
+▪ **b**: *`A`[]*
+
+▪`Default value`  **predicate**: *function*=  (a, b) => a === b
+
+▸ (`a`: `A`, `b`: `A`): *boolean*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`a` | `A`[] |
-`b` | `B`[] |
+`a` | `A` |
+`b` | `A` |
 
-**Returns:** *`A` | `B`[]*
+▪`Optional`  **output**: *`A`[]*
+
+**Returns:** *`A`[]*
+
+___
+
+###  arrayInterception
+
+▸ **arrayInterception**<**A**>(`a`: `A`[], `b`: `A`[], `predicate`: function, `output?`: `A`[]): *`A`[]*
+
+*Defined in [array/array.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L40)*
+
+**Type parameters:**
+
+▪ **A**
+
+**Parameters:**
+
+▪ **a**: *`A`[]*
+
+▪ **b**: *`A`[]*
+
+▪`Default value`  **predicate**: *function*=  (a, b) => a === b
+
+▸ (`a`: `A`, `b`: `A`): *boolean*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`a` | `A` |
+`b` | `A` |
+
+▪`Optional`  **output**: *`A`[]*
+
+**Returns:** *`A`[]*
 
 ___
 
@@ -67,7 +123,7 @@ ___
 
 ▸ **asArray**<**T**>(`selectors`: `T` | `T`[]): *`T`[]*
 
-*Defined in [array/array.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L15)*
+*Defined in [array/array.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L16)*
 
 **Type parameters:**
 
@@ -87,7 +143,7 @@ ___
 
 ▸ **dedup**<**T**>(`a`: `T`[], `p`: function): *`T`[]*
 
-*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L11)*
+*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L11)*
 
 **Type parameters:**
 
@@ -116,7 +172,7 @@ ___
 
 ▸ **notSame**<**T**>(`t`: `T`, `i`: number, `a`: `T`[]): *boolean*
 
-*Defined in [array/array.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L41)*
+*Defined in [array/array.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L75)*
 
 Use it to remove duplicates in array's filter expressions like `array.filter(notSame)`.
 
@@ -140,7 +196,7 @@ ___
 
 ▸ **notSameNotFalsy**<**T**>(`t`: `T`, `i`: number, `a`: `T`[]): *boolean*
 
-*Defined in [array/array.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L49)*
+*Defined in [array/array.ts:83](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L83)*
 
 Use it remove duplicates and falsy values in filter() expressions like
 `array.filter(notSameNotFalsy)`
@@ -165,7 +221,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [array/array.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L30)*
+*Defined in [array/array.ts:64](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L64)*
 
 **Parameters:**
 
@@ -181,9 +237,9 @@ ___
 
 ###  unionEquals
 
-▸ **unionEquals**<**T**>(`left`: `T`[], `right`: `T`[], `equals`: function): *`T`[]*
+▸ **unionEquals**<**T**>(`a`: `T`[], `b`: `T`[], `predicate`: function, `output?`: `T`[]): *`T`[]*
 
-*Defined in [array/array.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/array/array.ts#L19)*
+*Defined in [array/array.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/array/array.ts#L20)*
 
 **Type parameters:**
 
@@ -191,11 +247,11 @@ ___
 
 **Parameters:**
 
-▪ **left**: *`T`[]*
+▪ **a**: *`T`[]*
 
-▪ **right**: *`T`[]*
+▪ **b**: *`T`[]*
 
-▪ **equals**: *function*
+▪`Default value`  **predicate**: *function*=  (a, b) => a === b
 
 ▸ (`a`: `T`, `b`: `T`): *boolean*
 
@@ -205,5 +261,7 @@ Name | Type |
 ------ | ------ |
 `a` | `T` |
 `b` | `T` |
+
+▪`Optional`  **output**: *`T`[]*
 
 **Returns:** *`T`[]*

@@ -18,7 +18,7 @@
 
 ▸ **cloneJSON**<**T**>(`a`: `T`): *`T`*
 
-*Defined in [string/json.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/string/json.ts#L18)*
+*Defined in [string/json.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/string/json.ts#L18)*
 
 **Type parameters:**
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **parseJSON**<**K**>(`s`: string, `defaultValue`: `K` | undefined): *`K` | undefined*
 
-*Defined in [string/json.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/string/json.ts#L2)*
+*Defined in [string/json.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/string/json.ts#L2)*
 
 try to parse given json string. return undefined in case there is an error.
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **stringifyJSON**<**K**>(`s`: `K`, `defaultValue`: string | undefined): *string | undefined*
 
-*Defined in [string/json.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/30c5b7f/misc-utils-of-mine-generic/src/string/json.ts#L10)*
+*Defined in [string/json.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/string/json.ts#L10)*
 
 **Type parameters:**
 

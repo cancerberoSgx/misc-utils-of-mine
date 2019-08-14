@@ -1,5 +1,6 @@
 import { installArrayPrototypeFind } from '../..'
 import { FindPredicate } from '../prototypeFind'
+import { arrayUnion, arrayInterception, arrayDifference } from '../array'
 declare global {
   interface Array<T> {
     find<S extends T>(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): S | undefined
@@ -28,5 +29,20 @@ describe('array', () => {
       Array.prototype.find = originalFind
       fail(error)
     }
+  })
+
+  it('arrayUnion', () => {
+    expect(arrayUnion([{ a: 1 }, { a: 2 }], [{ a: 1 }, { a: 2 }], (a, b) => a.a === b.a)).toEqual([{ a: 1 }, { a: 2 }])
+  })
+
+  it('arrayInterception', () => {
+    expect(arrayInterception([{ a: 1 }, { a: 2 }], [{ a: 1 }, { a: 2 }], (a, b) => a.a === b.a)).toEqual([
+      { a: 1 },
+      { a: 2 }
+    ])
+  })
+
+  it('arrayDifference', () => {
+    expect(arrayDifference([{ a: 1 }, { a: 2 }], [{ a: 1 }, { a: 2 }], (a, b) => a.a === b.a)).toEqual([])
   })
 })
