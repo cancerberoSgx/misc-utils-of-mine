@@ -1,7 +1,6 @@
 export * from './changeText'
 export * from './getPreviousMatchingPos'
 export * from './html'
-export * from './json'
 export * from './misc'
 export * from './quote'
 export * from './template'

@@ -22,6 +22,10 @@ export function objectMapValues<O extends { [k in keyof O]: O[keyof O] } = any, 
 }
 export const objectMap = objectMapValues
 
+export function objectToArray<O extends { [k in keyof O]: O[keyof O] } = any>(o: O): { [k in keyof O]: O[k] }[] {
+  return objectFilter(o, a => true) as any
+}
+
 export function objectFilter<O extends { [k in keyof O]: O[keyof O] } = any>(
   o: O,
   p: (k: keyof O, v: O[keyof O]) => boolean
