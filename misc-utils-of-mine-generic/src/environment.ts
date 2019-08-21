@@ -7,10 +7,10 @@ export function isNode() {
     typeof process.exit === 'function' &&
     typeof module !== 'undefined' &&
     typeof require === 'function' &&
-    typeof require('f'+'s') !== 'undefined' &&
-    typeof require('f'+'s').writeFileSync === 'function' &&
-    typeof require('child_'+'pro++'+'cess') !== 'undefined' &&
-    typeof require('child_'+'pro++'+'cess').execSync === 'function'
+    typeof require('f' + 's') !== 'undefined' &&
+    typeof require('f' + 's').writeFileSync === 'function' &&
+    typeof require('child_' + 'pro' + 'cess') !== 'undefined' &&
+    typeof require('child_' + 'pro' + 'cess').execSync === 'function'
   )
 }
 

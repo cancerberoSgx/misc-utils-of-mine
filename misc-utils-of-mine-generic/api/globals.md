@@ -41,6 +41,7 @@
 * ["time/printMs"](modules/_time_printms_.md)
 * ["time/throttle"](modules/_time_throttle_.md)
 * ["time/time"](modules/_time_time_.md)
+* ["tree"](modules/_tree_.md)
 * ["type"](modules/_type_.md)
 * ["url"](modules/_url_.md)
 * ["waitFor"](modules/_waitfor_.md)

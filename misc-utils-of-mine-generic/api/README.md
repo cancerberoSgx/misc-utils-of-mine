@@ -9,3 +9,7 @@ These should work on all es5 compatible environments, Browse and node.js and eve
 ## API
 
  [API](api/README.md)
+
+## TODO
+
+- [ ] test tree.ts

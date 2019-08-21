@@ -3,10 +3,7 @@
  * 
  * TODO: test
  */
-// interface I<T> {
-//   childNodes?:T[]
-//   parentNode?:T
-// }
+
 export interface Node {
   childNodes?: Node[]
   parentNode?: Node
@@ -14,21 +11,21 @@ export interface Node {
 
 export function visitChildren<T extends Node>(n: T, v: (c: T) => void) {
   v(n);
-  (n.childNodes||[]).forEach(c => visitChildren(c as any, v))
+  (n.childNodes || []).forEach(c => visitChildren(c as any, v))
 }
 
-export function mapChildren<N extends Node, T>(n:N, v: (c: N) => T): T[] {
+export function mapChildren<N extends Node, T>(n: N, v: (c: N) => T): T[] {
   const o: T[] = []
   visitChildren(n, c => o.push(v(c)))
   return o
 }
 
-export function findChildren<T extends Node  >(n: T, p: NodePredicate<T>): T | undefined {
-  return (n.childNodes||[]).find(p) as any
+export function findChildren<T extends Node>(n: T, p: NodePredicate<T>): T | undefined {
+  return (n.childNodes as T[] || []).find(p) as any
 }
 
-export function filterChildren<T extends Node >(n: T, p: NodePredicate<T>): T[] {
-  return (n.childNodes||[]).filter<T>(c => !!p(c))  
+export function filterChildren<T extends Node>(n: Node, p: NodePredicate<T>): T[] {
+  return (n.childNodes as T[] || []).filter(c => p(c)) as any
 }
 
 /**
@@ -36,9 +33,9 @@ export function filterChildren<T extends Node >(n: T, p: NodePredicate<T>): T[] 
  * behavior that is using `node.forEachChild`.
  * @param children if caller already have called getChildren he can pass it here so this call is faster.
  */
-export function getChildIndex<T extends Node>(node: T, children: T[] | undefined = undefined): number {
+export function getChildIndex(node: Node, children: Node[] | undefined = undefined): number {
   let result = -1
-  node.parentNode && (children || (node.parentNode ? (node.parentNode.childNodes||[]): [])).find((c, i) => {
+  node.parentNode && (children || (node.parentNode ? (node.parentNode.childNodes || []) : [])).find((c, i) => {
     if (c === node) {
       result = i
       return true
@@ -50,29 +47,29 @@ export function getChildIndex<T extends Node>(node: T, children: T[] | undefined
 
 /**
  */
-export function getNextSibling<T extends Node >(node: T): T | undefined {
+export function getNextSibling(node: Node): Node | undefined {
   const index = getChildIndex(node, node.childNodes)
-  return node.parentNode && index < (node.childNodes||[]).length - 1 ? (node.childNodes||[])[index + 1] : undefined
+  return node.parentNode && index < (node.childNodes || []).length - 1 ? (node.childNodes || [])[index + 1] : undefined
 }
 
 /**
  */
-export function getSiblings<T extends Node >(node: T, getChildrenMode: boolean = false): T[] {
- return node.parentNode ? (node.parentNode.childNodes||[]).filter(c=>c!==node) : []
+export function getSiblings(node: Node, getChildrenMode: boolean = false): Node[] {
+  return node.parentNode ? (node.parentNode.childNodes || []).filter(c => c !== node) : []
 }
 
 /**
  */
-export function getPreviousSibling<T extends Node >(node: T): T | undefined {
-  const index = getChildIndex(node,  node.childNodes)
-  return index > 0 && node.parentNode ? (node.childNodes||[])[index - 1] : undefined
+export function getPreviousSibling(node: Node): Node | undefined {
+  const index = getChildIndex(node, node.childNodes)
+  return index > 0 && node.parentNode ? (node.childNodes || [])[index - 1] : undefined
 }
 
-export function visitAncestors<T extends Node >(n: T, v: Visitor<T>, o = {}): boolean {
-  return !n || v(n) || !n.parentNode || visitAncestors(n.parentNode, v, o)
+export function visitAncestors<T extends Node>(n: T, v: Visitor<T>, o = {}): boolean {
+  return !n || v(n) || !n.parentNode || visitAncestors(n.parentNode as T, v, o)
 }
 
-export function findAncestor<T extends Node >(n: T, p: NodePredicate<T>, o = {}): T | undefined {
+export function findAncestor<T extends Node>(n: T, p: NodePredicate<T>, o = {}): T | undefined {
   let a: T | undefined
   visitAncestors(
     n,
@@ -89,10 +86,10 @@ export function findAncestor<T extends Node >(n: T, p: NodePredicate<T>, o = {})
 }
 
 export function findRootElement<T extends Node>(n: T) {
-  return !n ? undefined : !n.parentNode ? n : findAncestor(n.parentNode, p=>!p.parentNode) 
+  return !n ? undefined : !n.parentNode ? n : findAncestor(n.parentNode, p => !p.parentNode) as T | undefined
 }
 
-export function filterAncestors<T extends Node>(n: T, p: NodeSimplePredicate<T>, o: VisitorOptions = {}): T[] {
+export function filterAncestors<T extends Node = Node>(n: T, p: NodeSimplePredicate<T>, o: VisitorOptions = {}): T[] {
   const a: T[] = []
   visitAncestors(n, c => {
     if (p(c)) {
@@ -130,7 +127,7 @@ export interface VisitorOptions {
 export function visitDescendants<T extends Node>(n: T, v: Visitor<T>, o: VisitorOptions = {}, inRecursion = false): boolean {
   let r = false
   if (o.childrenFirst) {
-    r = (n.childNodes||[]).some(c => visitDescendants (c, v, o, true))
+    r = ((n.childNodes || []) as T[]).some(c => visitDescendants(c, v, o, true))
     if (r) {
       if (!o.breakOnDescendantSignal && (o.andSelf || inRecursion)) {
         v(n)
@@ -148,10 +145,10 @@ export function visitDescendants<T extends Node>(n: T, v: Visitor<T>, o: Visitor
       if (!o.visitDescendantsOnSelfSignalAnyway) {
         return true
       } else {
-        return (n.childNodes||[]).some(c => visitDescendants (c, v, o, true)) || true // true because self was signaled
+        return ((n.childNodes || []) as T[]).some(c => visitDescendants(c, v, o, true)) || true // true because self was signaled
       }
     } else {
-      return (n.childNodes||[]).some(c => visitDescendants<T>(c, v, o, true))
+      return ((n.childNodes || []) as T[]).some(c => visitDescendants(c, v, o, true))
     }
   }
 }
@@ -177,9 +174,9 @@ export function filterDescendants<T extends Node>(n: T, p: NodePredicate<T>, o: 
   return a
 }
 
-export function mapDescendants<T extends Node , V = any>(n: T, p: (p: T) => V, o: VisitorOptions = {}): V[] {
+export function mapDescendants<T extends Node, V = any>(n: T, p: (p: T) => V, o: VisitorOptions = {}): V[] {
   const a: V[] = []
-  visitDescendants<T>(
+  visitDescendants(
     n,
     c => {
       a.push(p(c as any))
@@ -190,9 +187,9 @@ export function mapDescendants<T extends Node , V = any>(n: T, p: (p: T) => V, o
   return a
 }
 
-export function findDescendant<T extends Node >(n: T, p: NodePredicate<T>, o: VisitorOptions = {}): T | undefined {
+export function findDescendant<T extends Node>(n: T, p: NodePredicate<T>, o: VisitorOptions = {}): T | undefined {
   let a: T | undefined
-  visitDescendants<T>(
+  visitDescendants(
     n,
     c => {
       if (p(c)) {
@@ -204,14 +201,14 @@ export function findDescendant<T extends Node >(n: T, p: NodePredicate<T>, o: Vi
     o
   )
   return a
-} 
+}
 /** 
  * Gets given node's Ancestors in order from node.parent to top most one .
  */
 export function getAncestors<T extends Node>(node: T | undefined): T[] {
   let a = node
   const result: T[] = []
-  while (a && (a = a.parentNode)) {
+  while (a && (a = a.parentNode as T | undefined)) {
     result.push(a)
   }
   return result
@@ -220,8 +217,8 @@ export function getAncestors<T extends Node>(node: T | undefined): T[] {
 /**
  * Get the distance from given node to its Ancestor .
  */
-export function getDistanceToAncestor<T extends Node>(node?: T, ancestor?: T): number{
-  if(node===ancestor||!node||!ancestor){
+export function getDistanceToAncestor<T extends Node>(node?: T, ancestor?: T): number {
+  if (node === ancestor || !node || !ancestor) {
     return 0
   }
   else {

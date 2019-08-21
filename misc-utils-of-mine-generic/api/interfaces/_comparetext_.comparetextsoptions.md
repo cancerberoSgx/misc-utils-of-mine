@@ -30,7 +30,7 @@
 
 *Inherited from [CompareTextOptions](_comparetext_.comparetextoptions.md).[asCode](_comparetext_.comparetextoptions.md#optional-ascode)*
 
-*Defined in [compareText.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/compareText.ts#L12)*
+*Defined in [compareText.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/compareText.ts#L12)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 *Inherited from [CompareTextOptions](_comparetext_.comparetextoptions.md).[caseInsensitive](_comparetext_.comparetextoptions.md#optional-caseinsensitive)*
 
-*Defined in [compareText.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/compareText.ts#L11)*
+*Defined in [compareText.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/compareText.ts#L11)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 *Inherited from [CompareWithMultiplicityOptionsConcrete](_comparetext_.comparewithmultiplicityoptionsconcrete.md).[multiplicity](_comparetext_.comparewithmultiplicityoptionsconcrete.md#optional-multiplicity)*
 
-*Defined in [compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/compareText.ts#L17)*
+*Defined in [compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/compareText.ts#L17)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 *Inherited from [BaseCompareOptions](_comparetext_.basecompareoptions.md).[negate](_comparetext_.basecompareoptions.md#optional-negate)*
 
-*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/compareText.ts#L7)*
+*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/compareText.ts#L7)*
 
 ___
 
@@ -70,4 +70,4 @@ ___
 
 *Inherited from [CompareTextOptions](_comparetext_.comparetextoptions.md).[verb](_comparetext_.comparetextoptions.md#optional-verb)*
 
-*Defined in [compareText.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/compareText.ts#L13)*
+*Defined in [compareText.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/compareText.ts#L13)*

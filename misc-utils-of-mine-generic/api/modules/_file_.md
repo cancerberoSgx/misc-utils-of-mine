@@ -22,17 +22,19 @@
 
 ###  basename
 
-▸ **basename**(`f`: string): *string*
+▸ **basename**(`f`: string, `removeExtension`: boolean): *string*
 
-*Defined in [file.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L16)*
+*Defined in [file.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L17)*
 
-Similar to node's' path.basename, returns the file name without folder and with the extension. Use [withoutExtension](_file_.md#withoutextension) to remove it.
+Similar to node's' path.basename, returns the file name without folder and with the extension.
+Pass [withoutExtension](_file_.md#withoutextension) to remove it.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`f` | string |
+Name | Type | Default |
+------ | ------ | ------ |
+`f` | string | - |
+`removeExtension` | boolean | false |
 
 **Returns:** *string*
 
@@ -42,7 +44,7 @@ ___
 
 ▸ **bytesToKiloBytes**(`fileSizeInBytes`: number): *number*
 
-*Defined in [file.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L1)*
+*Defined in [file.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L1)*
 
 **Parameters:**
 
@@ -58,7 +60,7 @@ ___
 
 ▸ **dirname**(`path`: string): *string*
 
-*Defined in [file.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L34)*
+*Defined in [file.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L37)*
 
 Gets the directory path of given path converting `\\` path separator to `/`.
 
@@ -76,7 +78,7 @@ ___
 
 ▸ **getFileExtension**(`s`: string): *string*
 
-*Defined in [file.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L23)*
+*Defined in [file.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L26)*
 
 Gets given file path extension.
 
@@ -94,7 +96,7 @@ ___
 
 ▸ **getRelativePath**(`source`: string, `target`: string): *string*
 
-*Defined in [file.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L45)*
+*Defined in [file.ts:48](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L48)*
 
 Given a source directory and a target file name, return the relative file path from source to target, converting `\\` path separator to `/`.
 
@@ -115,7 +117,7 @@ ___
 
 ▸ **parseGitIgnore**(`content`: string, `options`: object): *string[]*
 
-*Defined in [file.ts:82](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L82)*
+*Defined in [file.ts:85](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L85)*
 
 Parses given .gitignore file contents to an array of string patterns. Adapted from https://github.com/sindresorhus/globby .
 
@@ -138,7 +140,7 @@ ___
 
 ▸ **pathJoin**(...`parts`: string[]): *string*
 
-*Defined in [file.ts:69](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L69)*
+*Defined in [file.ts:72](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L72)*
 
 Similar to node's' `path.join()`. It will return the path resulting of join given path parts, converting `\\` path separator to `/`.
 
@@ -156,7 +158,7 @@ ___
 
 ▸ **slash**(`path`: string): *string*
 
-*Defined in [file.ts:103](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L103)*
+*Defined in [file.ts:106](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L106)*
 
 Converts Windows backslash paths to slash paths: `foo\\bar` ➔ `foo/bar`. Adapted from https://github.com/sindresorhus/slash/ .
 
@@ -174,7 +176,7 @@ ___
 
 ▸ **withoutExtension**(`f`: string): *string*
 
-*Defined in [file.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/file.ts#L8)*
+*Defined in [file.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/file.ts#L8)*
 
 Gets given path extension or empty string if any
 

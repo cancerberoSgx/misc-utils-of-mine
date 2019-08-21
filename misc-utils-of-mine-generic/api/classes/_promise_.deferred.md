@@ -50,7 +50,7 @@ this.fooReady.resolve(data)
 
 \+ **new Deferred**(`callback?`: undefined | function): *[Deferred](_promise_.deferred.md)*
 
-*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L34)*
+*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/promise.ts#L34)*
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ Name | Type |
 
 • **promise**: *Promise‹R›*
 
-*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L34)*
+*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/promise.ts#L34)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **reject**: *function*
 
-*Defined in [promise.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L33)*
+*Defined in [promise.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/promise.ts#L33)*
 
 #### Type declaration:
 
@@ -92,7 +92,7 @@ ___
 
 • **resolve**: *function*
 
-*Defined in [promise.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L32)*
+*Defined in [promise.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/promise.ts#L32)*
 
 #### Type declaration:
 
@@ -110,7 +110,7 @@ Name | Type |
 
 ▸ **catch**(`r`: function): *Promise‹void | R›*
 
-*Defined in [promise.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L50)*
+*Defined in [promise.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/promise.ts#L50)*
 
 **Parameters:**
 
@@ -132,7 +132,7 @@ ___
 
 ▸ **then**(`resolve`: function): *Promise‹void›*
 
-*Defined in [promise.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L47)*
+*Defined in [promise.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/promise.ts#L47)*
 
 **Parameters:**
 

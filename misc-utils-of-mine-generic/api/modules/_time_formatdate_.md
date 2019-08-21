@@ -18,7 +18,7 @@
 
 ▸ **formatDate**(`date`: Date, `format`: "YYYY-MM-DD" | "MM/DD/YYYY"): *string*
 
-*Defined in [time/formatDate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/time/formatDate.ts#L1)*
+*Defined in [time/formatDate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/time/formatDate.ts#L1)*
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **formatDateTime**(`date`: Date, `format`: "YYYY-MM-DDTHH:MMZ"): *string*
 
-*Defined in [time/formatDate.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/time/formatDate.ts#L22)*
+*Defined in [time/formatDate.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/time/formatDate.ts#L22)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **timeHash**(): *string*
 
-*Defined in [time/formatDate.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/time/formatDate.ts#L34)*
+*Defined in [time/formatDate.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2200176/misc-utils-of-mine-generic/src/time/formatDate.ts#L34)*
 
 shirks Date.now number to 7 digits so is better for filenames. respect date order and  milliseconds
 
