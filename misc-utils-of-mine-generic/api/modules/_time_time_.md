@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["time/time"](_time_time_.md) /
+[Globals](../globals.md) › ["time/time"](_time_time_.md)
 
 # External module: "time/time"
 
@@ -21,15 +21,15 @@
 
 • **wait**: *[sleep](_time_time_.md#sleep)* =  sleep
 
-*Defined in [time/time.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/time/time.ts#L8)*
+*Defined in [time/time.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/time/time.ts#L8)*
 
 ## Functions
 
 ###  sleep
 
-▸ **sleep**(`ms`: number): *`Promise<void>`*
+▸ **sleep**(`ms`: number): *Promise‹void›*
 
-*Defined in [time/time.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/time/time.ts#L1)*
+*Defined in [time/time.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/time/time.ts#L1)*
 
 **Parameters:**
 
@@ -37,15 +37,15 @@ Name | Type |
 ------ | ------ |
 `ms` | number |
 
-**Returns:** *`Promise<void>`*
+**Returns:** *Promise‹void›*
 
 ___
 
 ###  withTime
 
-▸ **withTime**<**T**>(`label`: string, `fn`: function): *`T`*
+▸ **withTime**<**T**>(`label`: string, `fn`: function): *T*
 
-*Defined in [time/time.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/time/time.ts#L9)*
+*Defined in [time/time.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/time/time.ts#L9)*
 
 **Type parameters:**
 
@@ -57,6 +57,6 @@ ___
 
 ▪ **fn**: *function*
 
-▸ (): *`T`*
+▸ (): *T*
 
-**Returns:** *`T`*
+**Returns:** *T*

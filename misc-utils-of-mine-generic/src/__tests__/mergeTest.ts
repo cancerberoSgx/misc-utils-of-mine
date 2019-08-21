@@ -1,5 +1,3 @@
-import { basename, dirname, withoutExtension } from '..'
-import { getRelativePath, pathJoin, getFileExtension, parseGitIgnore } from '../file'
 import { merge } from '../merge'
 
 describe('merge', () => {

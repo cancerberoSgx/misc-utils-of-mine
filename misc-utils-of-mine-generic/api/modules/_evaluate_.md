@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["evaluate"](_evaluate_.md) /
+[Globals](../globals.md) › ["evaluate"](_evaluate_.md)
 
 # External module: "evaluate"
 
@@ -14,9 +14,9 @@
 
 ###  evaluate
 
-▸ **evaluate**<**T**>(`s`: string, `defaultValue`: undefined): *`T` | undefined*
+▸ **evaluate**<**T**>(`s`: string, `defaultValue`: undefined): *T | undefined*
 
-*Defined in [evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/evaluate.ts#L1)*
+*Defined in [evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/evaluate.ts#L1)*
 
 **Type parameters:**
 
@@ -29,4 +29,4 @@ Name | Type | Default |
 `s` | string | - |
 `defaultValue` | undefined |  undefined |
 
-**Returns:** *`T` | undefined*
+**Returns:** *T | undefined*

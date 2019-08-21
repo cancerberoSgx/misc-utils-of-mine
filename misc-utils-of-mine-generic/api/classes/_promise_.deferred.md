@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["promise"](../modules/_promise_.md) / [Deferred](_promise_.deferred.md) /
+[Globals](../globals.md) › ["promise"](../modules/_promise_.md) › [Deferred](_promise_.deferred.md)
 
 # Class: Deferred <**R, J**>
 
@@ -50,7 +50,7 @@ this.fooReady.resolve(data)
 
 \+ **new Deferred**(`callback?`: undefined | function): *[Deferred](_promise_.deferred.md)*
 
-*Defined in [promise.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L35)*
+*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L34)*
 
 **Parameters:**
 
@@ -64,9 +64,9 @@ Name | Type |
 
 ### `Private` promise
 
-• **promise**: *`Promise<R>`*
+• **promise**: *Promise‹R›*
 
-*Defined in [promise.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L35)*
+*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L34)*
 
 ___
 
@@ -74,17 +74,17 @@ ___
 
 • **reject**: *function*
 
-*Defined in [promise.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L34)*
+*Defined in [promise.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L33)*
 
 #### Type declaration:
 
-▸ (`r`: `J`): *void*
+▸ (`r`: J): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`r` | `J` |
+`r` | J |
 
 ___
 
@@ -92,58 +92,58 @@ ___
 
 • **resolve**: *function*
 
-*Defined in [promise.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L33)*
+*Defined in [promise.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L32)*
 
 #### Type declaration:
 
-▸ (`r`: `R`): *void*
+▸ (`r`: R): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`r` | `R` |
+`r` | R |
 
 ## Methods
 
 ###  catch
 
-▸ **catch**(`r`: function): *`Promise<void | R>`*
+▸ **catch**(`r`: function): *Promise‹void | R›*
 
-*Defined in [promise.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L51)*
+*Defined in [promise.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L50)*
 
 **Parameters:**
 
 ▪ **r**: *function*
 
-▸ (`reject`: `J`): *void*
+▸ (`reject`: J): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`reject` | `J` |
+`reject` | J |
 
-**Returns:** *`Promise<void | R>`*
+**Returns:** *Promise‹void | R›*
 
 ___
 
 ###  then
 
-▸ **then**(`resolve`: function): *`Promise<void>`*
+▸ **then**(`resolve`: function): *Promise‹void›*
 
-*Defined in [promise.ts:48](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L48)*
+*Defined in [promise.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L47)*
 
 **Parameters:**
 
 ▪ **resolve**: *function*
 
-▸ (`r`: `R`): *void*
+▸ (`r`: R): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`r` | `R` |
+`r` | R |
 
-**Returns:** *`Promise<void>`*
+**Returns:** *Promise‹void›*

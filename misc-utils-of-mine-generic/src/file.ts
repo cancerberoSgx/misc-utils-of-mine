@@ -7,7 +7,7 @@ export function bytesToKiloBytes(fileSizeInBytes: number) {
  */
 export function withoutExtension(f: string) {
   const i = slash(f).lastIndexOf('.')
-  return f.substring(0, i)
+  return i === -1 ? f : f.substring(0, i)
 }
 
 /**

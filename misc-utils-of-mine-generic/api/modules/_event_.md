@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["event"](_event_.md) /
+[Globals](../globals.md) › ["event"](_event_.md)
 
 # External module: "event"
 
@@ -20,14 +20,14 @@
 
 Ƭ **Listener**: *function*
 
-*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/event.ts#L16)*
+*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/event.ts#L16)*
 
 #### Type declaration:
 
-▸ (`e`: `E`): *void*
+▸ (`e`: E): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`e` | `E` |
+`e` | E |

@@ -1,6 +1,6 @@
 import { installArrayPrototypeFind } from '../..'
+import { arrayDifference, arrayInterception, arrayUnion } from '../array'
 import { FindPredicate } from '../prototypeFind'
-import { arrayUnion, arrayInterception, arrayDifference } from '../array'
 declare global {
   interface Array<T> {
     find<S extends T>(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): S | undefined

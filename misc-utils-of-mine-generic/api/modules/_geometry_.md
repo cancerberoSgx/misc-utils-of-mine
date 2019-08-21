@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["geometry"](_geometry_.md) /
+[Globals](../globals.md) › ["geometry"](_geometry_.md)
 
 # External module: "geometry"
 
@@ -21,7 +21,7 @@
 
 Ƭ **NumberMapFn**: *function*
 
-*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/geometry.ts#L5)*
+*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/geometry.ts#L5)*
 
 #### Type declaration:
 

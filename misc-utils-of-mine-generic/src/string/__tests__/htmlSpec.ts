@@ -1,4 +1,3 @@
-import { changeText } from '../..'
 import { styleObjectToCss } from '../html'
 describe('string/html', () => {
   it('styleObjectToCss', () => {

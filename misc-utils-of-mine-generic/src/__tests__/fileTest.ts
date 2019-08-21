@@ -1,5 +1,5 @@
 import { basename, dirname, withoutExtension } from '..'
-import { getRelativePath, pathJoin, getFileExtension, parseGitIgnore } from '../file'
+import { getFileExtension, getRelativePath, parseGitIgnore, pathJoin } from '../file'
 
 describe('file', () => {
   it('basename', () => {
@@ -14,7 +14,13 @@ describe('file', () => {
   })
 
   it('withoutExtension', () => {
+    expect(withoutExtension('tmp/xml')).toBe('tmp/xml')
     expect(withoutExtension('/usr/name.txt')).toBe('/usr/name')
+    expect(withoutExtension('tmp/xml/d0-d03-classcv_1_1detail_1_1GraphCutSeamFinderBase.xml')).toBe(
+      'tmp/xml/d0-d03-classcv_1_1detail_1_1GraphCutSeamFinderBase'
+    )
+    expect(dirname(withoutExtension('tmp/xml/d0-d03-classcv_1_1detail_1_1GraphCutSeamFinderBase.xml'))).toBe('tmp/xml')
+    expect(withoutExtension(dirname('tmp/xml/d0-d03-classcv_1_1detail_1_1GraphCutSeamFinderBase.xml'))).toBe('tmp/xml')
   })
 
   it('getRelativePath', () => {

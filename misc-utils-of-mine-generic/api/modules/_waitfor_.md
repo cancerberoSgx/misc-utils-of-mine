@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["waitFor"](_waitfor_.md) /
+[Globals](../globals.md) › ["waitFor"](_waitfor_.md)
 
 # External module: "waitFor"
 
@@ -22,9 +22,9 @@
 
 ###  waitForPredicate
 
-▸ **waitForPredicate**<**T**>(`p`: function, `options`: [WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) | string): *`Promise<T>`*
+▸ **waitForPredicate**<**T**>(`p`: function, `options`: [WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) | string): *Promise‹T›*
 
-*Defined in [waitFor.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/waitFor.ts#L23)*
+*Defined in [waitFor.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/waitFor.ts#L23)*
 
 Returns a promise that is resolved when given predicate function returns truthy or
 timeout (see options). The function is called in given option's [interval](../interfaces/_waitfor_.waitforpredicateoptions.md#optional-interval) times.
@@ -37,7 +37,7 @@ timeout (see options). The function is called in given option's [interval](../in
 
 ▪ **p**: *function*
 
-▸ (...`args`: any[]): *`T` | undefined*
+▸ (...`args`: any[]): *T | undefined*
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ Name | Type |
 
 ▪`Default value`  **options**: *[WaitForPredicateOptions](../interfaces/_waitfor_.waitforpredicateoptions.md) | string*=  { interval: 200, timeout: 3000 }
 
-**Returns:** *`Promise<T>`*
+**Returns:** *Promise‹T›*
 
 ## Object literals
 
@@ -55,16 +55,16 @@ Name | Type |
 
 ### ▪ **defaultOptions**: *object*
 
-*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
 ###  interval
 
 • **interval**: *number* = 200
 
-*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
 
 ###  timeout
 
 • **timeout**: *number* = 3000
 
-*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/waitFor.ts#L17)*
+*Defined in [waitFor.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/waitFor.ts#L17)*

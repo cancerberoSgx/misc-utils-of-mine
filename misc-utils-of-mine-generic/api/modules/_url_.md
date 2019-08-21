@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["url"](_url_.md) /
+[Globals](../globals.md) › ["url"](_url_.md)
 
 # External module: "url"
 
@@ -17,7 +17,7 @@
 
 ▸ **getFileNameFromUrl**(`url`: string): *string*
 
-*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/url.ts#L1)*
+*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/url.ts#L1)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **getParametersFromUrl**(`url`: string): *object*
 
-*Defined in [url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/url.ts#L7)*
+*Defined in [url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/url.ts#L7)*
 
 **Parameters:**
 
@@ -43,4 +43,4 @@ Name | Type |
 
 **Returns:** *object*
 
-● \[▪ **s**: *string*\]: string
+* \[ **s**: *string*\]: string

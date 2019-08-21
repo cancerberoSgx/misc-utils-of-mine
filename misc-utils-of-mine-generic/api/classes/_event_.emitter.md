@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["event"](../modules/_event_.md) / [Emitter](_event_.emitter.md) /
+[Globals](../globals.md) › ["event"](../modules/_event_.md) › [Emitter](_event_.emitter.md)
 
 # Class: Emitter <**E, L**>
 
@@ -10,7 +10,7 @@ The simplest implementation of an event emitter.
 
 ▪ **E**
 
-▪ **L**: *[Listener](../modules/_event_.md#listener)‹*`E`*›*
+▪ **L**: *[Listener](../modules/_event_.md#listener)‹E›*
 
 ## Hierarchy
 
@@ -32,23 +32,23 @@ The simplest implementation of an event emitter.
 
 ### `Private` l
 
-• **l**: *`L`[]* =  []
+• **l**: *L[]* =  []
 
-*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/event.ts#L5)*
+*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/event.ts#L5)*
 
 ## Methods
 
 ###  add
 
-▸ **add**(`l`: `L`): *void*
+▸ **add**(`l`: L): *void*
 
-*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/event.ts#L6)*
+*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/event.ts#L6)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`l` | `L` |
+`l` | L |
 
 **Returns:** *void*
 
@@ -56,15 +56,15 @@ ___
 
 ###  emit
 
-▸ **emit**(`e`: `E`): *void*
+▸ **emit**(`e`: E): *void*
 
-*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/event.ts#L9)*
+*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/event.ts#L9)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`e` | `E` |
+`e` | E |
 
 **Returns:** *void*
 
@@ -72,14 +72,14 @@ ___
 
 ###  remove
 
-▸ **remove**(`l`: `L`): *void*
+▸ **remove**(`l`: L): *void*
 
-*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/event.ts#L12)*
+*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/event.ts#L12)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`l` | `L` |
+`l` | L |
 
 **Returns:** *void*

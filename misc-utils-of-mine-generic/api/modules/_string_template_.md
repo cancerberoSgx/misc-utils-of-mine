@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["string/template"](_string_template_.md) /
+[Globals](../globals.md) › ["string/template"](_string_template_.md)
 
 # External module: "string/template"
 
@@ -20,7 +20,7 @@
 
 • **cache**: *any*
 
-*Defined in [string/template.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/string/template.ts#L1)*
+*Defined in [string/template.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/string/template.ts#L1)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **template**(`str`: string, `data?`: any): *any*
 
-*Defined in [string/template.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/string/template.ts#L3)*
+*Defined in [string/template.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/string/template.ts#L3)*
 
 **Parameters:**
 

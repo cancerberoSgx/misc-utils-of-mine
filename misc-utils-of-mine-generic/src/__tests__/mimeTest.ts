@@ -1,4 +1,3 @@
-import { getFileNameFromUrl } from '../url'
 import { getMimeTypeForExtension } from '../mime'
 
 describe('mime', () => {

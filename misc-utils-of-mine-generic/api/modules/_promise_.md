@@ -1,6 +1,6 @@
-> **[misc-utils-of-mine-generic](../README.md)**
+**[misc-utils-of-mine-generic](../README.md)**
 
-[Globals](../globals.md) / ["promise"](_promise_.md) /
+[Globals](../globals.md) › ["promise"](_promise_.md)
 
 # External module: "promise"
 
@@ -18,9 +18,9 @@
 
 ###  serial
 
-▸ **serial**<**T**>(`p`: function[]): *`Promise<T[]>`*
+▸ **serial**<**T**>(`p`: function[]): *Promise‹T[]›*
 
-*Defined in [promise.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b63bcad/misc-utils-of-mine-generic/src/promise.ts#L6)*
+*Defined in [promise.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/81c6d6b/misc-utils-of-mine-generic/src/promise.ts#L5)*
 
 Execute given functions returning promises serially. Returns a promise that resolves when all finish with they results as array.
 
@@ -34,4 +34,4 @@ Name | Type |
 ------ | ------ |
 `p` | function[] |
 
-**Returns:** *`Promise<T[]>`*
+**Returns:** *Promise‹T[]›*

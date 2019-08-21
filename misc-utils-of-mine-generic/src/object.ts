@@ -1,4 +1,4 @@
-import { ObjectStringKeyUnion, EmptyObject, notUndefined, isArray, isObject } from './type'
+import { EmptyObject, isArray, isObject, notUndefined, ObjectStringKeyUnion } from './type'
 
 /**
  * Same as `Object.keys()` but with types.

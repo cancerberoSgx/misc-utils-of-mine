@@ -1,5 +1,4 @@
-import { objectMapValues, objectKeys, setObjectProperty, getObjectProperty, getObjectPropertyPaths } from '../object'
-import { isFlowBaseAnnotation } from '@babel/types'
+import { getObjectProperty, getObjectPropertyPaths, objectKeys, objectMapValues, setObjectProperty } from '../object'
 
 describe('object', () => {
   it('objectMap', () => {
