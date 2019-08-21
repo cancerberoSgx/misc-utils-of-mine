@@ -12,4 +12,8 @@ These should work on all es5 compatible environments, Browse and node.js and eve
 
 ## TODO
 
-- [ ] test tree.ts
+- [x] test tree.ts
+- [x] objectToArray
+- [x] Deferred test
+- [ ] test visitJson
+  - [ ] impl findJson, filterJson

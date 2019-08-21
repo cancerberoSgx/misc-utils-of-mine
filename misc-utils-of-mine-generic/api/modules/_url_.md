@@ -17,7 +17,7 @@
 
 ▸ **getFileNameFromUrl**(`url`: string): *string*
 
-*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/66687a2/misc-utils-of-mine-generic/src/url.ts#L1)*
+*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/url.ts#L1)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **getParametersFromUrl**(`url`: string): *object*
 
-*Defined in [url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/66687a2/misc-utils-of-mine-generic/src/url.ts#L7)*
+*Defined in [url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/url.ts#L7)*
 
 **Parameters:**
 

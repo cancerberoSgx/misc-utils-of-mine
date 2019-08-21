@@ -22,15 +22,15 @@ export function cloneJSON<T>(a: T): T {
   return JSON.parse(JSON.stringify(a))
 }
 
-export function visitJson(o: JSONValue, v: (o: JSONValue) => boolean): boolean {
-  if (isArray(o)) {
-    return v(o) || o.some(v)
+export function visitJson(o: JSONValue, v: (o: JSONValue, nameOrIndex?: string | number) => boolean, _name?: string | number): boolean {
+  if (isArray(o) && o) {
+    return v(o, _name) || o.some((va, i) => visitJson(va, v, i))
   }
-  else if (typeof o === 'object') {
-    return v(o) || objectToArray(o).some(v)
+  else if (typeof o === 'object' && o) {
+    return v(o, _name) || objectToArray(o).some(o => visitJson(o.value as JSONValue, v, o.key))
   }
   else {
-    return v(o)
+    return v(o, _name)
   }
 }
 

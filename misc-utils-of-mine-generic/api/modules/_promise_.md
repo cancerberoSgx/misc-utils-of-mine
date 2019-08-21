@@ -20,7 +20,7 @@
 
 ▸ **serial**<**T**>(`p`: function[]): *Promise‹T[]›*
 
-*Defined in [promise.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/66687a2/misc-utils-of-mine-generic/src/promise.ts#L5)*
+*Defined in [promise.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/promise.ts#L5)*
 
 Execute given functions returning promises serially. Returns a promise that resolves when all finish with they results as array.
 

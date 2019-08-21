@@ -22,8 +22,8 @@ export function objectMapValues<O extends { [k in keyof O]: O[keyof O] } = any, 
 }
 export const objectMap = objectMapValues
 
-export function objectToArray<O extends { [k in keyof O]: O[keyof O] } = any>(o: O): { [k in keyof O]: O[k] }[] {
-  return objectFilter(o, a => true) as any
+export function objectToArray<O extends { [k in keyof O]: O[keyof O] } = any>(o: O): { key: keyof O, value: O[keyof O] }[] {
+  return objectKeys(o).map(key => ({ key, value: o[key] }))
 }
 
 export function objectFilter<O extends { [k in keyof O]: O[keyof O] } = any>(

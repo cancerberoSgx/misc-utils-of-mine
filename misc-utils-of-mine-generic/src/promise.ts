@@ -32,13 +32,15 @@ export class Deferred<R, J = any> {
   resolve: (r: R) => void
   reject: (r: J) => void
   private promise: Promise<R>
+  public status: 'resolved' | 'pending' | 'rejected';
   constructor(callback?: (this: Deferred<R, J>, resolve: (r: R) => void, reject?: (r: J) => void) => void) {
     let instance = this
     this.resolve = null as any
     this.reject = null as any
+    this.status = 'pending'
     this.promise = new Promise(function(resolve, reject) {
-      instance.resolve = resolve
-      instance.reject = reject
+      instance.resolve = function() { this.status = 'resolved'; resolve.apply(this, arguments as any) }
+      instance.reject = function() { this.status = 'rejected'; reject.apply(this, arguments as any) }
     })
     if (typeof callback === 'function') {
       callback.call(this, this.resolve, this.reject)

@@ -30,7 +30,7 @@
 
 Ƭ **JSONObject**: *object*
 
-Defined in json.ts:42
+*Defined in [json.ts:42](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L42)*
 
 #### Type declaration:
 
@@ -42,7 +42,7 @@ ___
 
 Ƭ **JSONPrimitive**: *string | number | boolean | null*
 
-Defined in json.ts:37
+*Defined in [json.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L37)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 Ƭ **JSONValue**: *[JSONPrimitive](_json_.md#jsonprimitive) | [JSONObject](_json_.md#jsonobject) | [JSONArray](../interfaces/_json_.jsonarray.md)*
 
-Defined in json.ts:40
+*Defined in [json.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L40)*
 
 makes sure an object is JSON compatible so we can safely serialize with JSON.stringify
 
@@ -60,7 +60,7 @@ makes sure an object is JSON compatible so we can safely serialize with JSON.str
 
 ▸ **cloneJSON**<**T**>(`a`: T): *T*
 
-Defined in json.ts:21
+*Defined in [json.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L21)*
 
 **Type parameters:**
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **isJSONObject**(`o`: any): *boolean*
 
-Defined in json.ts:50
+*Defined in [json.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L50)*
 
 **Parameters:**
 
@@ -96,7 +96,7 @@ ___
 
 ▸ **parseJSON**<**K**>(`s`: string, `defaultValue`: K | undefined): *K | undefined*
 
-Defined in json.ts:5
+*Defined in [json.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L5)*
 
 try to parse given json string. return undefined in case there is an error.
 
@@ -119,7 +119,7 @@ ___
 
 ▸ **stringifyJSON**<**K**>(`s`: K, `defaultValue`: string | undefined): *string | undefined*
 
-Defined in json.ts:13
+*Defined in [json.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L13)*
 
 **Type parameters:**
 
@@ -138,9 +138,9 @@ ___
 
 ###  visitJson
 
-▸ **visitJson**(`o`: [JSONValue](_json_.md#jsonvalue), `v`: function): *boolean*
+▸ **visitJson**(`o`: [JSONValue](_json_.md#jsonvalue), `v`: function, `_name?`: string | number): *boolean*
 
-Defined in json.ts:25
+*Defined in [json.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/json.ts#L25)*
 
 **Parameters:**
 
@@ -148,12 +148,15 @@ Defined in json.ts:25
 
 ▪ **v**: *function*
 
-▸ (`o`: [JSONValue](_json_.md#jsonvalue)): *boolean*
+▸ (`o`: [JSONValue](_json_.md#jsonvalue), `nameOrIndex?`: string | number): *boolean*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `o` | [JSONValue](_json_.md#jsonvalue) |
+`nameOrIndex?` | string \| number |
+
+▪`Optional`  **_name**: *string | number*
 
 **Returns:** *boolean*
