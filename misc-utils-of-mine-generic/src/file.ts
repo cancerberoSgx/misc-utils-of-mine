@@ -11,12 +11,15 @@ export function withoutExtension(f: string) {
 }
 
 /**
- * Similar to node's' path.basename, returns the file name without folder and with the extension. Use [[withoutExtension]] to remove it.
+ * Similar to node's' path.basename, returns the file name without folder and with the extension. 
+ * Pass [[withoutExtension]] to remove it.
  */
-export function basename(f: string) {
+export function basename(f: string, removeExtension=false) {
   const i = slash(f).lastIndexOf('/')
-  return i === -1 ? f : f.substring(i + 1, f.length)
+  var s= i === -1 ? f : f.substring(i + 1, f.length)
+  return removeExtension ? withoutExtension(s) : s
 }
+
 /**
  * Gets given file path extension.
  */

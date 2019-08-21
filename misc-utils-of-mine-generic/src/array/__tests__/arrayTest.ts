@@ -1,17 +1,17 @@
-import { installArrayPrototypeFind } from '../..'
+// import { installArrayPrototypeFind } from '../..'
 import { arrayDifference, arrayInterception, arrayUnion } from '../array'
-import { FindPredicate } from '../prototypeFind'
-declare global {
-  interface Array<T> {
-    find<S extends T>(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): S | undefined
-    find(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): T | undefined
-  }
-}
+// import { FindPredicate } from '../prototypeFind'
+// declare global {
+//   interface Array<T> {
+//     find<S extends T>(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): S | undefined
+//     find(predicate: FindPredicate<T, typeof thisArg>, thisArg?: any): T | undefined
+//   }
+// }
 describe('array', () => {
   it('prototypeFind', () => {
     const originalFind = Array.prototype.find
     try {
-      installArrayPrototypeFind(true)
+      // installArrayPrototypeFind(true)
       expect(originalFind).not.toStrictEqual(Array.prototype.find)
       expect([1, 2, 3].find(i => i === 1)).toBe(1)
       expect([1, 2, 3].find(i => i === 5)).toBe(undefined)
