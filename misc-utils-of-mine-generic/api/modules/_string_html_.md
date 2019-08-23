@@ -20,7 +20,7 @@
 
 ▸ **escapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/html.ts#L1)*
+*Defined in [string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/html.ts#L1)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **styleObjectToCss**(`o`: Partial‹object›, `propertiesSeparator`: string): *string*
 
-*Defined in [string/html.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/html.ts#L28)*
+*Defined in [string/html.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/html.ts#L28)*
 
 transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **stylePropertyNameToCssSyntax**(`s`: string): *string*
 
-*Defined in [string/html.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/html.ts#L37)*
+*Defined in [string/html.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/html.ts#L37)*
 
 Transform a string like `fooBar` to `foo-bar`
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **unEscapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/html.ts#L4)*
+*Defined in [string/html.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/html.ts#L4)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **wrapInHtml**(`s`: string): *string*
 
-*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/html.ts#L8)*
+*Defined in [string/html.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/html.ts#L8)*
 
 **Parameters:**
 

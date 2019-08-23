@@ -20,7 +20,7 @@
 
 • **cache**: *any*
 
-*Defined in [string/template.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/template.ts#L1)*
+*Defined in [string/template.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/template.ts#L1)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **template**(`str`: string, `data?`: any): *any*
 
-*Defined in [string/template.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/template.ts#L3)*
+*Defined in [string/template.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/string/template.ts#L3)*
 
 **Parameters:**
 
