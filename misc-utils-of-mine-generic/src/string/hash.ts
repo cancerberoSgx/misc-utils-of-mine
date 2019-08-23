@@ -13,7 +13,7 @@
  * @param {string} s a string
  * @return {number} a hash code value for the given string.
  */
-function hashCode(s: string) {
+export function hashCode(s: string) {
   var h = 0, l = s.length, i = 0;
   if (l > 0) {
     while (i < l) {
