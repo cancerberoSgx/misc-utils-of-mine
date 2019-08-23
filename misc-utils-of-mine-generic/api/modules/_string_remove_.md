@@ -6,10 +6,6 @@
 
 ## Index
 
-### Variables
-
-* [remove](_string_remove_.md#let-remove)
-
 ### Functions
 
 * [removeEmptyLines](_string_remove_.md#removeemptylines)
@@ -17,21 +13,13 @@
 * [shorter](_string_remove_.md#shorter)
 * [trimRightLines](_string_remove_.md#trimrightlines)
 
-## Variables
-
-### `Let` remove
-
-• **remove**: *any*
-
-*Defined in [string/remove.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L1)*
-
 ## Functions
 
 ###  removeEmptyLines
 
 ▸ **removeEmptyLines**(`c`: string): *string*
 
-*Defined in [string/remove.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L8)*
+*Defined in [string/remove.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L9)*
 
 **Parameters:**
 
@@ -47,7 +35,7 @@ ___
 
 ▸ **removeWhites**(`s`: string, `replaceWith`: string): *string*
 
-*Defined in [string/remove.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L5)*
+*Defined in [string/remove.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L5)*
 
 **Parameters:**
 
@@ -64,7 +52,7 @@ ___
 
 ▸ **shorter**(`text`: string, `much`: number): *string*
 
-*Defined in [string/remove.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L2)*
+*Defined in [string/remove.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L1)*
 
 **Parameters:**
 
@@ -81,7 +69,7 @@ ___
 
 ▸ **trimRightLines**(`s`: string): *string*
 
-*Defined in [string/remove.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L14)*
+*Defined in [string/remove.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L16)*
 
 **Parameters:**
 

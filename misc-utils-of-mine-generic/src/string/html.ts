@@ -1,6 +1,7 @@
 export function escapeHtmlAttribute(code: string) {
   return code.replace(/\"/gim, '&quot;')
 }
+
 export function unEscapeHtmlAttribute(code: string) {
   return code.replace(/\&quot\;/gim, '"')
 }

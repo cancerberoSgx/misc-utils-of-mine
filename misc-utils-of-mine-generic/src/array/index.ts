@@ -1,4 +1,5 @@
-export * from './array'
+export * from './create'
 export * from './enumKeys'
 export * from './flat'
 export * from './prototypeFind'
+export * from './set'

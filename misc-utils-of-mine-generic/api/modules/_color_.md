@@ -16,7 +16,7 @@
 
 ▸ **rgb2Hex**(`s`: string): *string*
 
-*Defined in [color.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/color.ts#L4)*
+*Defined in [color.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/color.ts#L4)*
 
 Transforms a color string like `rgb(0,0,0)` to a color string in hex syntax like `#000000`
 

@@ -1,4 +1,5 @@
 export * from './change'
+export * from './evaluate'
 export * from './getPreviousMatchingPos'
 export * from './hash'
 export * from './html'

@@ -1,4 +1,5 @@
-export * from './formatDate'
+export * from './format'
 export * from './printMs'
+export * from './sleep'
 export * from './throttle'
-export * from './time'
+export * from './waitFor'

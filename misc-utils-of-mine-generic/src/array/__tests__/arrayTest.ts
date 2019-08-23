@@ -1,5 +1,5 @@
 // import { installArrayPrototypeFind } from '../..'
-import { arrayDifference, arrayInterception, arrayUnion } from '../array'
+import { arrayDifference, arrayInterception, arrayUnion } from "../set"
 // import { FindPredicate } from '../prototypeFind'
 // declare global {
 //   interface Array<T> {
