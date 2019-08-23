@@ -16,7 +16,7 @@
 
 ▸ **hashCode**(`s`: string): *number*
 
-*Defined in [string/hash.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/hash.ts#L1)*
+*Defined in [string/hash.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/string/hash.ts#L1)*
 
 **Parameters:**
 

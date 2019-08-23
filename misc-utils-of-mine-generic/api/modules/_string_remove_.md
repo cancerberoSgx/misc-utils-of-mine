@@ -19,7 +19,7 @@
 
 ▸ **removeEmptyLines**(`c`: string): *string*
 
-*Defined in [string/remove.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L9)*
+*Defined in [string/remove.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/string/remove.ts#L9)*
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **removeWhites**(`s`: string, `replaceWith`: string): *string*
 
-*Defined in [string/remove.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L5)*
+*Defined in [string/remove.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/string/remove.ts#L5)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **shorter**(`text`: string, `much`: number): *string*
 
-*Defined in [string/remove.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L1)*
+*Defined in [string/remove.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/string/remove.ts#L1)*
 
 **Parameters:**
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **trimRightLines**(`s`: string): *string*
 
-*Defined in [string/remove.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/90dd7ac/misc-utils-of-mine-generic/src/string/remove.ts#L16)*
+*Defined in [string/remove.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/string/remove.ts#L16)*
 
 **Parameters:**
 
