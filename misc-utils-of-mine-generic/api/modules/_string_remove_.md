@@ -23,7 +23,7 @@
 
 • **remove**: *any*
 
-Defined in string/remove.ts:1
+*Defined in [string/remove.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L1)*
 
 ## Functions
 
@@ -31,7 +31,7 @@ Defined in string/remove.ts:1
 
 ▸ **removeEmptyLines**(`c`: string): *string*
 
-Defined in string/remove.ts:8
+*Defined in [string/remove.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L8)*
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **removeWhites**(`s`: string, `replaceWith`: string): *string*
 
-Defined in string/remove.ts:5
+*Defined in [string/remove.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L5)*
 
 **Parameters:**
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **shorter**(`text`: string, `much`: number): *string*
 
-Defined in string/remove.ts:2
+*Defined in [string/remove.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L2)*
 
 **Parameters:**
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **trimRightLines**(`s`: string): *string*
 
-Defined in string/remove.ts:14
+*Defined in [string/remove.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/string/remove.ts#L14)*
 
 **Parameters:**
 

@@ -28,7 +28,7 @@
 
 • **arrayUnion**: *[unionEquals](_array_array_.md#unionequals)* =  unionEquals
 
-*Defined in [array/array.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L38)*
+*Defined in [array/array.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L38)*
 
 ## Functions
 
@@ -36,7 +36,7 @@
 
 ▸ **array**<**T**>(`n`: number, `sample?`: [T]()): *T[]*
 
-*Defined in [array/array.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L3)*
+*Defined in [array/array.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L3)*
 
 **Type parameters:**
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **arrayDifference**<**A**>(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [array/array.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L52)*
+*Defined in [array/array.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L52)*
 
 **Type parameters:**
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **arrayInterception**<**A**>(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [array/array.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L40)*
+*Defined in [array/array.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L40)*
 
 **Type parameters:**
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **asArray**<**T**>(`selectors`: T | T[]): *T[]*
 
-*Defined in [array/array.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L16)*
+*Defined in [array/array.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L16)*
 
 **Type parameters:**
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **dedup**<**T**>(`a`: T[], `p`: function): *T[]*
 
-*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L11)*
+*Defined in [array/array.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L11)*
 
 **Type parameters:**
 
@@ -172,7 +172,7 @@ ___
 
 ▸ **notSame**<**T**>(`t`: T, `i`: number, `a`: T[]): *boolean*
 
-*Defined in [array/array.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L75)*
+*Defined in [array/array.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L75)*
 
 Use it to remove duplicates in array's filter expressions like `array.filter(notSame)`.
 
@@ -196,7 +196,7 @@ ___
 
 ▸ **notSameNotFalsy**<**T**>(`t`: T, `i`: number, `a`: T[]): *boolean*
 
-*Defined in [array/array.ts:83](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L83)*
+*Defined in [array/array.ts:83](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L83)*
 
 Use it remove duplicates and falsy values in filter() expressions like
 `array.filter(notSameNotFalsy)`
@@ -221,7 +221,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [array/array.ts:64](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L64)*
+*Defined in [array/array.ts:64](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L64)*
 
 **Parameters:**
 
@@ -239,7 +239,7 @@ ___
 
 ▸ **unionEquals**<**T**>(`a`: T[], `b`: T[], `predicate`: function, `output?`: T[]): *T[]*
 
-*Defined in [array/array.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/29f2b37/misc-utils-of-mine-generic/src/array/array.ts#L20)*
+*Defined in [array/array.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b8cbc13/misc-utils-of-mine-generic/src/array/array.ts#L20)*
 
 **Type parameters:**
 
