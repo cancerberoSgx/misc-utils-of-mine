@@ -21,7 +21,7 @@
 
 Ƭ **NumberMapFn**: *function*
 
-*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/geometry.ts#L5)*
+*Defined in [geometry.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/geometry.ts#L5)*
 
 #### Type declaration:
 

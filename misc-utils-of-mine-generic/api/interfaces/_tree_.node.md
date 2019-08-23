@@ -25,7 +25,7 @@ TODO: test
 
 • **childNodes**? : *[Node](_tree_.node.md)[]*
 
-*Defined in [tree.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/tree.ts#L8)*
+*Defined in [tree.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/tree.ts#L8)*
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **parentNode**? : *[Node](_tree_.node.md)*
 
-*Defined in [tree.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/04abc74/misc-utils-of-mine-generic/src/tree.ts#L9)*
+*Defined in [tree.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/tree.ts#L9)*

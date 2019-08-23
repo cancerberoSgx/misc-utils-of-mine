@@ -11,3 +11,8 @@ export function isGenerator(obj: any): obj is Generator {
 export function isGeneratorFunction(fn: any): fn is GeneratorFunction {
   return typeof fn === 'function' && fn.constructor && fn.constructor.name === 'GeneratorFunction'
 }
+
+export function isClassConstructorFunction(a: any) {
+  return a && a.prototype && a.prototype.constructor && (a.prototype.constructor.toString().startsWith('class'))
+}
+

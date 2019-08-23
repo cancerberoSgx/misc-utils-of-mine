@@ -34,6 +34,18 @@ export function visitJson(o: JSONValue, v: (o: JSONValue, nameOrIndex?: string |
   }
 }
 
+export function findJson(o: JSONValue, p: (o: JSONValue, nameOrIndex?: string | number) => boolean, _name?: string | number): { value: JSONValue, key: string | number } | undefined {
+  let r: { value: JSONValue, key: string | number } | undefined = undefined
+  visitJson(o, (value, key) => {
+    if (p(value, key)) {
+      r = { value, key: key! }
+      return true
+    }
+    return false
+  })
+  return r
+}
+
 export type JSONPrimitive = string | number | boolean | null
 
 /** makes sure an object is JSON compatible so we can safely serialize with JSON.stringify */
