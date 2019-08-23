@@ -111,3 +111,13 @@ export function slash(path: string) {
   }
   return path.replace(/\\/g, '/')
 }
+
+export function detectNewline(s: string, def = '\n') {
+  const newlines = s.match(/(?:\r?\n)/g) || []
+  if (newlines.length === 0) {
+    return def
+  }
+  const crlf = newlines.filter(newline => newline === '\r\n').length
+  const lf = newlines.length - crlf
+  return crlf > lf ? '\r\n' : '\n'
+}

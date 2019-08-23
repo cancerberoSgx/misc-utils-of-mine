@@ -20,7 +20,7 @@
 
 ▸ **removeEmptyLines**(`c`: string): *string*
 
-*Defined in [string/misc.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/string/misc.ts#L9)*
+*Defined in [string/misc.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/misc.ts#L9)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **removeWhites**(`s`: string, `replaceWith`: string): *string*
 
-*Defined in [string/misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/string/misc.ts#L5)*
+*Defined in [string/misc.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/misc.ts#L5)*
 
 **Parameters:**
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **shorter**(`text`: string, `much`: number): *string*
 
-*Defined in [string/misc.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/string/misc.ts#L1)*
+*Defined in [string/misc.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/misc.ts#L1)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **stringToObject**(`s`: string, `propSep`: string, `nameValueSep`: string): *any*
 
-*Defined in [string/misc.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/string/misc.ts#L26)*
+*Defined in [string/misc.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/misc.ts#L26)*
 
 Transform a string like `foo: 2, bar: hello world` to an object like `{foo: '2', bar: 'hello world}`
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **trimRightLines**(`s`: string): *string*
 
-*Defined in [string/misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/dbc2d8a/misc-utils-of-mine-generic/src/string/misc.ts#L16)*
+*Defined in [string/misc.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/f859755/misc-utils-of-mine-generic/src/string/misc.ts#L16)*
 
 **Parameters:**
 
