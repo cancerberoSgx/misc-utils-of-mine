@@ -8,7 +8,6 @@
 
 ### Functions
 
-* [isWhite](_string_whitespace_.md#iswhite)
 * [removeEmptyLines](_string_whitespace_.md#removeemptylines)
 * [removeWhites](_string_whitespace_.md#removewhites)
 * [shorter](_string_whitespace_.md#shorter)
@@ -16,33 +15,19 @@
 
 ## Functions
 
-###  isWhite
-
-▸ **isWhite**(`x`: string): *boolean*
-
-Defined in string/whiteSpace.ts:23
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`x` | string |
-
-**Returns:** *boolean*
-
-___
-
 ###  removeEmptyLines
 
-▸ **removeEmptyLines**(`c`: string): *string*
+▸ **removeEmptyLines**(`c`: string, `newLine`: string): *string*
 
-Defined in string/whiteSpace.ts:9
+*Defined in [string/whiteSpace.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L9)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`c` | string |
+Name | Type | Default |
+------ | ------ | ------ |
+`c` | string | - |
+`newLine` | string | "
+" |
 
 **Returns:** *string*
 
@@ -52,7 +37,7 @@ ___
 
 ▸ **removeWhites**(`s`: string, `replaceWith`: string): *string*
 
-Defined in string/whiteSpace.ts:5
+*Defined in [string/whiteSpace.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L5)*
 
 **Parameters:**
 
@@ -69,7 +54,7 @@ ___
 
 ▸ **shorter**(`text`: string, `much`: number): *string*
 
-Defined in string/whiteSpace.ts:1
+*Defined in [string/whiteSpace.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L1)*
 
 **Parameters:**
 
@@ -84,14 +69,16 @@ ___
 
 ###  trimRightLines
 
-▸ **trimRightLines**(`s`: string): *string*
+▸ **trimRightLines**(`s`: string, `newLine`: string): *string*
 
-Defined in string/whiteSpace.ts:16
+*Defined in [string/whiteSpace.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L16)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`s` | string |
+Name | Type | Default |
+------ | ------ | ------ |
+`s` | string | - |
+`newLine` | string | "
+" |
 
 **Returns:** *string*

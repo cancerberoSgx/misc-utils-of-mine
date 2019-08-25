@@ -6,21 +6,16 @@ export function removeWhites(s: string, replaceWith = ' ') {
   return s.replace(/\s+/gm, replaceWith).trim()
 }
 
-export function removeEmptyLines(c: string): string {
+export function removeEmptyLines(c: string, newLine = '\n'): string {
   return c
-    .split('\n')
+    .split(newLine)
     .filter(l => !!l.trim())
-    .join('\n')
+    .join(newLine)
 }
 
-export function trimRightLines(s: string) {
+export function trimRightLines(s: string, newLine = '\n') {
   return s
-    .split('\n')
+    .split(newLine)
     .map(l => l.trimRight())
-    .join('\n')
-}
-
-export function isWhite(x: string) {
-  var white = new RegExp(/^\s$/)
-  return white.test(x.charAt(0))
+    .join(newLine)
 }
