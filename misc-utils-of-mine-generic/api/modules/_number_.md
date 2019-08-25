@@ -24,7 +24,7 @@
 
 • **_unique**: *number* = 0
 
-*Defined in [number.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/number.ts#L1)*
+*Defined in [number.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/9343be2/misc-utils-of-mine-generic/src/number.ts#L1)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **float**: *[randomFloatBetween](_number_.md#randomfloatbetween)* =  randomFloatBetween
 
-*Defined in [number.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/number.ts#L17)*
+*Defined in [number.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/9343be2/misc-utils-of-mine-generic/src/number.ts#L17)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **int**: *[randomIntBetween](_number_.md#randomintbetween)* =  randomIntBetween
 
-*Defined in [number.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/number.ts#L11)*
+*Defined in [number.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/9343be2/misc-utils-of-mine-generic/src/number.ts#L11)*
 
 ## Functions
 
@@ -48,7 +48,7 @@ ___
 
 ▸ **randomFloatBetween**(`a`: number, `b`: number): *number*
 
-*Defined in [number.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/number.ts#L13)*
+*Defined in [number.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/9343be2/misc-utils-of-mine-generic/src/number.ts#L13)*
 
 **Parameters:**
 
@@ -65,7 +65,7 @@ ___
 
 ▸ **randomIntBetween**(`a`: number, `b`: number): *number*
 
-*Defined in [number.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/number.ts#L7)*
+*Defined in [number.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/9343be2/misc-utils-of-mine-generic/src/number.ts#L7)*
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **unique**(`prefix`: string): *string*
 
-*Defined in [number.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cde2372/misc-utils-of-mine-generic/src/number.ts#L3)*
+*Defined in [number.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/9343be2/misc-utils-of-mine-generic/src/number.ts#L3)*
 
 **Parameters:**
 
