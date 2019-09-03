@@ -18,7 +18,7 @@
 
 ▸ **array**<**T**>(`n`: number, `sample?`: [T]()): *T[]*
 
-*Defined in [array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/array/create.ts#L2)*
+*Defined in [array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/array/create.ts#L2)*
 
 **Type parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **asArray**<**T**>(`selectors`: T | T[]): *T[]*
 
-*Defined in [array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/array/create.ts#L10)*
+*Defined in [array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/array/create.ts#L10)*
 
 **Type parameters:**
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/array/create.ts#L14)*
+*Defined in [array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/array/create.ts#L14)*
 
 **Parameters:**
 

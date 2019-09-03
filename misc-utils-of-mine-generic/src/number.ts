@@ -1,3 +1,5 @@
+import { array } from './array'
+
 let _unique: number = 0
 
 export function unique(prefix: string = '_'): string {
@@ -8,10 +10,21 @@ export function randomIntBetween(a: number, b: number) {
   return Math.floor(Math.random() * b) + a
 }
 
+export function randomIntsBetween(l: number, min: number, max: number) {
+  return array(l).map(n => randomFloatBetween(min, max))
+}
+
+export const ints = randomIntsBetween
+
 export const int = randomIntBetween
 
 export function randomFloatBetween(a: number, b: number) {
   return Math.random() * b + a
 }
+
+export function randomFloatsBetween(l: number, min: number, max: number) {
+  return array(l).map(n => randomFloatBetween(min, max))
+}
+export const floats = randomFloatsBetween
 
 export const float = randomFloatBetween

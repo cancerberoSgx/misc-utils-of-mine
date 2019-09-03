@@ -1,3 +1,10 @@
+//TODO: idea: 
+// an operation OP is expensive and we want to print: `${OP(a) && OP(a).foo || '' }` - we need to create a variable in order to not call it twice
+// solution : a function get which : `${get(OP(a), 'foo')||'' }`
+// useful if nested: `${get(OP(a), 'foo', 'bar', 'name')||'' }`
+// for particular falsy (we do want to print 0 and false): `${get(OP(a), 'foo', 'bar', v=>v===undefined?'':v)}` (will print empty string only for undefined not for all falsy)
+
+
 import { EmptyObject, isArray, isObject, notUndefined, ObjectStringKeyUnion } from './type'
 
 /**

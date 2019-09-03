@@ -21,7 +21,7 @@
 
 • **wait**: *[sleep](_time_sleep_.md#sleep)* =  sleep
 
-*Defined in [time/sleep.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/time/sleep.ts#L9)*
+*Defined in [time/sleep.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/time/sleep.ts#L9)*
 
 ## Functions
 
@@ -29,7 +29,7 @@
 
 ▸ **sleep**(`ms`: number): *Promise‹void›*
 
-*Defined in [time/sleep.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/time/sleep.ts#L1)*
+*Defined in [time/sleep.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/time/sleep.ts#L1)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **withTime**<**T**>(`label`: string, `fn`: function): *T*
 
-*Defined in [time/sleep.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/d8d7bf0/misc-utils-of-mine-generic/src/time/sleep.ts#L11)*
+*Defined in [time/sleep.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/time/sleep.ts#L11)*
 
 **Type parameters:**
 

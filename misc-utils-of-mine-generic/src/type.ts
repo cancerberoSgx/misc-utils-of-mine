@@ -71,4 +71,6 @@ export function notFalsy<T>(n: T): n is NotFalsy<T> {
 }
 
 /** c:ObjectStringKeyUnion<{a:1,b:'s'}> === 'a'|'b' */
-export declare type ObjectStringKeyUnion<T extends any> = Extract<keyof T, string>
+export type ObjectStringKeyUnion<T extends any> = Extract<keyof T, string>
+
+export type Fn<args extends any[] = any[], returnValue extends any = any> = (...args: args) => returnValue
