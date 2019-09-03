@@ -1,5 +1,5 @@
-import {tryTo} from 'misc-utils-of-mine-generic'
-import { safeEval } from './safeEval';
+import { tryTo } from 'misc-utils-of-mine-generic'
+import { safeEval } from './safeEval'
 
 export async function decodeOptions<Options = {}>(op: string = '{}'): Promise<Options> {
   try {
@@ -9,17 +9,17 @@ export async function decodeOptions<Options = {}>(op: string = '{}'): Promise<Op
       if (result) {
         decoded = result
       }
-      if(error){
-        console.error('decodeOptions safeEval error ', error);
+      if (error) {
+        console.error('decodeOptions safeEval error ', error)
       }
     }
     return decoded || {} as Options
   } catch (error) {
-    console.error('decodeOptions', error);
+    console.error('decodeOptions', error)
     throw error
   }
 }
 
 export function encodeOptions<Options = {}>(options: Options): string | {} {
-  return tryTo(() => encodeURIComponent(JSON.stringify(options))) || {};
+  return tryTo(() => encodeURIComponent(JSON.stringify(options))) || {}
 }

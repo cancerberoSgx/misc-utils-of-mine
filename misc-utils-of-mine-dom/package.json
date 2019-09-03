@@ -3,7 +3,7 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "typings": "dist/src/index.d.ts",
-  "description": "Miscellaneous utilities for JavaScript/TypeScript that I often use",
+  "description": "Miscellaneous utilities related to DOM that I often use",
   "version": "0.0.10",
   "scripts": {
     "build": "npx tsc",
@@ -12,20 +12,24 @@
     "test": "npx jest --testPathIgnorePatterns /dist/",
     "test-js": "npm run clean && npm run build && npx jest --testMatch \"**/__tests__/**/*.js\"",
     "test-watch": "npm test -- --watch",
-    "all": "npm run clean && npm run build && npm run test-js && npm run test",
+    "format": "npx ts-refactor format \"src/**/*.ts*\" ./formatCodeSettings.json --tsConfigPath ./tsconfig.json --dontAsk",
+    "organizeImports": "npx ts-refactor organizeImports \"src/**/*.ts*\" ./formatCodeSettings.json --tsConfigPath ./tsconfig.json --dontAsk ",
+    "lint": "npm run organizeImports && npm run format",
+    "all": "npm run clean && npm run lint && npm run build && npm run test-js && npm run test",
+    "all-publish": "npm run all && git commit -a -m \"version patch\" && npm version patch && npm publish",
     "prepare": "npm run build && npx shx rm -rf dist/**/__tests__"
   },
   "dependencies": {
-    "misc-utils-of-mine-generic": "file:../misc-utils-of-mine-generic",
-    "misc-utils-of-mine-typescript": "file:../misc-utils-of-mine-typescript"
+    "misc-utils-of-mine-generic": "^0.2.30"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.6",
-    "@types/node": "^10.12.18",
-    "jest": "^24.1.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "jest": "^24.9.0",
     "shx": "^0.3.2",
-    "ts-jest": "^24.0.0",
-    "typescript": "^3.4.1"
+    "ts-jest": "^24.0.2",
+    "ts-refactor": "0.0.9",
+    "typescript": "^3.6.2"
   },
   "author": "Sebastián Gurin",
   "repository": {
@@ -36,7 +40,7 @@
     "JavaScript",
     "TypeScript",
     "utilities",
-    "miscellaneous"
+    "DOM"
   ],
   "license": "MIT",
   "jest": {

@@ -50,30 +50,30 @@ interface Result<T> {
   error?: Error;
 }
 
-let counter = 0;
+let counter = 0
 
-const DONT_REUTILIZE_FRAME = false;
+const DONT_REUTILIZE_FRAME = false
 
 export async function safeEval<T = any>(
   code: string,
   callback?: (result: T) => void
 ): Promise<Result<T>> {
-  await install();
-  uniqueCallback = callback;
+  await install()
+  uniqueCallback = callback
   const p = new Promise<T>(resolve => {
-    uniquePromiseResolve = resolve;
-  });
+    uniquePromiseResolve = resolve
+  })
   if (frame && frame.contentWindow) {
-    frame.contentWindow.postMessage({ code, id: counter++ }, "*");
+    frame.contentWindow.postMessage({ code, id: counter++ }, "*")
   }
-  return p;
+  return p
 }
 
 async function install(): Promise<void> {
   if (!DONT_REUTILIZE_FRAME && frame) {
-    return Promise.resolve();
+    return Promise.resolve()
   }
-  frame = await buildIframe();
+  frame = await buildIframe()
   window.addEventListener("message", function(e) {
     if (
       e.origin === "null" &&
@@ -82,9 +82,9 @@ async function install(): Promise<void> {
       frame.getAttribute("srcdoc") === frameHtml &&
       !frame.contentDocument
     ) {
-      let parsed: any;
+      let parsed: any
       try {
-        parsed = JSON.parse(e.data);
+        parsed = JSON.parse(e.data)
       } catch (ex) {
         parsed = {
           error: {
@@ -93,11 +93,11 @@ async function install(): Promise<void> {
             asString: ex + "",
             name: ex.name
           }
-        };
+        }
       }
 
-      uniqueCallback && uniqueCallback(parsed);
-      uniquePromiseResolve && uniquePromiseResolve(parsed);
+      uniqueCallback && uniqueCallback(parsed)
+      uniquePromiseResolve && uniquePromiseResolve(parsed)
     } else {
       console.warn(
         "WARNING: safeEval security checking not passed for message id",
@@ -107,37 +107,37 @@ async function install(): Promise<void> {
         ` e.origin === "null": `,
         e.origin === "null",
         ` e.source === frame.contentWindow: ${e.source ===
-          frame.contentWindow}, frame.getAttribute('sandbox') === 'allow-scripts': ${frame.getAttribute(
+        frame.contentWindow}, frame.getAttribute('sandbox') === 'allow-scripts': ${frame.getAttribute(
           "sandbox"
         ) ===
-          "allow-scripts"}, frame.getAttribute('srcdoc') === frameHtml: ${frame.getAttribute(
+        "allow-scripts"}, frame.getAttribute('srcdoc') === frameHtml: ${frame.getAttribute(
           "srcdoc"
         ) === frameHtml}, !frame.contentDocument: ${!frame.contentDocument}`
-      );
+      )
     }
-  });
+  })
 }
 
-let uniquePromiseResolve: ((result: any) => void) | undefined;
-let uniqueCallback: ((this: void, result: any) => void) | undefined;
-let frame: HTMLIFrameElement;
+let uniquePromiseResolve: ((result: any) => void) | undefined
+let uniqueCallback: ((this: void, result: any) => void) | undefined
+let frame: HTMLIFrameElement
 
 function buildIframe(): Promise<HTMLIFrameElement> {
   return new Promise<HTMLIFrameElement>(resolve => {
-    const old = document.getElementById("safe-eval-iframe");
+    const old = document.getElementById("safe-eval-iframe")
     if (old) {
-      old.remove();
+      old.remove()
     }
-    const iframe = document.createElement("iframe");
-    iframe.srcdoc = frameHtml;
-    iframe.style.display = "none";
-    iframe.setAttribute("sandbox", "allow-scripts");
-    iframe.setAttribute("id", "safe-eval-iframe");
+    const iframe = document.createElement("iframe")
+    iframe.srcdoc = frameHtml
+    iframe.style.display = "none"
+    iframe.setAttribute("sandbox", "allow-scripts")
+    iframe.setAttribute("id", "safe-eval-iframe")
     iframe.onload = e => {
-      resolve(iframe);
-    };
-    document.head!.appendChild(iframe);
-  });
+      resolve(iframe)
+    }
+    document.head!.appendChild(iframe)
+  })
 }
 
 const frameHtml = `
@@ -151,26 +151,26 @@ const frameHtml = `
     frameFn()
    </script>
  </head>
-</html>`;
+</html>`
 
 function frameFn() {
   window.addEventListener("message", function(e) {
-    var mainWindow = e.source;
-    var transferable = doEval(e.data.code);
+    var mainWindow = e.source
+    var transferable = doEval(e.data.code)
     //@ts-ignore
-    mainWindow && mainWindow.postMessage(transferable, e.origin as any);
-  });
+    mainWindow && mainWindow.postMessage(transferable, e.origin as any)
+  })
 }
 function doEval(code: string) {
-  var result: any;
+  var result: any
   try {
-    result = { result: eval(`${code}`) };
+    result = { result: eval(`${code}`) }
   } catch (ex) {
     console.error(
       "safeEval error while evaluating expression " + code,
       "Error: ",
       ex
-    );
+    )
     result = {
       error: {
         message: ex.message,
@@ -178,11 +178,11 @@ function doEval(code: string) {
         asString: ex + "",
         name: ex.name
       }
-    };
+    }
   }
-  let transferable: string;
+  let transferable: string
   try {
-    transferable = JSON.stringify(result);
+    transferable = JSON.stringify(result)
   } catch (ex) {
     result = {
       error: {
@@ -191,8 +191,8 @@ function doEval(code: string) {
         asString: ex + "",
         name: ex.name
       }
-    };
-    transferable = JSON.stringify(result);
+    }
+    transferable = JSON.stringify(result)
   }
-  return transferable;
+  return transferable
 }

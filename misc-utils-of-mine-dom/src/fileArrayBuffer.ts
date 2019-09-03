@@ -12,18 +12,19 @@ export async function inputFileToUint8Array(el: HTMLInputElement): Promise<{ fil
       const reader = new FileReader()
       reader.addEventListener('loadend', (e) => {
         resolve(new Uint8Array(reader.result as any))
-      });
+      })
       reader.readAsArrayBuffer(file)
     })
     return { file, content: array }
   }))
 }
+
 export function inputFileFiles(el: HTMLInputElement): File[] {
   const files: File[] = []
-  if(el.files){
+  if (el.files) {
     for (let i = 0; i < el.files.length; i++) {
       const file = el.files.item(i)
-      if(file){
+      if (file) {
         files.push(file)
       }
     }
@@ -31,9 +32,8 @@ export function inputFileFiles(el: HTMLInputElement): File[] {
   return files
 }
 
-
 export function stringToUInt8Array(s: string): Uint8Array {
-  var enc = new TextEncoder(); // always utf-8
+  var enc = new TextEncoder() // always utf-8
   return enc.encode(s)
 }
 

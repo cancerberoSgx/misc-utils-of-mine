@@ -1,5 +1,4 @@
 
-//  TODO: move to misc
 export function getXPathOfElement(el: Element | string): string | undefined {
   if (typeof el == 'string') {
     return document.evaluate(el, document, null, 0, null) + ''
@@ -21,11 +20,10 @@ export function getXPathOfElement(el: Element | string): string | undefined {
   }
 }
 
-//  TODO: move to misc
 export function getElementByXPath(path: string, predicate?: (n: Node) => boolean): Node | undefined {
   const p = document.evaluate(path, document, null, 0, null)
   if (!predicate) {
-    return p.iterateNext()
+    return p.iterateNext() || undefined
   }
   try {
     let n
