@@ -6,3 +6,5 @@ dist/spec
 tsconfig.json
 .vscode
 *.tgz
+.travis.yml
+formatCodeSettings.json
