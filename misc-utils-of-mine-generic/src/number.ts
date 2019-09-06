@@ -28,3 +28,17 @@ export function randomFloatsBetween(l: number, min: number, max: number) {
 export const floats = randomFloatsBetween
 
 export const float = randomFloatBetween
+
+/**
+ * Makes sure n is between min and max inclusive.
+ */
+export function between(n: number, min: number, max: number) {
+  return Math.max(min, Math.min(n, max))
+}
+
+/**
+ * Makes sure n is between min and max inclusive and is natural.
+ */
+export function intBetween(n: number, min: number, max: number) {
+  return Math.trunc(Math.max(min, Math.min(n, max)))
+}

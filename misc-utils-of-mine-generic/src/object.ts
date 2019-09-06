@@ -1,10 +1,3 @@
-//TODO: idea: 
-// an operation OP is expensive and we want to print: `${OP(a) && OP(a).foo || '' }` - we need to create a variable in order to not call it twice
-// solution : a function get which : `${get(OP(a), 'foo')||'' }`
-// useful if nested: `${get(OP(a), 'foo', 'bar', 'name')||'' }`
-// for particular falsy (we do want to print 0 and false): `${get(OP(a), 'foo', 'bar', v=>v===undefined?'':v)}` (will print empty string only for undefined not for all falsy)
-
-
 import { EmptyObject, isArray, isObject, notUndefined, ObjectStringKeyUnion } from './type'
 
 /**
@@ -27,6 +20,7 @@ export function objectMapValues<O extends { [k in keyof O]: O[keyof O] } = any, 
   })
   return r
 }
+
 export const objectMap = objectMapValues
 
 export function objectToArray<O extends { [k in keyof O]: O[keyof O] } = any>(o: O): { key: keyof O, value: O[keyof O] }[] {
@@ -142,7 +136,6 @@ export function getObjectPropertyPaths(
   const p: (number | string)[][] = []
   const p2: (number | string)[] = []
   visit(object, p, p2)
-
   const result = p
     .filter((p, i, a) => a.length && a.findIndex(o => JSON.stringify(o) === JSON.stringify(p)) === i)
     .sort((a, b) => a.length - b.length)
