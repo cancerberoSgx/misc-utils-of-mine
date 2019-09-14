@@ -1,3 +1,4 @@
+export * from './anim'
 export * from './format'
 export * from './printMs'
 export * from './sleep'

@@ -16,7 +16,7 @@
 
 ▸ **hashCode**(`s`: string): *number*
 
-*Defined in [string/hash.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/string/hash.ts#L16)*
+*Defined in [string/hash.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/string/hash.ts#L16)*
 
 Returns a hash code for a string.
 (Compatible to Java's String.hashCode())

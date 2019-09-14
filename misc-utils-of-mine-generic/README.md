@@ -7,12 +7,12 @@ These should work on all es5 compatible environments, Browse and node.js and eve
  [API](api/README.md)
 
 ## TODO
-
+- [ ] string/boxes : drawBox({pos: Point, lines:String[], padding: {top,right,bottom,left}})
+- [ ] test visitJson
+  - [ ] impl findJson, filterJson 
 - [x] test tree.ts
 - [x] objectToArray
 - [x] Deferred test
-- [ ] test visitJson
-  - [ ] impl findJson, filterJson 
 
 
 

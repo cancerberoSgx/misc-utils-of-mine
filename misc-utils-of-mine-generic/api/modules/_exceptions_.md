@@ -18,7 +18,7 @@
 
 ▸ **checkThrow**<**T**>(`r?`: [T](), `msg`: string): *T*
 
-*Defined in [exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
+*Defined in [exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
 
 **Type parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **checkTruthy**<**T**>(`r?`: [T](), `msg`: string): *boolean*
 
-*Defined in [exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
+*Defined in [exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
 
 **Type parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **tryTo**<**R**, **D**>(`f`: function, `def?`: [D]()): *R | D | undefined*
 
-*Defined in [exceptions.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/2aecb20/misc-utils-of-mine-generic/src/exceptions.ts#L21)*
+*Defined in [exceptions.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/exceptions.ts#L21)*
 
 **Type parameters:**
 
