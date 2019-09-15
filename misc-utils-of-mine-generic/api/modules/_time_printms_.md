@@ -16,7 +16,7 @@
 
 ▸ **printMs**(`ms`: number, `config`: object): *string*
 
-*Defined in [time/printMs.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/time/printMs.ts#L1)*
+*Defined in [time/printMs.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/time/printMs.ts#L1)*
 
 **Parameters:**
 

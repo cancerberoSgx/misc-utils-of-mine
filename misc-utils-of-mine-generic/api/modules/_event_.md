@@ -20,7 +20,7 @@
 
 Ƭ **Listener**: *function*
 
-*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/event.ts#L16)*
+*Defined in [event.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/event.ts#L16)*
 
 #### Type declaration:
 

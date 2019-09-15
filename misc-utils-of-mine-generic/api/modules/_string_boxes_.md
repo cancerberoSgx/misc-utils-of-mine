@@ -31,7 +31,7 @@
 
 Ƭ **BoxStyles**: *object*
 
-Defined in string/boxes.ts:84
+*Defined in [string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ Defined in string/boxes.ts:84
 
 • **borderStyles**: *string[]* =  enumKeys(BorderStyle)
 
-Defined in string/boxes.ts:28
+*Defined in [string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **boxStyles**: *[BoxStyles](_string_boxes_.md#boxstyles) | undefined*
 
-Defined in string/boxes.ts:88
+*Defined in [string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
 
 ## Functions
 
@@ -57,7 +57,7 @@ Defined in string/boxes.ts:88
 
 ▸ **getBoxChar**(`s`: [BorderStyle](../enums/_string_boxes_.borderstyle.md), `si`: [BorderSide](../enums/_string_boxes_.borderside.md)): *string*
 
-Defined in string/boxes.ts:45
+*Defined in [string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
 
 **Parameters:**
 
@@ -74,6 +74,6 @@ ___
 
 ▸ **getBoxStyles**(): *object*
 
-Defined in string/boxes.ts:90
+*Defined in [string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
 
 **Returns:** *object*

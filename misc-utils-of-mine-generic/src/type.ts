@@ -53,7 +53,7 @@ export function notUndefined<T>(n: T): n is NotUndefined<T> {
 
 export declare type EmptyObject = {}
 
-export declare type Map<K extends string=string,V=any> = {[k in K]:V}
+export declare type Map<K extends string = string, V = any> = { [k in K]: V }
 
 type falsy = undefined | null | false | '' | 0
 

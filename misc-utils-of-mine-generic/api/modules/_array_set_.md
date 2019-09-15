@@ -22,7 +22,7 @@
 
 • **arrayUnion**: *[unionEquals](_array_set_.md#unionequals)* =  unionEquals
 
-*Defined in [array/set.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/array/set.ts#L9)*
+*Defined in [array/set.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/set.ts#L9)*
 
 ## Functions
 
@@ -30,7 +30,7 @@
 
 ▸ **arrayDifference**<**A**>(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [array/set.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/array/set.ts#L18)*
+*Defined in [array/set.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/set.ts#L18)*
 
 **Type parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **arrayInterception**<**A**>(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [array/set.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/array/set.ts#L11)*
+*Defined in [array/set.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/set.ts#L11)*
 
 **Type parameters:**
 
@@ -96,7 +96,7 @@ ___
 
 ▸ **unionEquals**<**T**>(`a`: T[], `b`: T[], `predicate`: function, `output?`: T[]): *T[]*
 
-*Defined in [array/set.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/array/set.ts#L3)*
+*Defined in [array/set.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/set.ts#L3)*
 
 **Type parameters:**
 

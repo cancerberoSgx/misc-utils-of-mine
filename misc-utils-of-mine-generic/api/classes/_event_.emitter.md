@@ -34,7 +34,7 @@ The simplest implementation of an event emitter.
 
 • **l**: *L[]* =  []
 
-*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/event.ts#L5)*
+*Defined in [event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/event.ts#L5)*
 
 ## Methods
 
@@ -42,7 +42,7 @@ The simplest implementation of an event emitter.
 
 ▸ **add**(`l`: L): *void*
 
-*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/event.ts#L6)*
+*Defined in [event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/event.ts#L6)*
 
 **Parameters:**
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **emit**(`e`: E): *void*
 
-*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/event.ts#L9)*
+*Defined in [event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/event.ts#L9)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **remove**(`l`: L): *void*
 
-*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/1cdf757/misc-utils-of-mine-generic/src/event.ts#L12)*
+*Defined in [event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/event.ts#L12)*
 
 **Parameters:**
 
