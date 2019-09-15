@@ -53,6 +53,8 @@ export function notUndefined<T>(n: T): n is NotUndefined<T> {
 
 export declare type EmptyObject = {}
 
+export declare type Map<K extends string=string,V=any> = {[k in K]:V}
+
 type falsy = undefined | null | false | '' | 0
 
 /**
@@ -74,3 +76,10 @@ export function notFalsy<T>(n: T): n is NotFalsy<T> {
 export type ObjectStringKeyUnion<T extends any> = Extract<keyof T, string>
 
 export type Fn<args extends any[] = any[], returnValue extends any = any> = (...args: args) => returnValue
+
+/** UnionToIntersection<1|2|3>  will be 1 & 2 & 3 */
+export type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends ((k: infer I) => void) ? I : never
+
+export function anyUndefined(...a: any[]) {
+  return !!a.find(a => typeof a === 'undefined')
+}
