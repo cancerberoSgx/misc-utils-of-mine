@@ -34,7 +34,7 @@
 
 • **classic**: = "classic"
 
-*Defined in [string/boxes.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L10)*
+*Defined in [string/boxes.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L10)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **double**: = "double"
 
-*Defined in [string/boxes.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L5)*
+*Defined in [string/boxes.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L5)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **doubleLight**: = "doubleLight"
 
-*Defined in [string/boxes.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L9)*
+*Defined in [string/boxes.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L9)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **heavier**: = "heavier"
 
-*Defined in [string/boxes.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L14)*
+*Defined in [string/boxes.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L14)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **heavy**: = "heavy"
 
-*Defined in [string/boxes.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L7)*
+*Defined in [string/boxes.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L7)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **heavyDoubleDash**: = "heavyDoubleDash"
 
-*Defined in [string/boxes.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L18)*
+*Defined in [string/boxes.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L18)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **heavyQuadrupleDash**: = "heavyQuadrupleDash"
 
-*Defined in [string/boxes.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L20)*
+*Defined in [string/boxes.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L20)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 • **heavyTripleDash**: = "heavyTripleDash"
 
-*Defined in [string/boxes.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L19)*
+*Defined in [string/boxes.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L19)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 • **light**: = "light"
 
-*Defined in [string/boxes.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L4)*
+*Defined in [string/boxes.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L4)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 • **lightDouble**: = "lightDouble"
 
-*Defined in [string/boxes.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L8)*
+*Defined in [string/boxes.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L8)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 • **lightDoubleDash**: = "lightDoubleDash"
 
-*Defined in [string/boxes.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L13)*
+*Defined in [string/boxes.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L13)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 • **lightQuadrupleDash**: = "lightQuadrupleDash"
 
-*Defined in [string/boxes.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L12)*
+*Defined in [string/boxes.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L12)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 • **lightTripleDash**: = "lightTripleDash"
 
-*Defined in [string/boxes.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L11)*
+*Defined in [string/boxes.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L11)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 • **round**: = "round"
 
-*Defined in [string/boxes.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L6)*
+*Defined in [string/boxes.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L6)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 • **roundDoubleDash**: = "roundDoubleDash"
 
-*Defined in [string/boxes.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L15)*
+*Defined in [string/boxes.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L15)*
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 • **roundQuadrupleDash**: = "roundQuadrupleDash"
 
-*Defined in [string/boxes.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L17)*
+*Defined in [string/boxes.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L17)*
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 • **roundTripleDash**: = "roundTripleDash"
 
-*Defined in [string/boxes.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L16)*
+*Defined in [string/boxes.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L16)*
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 • **singleRareCorners**: = "singleRareCorners"
 
-*Defined in [string/boxes.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L22)*
+*Defined in [string/boxes.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L22)*
 
 ___
 
@@ -178,4 +178,4 @@ ___
 
 • **triangleCorners**: = "triangleCorners"
 
-*Defined in [string/boxes.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/string/boxes.ts#L23)*
+*Defined in [string/boxes.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/boxes.ts#L23)*
