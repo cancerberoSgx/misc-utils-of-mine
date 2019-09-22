@@ -18,7 +18,7 @@
 
 ▸ **dedup**<**T**>(`a`: T[], `p`: function): *T[]*
 
-*Defined in [array/filter.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/filter.ts#L3)*
+*Defined in [array/filter.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/array/filter.ts#L3)*
 
 **Type parameters:**
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **notSame**<**T**>(`t`: T, `i`: number, `a`: T[]): *boolean*
 
-*Defined in [array/filter.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/filter.ts#L10)*
+*Defined in [array/filter.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/array/filter.ts#L10)*
 
 Use it to remove duplicates in array's filter expressions like `array.filter(notSame)`.
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **notSameNotFalsy**<**T**>(`t`: T, `i`: number, `a`: T[]): *boolean*
 
-*Defined in [array/filter.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/array/filter.ts#L18)*
+*Defined in [array/filter.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/array/filter.ts#L18)*
 
 Use it remove duplicates and falsy values in filter() expressions like
 `array.filter(notSameNotFalsy)`

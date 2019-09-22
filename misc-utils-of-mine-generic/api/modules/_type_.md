@@ -43,7 +43,7 @@
 
 Ƭ **EmptyObject**: *object*
 
-*Defined in [type.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L54)*
+*Defined in [type.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L54)*
 
 #### Type declaration:
 
@@ -53,7 +53,7 @@ ___
 
 Ƭ **Falsy**: *Falsy<T>*
 
-*Defined in [type.ts:63](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L63)*
+*Defined in [type.ts:63](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L63)*
 
 Without arguments it returns the union of all falsy values. With arguments it returns given type excluding falsy arguments.  Example `Falsy<number|boolean|null> ` will be `false|null`
 
@@ -63,7 +63,7 @@ ___
 
 Ƭ **Fn**: *function*
 
-*Defined in [type.ts:78](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L78)*
+*Defined in [type.ts:78](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L78)*
 
 #### Type declaration:
 
@@ -81,7 +81,7 @@ ___
 
 Ƭ **Map**: *object*
 
-*Defined in [type.ts:56](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L56)*
+*Defined in [type.ts:56](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L56)*
 
 #### Type declaration:
 
@@ -91,7 +91,7 @@ ___
 
 Ƭ **NotFalsy**: *Exclude‹T, [falsy](_type_.md#falsy)›*
 
-*Defined in [type.ts:67](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L67)*
+*Defined in [type.ts:67](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L67)*
 
 Removes undefined from type.  Example `Falsy<number|boolean>` will be `number|true`
 
@@ -101,7 +101,7 @@ ___
 
 Ƭ **NotUndefined**: *Exclude‹T, undefined›*
 
-*Defined in [type.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L47)*
+*Defined in [type.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L47)*
 
 Removes undefined from type
 
@@ -111,7 +111,7 @@ ___
 
 Ƭ **ObjectStringKeyUnion**: *Extract‹keyof T, string›*
 
-*Defined in [type.ts:76](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L76)*
+*Defined in [type.ts:76](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L76)*
 
 c:ObjectStringKeyUnion<{a:1,b:'s'}> === 'a'|'b'
 
@@ -121,7 +121,7 @@ ___
 
 Ƭ **PropertyOptional**: *[RemoveProperties](_type_.md#removeproperties)‹O, K› & object*
 
-*Defined in [type.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L41)*
+*Defined in [type.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L41)*
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 Ƭ **RemoveProperties**: *Pick‹O, Exclude‹keyof O, K››*
 
-*Defined in [type.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L39)*
+*Defined in [type.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L39)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 Ƭ **TODO**: *any*
 
-*Defined in [type.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L44)*
+*Defined in [type.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L44)*
 
 Useful TODO reminder when you are porting typings of a JavaScript library
 
@@ -147,7 +147,7 @@ ___
 
 Ƭ **UnionToIntersection**: *UnionToIntersection<U>*
 
-*Defined in [type.ts:81](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L81)*
+*Defined in [type.ts:81](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L81)*
 
 UnionToIntersection<1|2|3>  will be 1 & 2 & 3
 
@@ -157,7 +157,7 @@ ___
 
 Ƭ **falsy**: *undefined | null | false | "" | 0*
 
-*Defined in [type.ts:58](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L58)*
+*Defined in [type.ts:58](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L58)*
 
 ## Variables
 
@@ -169,7 +169,7 @@ ___
     return toStr.call(obj) === '[object Array]'
   }
 
-*Defined in [type.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L11)*
+*Defined in [type.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L11)*
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 • **toStr**: *toString* =  Object.prototype.toString
 
-*Defined in [type.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L1)*
+*Defined in [type.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L1)*
 
 ## Functions
 
@@ -185,7 +185,7 @@ ___
 
 ▸ **anyUndefined**(...`a`: any[]): *boolean*
 
-*Defined in [type.ts:83](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L83)*
+*Defined in [type.ts:83](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L83)*
 
 **Parameters:**
 
@@ -201,7 +201,7 @@ ___
 
 ▸ **getType**(`type`: any): *string*
 
-*Defined in [type.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L3)*
+*Defined in [type.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L3)*
 
 **Parameters:**
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **isBoolean**(`obj`: any): *boolean*
 
-*Defined in [type.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L21)*
+*Defined in [type.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L21)*
 
 **Parameters:**
 
@@ -233,7 +233,7 @@ ___
 
 ▸ **isObject**(`obj`: any): *boolean*
 
-*Defined in [type.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L7)*
+*Defined in [type.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L7)*
 
 **Parameters:**
 
@@ -249,7 +249,7 @@ ___
 
 ▸ **isString**(`a`: any): *boolean*
 
-*Defined in [type.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L17)*
+*Defined in [type.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L17)*
 
 **Parameters:**
 
@@ -265,7 +265,7 @@ ___
 
 ▸ **notFalsy**<**T**>(`n`: T): *boolean*
 
-*Defined in [type.ts:71](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L71)*
+*Defined in [type.ts:71](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L71)*
 
 Useful for filtering out falsy values without casting.
 
@@ -287,7 +287,7 @@ ___
 
 ▸ **notUndefined**<**T**>(`n`: T): *boolean*
 
-*Defined in [type.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L50)*
+*Defined in [type.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L50)*
 
 Useful for filtering out undefined values without casting.
 
@@ -309,7 +309,7 @@ ___
 
 ▸ **typeOf**(`input`: any): *string*
 
-*Defined in [type.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/60bba9c/misc-utils-of-mine-generic/src/type.ts#L32)*
+*Defined in [type.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8751647/misc-utils-of-mine-generic/src/type.ts#L32)*
 
 Get type of variable
 
