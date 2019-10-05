@@ -8,7 +8,7 @@ export function isObject(obj: any) {
   return typeof obj === 'object' && getType(obj) === '[object Object]'
 }
 
-export var isArray =
+export const isArray =
   Array.isArray ||
   function(obj: any) {
     return toStr.call(obj) === '[object Array]'
@@ -24,9 +24,6 @@ export function isBoolean(obj: any) {
 
 /**
  * Get type of variable
- * @param mixed input
- * @return string
- *
  * @see http://jsperf.com/typeofvar
  */
 export function typeOf(input: any) {
@@ -46,10 +43,6 @@ export type TODO = any
 /** Removes undefined from type */
 export type NotUndefined<T> = Exclude<T, undefined>
 
-/** Useful for filtering out undefined values without casting. */
-export function notUndefined<T>(n: T): n is NotUndefined<T> {
-  return n !== undefined
-}
 
 export declare type EmptyObject = {}
 
@@ -67,11 +60,6 @@ export type Falsy<T = never> = T extends never ? (never extends T ? falsy : Extr
 export type NotFalsy<T> = Exclude<T, falsy>
 // let c: NotFalsy<number|boolean>
 
-/** Useful for filtering out falsy values without casting. */
-export function notFalsy<T>(n: T): n is NotFalsy<T> {
-  return !!n
-}
-
 /** c:ObjectStringKeyUnion<{a:1,b:'s'}> === 'a'|'b' */
 export type ObjectStringKeyUnion<T extends any> = Extract<keyof T, string>
 
@@ -79,7 +67,3 @@ export type Fn<args extends any[] = any[], returnValue extends any = any> = (...
 
 /** UnionToIntersection<1|2|3>  will be 1 & 2 & 3 */
 export type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends ((k: infer I) => void) ? I : never
-
-export function anyUndefined(...a: any[]) {
-  return !!a.find(a => typeof a === 'undefined')
-}

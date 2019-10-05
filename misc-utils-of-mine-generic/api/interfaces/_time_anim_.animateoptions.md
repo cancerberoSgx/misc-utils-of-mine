@@ -24,7 +24,7 @@
 
 • **draw**: *function*
 
-*Defined in [time/anim.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/time/anim.ts#L11)*
+*Defined in [time/anim.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L11)*
 
 #### Type declaration:
 
@@ -42,7 +42,7 @@ ___
 
 • **duration**: *number*
 
-*Defined in [time/anim.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/time/anim.ts#L10)*
+*Defined in [time/anim.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L10)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **end**? : *[Fn](../modules/_type_.md#fn)*
 
-*Defined in [time/anim.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/time/anim.ts#L14)*
+*Defined in [time/anim.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L14)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **lapse**? : *undefined | number*
 
-*Defined in [time/anim.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/time/anim.ts#L13)*
+*Defined in [time/anim.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L13)*
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 • **timing**: *[Timing](../modules/_time_anim_.md#timing) | [TimingObject](../modules/_time_anim_.md#timingobject)*
 
-*Defined in [time/anim.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/time/anim.ts#L12)*
+*Defined in [time/anim.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L12)*

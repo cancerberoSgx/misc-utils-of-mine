@@ -20,7 +20,7 @@
 
 ▸ **indent**(`i`: number, `tabSize`: number): *string*
 
-*Defined in [string/format.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/format.ts#L15)*
+*Defined in [string/format.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/format.ts#L15)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **quote**(`s`: string, `q`: string): *string*
 
-*Defined in [string/format.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/format.ts#L3)*
+*Defined in [string/format.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/format.ts#L3)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **repeat**(`n`: number, `s`: string): *string*
 
-*Defined in [string/format.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/format.ts#L11)*
+*Defined in [string/format.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/format.ts#L11)*
 
 **Parameters:**
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **unquote**(`s`: string): *string*
 
-*Defined in [string/format.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/format.ts#L7)*
+*Defined in [string/format.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/format.ts#L7)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **wordWrap**(`s`: string, `w`: number, `newLine`: string): *string*
 
-*Defined in [string/format.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/string/format.ts#L19)*
+*Defined in [string/format.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/format.ts#L19)*
 
 **Parameters:**
 

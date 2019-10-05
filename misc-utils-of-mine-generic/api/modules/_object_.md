@@ -27,7 +27,7 @@
 
 • **objectMap**: *[objectMapValues](_object_.md#objectmapvalues)* =  objectMapValues
 
-*Defined in [object.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L24)*
+*Defined in [object.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L25)*
 
 ## Functions
 
@@ -35,7 +35,7 @@
 
 ▸ **arrayToObject**<**T**>(`a`: string[], `fn`: function): *object*
 
-*Defined in [object.ts:46](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L46)*
+*Defined in [object.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L47)*
 
 Builds an object using keys in [[a]] and values returning from [[fn]] as long as they are not undefined.
 
@@ -67,7 +67,7 @@ ___
 
 ▸ **getObjectProperty**<**T**>(`object`: any, `path`: string | string | number[], `defaultValue`: T | undefined): *T | undefined*
 
-*Defined in [object.ts:58](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L58)*
+*Defined in [object.ts:59](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L59)*
 
 Returns a nested property of given object and given path. For example path could be 'foo.bar' and it will
 return `object['foo']['bar']`
@@ -92,7 +92,7 @@ ___
 
 ▸ **getObjectPropertyPaths**(`object`: any, `options`: object): *string | number[][]*
 
-*Defined in [object.ts:116](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L116)*
+*Defined in [object.ts:117](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L117)*
 
 **Parameters:**
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **objectFilter**<**O**>(`o`: O, `p`: function): *Partial‹O›*
 
-*Defined in [object.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L30)*
+*Defined in [object.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L31)*
 
 **Type parameters:**
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **objectKeys**<**Field**>(`o`: Field): *[ObjectStringKeyUnion](_type_.md#objectstringkeyunion)‹Field›[]*
 
-*Defined in [object.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L6)*
+*Defined in [object.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L7)*
 
 Same as `Object.keys()` but with types.
 
@@ -164,7 +164,7 @@ ___
 
 ▸ **objectMapValues**<**O**, **T**>(`o`: O, `p`: function): *object*
 
-*Defined in [object.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L13)*
+*Defined in [object.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L14)*
 
 Returns a new object with the same keys of given one, and values mapped with given function.
 
@@ -197,7 +197,7 @@ ___
 
 ▸ **objectToArray**<**O**>(`o`: O): *object[]*
 
-*Defined in [object.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L26)*
+*Defined in [object.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L27)*
 
 **Type parameters:**
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **setObjectProperty**(`object`: any, `path`: string | string | number[], `value`: any): *any*
 
-*Defined in [object.ts:85](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b6947cf/misc-utils-of-mine-generic/src/object.ts#L85)*
+*Defined in [object.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L86)*
 
 sets a nested property on given path. For example path could be 'foo.bar' and it will set `object.foo.bar = value`.
 If the path given as array contains numbers, then or those items arrays will be created instead of objects. For example:
