@@ -43,3 +43,10 @@ export function getEnumKeyAndValue(e: any) {
   }
   return a
 }
+
+/**
+ * return the Enum type from given string enum key obtained with key [[enumNoValueKeys]]
+ */
+export function enumValueFromString<T>(key: string, anEnum: any): T | undefined {
+  return anEnum[key]
+}
