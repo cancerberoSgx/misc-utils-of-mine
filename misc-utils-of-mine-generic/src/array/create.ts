@@ -18,3 +18,4 @@ export function seq(start: number = 0, step: number = 1, max: number = 0): numbe
   }
   return result
 }
+ 
