@@ -19,7 +19,7 @@
 
 ▸ **anyUndefined**(...`a`: any[]): *boolean*
 
-*Defined in [src/array/filter.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/filter.ts#L41)*
+*Defined in [src/array/filter.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/filter.ts#L41)*
 
 Returns true if any item in given array is undefined.
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **dedup**‹**T**›(`a`: T[], `predicate`: function): *T[]*
 
-*Defined in [src/array/filter.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/filter.ts#L6)*
+*Defined in [src/array/filter.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/filter.ts#L6)*
 
 Remove duplicate items according to given predicate.
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **notFalsy**‹**T**›(`n`: T): *n is NotFalsy‹T›*
 
-*Defined in [src/array/filter.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/filter.ts#L20)*
+*Defined in [src/array/filter.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/filter.ts#L20)*
 
 Useful for filtering out falsy values without casting. like `array.filter(notFalsy)`.
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **notSame**‹**T**›(`t`: T, `i`: number, `a`: T[]): *boolean*
 
-*Defined in [src/array/filter.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/filter.ts#L27)*
+*Defined in [src/array/filter.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/filter.ts#L27)*
 
 Use it to remove duplicates in array's filter expressions like `array.filter(notSame)`.
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **notSameNotFalsy**‹**T**›(`t`: T, `i`: number, `a`: T[]): *t is NotFalsy‹T›*
 
-*Defined in [src/array/filter.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/filter.ts#L34)*
+*Defined in [src/array/filter.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/filter.ts#L34)*
 
 Use it remove duplicates and falsy values in filter() expressions like `array.filter(notSameNotFalsy)`.
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **notUndefined**‹**T**›(`n`: T): *n is NotUndefined‹T›*
 
-*Defined in [src/array/filter.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/filter.ts#L13)*
+*Defined in [src/array/filter.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/filter.ts#L13)*
 
 Useful for filtering out undefined values without casting. like `array.filter(notUndefined)`.
 
