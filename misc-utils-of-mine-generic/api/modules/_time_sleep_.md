@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/sleep"](_time_sleep_.md)
 
-# External module: "time/sleep"
+# Module: "time/sleep"
 
 ## Index
 
@@ -18,9 +18,9 @@
 
 ### `Const` wait
 
-• **wait**: *[sleep](_time_sleep_.md#sleep)* =  sleep
+• **wait**: *[sleep](_time_sleep_.md#sleep)* = sleep
 
-*Defined in [time/sleep.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/sleep.ts#L9)*
+*Defined in [src/time/sleep.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/sleep.ts#L9)*
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **blockFor**(`ms`: number): *void*
 
-*Defined in [time/sleep.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/sleep.ts#L19)*
+*Defined in [src/time/sleep.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/sleep.ts#L19)*
 
 blocks the thread for given ms. For testing purposes.
 
@@ -46,7 +46,7 @@ ___
 
 ▸ **sleep**(`ms`: number): *Promise‹void›*
 
-*Defined in [time/sleep.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/sleep.ts#L1)*
+*Defined in [src/time/sleep.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/sleep.ts#L1)*
 
 **Parameters:**
 
@@ -60,9 +60,9 @@ ___
 
 ###  withTime
 
-▸ **withTime**<**T**>(`label`: string, `fn`: function): *T*
+▸ **withTime**‹**T**›(`label`: string, `fn`: function): *T*
 
-*Defined in [time/sleep.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/sleep.ts#L11)*
+*Defined in [src/time/sleep.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/sleep.ts#L11)*
 
 **Type parameters:**
 

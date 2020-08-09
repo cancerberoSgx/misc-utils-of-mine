@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["function"](_function_.md)
 
-# External module: "function"
+# Module: "function"
 
 ## Index
 
@@ -16,7 +16,7 @@
 
 ▸ **isClassConstructorFunction**(`a`: any): *any*
 
-*Defined in [function.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/function.ts#L15)*
+*Defined in [src/function.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/function.ts#L15)*
 
 **Parameters:**
 
@@ -30,9 +30,9 @@ ___
 
 ###  isGenerator
 
-▸ **isGenerator**(`obj`: any): *boolean*
+▸ **isGenerator**(`obj`: any): *obj is Generator*
 
-*Defined in [function.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/function.ts#L4)*
+*Defined in [src/function.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/function.ts#L4)*
 
 Check whether an object is a generator.
 
@@ -42,15 +42,15 @@ Name | Type |
 ------ | ------ |
 `obj` | any |
 
-**Returns:** *boolean*
+**Returns:** *obj is Generator*
 
 ___
 
 ###  isGeneratorFunction
 
-▸ **isGeneratorFunction**(`fn`: any): *boolean*
+▸ **isGeneratorFunction**(`fn`: any): *fn is GeneratorFunction*
 
-*Defined in [function.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/function.ts#L11)*
+*Defined in [src/function.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/function.ts#L11)*
 
 Check whether a function is generator.
 
@@ -60,4 +60,4 @@ Name | Type |
 ------ | ------ |
 `fn` | any |
 
-**Returns:** *boolean*
+**Returns:** *fn is GeneratorFunction*

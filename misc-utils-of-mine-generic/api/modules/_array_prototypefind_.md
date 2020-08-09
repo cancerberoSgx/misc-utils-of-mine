@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["array/prototypeFind"](_array_prototypefind_.md)
 
-# External module: "array/prototypeFind"
+# Module: "array/prototypeFind"
 
 ## Index
 
@@ -19,7 +19,7 @@
 
 Ƭ **FindPredicate**: *function*
 
-*Defined in [array/prototypeFind.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L15)*
+*Defined in [src/array/prototypeFind.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L15)*
 
 #### Type declaration:
 
@@ -38,9 +38,9 @@ Name | Type |
 
 ###  arrayPrototypeFind
 
-▸ **arrayPrototypeFind**<**T**, **E**>(`this`: E, `a`: T[], `predicate`: [FindPredicate](_array_prototypefind_.md#findpredicate)‹T, undefined | E›, `thisArg?`: E): *T | undefined*
+▸ **arrayPrototypeFind**‹**T**, **E**›(`this`: E, `a`: T[], `predicate`: [FindPredicate](_array_prototypefind_.md#findpredicate)‹T, typeof thisArg›, `thisArg?`: E): *T | undefined*
 
-*Defined in [array/prototypeFind.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L1)*
+*Defined in [src/array/prototypeFind.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L1)*
 
 **Type parameters:**
 
@@ -54,7 +54,7 @@ Name | Type |
 ------ | ------ |
 `this` | E |
 `a` | T[] |
-`predicate` | [FindPredicate](_array_prototypefind_.md#findpredicate)‹T, undefined &#124; E› |
+`predicate` | [FindPredicate](_array_prototypefind_.md#findpredicate)‹T, typeof thisArg› |
 `thisArg?` | E |
 
 **Returns:** *T | undefined*
@@ -65,7 +65,7 @@ ___
 
 ▸ **installArrayPrototypeFind**(`force`: boolean): *void*
 
-*Defined in [array/prototypeFind.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L17)*
+*Defined in [src/array/prototypeFind.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L17)*
 
 **Parameters:**
 

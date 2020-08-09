@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["color"](_color_.md)
 
-# External module: "color"
+# Module: "color"
 
 ## Index
 
@@ -15,7 +15,7 @@
 
 ▸ **randomCssColor**(): *string*
 
-*Defined in [color.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/color.ts#L11)*
+*Defined in [src/color.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/color.ts#L11)*
 
 **Returns:** *string*
 
@@ -25,7 +25,7 @@ ___
 
 ▸ **rgb2Hex**(`s`: string): *string*
 
-*Defined in [color.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/color.ts#L6)*
+*Defined in [src/color.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/color.ts#L6)*
 
 Transforms a color string like `rgb(0,0,0)` to a color string in hex syntax like `#000000`
 

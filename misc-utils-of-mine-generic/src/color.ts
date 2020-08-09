@@ -1,4 +1,4 @@
-import { randomIntBetween } from "./number"
+import { randomIntBetween } from './number'
 
 /**
  * Transforms a color string like `rgb(0,0,0)` to a color string in hex syntax like `#000000`

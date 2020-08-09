@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/whiteSpace"](_string_whitespace_.md)
 
-# External module: "string/whiteSpace"
+# Module: "string/whiteSpace"
 
 ## Index
 
@@ -17,7 +17,7 @@
 
 ▸ **removeEmptyLines**(`c`: string, `newLine`: string): *string*
 
-*Defined in [string/whiteSpace.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L9)*
+*Defined in [src/string/whiteSpace.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L9)*
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **removeWhites**(`s`: string, `replaceWith`: string): *string*
 
-*Defined in [string/whiteSpace.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L5)*
+*Defined in [src/string/whiteSpace.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L5)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **shorter**(`text`: string, `much`: number): *string*
 
-*Defined in [string/whiteSpace.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L1)*
+*Defined in [src/string/whiteSpace.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L1)*
 
 **Parameters:**
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **trimRightLines**(`s`: string, `newLine`: string): *string*
 
-*Defined in [string/whiteSpace.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L16)*
+*Defined in [src/string/whiteSpace.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/whiteSpace.ts#L16)*
 
 **Parameters:**
 

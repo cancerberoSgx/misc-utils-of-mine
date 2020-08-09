@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["tree"](_tree_.md)
 
-# External module: "tree"
+# Module: "tree"
 
 ## Index
 
@@ -43,11 +43,11 @@
 
 Ƭ **NodeKindPredicate**: *function*
 
-*Defined in [tree.ts:158](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L158)*
+*Defined in [src/tree.ts:158](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L158)*
 
 #### Type declaration:
 
-▸ (`n`: T, `i?`: undefined | number, `a?`: T[]): *boolean*
+▸ (`n`: T, `i?`: undefined | number, `a?`: T[]): *n is T*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 Ƭ **NodePredicate**: *[NodeSimplePredicate](_tree_.md#nodesimplepredicate)‹T› | function*
 
-*Defined in [tree.ts:160](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L160)*
+*Defined in [src/tree.ts:160](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L160)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 Ƭ **NodeSimplePredicate**: *function*
 
-*Defined in [tree.ts:156](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L156)*
+*Defined in [src/tree.ts:156](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L156)*
 
 #### Type declaration:
 
@@ -91,7 +91,7 @@ ___
 
 Ƭ **Visitor**: *function*
 
-*Defined in [tree.ts:103](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L103)*
+*Defined in [src/tree.ts:103](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L103)*
 
 #### Type declaration:
 
@@ -107,9 +107,9 @@ Name | Type |
 
 ###  filterAncestors
 
-▸ **filterAncestors**<**T**>(`n`: T, `p`: [NodeSimplePredicate](_tree_.md#nodesimplepredicate)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *T[]*
+▸ **filterAncestors**‹**T**›(`n`: T, `p`: [NodeSimplePredicate](_tree_.md#nodesimplepredicate)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *T[]*
 
-*Defined in [tree.ts:92](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L92)*
+*Defined in [src/tree.ts:92](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L92)*
 
 **Type parameters:**
 
@@ -121,7 +121,7 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `n` | T | - |
 `p` | [NodeSimplePredicate](_tree_.md#nodesimplepredicate)‹T› | - |
-`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) |  {} |
+`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) | {} |
 
 **Returns:** *T[]*
 
@@ -129,9 +129,9 @@ ___
 
 ###  filterChildren
 
-▸ **filterChildren**<**T**>(`n`: [Node](../interfaces/_tree_.node.md), `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›): *T[]*
+▸ **filterChildren**‹**T**›(`n`: [Node](../interfaces/_tree_.node.md), `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›): *T[]*
 
-*Defined in [tree.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L27)*
+*Defined in [src/tree.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L27)*
 
 **Type parameters:**
 
@@ -150,9 +150,9 @@ ___
 
 ###  filterDescendants
 
-▸ **filterDescendants**<**T**>(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *T[]*
+▸ **filterDescendants**‹**T**›(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *T[]*
 
-*Defined in [tree.ts:162](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L162)*
+*Defined in [src/tree.ts:162](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L162)*
 
 **Type parameters:**
 
@@ -164,7 +164,7 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `n` | T | - |
 `p` | [NodePredicate](_tree_.md#nodepredicate)‹T› | - |
-`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) |  {} |
+`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) | {} |
 
 **Returns:** *T[]*
 
@@ -172,9 +172,9 @@ ___
 
 ###  findAncestor
 
-▸ **findAncestor**<**T**>(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›, `o`: object): *T | undefined*
+▸ **findAncestor**‹**T**›(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›, `o`: object): *T | undefined*
 
-*Defined in [tree.ts:72](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L72)*
+*Defined in [src/tree.ts:72](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L72)*
 
 **Type parameters:**
 
@@ -186,7 +186,7 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `n` | T | - |
 `p` | [NodePredicate](_tree_.md#nodepredicate)‹T› | - |
-`o` | object |  {} |
+`o` | object | {} |
 
 **Returns:** *T | undefined*
 
@@ -194,9 +194,9 @@ ___
 
 ###  findChildren
 
-▸ **findChildren**<**T**>(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›): *T | undefined*
+▸ **findChildren**‹**T**›(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›): *T | undefined*
 
-*Defined in [tree.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L23)*
+*Defined in [src/tree.ts:23](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L23)*
 
 **Type parameters:**
 
@@ -215,9 +215,9 @@ ___
 
 ###  findDescendant
 
-▸ **findDescendant**<**T**>(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *T | undefined*
+▸ **findDescendant**‹**T**›(`n`: T, `p`: [NodePredicate](_tree_.md#nodepredicate)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *T | undefined*
 
-*Defined in [tree.ts:190](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L190)*
+*Defined in [src/tree.ts:190](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L190)*
 
 **Type parameters:**
 
@@ -229,7 +229,7 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `n` | T | - |
 `p` | [NodePredicate](_tree_.md#nodepredicate)‹T› | - |
-`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) |  {} |
+`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) | {} |
 
 **Returns:** *T | undefined*
 
@@ -237,9 +237,9 @@ ___
 
 ###  findRootElement
 
-▸ **findRootElement**<**T**>(`n`: T): *undefined | T*
+▸ **findRootElement**‹**T**›(`n`: T): *undefined | T*
 
-*Defined in [tree.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L88)*
+*Defined in [src/tree.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L88)*
 
 **Type parameters:**
 
@@ -257,9 +257,9 @@ ___
 
 ###  getAncestors
 
-▸ **getAncestors**<**T**>(`node`: T | undefined): *T[]*
+▸ **getAncestors**‹**T**›(`node`: T | undefined): *T[]*
 
-*Defined in [tree.ts:208](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L208)*
+*Defined in [src/tree.ts:208](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L208)*
 
 Gets given node's Ancestors in order from node.parent to top most one .
 
@@ -281,14 +281,14 @@ ___
 
 ▸ **getChildIndex**(`node`: [Node](../interfaces/_tree_.node.md), `children`: [Node](../interfaces/_tree_.node.md)[] | undefined): *number*
 
-*Defined in [tree.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L36)*
+*Defined in [src/tree.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L36)*
 
 **Parameters:**
 
 Name | Type | Default | Description |
 ------ | ------ | ------ | ------ |
 `node` | [Node](../interfaces/_tree_.node.md) | - | - |
-`children` | [Node](../interfaces/_tree_.node.md)[] &#124; undefined |  undefined | if caller already have called getChildren he can pass it here so this call is faster.  |
+`children` | [Node](../interfaces/_tree_.node.md)[] &#124; undefined | undefined | if caller already have called getChildren he can pass it here so this call is faster.  |
 
 **Returns:** *number*
 
@@ -296,9 +296,9 @@ ___
 
 ###  getDistanceToAncestor
 
-▸ **getDistanceToAncestor**<**T**>(`node?`: T, `ancestor?`: T): *number*
+▸ **getDistanceToAncestor**‹**T**›(`node?`: T, `ancestor?`: T): *number*
 
-*Defined in [tree.ts:220](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L220)*
+*Defined in [src/tree.ts:220](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L220)*
 
 Get the distance from given node to its Ancestor .
 
@@ -321,7 +321,7 @@ ___
 
 ▸ **getNextSibling**(`node`: [Node](../interfaces/_tree_.node.md)): *[Node](../interfaces/_tree_.node.md) | undefined*
 
-*Defined in [tree.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L50)*
+*Defined in [src/tree.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L50)*
 
 **Parameters:**
 
@@ -337,7 +337,7 @@ ___
 
 ▸ **getPreviousSibling**(`node`: [Node](../interfaces/_tree_.node.md)): *[Node](../interfaces/_tree_.node.md) | undefined*
 
-*Defined in [tree.ts:63](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L63)*
+*Defined in [src/tree.ts:63](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L63)*
 
 **Parameters:**
 
@@ -353,7 +353,7 @@ ___
 
 ▸ **getSiblings**(`node`: [Node](../interfaces/_tree_.node.md), `getChildrenMode`: boolean): *[Node](../interfaces/_tree_.node.md)[]*
 
-*Defined in [tree.ts:57](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L57)*
+*Defined in [src/tree.ts:57](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L57)*
 
 **Parameters:**
 
@@ -368,9 +368,9 @@ ___
 
 ###  mapChildren
 
-▸ **mapChildren**<**N**, **T**>(`n`: N, `v`: function): *T[]*
+▸ **mapChildren**‹**N**, **T**›(`n`: N, `v`: function): *T[]*
 
-*Defined in [tree.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L17)*
+*Defined in [src/tree.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L17)*
 
 **Type parameters:**
 
@@ -398,9 +398,9 @@ ___
 
 ###  mapDescendants
 
-▸ **mapDescendants**<**T**, **V**>(`n`: T, `p`: function, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *V[]*
+▸ **mapDescendants**‹**T**, **V**›(`n`: T, `p`: function, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md)): *V[]*
 
-*Defined in [tree.ts:177](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L177)*
+*Defined in [src/tree.ts:177](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L177)*
 
 **Type parameters:**
 
@@ -422,7 +422,7 @@ Name | Type |
 ------ | ------ |
 `p` | T |
 
-▪`Default value`  **o**: *[VisitorOptions](../interfaces/_tree_.visitoroptions.md)*=  {}
+▪`Default value`  **o**: *[VisitorOptions](../interfaces/_tree_.visitoroptions.md)*= {}
 
 **Returns:** *V[]*
 
@@ -430,9 +430,9 @@ ___
 
 ###  visitAncestors
 
-▸ **visitAncestors**<**T**>(`n`: T, `v`: [Visitor](_tree_.md#visitor)‹T›, `o`: object): *boolean*
+▸ **visitAncestors**‹**T**›(`n`: T, `v`: [Visitor](_tree_.md#visitor)‹T›, `o`: object): *boolean*
 
-*Defined in [tree.ts:68](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L68)*
+*Defined in [src/tree.ts:68](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L68)*
 
 **Type parameters:**
 
@@ -444,7 +444,7 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `n` | T | - |
 `v` | [Visitor](_tree_.md#visitor)‹T› | - |
-`o` | object |  {} |
+`o` | object | {} |
 
 **Returns:** *boolean*
 
@@ -452,9 +452,9 @@ ___
 
 ###  visitChildren
 
-▸ **visitChildren**<**T**>(`n`: T, `v`: function): *void*
+▸ **visitChildren**‹**T**›(`n`: T, `v`: function): *void*
 
-*Defined in [tree.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L12)*
+*Defined in [src/tree.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L12)*
 
 **Type parameters:**
 
@@ -480,9 +480,9 @@ ___
 
 ###  visitDescendants
 
-▸ **visitDescendants**<**T**>(`n`: T, `v`: [Visitor](_tree_.md#visitor)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md), `inRecursion`: boolean): *boolean*
+▸ **visitDescendants**‹**T**›(`n`: T, `v`: [Visitor](_tree_.md#visitor)‹T›, `o`: [VisitorOptions](../interfaces/_tree_.visitoroptions.md), `inRecursion`: boolean): *boolean*
 
-*Defined in [tree.ts:127](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L127)*
+*Defined in [src/tree.ts:127](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L127)*
 
 Visit node's descendants until the visitor function return true or there are no more. In the first
 different modes on which visiting the rest of descenda|nts or Ancestors are configurable through the
@@ -499,7 +499,7 @@ Name | Type | Default |
 ------ | ------ | ------ |
 `n` | T | - |
 `v` | [Visitor](_tree_.md#visitor)‹T› | - |
-`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) |  {} |
+`o` | [VisitorOptions](../interfaces/_tree_.visitoroptions.md) | {} |
 `inRecursion` | boolean | false |
 
 **Returns:** *boolean*

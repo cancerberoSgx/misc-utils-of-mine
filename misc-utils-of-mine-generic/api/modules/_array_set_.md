@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["array/set"](_array_set_.md)
 
-# External module: "array/set"
+# Module: "array/set"
 
 ## Index
 
@@ -18,17 +18,17 @@
 
 ### `Const` arrayUnion
 
-• **arrayUnion**: *[unionEquals](_array_set_.md#unionequals)* =  unionEquals
+• **arrayUnion**: *[unionEquals](_array_set_.md#unionequals)* = unionEquals
 
-*Defined in [array/set.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/set.ts#L9)*
+*Defined in [src/array/set.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/set.ts#L9)*
 
 ## Functions
 
 ###  arrayDifference
 
-▸ **arrayDifference**<**A**>(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
+▸ **arrayDifference**‹**A**›(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [array/set.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/set.ts#L18)*
+*Defined in [src/array/set.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/set.ts#L18)*
 
 **Type parameters:**
 
@@ -40,7 +40,7 @@
 
 ▪ **b**: *A[]*
 
-▪`Default value`  **predicate**: *function*=  (a, b) => a === b
+▪`Default value`  **predicate**: *function*= (a, b) => a === b
 
 ▸ (`a`: A, `b`: A): *boolean*
 
@@ -59,9 +59,9 @@ ___
 
 ###  arrayInterception
 
-▸ **arrayInterception**<**A**>(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
+▸ **arrayInterception**‹**A**›(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [array/set.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/set.ts#L11)*
+*Defined in [src/array/set.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/set.ts#L11)*
 
 **Type parameters:**
 
@@ -73,7 +73,7 @@ ___
 
 ▪ **b**: *A[]*
 
-▪`Default value`  **predicate**: *function*=  (a, b) => a === b
+▪`Default value`  **predicate**: *function*= (a, b) => a === b
 
 ▸ (`a`: A, `b`: A): *boolean*
 
@@ -92,9 +92,9 @@ ___
 
 ###  unionEquals
 
-▸ **unionEquals**<**T**>(`a`: T[], `b`: T[], `predicate`: function, `output?`: T[]): *T[]*
+▸ **unionEquals**‹**T**›(`a`: T[], `b`: T[], `predicate`: function, `output?`: T[]): *T[]*
 
-*Defined in [array/set.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/set.ts#L3)*
+*Defined in [src/array/set.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/set.ts#L3)*
 
 **Type parameters:**
 
@@ -106,7 +106,7 @@ ___
 
 ▪ **b**: *T[]*
 
-▪`Default value`  **predicate**: *function*=  (a, b) => a === b
+▪`Default value`  **predicate**: *function*= (a, b) => a === b
 
 ▸ (`a`: T, `b`: T): *boolean*
 

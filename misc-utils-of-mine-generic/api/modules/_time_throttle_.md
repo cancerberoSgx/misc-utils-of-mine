@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/throttle"](_time_throttle_.md)
 
-# External module: "time/throttle"
+# Module: "time/throttle"
 
 ## Index
 
@@ -12,9 +12,9 @@
 
 ###  throttle
 
-▸ **throttle**<**F**>(`func`: F, `wait`: number, `options`: object): *(Anonymous function)*
+▸ **throttle**‹**F**›(`func`: F, `wait`: number, `options`: object): *(Anonymous function)*
 
-*Defined in [time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
+*Defined in [src/time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
 
 **Type parameters:**
 
@@ -26,7 +26,7 @@
 
 ▪ **wait**: *number*
 
-▪`Default value`  **options**: *object*=  {}
+▪`Default value`  **options**: *object*= {}
 
 Name | Type |
 ------ | ------ |

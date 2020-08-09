@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["geometry"](_geometry_.md)
 
-# External module: "geometry"
+# Module: "geometry"
 
 ## Index
 
@@ -28,7 +28,7 @@
 
 Ƭ **NumberMapFn**: *function*
 
-*Defined in [geometry.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L20)*
+*Defined in [src/geometry.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/geometry.ts#L20)*
 
 #### Type declaration:
 
@@ -46,7 +46,7 @@ Name | Type |
 
 ▸ **pointInside**(`p`: [IPoint](../interfaces/_geometry_.ipoint.md), `viewport`: [IRect](../interfaces/_geometry_.irect.md)): *boolean*
 
-*Defined in [geometry.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L10)*
+*Defined in [src/geometry.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/geometry.ts#L10)*
 
 **Parameters:**
 

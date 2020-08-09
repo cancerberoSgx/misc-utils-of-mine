@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["array/create"](_array_create_.md)
 
-# External module: "array/create"
+# Module: "array/create"
 
 ## Index
 
@@ -16,9 +16,9 @@
 
 ###  array
 
-▸ **array**<**T**>(`n`: number, `sample?`: T): *T[]*
+▸ **array**‹**T**›(`n`: number, `sample?`: T): *T[]*
 
-*Defined in [array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/create.ts#L2)*
+*Defined in [src/array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/create.ts#L2)*
 
 **Type parameters:**
 
@@ -37,9 +37,9 @@ ___
 
 ###  asArray
 
-▸ **asArray**<**T**>(`selectors`: T | T[]): *T[]*
+▸ **asArray**‹**T**›(`selectors`: T | T[]): *T[]*
 
-*Defined in [array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/create.ts#L10)*
+*Defined in [src/array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/create.ts#L10)*
 
 **Type parameters:**
 
@@ -57,9 +57,9 @@ ___
 
 ###  randomItems
 
-▸ **randomItems**<**T**>(`a`: T[], `amount`: number): *T[]*
+▸ **randomItems**‹**T**›(`a`: T[], `amount`: number): *T[]*
 
-*Defined in [array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/create.ts#L22)*
+*Defined in [src/array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/create.ts#L22)*
 
 **Type parameters:**
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/create.ts#L14)*
+*Defined in [src/array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/create.ts#L14)*
 
 **Parameters:**
 
@@ -96,9 +96,9 @@ ___
 
 ###  shuffle
 
-▸ **shuffle**<**T**>(`a`: T[]): *T[]*
+▸ **shuffle**‹**T**›(`a`: T[]): *T[]*
 
-*Defined in [array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/array/create.ts#L36)*
+*Defined in [src/array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/array/create.ts#L36)*
 
 **Type parameters:**
 

@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/format"](_string_format_.md)
 
-# External module: "string/format"
+# Module: "string/format"
 
 ## Index
 
@@ -19,7 +19,7 @@
 
 ▸ **indent**(`i`: number, `tabSize`: number): *string*
 
-*Defined in [string/format.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/format.ts#L15)*
+*Defined in [src/string/format.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/format.ts#L15)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **quote**(`s`: string, `q`: string): *string*
 
-*Defined in [string/format.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/format.ts#L3)*
+*Defined in [src/string/format.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/format.ts#L3)*
 
 **Parameters:**
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **repeat**(`n`: number, `s`: string): *string*
 
-*Defined in [string/format.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/format.ts#L11)*
+*Defined in [src/string/format.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/format.ts#L11)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **strip**(`s`: string): *string*
 
-*Defined in [string/format.ts:29](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/format.ts#L29)*
+*Defined in [src/string/format.ts:29](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/format.ts#L29)*
 
 strips ANSI codes from a string. From https://github.com/xpl/ansicolor/blob/master/ansicolor.js
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **unquote**(`s`: string): *string*
 
-*Defined in [string/format.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/format.ts#L7)*
+*Defined in [src/string/format.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/format.ts#L7)*
 
 **Parameters:**
 
@@ -106,7 +106,7 @@ ___
 
 ▸ **wordWrap**(`s`: string, `w`: number, `newLine`: string): *string*
 
-*Defined in [string/format.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/format.ts#L19)*
+*Defined in [src/string/format.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/format.ts#L19)*
 
 **Parameters:**
 

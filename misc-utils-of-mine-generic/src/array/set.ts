@@ -1,4 +1,4 @@
-import { dedup } from "./filter"
+import { dedup } from './filter'
 
 export function unionEquals<T>(a: T[], b: T[], predicate: (a: T, b: T) => boolean = (a, b) => a === b, output?: T[]): T[] {
   var r = dedup([...a, ...b], predicate)

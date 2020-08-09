@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-* Array‹[JSONValue](../modules/_json_.md#jsonvalue)›
+* [Array](_json_.jsonarray.md#array)‹[JSONValue](../modules/_json_.md#jsonvalue)›
 
   ↳ **JSONArray**
 
@@ -21,8 +21,8 @@
 
 ### Methods
 
-* [__@iterator](_json_.jsonarray.md#__@iterator)
-* [__@unscopables](_json_.jsonarray.md#__@unscopables)
+* [[Symbol.iterator]](_json_.jsonarray.md#[symbol.iterator])
+* [[Symbol.unscopables]](_json_.jsonarray.md#[symbol.unscopables])
 * [concat](_json_.jsonarray.md#concat)
 * [copyWithin](_json_.jsonarray.md#copywithin)
 * [entries](_json_.jsonarray.md#entries)
@@ -61,7 +61,7 @@
 
 • **Array**: *ArrayConstructor*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1368
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1385
 
 ___
 
@@ -69,21 +69,21 @@ ___
 
 • **length**: *number*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[length](_json_.jsonarray.md#length)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1209
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1215
 
 Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
 
 ## Methods
 
-###  __@iterator
+###  [Symbol.iterator]
 
-▸ **__@iterator**(): *IterableIterator‹[JSONValue](../modules/_json_.md#jsonvalue)›*
+▸ **[Symbol.iterator]**(): *IterableIterator‹[JSONValue](../modules/_json_.md#jsonvalue)›*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[[Symbol.iterator]](_json_.jsonarray.md#[symbol.iterator])*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:52
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:60
 
 Iterator
 
@@ -91,13 +91,13 @@ Iterator
 
 ___
 
-###  __@unscopables
+###  [Symbol.unscopables]
 
-▸ **__@unscopables**(): *object*
+▸ **[Symbol.unscopables]**(): *object*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[[Symbol.unscopables]](_json_.jsonarray.md#[symbol.unscopables])*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:94
+Defined in node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:94
 
 Returns an object whose properties have the value 'true'
 when they will be absent when used in a 'with' statement.
@@ -124,9 +124,9 @@ ___
 
 ▸ **concat**(...`items`: ConcatArray‹[JSONValue](../modules/_json_.md#jsonvalue)›[]): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[concat](_json_.jsonarray.md#concat)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1231
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1237
 
 Combines two or more arrays.
 
@@ -138,11 +138,11 @@ Name | Type | Description |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-▸ **concat**(...`items`: T | ConcatArray‹T›[]): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
+▸ **concat**(...`items`: (T | ConcatArray‹T›)[]): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[concat](_json_.jsonarray.md#concat)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1236
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1242
 
 Combines two or more arrays.
 
@@ -150,7 +150,7 @@ Combines two or more arrays.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`...items` | T &#124; ConcatArray‹T›[] | Additional items to add to the end of array1.  |
+`...items` | (T &#124; ConcatArray‹T›)[] | Additional items to add to the end of array1.  |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
@@ -160,9 +160,9 @@ ___
 
 ▸ **copyWithin**(`target`: number, `start`: number, `end?`: undefined | number): *this*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[copyWithin](_json_.jsonarray.md#copywithin)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:64
+Defined in node_modules/typescript/lib/lib.es2015.core.d.ts:64
 
 Returns the this object after copying a section of the array identified by start and end
 to the same array starting at position target
@@ -183,9 +183,9 @@ ___
 
 ▸ **entries**(): *IterableIterator‹[number, [JSONValue](../modules/_json_.md#jsonvalue)]›*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[entries](_json_.jsonarray.md#entries)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:57
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:65
 
 Returns an iterable of key, value pairs for every entry in the array
 
@@ -197,9 +197,9 @@ ___
 
 ▸ **every**(`callbackfn`: function, `thisArg?`: any): *boolean*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[every](_json_.jsonarray.md#every)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1296
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1310
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -207,7 +207,9 @@ Determines whether all the members of an array satisfy the specified test.
 
 ▪ **callbackfn**: *function*
 
-A function that accepts up to three arguments. The every method calls the callbackfn function for each element in array1 until the callbackfn returns false, or until the end of the array.
+A function that accepts up to three arguments. The every method calls
+the callbackfn function for each element in the array until the callbackfn returns a value
+which is coercible to the Boolean value false, or until the end of the array.
 
 ▸ (`value`: [JSONValue](../modules/_json_.md#jsonvalue), `index`: number, `array`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *unknown*
 
@@ -221,7 +223,8 @@ Name | Type |
 
 ▪`Optional`  **thisArg**: *any*
 
-An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the callbackfn function.
+If thisArg is omitted, undefined is used as the this value.
 
 **Returns:** *boolean*
 
@@ -231,9 +234,9 @@ ___
 
 ▸ **fill**(`value`: [JSONValue](../modules/_json_.md#jsonvalue), `start?`: undefined | number, `end?`: undefined | number): *this*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[fill](_json_.jsonarray.md#fill)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:53
+Defined in node_modules/typescript/lib/lib.es2015.core.d.ts:53
 
 Returns the this object after filling the section identified by start and end with value
 
@@ -251,11 +254,11 @@ ___
 
 ###  filter
 
-▸ **filter**<**S**>(`callbackfn`: function, `thisArg?`: any): *S[]*
+▸ **filter**‹**S**›(`callbackfn`: function, `thisArg?`: any): *S[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[filter](_json_.jsonarray.md#filter)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1320
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1337
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -269,7 +272,7 @@ Returns the elements of an array that meet the condition specified in a callback
 
 A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array.
 
-▸ (`value`: [JSONValue](../modules/_json_.md#jsonvalue), `index`: number, `array`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *boolean*
+▸ (`value`: [JSONValue](../modules/_json_.md#jsonvalue), `index`: number, `array`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *value is S*
 
 **Parameters:**
 
@@ -287,9 +290,9 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 ▸ **filter**(`callbackfn`: function, `thisArg?`: any): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[filter](_json_.jsonarray.md#filter)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1326
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1343
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -319,11 +322,11 @@ ___
 
 ###  find
 
-▸ **find**<**S**>(`predicate`: function, `thisArg?`: any): *S | undefined*
+▸ **find**‹**S**›(`predicate`: function, `thisArg?`: any): *S | undefined*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[find](_json_.jsonarray.md#find)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:31
+Defined in node_modules/typescript/lib/lib.es2015.core.d.ts:31
 
 Returns the value of the first element in the array where predicate is true, and undefined
 otherwise.
@@ -340,7 +343,7 @@ find calls predicate once for each element of the array, in ascending
 order, until it finds one where predicate returns true. If such an element is found, find
 immediately returns that element value. Otherwise, find returns undefined.
 
-▸ (`this`: void, `value`: [JSONValue](../modules/_json_.md#jsonvalue), `index`: number, `obj`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *boolean*
+▸ (`this`: void, `value`: [JSONValue](../modules/_json_.md#jsonvalue), `index`: number, `obj`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *value is S*
 
 **Parameters:**
 
@@ -360,9 +363,9 @@ predicate. If it is not provided, undefined is used instead.
 
 ▸ **find**(`predicate`: function, `thisArg?`: any): *[JSONValue](../modules/_json_.md#jsonvalue) | undefined*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[find](_json_.jsonarray.md#find)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:32
+Defined in node_modules/typescript/lib/lib.es2015.core.d.ts:32
 
 **Parameters:**
 
@@ -388,9 +391,9 @@ ___
 
 ▸ **findIndex**(`predicate`: function, `thisArg?`: any): *number*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[findIndex](_json_.jsonarray.md#findindex)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:43
+Defined in node_modules/typescript/lib/lib.es2015.core.d.ts:43
 
 Returns the index of the first element in the array where predicate is true, and -1
 otherwise.
@@ -424,212 +427,39 @@ ___
 
 ###  flat
 
-▸ **flat**<**U**>(`this`: U[][][][][][][][], `depth`: 7): *U[]*
+▸ **flat**‹**A**, **D**›(`this`: A, `depth?`: D): *FlatArray‹A, D›[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[flat](_json_.jsonarray.md#flat)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:158
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[][][][][][][][] | - |
-`depth` | 7 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[][][][][][][], `depth`: 6): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:166
+Defined in node_modules/typescript/lib/lib.es2019.array.d.ts:81
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
 
 **Type parameters:**
 
-▪ **U**
+▪ **A**
+
+▪ **D**: *number*
 
 **Parameters:**
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`this` | U[][][][][][][] | - |
-`depth` | 6 | The maximum recursion depth  |
+`this` | A | - |
+`depth?` | D | The maximum recursion depth  |
 
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[][][][][][], `depth`: 5): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:174
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[][][][][][] | - |
-`depth` | 5 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[][][][][], `depth`: 4): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:182
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[][][][][] | - |
-`depth` | 4 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[][][][], `depth`: 3): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:190
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[][][][] | - |
-`depth` | 3 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[][][], `depth`: 2): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:198
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[][][] | - |
-`depth` | 2 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[][], `depth?`: undefined | 1): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:206
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[][] | - |
-`depth?` | undefined &#124; 1 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`this`: U[], `depth`: 0): *U[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:214
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`this` | U[] | - |
-`depth` | 0 | The maximum recursion depth  |
-
-**Returns:** *U[]*
-
-▸ **flat**<**U**>(`depth?`: undefined | number): *any[]*
-
-*Inherited from void*
-
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:222
-
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth. If no depth is provided, flat method defaults to the depth of 1.
-
-**Type parameters:**
-
-▪ **U**
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`depth?` | undefined &#124; number | The maximum recursion depth  |
-
-**Returns:** *any[]*
+**Returns:** *FlatArray‹A, D›[]*
 
 ___
 
 ###  flatMap
 
-▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: This): *U[]*
+▸ **flatMap**‹**U**, **This**›(`callback`: function, `thisArg?`: This): *U[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[flatMap](_json_.jsonarray.md#flatmap)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:147
+Defined in node_modules/typescript/lib/lib.es2019.array.d.ts:70
 
 Calls a defined callback function on each element of an array. Then, flattens the result into
 a new array.
@@ -672,9 +502,9 @@ ___
 
 ▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[forEach](_json_.jsonarray.md#foreach)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1308
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1325
 
 Performs the specified action for each element in an array.
 
@@ -706,9 +536,9 @@ ___
 
 ▸ **includes**(`searchElement`: [JSONValue](../modules/_json_.md#jsonvalue), `fromIndex?`: undefined | number): *boolean*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[includes](_json_.jsonarray.md#includes)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2016.array.include.d.ts:27
+Defined in node_modules/typescript/lib/lib.es2016.array.include.d.ts:27
 
 Determines whether an array includes a certain element, returning true or false as appropriate.
 
@@ -727,9 +557,9 @@ ___
 
 ▸ **indexOf**(`searchElement`: [JSONValue](../modules/_json_.md#jsonvalue), `fromIndex?`: undefined | number): *number*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[indexOf](_json_.jsonarray.md#indexof)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1284
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1295
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -748,9 +578,9 @@ ___
 
 ▸ **join**(`separator?`: undefined | string): *string*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[join](_json_.jsonarray.md#join)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1241
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1247
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -768,9 +598,9 @@ ___
 
 ▸ **keys**(): *IterableIterator‹number›*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[keys](_json_.jsonarray.md#keys)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:62
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:70
 
 Returns an iterable of keys in the array
 
@@ -782,9 +612,9 @@ ___
 
 ▸ **lastIndexOf**(`searchElement`: [JSONValue](../modules/_json_.md#jsonvalue), `fromIndex?`: undefined | number): *number*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[lastIndexOf](_json_.jsonarray.md#lastindexof)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1290
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1301
 
 Returns the index of the last occurrence of a specified value in an array.
 
@@ -801,11 +631,11 @@ ___
 
 ###  map
 
-▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *U[]*
+▸ **map**‹**U**›(`callbackfn`: function, `thisArg?`: any): *U[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[map](_json_.jsonarray.md#map)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1314
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1331
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
@@ -841,9 +671,9 @@ ___
 
 ▸ **pop**(): *[JSONValue](../modules/_json_.md#jsonvalue) | undefined*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[pop](_json_.jsonarray.md#pop)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1221
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1227
 
 Removes the last element from an array and returns it.
 
@@ -855,9 +685,9 @@ ___
 
 ▸ **push**(...`items`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *number*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[push](_json_.jsonarray.md#push)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1226
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1232
 
 Appends new elements to an array, and returns the new length of the array.
 
@@ -875,9 +705,9 @@ ___
 
 ▸ **reduce**(`callbackfn`: function): *[JSONValue](../modules/_json_.md#jsonvalue)*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reduce](_json_.jsonarray.md#reduce)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1332
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1349
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -902,9 +732,9 @@ Name | Type |
 
 ▸ **reduce**(`callbackfn`: function, `initialValue`: [JSONValue](../modules/_json_.md#jsonvalue)): *[JSONValue](../modules/_json_.md#jsonvalue)*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reduce](_json_.jsonarray.md#reduce)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1333
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1350
 
 **Parameters:**
 
@@ -925,11 +755,11 @@ Name | Type |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)*
 
-▸ **reduce**<**U**>(`callbackfn`: function, `initialValue`: U): *U*
+▸ **reduce**‹**U**›(`callbackfn`: function, `initialValue`: U): *U*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reduce](_json_.jsonarray.md#reduce)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1339
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1356
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -966,9 +796,9 @@ ___
 
 ▸ **reduceRight**(`callbackfn`: function): *[JSONValue](../modules/_json_.md#jsonvalue)*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reduceRight](_json_.jsonarray.md#reduceright)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1345
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1362
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -993,9 +823,9 @@ Name | Type |
 
 ▸ **reduceRight**(`callbackfn`: function, `initialValue`: [JSONValue](../modules/_json_.md#jsonvalue)): *[JSONValue](../modules/_json_.md#jsonvalue)*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reduceRight](_json_.jsonarray.md#reduceright)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1346
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1363
 
 **Parameters:**
 
@@ -1016,11 +846,11 @@ Name | Type |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)*
 
-▸ **reduceRight**<**U**>(`callbackfn`: function, `initialValue`: U): *U*
+▸ **reduceRight**‹**U**›(`callbackfn`: function, `initialValue`: U): *U*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reduceRight](_json_.jsonarray.md#reduceright)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1352
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1369
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -1057,9 +887,9 @@ ___
 
 ▸ **reverse**(): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[reverse](_json_.jsonarray.md#reverse)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1245
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1251
 
 Reverses the elements in an Array.
 
@@ -1071,9 +901,9 @@ ___
 
 ▸ **shift**(): *[JSONValue](../modules/_json_.md#jsonvalue) | undefined*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[shift](_json_.jsonarray.md#shift)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1249
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1255
 
 Removes the first element from an array and returns it.
 
@@ -1085,9 +915,9 @@ ___
 
 ▸ **slice**(`start?`: undefined | number, `end?`: undefined | number): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[slice](_json_.jsonarray.md#slice)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1255
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1261
 
 Returns a section of an array.
 
@@ -1096,7 +926,7 @@ Returns a section of an array.
 Name | Type | Description |
 ------ | ------ | ------ |
 `start?` | undefined &#124; number | The beginning of the specified portion of the array. |
-`end?` | undefined &#124; number | The end of the specified portion of the array.  |
+`end?` | undefined &#124; number | The end of the specified portion of the array. This is exclusive of the element at the index 'end'.  |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
@@ -1106,9 +936,9 @@ ___
 
 ▸ **some**(`callbackfn`: function, `thisArg?`: any): *boolean*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[some](_json_.jsonarray.md#some)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1302
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1319
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -1116,7 +946,9 @@ Determines whether the specified callback function returns true for any element 
 
 ▪ **callbackfn**: *function*
 
-A function that accepts up to three arguments. The some method calls the callbackfn function for each element in array1 until the callbackfn returns true, or until the end of the array.
+A function that accepts up to three arguments. The some method calls
+the callbackfn function for each element in the array until the callbackfn returns a value
+which is coercible to the Boolean value true, or until the end of the array.
 
 ▸ (`value`: [JSONValue](../modules/_json_.md#jsonvalue), `index`: number, `array`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *unknown*
 
@@ -1130,7 +962,8 @@ Name | Type |
 
 ▪`Optional`  **thisArg**: *any*
 
-An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the callbackfn function.
+If thisArg is omitted, undefined is used as the this value.
 
 **Returns:** *boolean*
 
@@ -1140,9 +973,9 @@ ___
 
 ▸ **sort**(`compareFn?`: undefined | function): *this*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[sort](_json_.jsonarray.md#sort)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1260
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1271
 
 Sorts an array.
 
@@ -1150,7 +983,7 @@ Sorts an array.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`compareFn?` | undefined &#124; function | The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.  |
+`compareFn?` | undefined &#124; function | Function used to determine the order of the elements. It is expected to return a negative value if first argument is less than second argument, zero if they're equal and a positive value otherwise. If omitted, the elements are sorted in ascending, ASCII character order. ```ts [11,2,22,1].sort((a, b) => a - b) ```  |
 
 **Returns:** *this*
 
@@ -1160,9 +993,9 @@ ___
 
 ▸ **splice**(`start`: number, `deleteCount?`: undefined | number): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[splice](_json_.jsonarray.md#splice)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1266
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1277
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
@@ -1177,9 +1010,9 @@ Name | Type | Description |
 
 ▸ **splice**(`start`: number, `deleteCount`: number, ...`items`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[splice](_json_.jsonarray.md#splice)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1273
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1284
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
@@ -1199,9 +1032,9 @@ ___
 
 ▸ **toLocaleString**(): *string*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[toLocaleString](_json_.jsonarray.md#tolocalestring)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1217
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1223
 
 Returns a string representation of an array. The elements are converted to string using their toLocalString methods.
 
@@ -1213,9 +1046,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[toString](_json_.jsonarray.md#tostring)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1213
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1219
 
 Returns a string representation of an array.
 
@@ -1227,9 +1060,9 @@ ___
 
 ▸ **unshift**(...`items`: [JSONValue](../modules/_json_.md#jsonvalue)[]): *number*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[unshift](_json_.jsonarray.md#unshift)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1278
+Defined in node_modules/typescript/lib/lib.es5.d.ts:1289
 
 Inserts new elements at the start of an array.
 
@@ -1247,9 +1080,9 @@ ___
 
 ▸ **values**(): *IterableIterator‹[JSONValue](../modules/_json_.md#jsonvalue)›*
 
-*Inherited from void*
+*Inherited from [JSONArray](_json_.jsonarray.md).[values](_json_.jsonarray.md#values)*
 
-Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:67
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:75
 
 Returns an iterable of values in the array
 

@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/boxes"](_string_boxes_.md)
 
-# External module: "string/boxes"
+# Module: "string/boxes"
 
 ## Index
 
@@ -29,7 +29,7 @@
 
 Ƭ **BoxStyles**: *object*
 
-*Defined in [string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
+*Defined in [src/string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
 
 #### Type declaration:
 
@@ -37,9 +37,9 @@
 
 ### `Const` borderStyles
 
-• **borderStyles**: *string[]* =  enumKeys(BorderStyle)
+• **borderStyles**: *string[]* = enumKeys(BorderStyle)
 
-*Defined in [string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
+*Defined in [src/string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **boxStyles**: *[BoxStyles](_string_boxes_.md#boxstyles) | undefined*
 
-*Defined in [string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
+*Defined in [src/string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
 
 ## Functions
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **getBoxChar**(`s`: [BorderStyle](../enums/_string_boxes_.borderstyle.md), `si`: [BorderSide](../enums/_string_boxes_.borderside.md)): *string*
 
-*Defined in [string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
+*Defined in [src/string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
 
 **Parameters:**
 
@@ -70,8 +70,8 @@ ___
 
 ### `Const` getBoxStyles
 
-▸ **getBoxStyles**(): *object*
+▸ **getBoxStyles**(): *[BoxStyles](_string_boxes_.md#boxstyles)*
 
-*Defined in [string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
+*Defined in [src/string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
 
-**Returns:** *object*
+**Returns:** *[BoxStyles](_string_boxes_.md#boxstyles)*

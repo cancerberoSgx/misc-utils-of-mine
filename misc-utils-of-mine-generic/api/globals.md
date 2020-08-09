@@ -4,7 +4,7 @@
 
 ## Index
 
-### External modules
+### Modules
 
 * ["array/create"](modules/_array_create_.md)
 * ["array/enumKeys"](modules/_array_enumkeys_.md)

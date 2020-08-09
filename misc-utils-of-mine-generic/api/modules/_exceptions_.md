@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["exceptions"](_exceptions_.md)
 
-# External module: "exceptions"
+# Module: "exceptions"
 
 ## Index
 
@@ -14,9 +14,9 @@
 
 ###  checkThrow
 
-▸ **checkThrow**<**T**>(`r?`: T, `msg`: string): *T*
+▸ **checkThrow**‹**T**›(`r?`: T, `msg`: string): *T*
 
-*Defined in [exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
+*Defined in [src/exceptions.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/exceptions.ts#L3)*
 
 **Type parameters:**
 
@@ -35,9 +35,9 @@ ___
 
 ###  checkTruthy
 
-▸ **checkTruthy**<**T**>(`r?`: T, `msg`: string): *boolean*
+▸ **checkTruthy**‹**T**›(`r?`: T, `msg`: string): *r is NotFalsy‹T›*
 
-*Defined in [exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
+*Defined in [src/exceptions.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/exceptions.ts#L10)*
 
 **Type parameters:**
 
@@ -50,15 +50,15 @@ Name | Type | Default |
 `r?` | T | - |
 `msg` | string | "Throwing on undefined value" |
 
-**Returns:** *boolean*
+**Returns:** *r is NotFalsy‹T›*
 
 ___
 
 ###  tryTo
 
-▸ **tryTo**<**R**, **D**>(`f`: function, `def?`: D): *R | D | undefined*
+▸ **tryTo**‹**R**, **D**›(`f`: function, `def?`: D): *R | D | undefined*
 
-*Defined in [exceptions.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/exceptions.ts#L21)*
+*Defined in [src/exceptions.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/exceptions.ts#L21)*
 
 **Type parameters:**
 

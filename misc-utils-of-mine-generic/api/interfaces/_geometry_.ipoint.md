@@ -21,7 +21,7 @@
 
 • **x**: *number*
 
-*Defined in [geometry.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L2)*
+*Defined in [src/geometry.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/geometry.ts#L2)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **y**: *number*
 
-*Defined in [geometry.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L3)*
+*Defined in [src/geometry.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/geometry.ts#L3)*

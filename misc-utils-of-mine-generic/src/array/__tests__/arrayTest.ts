@@ -1,5 +1,5 @@
-import { randomItems } from "../create"
-import { arrayDifference, arrayInterception, arrayUnion } from "../set"
+import { randomItems } from '../create'
+import { arrayDifference, arrayInterception, arrayUnion } from '../set'
 
 describe('array', () => {
 

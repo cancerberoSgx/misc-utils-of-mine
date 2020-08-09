@@ -1,6 +1,6 @@
 [misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["url"](_url_.md)
 
-# External module: "url"
+# Module: "url"
 
 ## Index
 
@@ -15,7 +15,7 @@
 
 ▸ **getFileNameFromUrl**(`url`: string): *string*
 
-*Defined in [url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/url.ts#L1)*
+*Defined in [src/url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/url.ts#L1)*
 
 **Parameters:**
 
@@ -31,13 +31,13 @@ ___
 
 ▸ **getParametersFromUrl**(`url`: string, `options`: object): *object*
 
-*Defined in [url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/url.ts#L7)*
+*Defined in [src/url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/url.ts#L7)*
 
 **Parameters:**
 
 ▪ **url**: *string*
 
-▪`Default value`  **options**: *object*=  {}
+▪`Default value`  **options**: *object*= {}
 
 Name | Type |
 ------ | ------ |
