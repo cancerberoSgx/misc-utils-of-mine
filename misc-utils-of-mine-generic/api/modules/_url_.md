@@ -9,7 +9,7 @@
 * [getFileNameFromUrl](_url_.md#getfilenamefromurl)
 * [getParametersFromUrl](_url_.md#getparametersfromurl)
 * [isAbsoluteUrl](_url_.md#isabsoluteurl)
-* [parseAbsoluteUrl](_url_.md#parseabsoluteurl)
+* [parseUrl](_url_.md#parseurl)
 
 ## Functions
 
@@ -17,7 +17,7 @@
 
 ▸ **getFileNameFromUrl**(`url`: string): *string*
 
-*Defined in [src/url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/url.ts#L1)*
+*Defined in [src/url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/url.ts#L1)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **getParametersFromUrl**(`url`: string, `options`: object): *object*
 
-*Defined in [src/url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/url.ts#L7)*
+*Defined in [src/url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/url.ts#L7)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **isAbsoluteUrl**(`url`: string): *boolean*
 
-*Defined in [src/url.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/url.ts#L38)*
+*Defined in [src/url.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/url.ts#L38)*
 
 Returns true iff given url starts with a protocol ("http://", "https://", etc).
 Notice that this is not strictly the absolute url definition
@@ -71,11 +71,13 @@ Name | Type |
 
 ___
 
-###  parseAbsoluteUrl
+###  parseUrl
 
-▸ **parseAbsoluteUrl**(`url`: string): *null | object*
+▸ **parseUrl**(`url`: string): *null | object*
 
-*Defined in [src/url.ts:42](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/url.ts#L42)*
+*Defined in [src/url.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/url.ts#L45)*
+
+Parse url, emulates window.location format
 
 **Parameters:**
 

@@ -18,7 +18,7 @@
 
 ▸ **enumKeys**(`anEnum`: any): *string[]*
 
-*Defined in [src/array/enumKeys.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/array/enumKeys.ts#L5)*
+*Defined in [src/array/enumKeys.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/enumKeys.ts#L5)*
 
 List given enum keys as array. Must be used on enums with declared values (enum E {a='a', b='b'}, if not
 values could be also returned . For enums without declared values, use enumNoValueKeys
@@ -37,7 +37,7 @@ ___
 
 ▸ **enumNoValueKeys**(`anEnum`: any): *string[]*
 
-*Defined in [src/array/enumKeys.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/array/enumKeys.ts#L18)*
+*Defined in [src/array/enumKeys.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/enumKeys.ts#L18)*
 
 List given enum keys as array. Differently to [enumKeys](_array_enumkeys_.md#enumkeys), is should be used only on enums that doesn't
 have assigned values or other wise on those which values are identical to the keys or not strings. If not,
@@ -57,7 +57,7 @@ ___
 
 ▸ **enumValueFromString**‹**T**›(`key`: string, `anEnum`: any): *T | undefined*
 
-*Defined in [src/array/enumKeys.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/array/enumKeys.ts#L50)*
+*Defined in [src/array/enumKeys.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/enumKeys.ts#L50)*
 
 return the Enum type from given string enum key obtained with key [enumNoValueKeys](_array_enumkeys_.md#enumnovaluekeys)
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **getEnumKey**(`anEnum`: any, `value`: any): *string*
 
-*Defined in [src/array/enumKeys.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/array/enumKeys.ts#L27)*
+*Defined in [src/array/enumKeys.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/enumKeys.ts#L27)*
 
 Returns the key of the first property with given value of given enum
 
@@ -99,7 +99,7 @@ ___
 
 ▸ **getEnumKeyAndValue**(`e`: any): *object[]*
 
-*Defined in [src/array/enumKeys.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6fdfb9c/misc-utils-of-mine-generic/src/array/enumKeys.ts#L39)*
+*Defined in [src/array/enumKeys.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/enumKeys.ts#L39)*
 
 Return given enum as a {name, value} array.
 

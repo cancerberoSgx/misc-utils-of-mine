@@ -1,4 +1,4 @@
-import { getFileNameFromUrl, getParametersFromUrl, isAbsoluteUrl, parseAbsoluteUrl } from '../url'
+import { getFileNameFromUrl, getParametersFromUrl, isAbsoluteUrl, parseUrl } from '../url'
 
 describe('url', () => {
   const absUrl1 = 'https://foo.bar/qs/bar/js-function-to-get-filename-from-url#comment95124061_53560218'
@@ -51,17 +51,15 @@ describe('url', () => {
   })
 
   describe('parseAbsoluteUrl', () => {
-    it('basic', () => {
-
-      expect(parseAbsoluteUrl('http://foo.asd.com:1234/project/123?limit=2#anchor')).toEqual({
+    it('should parse absolute', () => {
+      expect(parseUrl('http://foo.asd.com:1234/project/123?limit=2#anchor')).toEqual({
         protocol: 'http:',
         domain: 'foo.asd.com:1234',
         pathname: '/project/123',
         search: '?limit=2',
         hash: '#anchor'
       })
-
-      expect(parseAbsoluteUrl(absUrl1)).toEqual({
+      expect(parseUrl(absUrl1)).toEqual({
         protocol: 'https:',
         domain: 'foo.bar',
         pathname: '/qs/bar/js-function-to-get-filename-from-url',
@@ -69,6 +67,17 @@ describe('url', () => {
         hash: '#comment95124061_53560218'
       })
     })
+
+    it('should parse relative', () => {
+      expect(parseUrl('project/123?limit=2#anchor')).toEqual({
+        protocol: '',
+        domain: '',
+        pathname: '/project/123',
+        search: '?limit=2',
+        hash: '#anchor'
+      })
+    })
+
   })
 
 })

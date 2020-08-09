@@ -144,9 +144,9 @@
 * [objectMap](_index_.md#objectmap)
 * [objectMapValues](_index_.md#objectmapvalues)
 * [objectToArray](_index_.md#objecttoarray)
-* [parseAbsoluteUrl](_index_.md#parseabsoluteurl)
 * [parseGitIgnore](_index_.md#parsegitignore)
 * [parseJSON](_index_.md#parsejson)
+* [parseUrl](_index_.md#parseurl)
 * [pathJoin](_index_.md#pathjoin)
 * [pointInside](_index_.md#pointinside)
 * [printMs](_index_.md#printms)
@@ -1025,12 +1025,6 @@ ___
 
 ___
 
-###  parseAbsoluteUrl
-
-• **parseAbsoluteUrl**:
-
-___
-
 ###  parseGitIgnore
 
 • **parseGitIgnore**:
@@ -1040,6 +1034,12 @@ ___
 ###  parseJSON
 
 • **parseJSON**:
+
+___
+
+###  parseUrl
+
+• **parseUrl**:
 
 ___
 

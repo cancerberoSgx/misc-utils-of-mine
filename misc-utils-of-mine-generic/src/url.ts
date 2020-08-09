@@ -39,12 +39,19 @@ export function isAbsoluteUrl(url: string) {
   return !!url.match(/^[^:]+:\/\//)
 }
 
-export function parseAbsoluteUrl(url: string) {
+/**
+ * Parse url, emulates window.location format
+ */
+export function parseUrl(url: string) {
+  const isAbsolute = isAbsoluteUrl(url)
+  if (!isAbsolute) {
+    url = 'http://foo.com' + (url.startsWith('/') ? '' : '/') + url
+  }
   const results = /^([^:]+:)\/\/([^\/]+)(.*)/.exec(url)
   if (!results) {
     return null
   }
-  const [all, protocol, domain, rest] = results
+  let [all, protocol, domain, rest] = results
   let pathname = rest
   let i = pathname.indexOf('?')
   if (i !== -1) {
@@ -68,6 +75,10 @@ export function parseAbsoluteUrl(url: string) {
   i = rest.indexOf('#') // yes we're doing it twice
   if (i !== -1) {
     hash = rest.substring(i)
+  }
+  if (!isAbsolute) {
+    domain = ''
+    protocol = ''
   }
   return {
     protocol, domain, pathname, search, hash
