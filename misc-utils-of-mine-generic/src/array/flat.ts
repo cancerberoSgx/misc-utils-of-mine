@@ -13,6 +13,7 @@ export function flatReadOnly<T>(arr: ReadonlyArray<ReadonlyArray<T>>): ReadonlyA
 export function flatInstallArrayPrototype() {
   if (typeof Array.prototype.flat === 'undefined') {
     Array.prototype.flat = function() {
+      //@ts-ignore
       return flat(this)
     }
   }

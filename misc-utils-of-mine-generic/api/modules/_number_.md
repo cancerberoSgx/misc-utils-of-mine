@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["number"](_number_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["number"](_number_.md)
 
 # External module: "number"
 
@@ -9,6 +7,7 @@
 ### Variables
 
 * [_unique](_number_.md#let-_unique)
+* [clamp](_number_.md#const-clamp)
 * [float](_number_.md#const-float)
 * [floats](_number_.md#const-floats)
 * [int](_number_.md#const-int)
@@ -22,6 +21,7 @@
 * [randomFloatsBetween](_number_.md#randomfloatsbetween)
 * [randomIntBetween](_number_.md#randomintbetween)
 * [randomIntsBetween](_number_.md#randomintsbetween)
+* [randomItem](_number_.md#randomitem)
 * [unique](_number_.md#unique)
 
 ## Variables
@@ -30,7 +30,15 @@
 
 • **_unique**: *number* = 0
 
-*Defined in [number.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L3)*
+*Defined in [number.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L3)*
+
+___
+
+### `Const` clamp
+
+• **clamp**: *[intBetween](_number_.md#intbetween)* =  intBetween
+
+*Defined in [number.ts:46](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L46)*
 
 ___
 
@@ -38,7 +46,7 @@ ___
 
 • **float**: *[randomFloatBetween](_number_.md#randomfloatbetween)* =  randomFloatBetween
 
-*Defined in [number.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L30)*
+*Defined in [number.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L30)*
 
 ___
 
@@ -46,7 +54,7 @@ ___
 
 • **floats**: *[randomFloatsBetween](_number_.md#randomfloatsbetween)* =  randomFloatsBetween
 
-*Defined in [number.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L28)*
+*Defined in [number.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L28)*
 
 ___
 
@@ -54,7 +62,7 @@ ___
 
 • **int**: *[randomIntBetween](_number_.md#randomintbetween)* =  randomIntBetween
 
-*Defined in [number.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L19)*
+*Defined in [number.ts:19](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L19)*
 
 ___
 
@@ -62,7 +70,7 @@ ___
 
 • **ints**: *[randomIntsBetween](_number_.md#randomintsbetween)* =  randomIntsBetween
 
-*Defined in [number.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L17)*
+*Defined in [number.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L17)*
 
 ## Functions
 
@@ -70,7 +78,7 @@ ___
 
 ▸ **between**(`n`: number, `min`: number, `max`: number): *number*
 
-*Defined in [number.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L35)*
+*Defined in [number.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L35)*
 
 Makes sure n is between min and max inclusive.
 
@@ -90,7 +98,7 @@ ___
 
 ▸ **intBetween**(`n`: number, `min`: number, `max`: number): *number*
 
-*Defined in [number.ts:42](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L42)*
+*Defined in [number.ts:42](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L42)*
 
 Makes sure n is between min and max inclusive and is natural.
 
@@ -110,7 +118,7 @@ ___
 
 ▸ **randomFloatBetween**(`a`: number, `b`: number): *number*
 
-*Defined in [number.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L21)*
+*Defined in [number.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L21)*
 
 **Parameters:**
 
@@ -127,7 +135,7 @@ ___
 
 ▸ **randomFloatsBetween**(`l`: number, `min`: number, `max`: number): *number[]*
 
-*Defined in [number.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L25)*
+*Defined in [number.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L25)*
 
 **Parameters:**
 
@@ -145,7 +153,7 @@ ___
 
 ▸ **randomIntBetween**(`a`: number, `b`: number): *number*
 
-*Defined in [number.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L9)*
+*Defined in [number.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L9)*
 
 **Parameters:**
 
@@ -162,7 +170,7 @@ ___
 
 ▸ **randomIntsBetween**(`l`: number, `min`: number, `max`: number): *number[]*
 
-*Defined in [number.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L13)*
+*Defined in [number.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L13)*
 
 **Parameters:**
 
@@ -176,11 +184,31 @@ Name | Type |
 
 ___
 
+###  randomItem
+
+▸ **randomItem**<**T**>(`a`: T[]): *T*
+
+*Defined in [number.ts:48](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L48)*
+
+**Type parameters:**
+
+▪ **T**
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`a` | T[] |
+
+**Returns:** *T*
+
+___
+
 ###  unique
 
 ▸ **unique**(`prefix`: string): *string*
 
-*Defined in [number.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/number.ts#L5)*
+*Defined in [number.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/number.ts#L5)*
 
 **Parameters:**
 

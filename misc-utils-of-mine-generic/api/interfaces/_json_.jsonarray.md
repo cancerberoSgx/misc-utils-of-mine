@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["json"](../modules/_json_.md) › [JSONArray](_json_.jsonarray.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["json"](../modules/_json_.md) › [JSONArray](_json_.jsonarray.md)
 
 # Interface: JSONArray
 
@@ -8,7 +6,7 @@
 
 * Array‹[JSONValue](../modules/_json_.md#jsonvalue)›
 
-  * **JSONArray**
+  ↳ **JSONArray**
 
 ## Indexable
 
@@ -63,7 +61,7 @@
 
 • **Array**: *ArrayConstructor*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1368
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1368
 
 ___
 
@@ -73,7 +71,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1209
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1209
 
 Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
 
@@ -85,7 +83,7 @@ Gets or sets the length of the array. This is a number one higher than the highe
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.iterable.d.ts:52
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:52
 
 Iterator
 
@@ -99,7 +97,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:94
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:94
 
 Returns an object whose properties have the value 'true'
 when they will be absent when used in a 'with' statement.
@@ -128,7 +126,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1231
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1231
 
 Combines two or more arrays.
 
@@ -144,7 +142,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1236
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1236
 
 Combines two or more arrays.
 
@@ -152,7 +150,7 @@ Combines two or more arrays.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`...items` | T \| ConcatArray‹T›[] | Additional items to add to the end of array1.  |
+`...items` | T &#124; ConcatArray‹T›[] | Additional items to add to the end of array1.  |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
@@ -164,7 +162,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.core.d.ts:64
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:64
 
 Returns the this object after copying a section of the array identified by start and end
 to the same array starting at position target
@@ -175,7 +173,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `target` | number | If target is negative, it is treated as length+target where length is the length of the array. |
 `start` | number | If start is negative, it is treated as length+start. If end is negative, it is treated as length+end. |
-`end?` | undefined \| number | If not specified, length of the this object is used as its default value.  |
+`end?` | undefined &#124; number | If not specified, length of the this object is used as its default value.  |
 
 **Returns:** *this*
 
@@ -187,7 +185,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.iterable.d.ts:57
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:57
 
 Returns an iterable of key, value pairs for every entry in the array
 
@@ -201,7 +199,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1296
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1296
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -235,7 +233,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.core.d.ts:53
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:53
 
 Returns the this object after filling the section identified by start and end with value
 
@@ -244,8 +242,8 @@ Returns the this object after filling the section identified by start and end wi
 Name | Type | Description |
 ------ | ------ | ------ |
 `value` | [JSONValue](../modules/_json_.md#jsonvalue) | value to fill array section with |
-`start?` | undefined \| number | index to start filling the array at. If start is negative, it is treated as length+start where length is the length of the array. |
-`end?` | undefined \| number | index to stop filling the array at. If end is negative, it is treated as length+end.  |
+`start?` | undefined &#124; number | index to start filling the array at. If start is negative, it is treated as length+start where length is the length of the array. |
+`end?` | undefined &#124; number | index to stop filling the array at. If end is negative, it is treated as length+end.  |
 
 **Returns:** *this*
 
@@ -257,7 +255,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1320
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1320
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -291,7 +289,7 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1326
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1326
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -325,7 +323,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.core.d.ts:31
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:31
 
 Returns the value of the first element in the array where predicate is true, and undefined
 otherwise.
@@ -364,7 +362,7 @@ predicate. If it is not provided, undefined is used instead.
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.core.d.ts:32
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:32
 
 **Parameters:**
 
@@ -392,7 +390,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.core.d.ts:43
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts:43
 
 Returns the index of the first element in the array where predicate is true, and -1
 otherwise.
@@ -430,7 +428,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:158
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:158
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -452,7 +450,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:166
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:166
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -474,7 +472,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:174
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:174
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -496,7 +494,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:182
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:182
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -518,7 +516,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:190
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:190
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -540,7 +538,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:198
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:198
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -562,7 +560,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:206
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:206
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -576,7 +574,7 @@ specified depth.
 Name | Type | Description |
 ------ | ------ | ------ |
 `this` | U[][] | - |
-`depth?` | undefined \| 1 | The maximum recursion depth  |
+`depth?` | undefined &#124; 1 | The maximum recursion depth  |
 
 **Returns:** *U[]*
 
@@ -584,7 +582,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:214
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:214
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
@@ -606,7 +604,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:222
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:222
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth. If no depth is provided, flat method defaults to the depth of 1.
@@ -619,7 +617,7 @@ specified depth. If no depth is provided, flat method defaults to the depth of 1
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`depth?` | undefined \| number | The maximum recursion depth  |
+`depth?` | undefined &#124; number | The maximum recursion depth  |
 
 **Returns:** *any[]*
 
@@ -627,11 +625,11 @@ ___
 
 ###  flatMap
 
-▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: [This]()): *U[]*
+▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: This): *U[]*
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2019.array.d.ts:147
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2019.array.d.ts:147
 
 Calls a defined callback function on each element of an array. Then, flattens the result into
 a new array.
@@ -661,7 +659,7 @@ Name | Type |
 `index` | number |
 `array` | [JSONValue](../modules/_json_.md#jsonvalue)[] |
 
-▪`Optional`  **thisArg**: *[This]()*
+▪`Optional`  **thisArg**: *This*
 
 An object to which the this keyword can refer in the callback function. If
 thisArg is omitted, undefined is used as the this value.
@@ -676,7 +674,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1308
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1308
 
 Performs the specified action for each element in an array.
 
@@ -710,7 +708,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2016.array.include.d.ts:27
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2016.array.include.d.ts:27
 
 Determines whether an array includes a certain element, returning true or false as appropriate.
 
@@ -719,7 +717,7 @@ Determines whether an array includes a certain element, returning true or false 
 Name | Type | Description |
 ------ | ------ | ------ |
 `searchElement` | [JSONValue](../modules/_json_.md#jsonvalue) | The element to search for. |
-`fromIndex?` | undefined \| number | The position in this array at which to begin searching for searchElement.  |
+`fromIndex?` | undefined &#124; number | The position in this array at which to begin searching for searchElement.  |
 
 **Returns:** *boolean*
 
@@ -731,7 +729,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1284
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1284
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -740,7 +738,7 @@ Returns the index of the first occurrence of a value in an array.
 Name | Type | Description |
 ------ | ------ | ------ |
 `searchElement` | [JSONValue](../modules/_json_.md#jsonvalue) | The value to locate in the array. |
-`fromIndex?` | undefined \| number | The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.  |
+`fromIndex?` | undefined &#124; number | The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.  |
 
 **Returns:** *number*
 
@@ -752,7 +750,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1241
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1241
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -760,7 +758,7 @@ Adds all the elements of an array separated by the specified separator string.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`separator?` | undefined \| string | A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.  |
+`separator?` | undefined &#124; string | A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.  |
 
 **Returns:** *string*
 
@@ -772,7 +770,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.iterable.d.ts:62
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:62
 
 Returns an iterable of keys in the array
 
@@ -786,7 +784,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1290
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1290
 
 Returns the index of the last occurrence of a specified value in an array.
 
@@ -795,7 +793,7 @@ Returns the index of the last occurrence of a specified value in an array.
 Name | Type | Description |
 ------ | ------ | ------ |
 `searchElement` | [JSONValue](../modules/_json_.md#jsonvalue) | The value to locate in the array. |
-`fromIndex?` | undefined \| number | The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.  |
+`fromIndex?` | undefined &#124; number | The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.  |
 
 **Returns:** *number*
 
@@ -807,7 +805,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1314
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1314
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
@@ -845,7 +843,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1221
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1221
 
 Removes the last element from an array and returns it.
 
@@ -859,7 +857,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1226
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1226
 
 Appends new elements to an array, and returns the new length of the array.
 
@@ -879,7 +877,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1332
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1332
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -906,7 +904,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1333
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1333
 
 **Parameters:**
 
@@ -931,7 +929,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1339
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1339
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -970,7 +968,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1345
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1345
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -997,7 +995,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1346
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1346
 
 **Parameters:**
 
@@ -1022,7 +1020,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1352
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1352
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -1061,7 +1059,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1245
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1245
 
 Reverses the elements in an Array.
 
@@ -1075,7 +1073,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1249
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1249
 
 Removes the first element from an array and returns it.
 
@@ -1089,7 +1087,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1255
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1255
 
 Returns a section of an array.
 
@@ -1097,8 +1095,8 @@ Returns a section of an array.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`start?` | undefined \| number | The beginning of the specified portion of the array. |
-`end?` | undefined \| number | The end of the specified portion of the array.  |
+`start?` | undefined &#124; number | The beginning of the specified portion of the array. |
+`end?` | undefined &#124; number | The end of the specified portion of the array.  |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
@@ -1110,7 +1108,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1302
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1302
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -1144,7 +1142,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1260
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1260
 
 Sorts an array.
 
@@ -1152,7 +1150,7 @@ Sorts an array.
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`compareFn?` | undefined \| function | The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.  |
+`compareFn?` | undefined &#124; function | The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.  |
 
 **Returns:** *this*
 
@@ -1164,7 +1162,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1266
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1266
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
@@ -1173,7 +1171,7 @@ Removes elements from an array and, if necessary, inserts new elements in their 
 Name | Type | Description |
 ------ | ------ | ------ |
 `start` | number | The zero-based location in the array from which to start removing elements. |
-`deleteCount?` | undefined \| number | The number of elements to remove.  |
+`deleteCount?` | undefined &#124; number | The number of elements to remove.  |
 
 **Returns:** *[JSONValue](../modules/_json_.md#jsonvalue)[]*
 
@@ -1181,7 +1179,7 @@ Name | Type | Description |
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1273
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1273
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
@@ -1203,7 +1201,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1217
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1217
 
 Returns a string representation of an array. The elements are converted to string using their toLocalString methods.
 
@@ -1217,7 +1215,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1213
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1213
 
 Returns a string representation of an array.
 
@@ -1231,7 +1229,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es5.d.ts:1278
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1278
 
 Inserts new elements at the start of an array.
 
@@ -1251,7 +1249,7 @@ ___
 
 *Inherited from void*
 
-Defined in /Users/sebastiangurin/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typescript/lib/lib.es2015.iterable.d.ts:67
+Defined in /Users/wyeworks/git/misc-utils-of-mine/misc-utils-of-mine-generic/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:67
 
 Returns an iterable of values in the array
 

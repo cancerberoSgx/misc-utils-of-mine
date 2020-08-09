@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["compareText"](../modules/_comparetext_.md) › [BaseCompareOptions](_comparetext_.basecompareoptions.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["compareText"](../modules/_comparetext_.md) › [BaseCompareOptions](_comparetext_.basecompareoptions.md)
 
 # Interface: BaseCompareOptions
 
@@ -8,9 +6,9 @@
 
 * **BaseCompareOptions**
 
-  * [CompareTextOptions](_comparetext_.comparetextoptions.md)
+  ↳ [CompareTextOptions](_comparetext_.comparetextoptions.md)
 
-  * [CompareOptions](_comparetext_.compareoptions.md)
+  ↳ [CompareOptions](_comparetext_.compareoptions.md)
 
 ## Index
 
@@ -24,4 +22,4 @@
 
 • **negate**? : *undefined | false | true*
 
-*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/compareText.ts#L7)*
+*Defined in [compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/compareText.ts#L7)*

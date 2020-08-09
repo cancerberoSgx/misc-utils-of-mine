@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["string/change"](_string_change_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/change"](_string_change_.md)
 
 # External module: "string/change"
 
@@ -16,7 +14,7 @@
 
 ▸ **changeText**(`text`: string, `toInsert`: object[]): *string*
 
-*Defined in [string/change.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/change.ts#L1)*
+*Defined in [string/change.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/change.ts#L1)*
 
 **Parameters:**
 

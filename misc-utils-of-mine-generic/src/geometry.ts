@@ -1,3 +1,18 @@
+export interface IPoint {
+  x: number
+  y: number
+}
+export interface IRect extends IPoint {
+  width: number
+  height: number
+}
+
+export function pointInside(p: IPoint, viewport: IRect) {
+  return p.x >= viewport.x && p.y >= viewport.y && p.x <= viewport.x + viewport.width && p.y <= viewport.y + viewport.height
+}
+
+
+
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */

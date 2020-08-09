@@ -1,6 +1,6 @@
-**[misc-utils-of-mine-generic](README.md)**
+[misc-utils-of-mine-generic](README.md) › [Globals](globals.md)
 
-[Globals](globals.md)
+# misc-utils-of-mine-generic
 
 Big collection of miscellaneous utilities, compatible with browser and node.js
 

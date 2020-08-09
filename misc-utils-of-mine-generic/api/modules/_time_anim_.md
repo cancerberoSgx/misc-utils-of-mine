@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["time/anim"](_time_anim_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/anim"](_time_anim_.md)
 
 # External module: "time/anim"
 
@@ -30,7 +28,7 @@
 
 Ƭ **Timing**: *function*
 
-*Defined in [time/anim.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L3)*
+*Defined in [time/anim.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L3)*
 
 #### Type declaration:
 
@@ -41,10 +39,10 @@
 Name | Type |
 ------ | ------ |
 `n` | number |
-`c?` | undefined \| number |
-`d?` | undefined \| number |
-`x?` | undefined \| number |
-`y?` | undefined \| number |
+`c?` | undefined &#124; number |
+`d?` | undefined &#124; number |
+`x?` | undefined &#124; number |
+`y?` | undefined &#124; number |
 
 ___
 
@@ -52,7 +50,7 @@ ___
 
 Ƭ **TimingObject**: *object*
 
-*Defined in [time/anim.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L5)*
+*Defined in [time/anim.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L5)*
 
 #### Type declaration:
 
@@ -66,7 +64,7 @@ ___
 
 ▸ **animate**(`__namedParameters`: object): *Promise‹void›*
 
-*Defined in [time/anim.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L17)*
+*Defined in [time/anim.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L17)*
 
 **Parameters:**
 
@@ -76,9 +74,9 @@ Name | Type |
 ------ | ------ |
 `draw` | function |
 `duration` | number |
-`end` | undefined \| function |
-`lapse` | undefined \| number |
-`timing` | function \| object |
+`end` | undefined &#124; function |
+`lapse` | undefined &#124; number |
+`timing` | function &#124; object |
 
 **Returns:** *Promise‹void›*
 
@@ -88,7 +86,7 @@ ___
 
 ▸ **requestAnimationFrame**(`f`: function, `lapse`: number): *void*
 
-*Defined in [time/anim.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L39)*
+*Defined in [time/anim.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L39)*
 
 **Parameters:**
 

@@ -1,3 +1,4 @@
+import { randomItems } from "../create"
 import { arrayDifference, arrayInterception, arrayUnion } from "../set"
 
 describe('array', () => {
@@ -15,5 +16,9 @@ describe('array', () => {
 
   it('arrayDifference', () => {
     expect(arrayDifference([{ a: 1 }, { a: 2 }], [{ a: 1 }, { a: 2 }], (a, b) => a.a === b.a)).toEqual([])
+  })
+
+  it('randomItems', () => {
+    expect(randomItems([1, 2, 3, 4, 5], 2).length).toBe(2)
   })
 })

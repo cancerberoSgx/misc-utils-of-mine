@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["geometry"](../modules/_geometry_.md) › [Point](_geometry_.point.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["geometry"](../modules/_geometry_.md) › [Point](_geometry_.point.md)
 
 # Class: Point
 
@@ -41,7 +39,7 @@ Any method that takes an x and y may also take a point.
 
 \+ **new Point**(`x`: number, `y`: number): *[Point](_geometry_.point.md)*
 
-*Defined in [geometry.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L12)*
+*Defined in [geometry.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L27)*
 
 **Parameters:**
 
@@ -58,7 +56,7 @@ Name | Type |
 
 • **x**: *number*
 
-*Defined in [geometry.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L13)*
+*Defined in [geometry.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L28)*
 
 ___
 
@@ -66,7 +64,7 @@ ___
 
 • **y**: *number*
 
-*Defined in [geometry.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L13)*
+*Defined in [geometry.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L28)*
 
 ## Methods
 
@@ -74,7 +72,7 @@ ___
 
 ▸ **add**(`x`: number, `y`: number): *this*
 
-*Defined in [geometry.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L40)*
+*Defined in [geometry.ts:55](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L55)*
 
 **Parameters:**
 
@@ -91,7 +89,7 @@ ___
 
 ▸ **clone**(): *[Point](_geometry_.point.md)*
 
-*Defined in [geometry.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L16)*
+*Defined in [geometry.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L31)*
 
 **Returns:** *[Point](_geometry_.point.md)*
 
@@ -101,7 +99,7 @@ ___
 
 ▸ **equals**(`x`: number, `y`: number): *boolean*
 
-*Defined in [geometry.ts:26](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L26)*
+*Defined in [geometry.ts:41](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L41)*
 
 **Parameters:**
 
@@ -118,7 +116,7 @@ ___
 
 ▸ **isZero**(): *boolean*
 
-*Defined in [geometry.ts:58](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L58)*
+*Defined in [geometry.ts:73](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L73)*
 
 **Returns:** *boolean*
 
@@ -128,7 +126,7 @@ ___
 
 ▸ **map**(`f`: [NumberMapFn](../modules/_geometry_.md#numbermapfn)): *this*
 
-*Defined in [geometry.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L34)*
+*Defined in [geometry.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L49)*
 
 **Parameters:**
 
@@ -144,7 +142,7 @@ ___
 
 ▸ **scale**(`s`: number): *this*
 
-*Defined in [geometry.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L52)*
+*Defined in [geometry.ts:67](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L67)*
 
 **Parameters:**
 
@@ -160,7 +158,7 @@ ___
 
 ▸ **set**(`x`: number, `y`: number): *this*
 
-*Defined in [geometry.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L20)*
+*Defined in [geometry.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L35)*
 
 **Parameters:**
 
@@ -177,7 +175,7 @@ ___
 
 ▸ **subtract**(`x`: number, `y`: number): *this*
 
-*Defined in [geometry.ts:46](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L46)*
+*Defined in [geometry.ts:61](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L61)*
 
 **Parameters:**
 
@@ -194,6 +192,6 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [geometry.ts:30](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/geometry.ts#L30)*
+*Defined in [geometry.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/geometry.ts#L45)*
 
 **Returns:** *string*

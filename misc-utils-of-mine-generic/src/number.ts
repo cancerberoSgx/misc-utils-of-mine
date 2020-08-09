@@ -11,7 +11,7 @@ export function randomIntBetween(a: number, b: number) {
 }
 
 export function randomIntsBetween(l: number, min: number, max: number) {
-  return array(l).map(n => randomFloatBetween(min, max))
+  return array(l).map(n => randomIntBetween(min, max))
 }
 
 export const ints = randomIntsBetween
@@ -41,4 +41,10 @@ export function between(n: number, min: number, max: number) {
  */
 export function intBetween(n: number, min: number, max: number) {
   return Math.trunc(Math.max(min, Math.min(n, max)))
+}
+
+export const clamp = intBetween
+
+export function randomItem<T>(a: T[]): T {
+  return a[randomIntBetween(0, a.length - 1)]
 }

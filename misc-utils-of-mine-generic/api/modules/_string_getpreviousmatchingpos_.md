@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["string/getPreviousMatchingPos"](_string_getpreviousmatchingpos_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/getPreviousMatchingPos"](_string_getpreviousmatchingpos_.md)
 
 # External module: "string/getPreviousMatchingPos"
 
@@ -17,7 +15,7 @@
 
 ▸ **getPosition**(`string`: string, `subString`: string, `n`: number): *number*
 
-*Defined in [string/getPreviousMatchingPos.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L24)*
+*Defined in [string/getPreviousMatchingPos.ts:24](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L24)*
 
 Gets index of n-th match of given substring on given string.
 
@@ -37,7 +35,7 @@ ___
 
 ▸ **getPreviousMatchingPos**(`text`: string, `pos`: number, `predicate`: string | function): *number*
 
-*Defined in [string/getPreviousMatchingPos.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L4)*
+*Defined in [string/getPreviousMatchingPos.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/getPreviousMatchingPos.ts#L4)*
 
 Get index of the previous match of given predicate or substring, before given pos, on given text. For the next matching position you can use `String.prototype.findIndexOf` function.
 
@@ -47,6 +45,6 @@ Name | Type |
 ------ | ------ |
 `text` | string |
 `pos` | number |
-`predicate` | string \| function |
+`predicate` | string &#124; function |
 
 **Returns:** *number*

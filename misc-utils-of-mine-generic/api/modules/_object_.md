@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["object"](_object_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["object"](_object_.md)
 
 # External module: "object"
 
@@ -27,7 +25,7 @@
 
 • **objectMap**: *[objectMapValues](_object_.md#objectmapvalues)* =  objectMapValues
 
-*Defined in [object.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L25)*
+*Defined in [object.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L25)*
 
 ## Functions
 
@@ -35,7 +33,7 @@
 
 ▸ **arrayToObject**<**T**>(`a`: string[], `fn`: function): *object*
 
-*Defined in [object.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L47)*
+*Defined in [object.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L47)*
 
 Builds an object using keys in [[a]] and values returning from [[fn]] as long as they are not undefined.
 
@@ -67,7 +65,7 @@ ___
 
 ▸ **getObjectProperty**<**T**>(`object`: any, `path`: string | string | number[], `defaultValue`: T | undefined): *T | undefined*
 
-*Defined in [object.ts:59](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L59)*
+*Defined in [object.ts:59](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L59)*
 
 Returns a nested property of given object and given path. For example path could be 'foo.bar' and it will
 return `object['foo']['bar']`
@@ -81,8 +79,8 @@ return `object['foo']['bar']`
 Name | Type | Default |
 ------ | ------ | ------ |
 `object` | any | - |
-`path` | string \| string \| number[] | - |
-`defaultValue` | T \| undefined |  undefined |
+`path` | string &#124; string &#124; number[] | - |
+`defaultValue` | T &#124; undefined |  undefined |
 
 **Returns:** *T | undefined*
 
@@ -92,7 +90,7 @@ ___
 
 ▸ **getObjectPropertyPaths**(`object`: any, `options`: object): *string | number[][]*
 
-*Defined in [object.ts:117](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L117)*
+*Defined in [object.ts:117](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L117)*
 
 **Parameters:**
 
@@ -102,8 +100,8 @@ ___
 
 Name | Type |
 ------ | ------ |
-`ignoreArrayElements?` | undefined \| false \| true |
-`leafsOnly?` | undefined \| false \| true |
+`ignoreArrayElements?` | undefined &#124; false &#124; true |
+`leafsOnly?` | undefined &#124; false &#124; true |
 
 **Returns:** *string | number[][]*
 
@@ -113,7 +111,7 @@ ___
 
 ▸ **objectFilter**<**O**>(`o`: O, `p`: function): *Partial‹O›*
 
-*Defined in [object.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L31)*
+*Defined in [object.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L31)*
 
 **Type parameters:**
 
@@ -142,7 +140,7 @@ ___
 
 ▸ **objectKeys**<**Field**>(`o`: Field): *[ObjectStringKeyUnion](_type_.md#objectstringkeyunion)‹Field›[]*
 
-*Defined in [object.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L7)*
+*Defined in [object.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L7)*
 
 Same as `Object.keys()` but with types.
 
@@ -164,7 +162,7 @@ ___
 
 ▸ **objectMapValues**<**O**, **T**>(`o`: O, `p`: function): *object*
 
-*Defined in [object.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L14)*
+*Defined in [object.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L14)*
 
 Returns a new object with the same keys of given one, and values mapped with given function.
 
@@ -197,7 +195,7 @@ ___
 
 ▸ **objectToArray**<**O**>(`o`: O): *object[]*
 
-*Defined in [object.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L27)*
+*Defined in [object.ts:27](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L27)*
 
 **Type parameters:**
 
@@ -217,7 +215,7 @@ ___
 
 ▸ **setObjectProperty**(`object`: any, `path`: string | string | number[], `value`: any): *any*
 
-*Defined in [object.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/object.ts#L86)*
+*Defined in [object.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/object.ts#L86)*
 
 sets a nested property on given path. For example path could be 'foo.bar' and it will set `object.foo.bar = value`.
 If the path given as array contains numbers, then or those items arrays will be created instead of objects. For example:
@@ -229,7 +227,7 @@ If the path given as array contains numbers, then or those items arrays will be 
 Name | Type |
 ------ | ------ |
 `object` | any |
-`path` | string \| string \| number[] |
+`path` | string &#124; string &#124; number[] |
 `value` | any |
 
 **Returns:** *any*

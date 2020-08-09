@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["tree"](../modules/_tree_.md) › [Node](_tree_.node.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["tree"](../modules/_tree_.md) › [Node](_tree_.node.md)
 
 # Interface: Node
 
@@ -25,7 +23,7 @@ TODO: test
 
 • **childNodes**? : *[Node](_tree_.node.md)[]*
 
-*Defined in [tree.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/tree.ts#L8)*
+*Defined in [tree.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L8)*
 
 ___
 
@@ -33,4 +31,4 @@ ___
 
 • **parentNode**? : *[Node](_tree_.node.md)*
 
-*Defined in [tree.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/tree.ts#L9)*
+*Defined in [tree.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/tree.ts#L9)*

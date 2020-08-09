@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["string/boxes"](../modules/_string_boxes_.md) › [BorderSide](_string_boxes_.borderside.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/boxes"](../modules/_string_boxes_.md) › [BorderSide](_string_boxes_.borderside.md)
 
 # Enumeration: BorderSide
 
@@ -23,7 +21,7 @@
 
 • **bottom**: = "bottom"
 
-*Defined in [string/boxes.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L36)*
+*Defined in [string/boxes.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L36)*
 
 ___
 
@@ -31,7 +29,7 @@ ___
 
 • **bottomLeft**: = "bottomLeft"
 
-*Defined in [string/boxes.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L34)*
+*Defined in [string/boxes.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L34)*
 
 ___
 
@@ -39,7 +37,7 @@ ___
 
 • **bottomRight**: = "bottomRight"
 
-*Defined in [string/boxes.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L33)*
+*Defined in [string/boxes.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L33)*
 
 ___
 
@@ -47,7 +45,7 @@ ___
 
 • **left**: = "left"
 
-*Defined in [string/boxes.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L35)*
+*Defined in [string/boxes.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L35)*
 
 ___
 
@@ -55,7 +53,7 @@ ___
 
 • **right**: = "right"
 
-*Defined in [string/boxes.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L38)*
+*Defined in [string/boxes.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L38)*
 
 ___
 
@@ -63,7 +61,7 @@ ___
 
 • **top**: = "top"
 
-*Defined in [string/boxes.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L37)*
+*Defined in [string/boxes.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L37)*
 
 ___
 
@@ -71,7 +69,7 @@ ___
 
 • **topLeft**: = "topLeft"
 
-*Defined in [string/boxes.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L31)*
+*Defined in [string/boxes.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L31)*
 
 ___
 
@@ -79,4 +77,4 @@ ___
 
 • **topRight**: = "topRight"
 
-*Defined in [string/boxes.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L32)*
+*Defined in [string/boxes.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L32)*

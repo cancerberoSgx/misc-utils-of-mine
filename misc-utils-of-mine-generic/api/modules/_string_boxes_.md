@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["string/boxes"](_string_boxes_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["string/boxes"](_string_boxes_.md)
 
 # External module: "string/boxes"
 
@@ -31,7 +29,7 @@
 
 Ƭ **BoxStyles**: *object*
 
-*Defined in [string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
+*Defined in [string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
 
 #### Type declaration:
 
@@ -41,7 +39,7 @@
 
 • **borderStyles**: *string[]* =  enumKeys(BorderStyle)
 
-*Defined in [string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
+*Defined in [string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
 
 ___
 
@@ -49,7 +47,7 @@ ___
 
 • **boxStyles**: *[BoxStyles](_string_boxes_.md#boxstyles) | undefined*
 
-*Defined in [string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
+*Defined in [string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
 
 ## Functions
 
@@ -57,7 +55,7 @@ ___
 
 ▸ **getBoxChar**(`s`: [BorderStyle](../enums/_string_boxes_.borderstyle.md), `si`: [BorderSide](../enums/_string_boxes_.borderside.md)): *string*
 
-*Defined in [string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
+*Defined in [string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
 
 **Parameters:**
 
@@ -74,6 +72,6 @@ ___
 
 ▸ **getBoxStyles**(): *object*
 
-*Defined in [string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
+*Defined in [string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
 
 **Returns:** *object*

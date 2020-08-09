@@ -14,3 +14,10 @@ export function withTime<T>(label: string, fn: () => T): T {
   console.timeEnd(label)
   return r
 }
+
+/** blocks the thread for given ms. For testing purposes. */
+export function blockFor(ms = 1000) {
+  let t0 = Date.now()
+  while (Date.now() - t0 < ms) {
+  }
+}

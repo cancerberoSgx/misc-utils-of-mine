@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["time/waitFor"](../modules/_time_waitfor_.md) › [WaitForPredicateOptions](_time_waitfor_.waitforpredicateoptions.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/waitFor"](../modules/_time_waitfor_.md) › [WaitForPredicateOptions](_time_waitfor_.waitforpredicateoptions.md)
 
 # Interface: WaitForPredicateOptions
 
@@ -22,7 +20,7 @@
 
 • **interval**? : *undefined | number*
 
-*Defined in [time/waitFor.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/waitFor.ts#L9)*
+*Defined in [time/waitFor.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/waitFor.ts#L9)*
 
 Predicate function call interval.
 
@@ -32,7 +30,7 @@ ___
 
 • **timeout**? : *undefined | number*
 
-*Defined in [time/waitFor.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/waitFor.ts#L13)*
+*Defined in [time/waitFor.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/waitFor.ts#L13)*
 
 Timeout. If more time than this passes from [waitForPredicate](../modules/_time_waitfor_.md#waitforpredicate) call, it will throw an error.
 
@@ -42,4 +40,4 @@ ___
 
 • **timeoutError**? : *undefined | string*
 
-*Defined in [time/waitFor.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/waitFor.ts#L14)*
+*Defined in [time/waitFor.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/waitFor.ts#L14)*

@@ -4,7 +4,7 @@ export function getFileNameFromUrl(url: string) {
   return (url.split('/').pop() || '').replace(/[\?].*$/g, '')
 }
 
-export function getParametersFromUrl(url: string) {
+export function getParametersFromUrl(url: string, options: { parseNumber?: boolean, parseBoolean?: boolean } = {}) {
   var queryString = url.split('?')[1]
   var obj: { [s: string]: string } = {}
   if (!queryString) {
@@ -14,7 +14,19 @@ export function getParametersFromUrl(url: string) {
   var arr = queryString.split('&')
   for (var i = 0; i < arr.length; i++) {
     var a = arr[i].split('=')
-    obj[a[0]] = a[1] || ''
+    let value: any = a[1] || ''
+    if (options.parseNumber) {
+      const numeric = parseFloat(value)
+      if (!isNaN(numeric)) {
+        value = numeric
+      }
+    }
+    if (options.parseBoolean) {
+      if (['true', 'false'].includes(value)) {
+        value = value === 'true' ? true : false
+      }
+    }
+    obj[a[0]] = value
   }
   return obj
 }

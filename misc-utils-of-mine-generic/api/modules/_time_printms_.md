@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["time/printMs"](_time_printms_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/printMs"](_time_printms_.md)
 
 # External module: "time/printMs"
 
@@ -16,7 +14,7 @@
 
 ▸ **printMs**(`ms`: number, `config`: object): *string*
 
-*Defined in [time/printMs.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/printMs.ts#L1)*
+*Defined in [time/printMs.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/printMs.ts#L1)*
 
 **Parameters:**
 
@@ -26,8 +24,8 @@
 
 Name | Type |
 ------ | ------ |
-`minutes?` | undefined \| false \| true |
-`ms?` | undefined \| false \| true |
-`seconds?` | undefined \| false \| true |
+`minutes?` | undefined &#124; false &#124; true |
+`ms?` | undefined &#124; false &#124; true |
+`seconds?` | undefined &#124; false &#124; true |
 
 **Returns:** *string*

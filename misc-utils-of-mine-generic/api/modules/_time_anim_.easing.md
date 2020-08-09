@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["time/anim"](_time_anim_.md) › [easing](_time_anim_.easing.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/anim"](_time_anim_.md) › [easing](_time_anim_.easing.md)
 
 # Module: easing
 
@@ -50,7 +48,7 @@
 
 • **b**: *number* = 0
 
-*Defined in [time/anim.ts:92](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L92)*
+*Defined in [time/anim.ts:92](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L92)*
 
 ___
 
@@ -58,7 +56,7 @@ ___
 
 • **c**: *number* = 1
 
-*Defined in [time/anim.ts:91](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L91)*
+*Defined in [time/anim.ts:91](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L91)*
 
 ## Functions
 
@@ -66,7 +64,7 @@ ___
 
 ▸ **back**(`x`: number): *(Anonymous function)*
 
-*Defined in [time/anim.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L75)*
+*Defined in [time/anim.ts:75](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L75)*
 
 “bow shooting”. First we “pull the bowstring”, and then “shoot”.
 
@@ -84,7 +82,7 @@ ___
 
 ▸ **bounceEaseInOut**(): *(Anonymous function)*
 
-*Defined in [time/anim.ts:89](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L89)*
+*Defined in [time/anim.ts:89](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L89)*
 
 **Returns:** *(Anonymous function)*
 
@@ -94,7 +92,7 @@ ___
 
 ▸ **bounceEasyOut**(): *(Anonymous function)*
 
-*Defined in [time/anim.ts:62](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L62)*
+*Defined in [time/anim.ts:62](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L62)*
 
 Imagine we are dropping a ball. It falls down, then bounces back a few times and stops. The bounce function does the same, but in the reverse order: “bouncing” starts immediately.
 
@@ -106,7 +104,7 @@ ___
 
 ▸ **bounceFn**(`timeFraction`: number): *undefined | number*
 
-*Defined in [time/anim.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L51)*
+*Defined in [time/anim.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L51)*
 
 **Parameters:**
 
@@ -122,7 +120,7 @@ ___
 
 ▸ **easeInBounce**(): *any*
 
-*Defined in [time/anim.ts:273](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L273)*
+*Defined in [time/anim.ts:273](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L273)*
 
 **Returns:** *any*
 
@@ -132,7 +130,7 @@ ___
 
 ▸ **easeInCubic**(): *any*
 
-*Defined in [time/anim.ts:138](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L138)*
+*Defined in [time/anim.ts:138](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L138)*
 
 **Returns:** *any*
 
@@ -142,7 +140,7 @@ ___
 
 ▸ **easeInElastic**(): *any*
 
-*Defined in [time/anim.ts:106](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L106)*
+*Defined in [time/anim.ts:106](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L106)*
 
 **Returns:** *any*
 
@@ -152,7 +150,7 @@ ___
 
 ▸ **easeInExpo**(): *any*
 
-*Defined in [time/anim.ts:189](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L189)*
+*Defined in [time/anim.ts:189](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L189)*
 
 **Returns:** *any*
 
@@ -162,7 +160,7 @@ ___
 
 ▸ **easeInOutBack**(): *any*
 
-*Defined in [time/anim.ts:256](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L256)*
+*Defined in [time/anim.ts:256](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L256)*
 
 **Returns:** *any*
 
@@ -172,7 +170,7 @@ ___
 
 ▸ **easeInOutBounce**(): *any*
 
-*Defined in [time/anim.ts:280](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L280)*
+*Defined in [time/anim.ts:280](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L280)*
 
 **Returns:** *any*
 
@@ -182,7 +180,7 @@ ___
 
 ▸ **easeInOutCubic**(): *any*
 
-*Defined in [time/anim.ts:152](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L152)*
+*Defined in [time/anim.ts:152](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L152)*
 
 **Returns:** *any*
 
@@ -192,7 +190,7 @@ ___
 
 ▸ **easeInOutElastic**(): *any*
 
-*Defined in [time/anim.ts:211](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L211)*
+*Defined in [time/anim.ts:211](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L211)*
 
 **Returns:** *any*
 
@@ -202,7 +200,7 @@ ___
 
 ▸ **easeInOutExpo**(): *any*
 
-*Defined in [time/anim.ts:246](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L246)*
+*Defined in [time/anim.ts:246](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L246)*
 
 **Returns:** *any*
 
@@ -212,7 +210,7 @@ ___
 
 ▸ **easeInOutQuad**(): *any*
 
-*Defined in [time/anim.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L98)*
+*Defined in [time/anim.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L98)*
 
 **Returns:** *any*
 
@@ -222,7 +220,7 @@ ___
 
 ▸ **easeInOutQuart**(): *any*
 
-*Defined in [time/anim.ts:167](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L167)*
+*Defined in [time/anim.ts:167](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L167)*
 
 **Returns:** *any*
 
@@ -232,7 +230,7 @@ ___
 
 ▸ **easeInOutQuint**(): *any*
 
-*Defined in [time/anim.ts:196](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L196)*
+*Defined in [time/anim.ts:196](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L196)*
 
 **Returns:** *any*
 
@@ -242,7 +240,7 @@ ___
 
 ▸ **easeInQuad**(): *any*
 
-*Defined in [time/anim.ts:94](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L94)*
+*Defined in [time/anim.ts:94](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L94)*
 
 **Returns:** *any*
 
@@ -252,7 +250,7 @@ ___
 
 ▸ **easeInQuart**(): *any*
 
-*Defined in [time/anim.ts:160](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L160)*
+*Defined in [time/anim.ts:160](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L160)*
 
 **Returns:** *any*
 
@@ -262,7 +260,7 @@ ___
 
 ▸ **easeInQuint**(): *any*
 
-*Defined in [time/anim.ts:175](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L175)*
+*Defined in [time/anim.ts:175](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L175)*
 
 **Returns:** *any*
 
@@ -272,7 +270,7 @@ ___
 
 ▸ **easeInSine**(): *any*
 
-*Defined in [time/anim.ts:204](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L204)*
+*Defined in [time/anim.ts:204](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L204)*
 
 **Returns:** *any*
 
@@ -282,7 +280,7 @@ ___
 
 ▸ **easeOutBack**(): *any*
 
-*Defined in [time/anim.ts:265](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L265)*
+*Defined in [time/anim.ts:265](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L265)*
 
 **Returns:** *any*
 
@@ -292,7 +290,7 @@ ___
 
 ▸ **easeOutBounce**(): *any*
 
-*Defined in [time/anim.ts:123](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L123)*
+*Defined in [time/anim.ts:123](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L123)*
 
 **Returns:** *any*
 
@@ -302,7 +300,7 @@ ___
 
 ▸ **easeOutCubic**(): *any*
 
-*Defined in [time/anim.ts:145](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L145)*
+*Defined in [time/anim.ts:145](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L145)*
 
 **Returns:** *any*
 
@@ -312,7 +310,7 @@ ___
 
 ▸ **easeOutElastic**(): *any*
 
-*Defined in [time/anim.ts:229](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L229)*
+*Defined in [time/anim.ts:229](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L229)*
 
 **Returns:** *any*
 
@@ -322,7 +320,7 @@ ___
 
 ▸ **easeOutQuad**(): *any*
 
-*Defined in [time/anim.ts:96](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L96)*
+*Defined in [time/anim.ts:96](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L96)*
 
 **Returns:** *any*
 
@@ -332,7 +330,7 @@ ___
 
 ▸ **easeOutQuint**(): *any*
 
-*Defined in [time/anim.ts:182](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L182)*
+*Defined in [time/anim.ts:182](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L182)*
 
 **Returns:** *any*
 
@@ -342,7 +340,7 @@ ___
 
 ▸ **elastic**(`x`: number): *(Anonymous function)*
 
-*Defined in [time/anim.ts:79](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L79)*
+*Defined in [time/anim.ts:79](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L79)*
 
 **Parameters:**
 
@@ -358,7 +356,7 @@ ___
 
 ▸ **makeEaseInOut**(`timing`: [Timing](_time_anim_.md#timing)): *(Anonymous function)*
 
-*Defined in [time/anim.ts:82](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L82)*
+*Defined in [time/anim.ts:82](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L82)*
 
 **Parameters:**
 
@@ -374,7 +372,7 @@ ___
 
 ▸ **makeEaseOut**(`timing`: [Timing](_time_anim_.md#timing)): *(Anonymous function)*
 
-*Defined in [time/anim.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L45)*
+*Defined in [time/anim.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L45)*
 
 **Parameters:**
 
@@ -390,7 +388,7 @@ ___
 
 ▸ **quad**(`timeFraction`: number): *number*
 
-*Defined in [time/anim.ts:67](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/anim.ts#L67)*
+*Defined in [time/anim.ts:67](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/anim.ts#L67)*
 
 parabolic curve
 

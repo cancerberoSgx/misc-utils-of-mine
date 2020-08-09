@@ -1,6 +1,4 @@
-**[misc-utils-of-mine-generic](../README.md)**
-
-[Globals](../globals.md) › ["time/throttle"](_time_throttle_.md)
+[misc-utils-of-mine-generic](../README.md) › [Globals](../globals.md) › ["time/throttle"](_time_throttle_.md)
 
 # External module: "time/throttle"
 
@@ -16,7 +14,7 @@
 
 ▸ **throttle**<**F**>(`func`: F, `wait`: number, `options`: object): *(Anonymous function)*
 
-*Defined in [time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/690a954/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
+*Defined in [time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c59015f/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
 
 **Type parameters:**
 
@@ -32,7 +30,7 @@
 
 Name | Type |
 ------ | ------ |
-`leading?` | undefined \| false \| true |
-`trailing?` | undefined \| false \| true |
+`leading?` | undefined &#124; false &#124; true |
+`trailing?` | undefined &#124; false &#124; true |
 
 **Returns:** *(Anonymous function)*
