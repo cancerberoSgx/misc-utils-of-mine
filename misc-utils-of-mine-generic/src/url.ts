@@ -30,3 +30,46 @@ export function getParametersFromUrl(url: string, options: { parseNumber?: boole
   }
   return obj
 }
+
+/** 
+ * Returns true iff given url starts with a protocol ("http://", "https://", etc). 
+ * Notice that this is not strictly the absolute url definition 
+ */
+export function isAbsoluteUrl(url: string) {
+  return !!url.match(/^[^:]+:\/\//)
+}
+
+export function parseAbsoluteUrl(url: string) {
+  const results = /^([^:]+:)\/\/([^\/]+)(.*)/.exec(url)
+  if (!results) {
+    return null
+  }
+  const [all, protocol, domain, rest] = results
+  let pathname = rest
+  let i = pathname.indexOf('?')
+  if (i !== -1) {
+    pathname = pathname.substring(0, i)
+  }
+  // case no params: http://foo.com/bar#hash
+  i = pathname.indexOf('#')
+  if (i !== -1) {
+    pathname = pathname.substring(0, i)
+  }
+  let search = ''
+  i = rest.indexOf('?')
+  if (i !== -1) {
+    search = rest.substring(i)
+    i = search.indexOf('#')
+    if (i !== -1) {
+      search = search.substring(0, i)
+    }
+  }
+  let hash = ''
+  i = rest.indexOf('#') // yes we're doing it twice
+  if (i !== -1) {
+    hash = rest.substring(i)
+  }
+  return {
+    protocol, domain, pathname, search, hash
+  }
+}

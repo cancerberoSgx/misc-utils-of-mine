@@ -117,6 +117,7 @@
 * [int](_index_.md#int)
 * [intBetween](_index_.md#intbetween)
 * [ints](_index_.md#ints)
+* [isAbsoluteUrl](_index_.md#isabsoluteurl)
 * [isArray](_index_.md#isarray)
 * [isBoolean](_index_.md#isboolean)
 * [isBrowser](_index_.md#isbrowser)
@@ -143,6 +144,7 @@
 * [objectMap](_index_.md#objectmap)
 * [objectMapValues](_index_.md#objectmapvalues)
 * [objectToArray](_index_.md#objecttoarray)
+* [parseAbsoluteUrl](_index_.md#parseabsoluteurl)
 * [parseGitIgnore](_index_.md#parsegitignore)
 * [parseJSON](_index_.md#parsejson)
 * [pathJoin](_index_.md#pathjoin)
@@ -861,6 +863,12 @@ ___
 
 ___
 
+###  isAbsoluteUrl
+
+• **isAbsoluteUrl**:
+
+___
+
 ###  isArray
 
 • **isArray**:
@@ -1014,6 +1022,12 @@ ___
 ###  objectToArray
 
 • **objectToArray**:
+
+___
+
+###  parseAbsoluteUrl
+
+• **parseAbsoluteUrl**:
 
 ___
 

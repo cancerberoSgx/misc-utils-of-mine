@@ -1,10 +1,13 @@
-import { getFileNameFromUrl, getParametersFromUrl } from '../url'
+import { getFileNameFromUrl, getParametersFromUrl, isAbsoluteUrl, parseAbsoluteUrl } from '../url'
 
 describe('url', () => {
+  const absUrl1 = 'https://foo.bar/qs/bar/js-function-to-get-filename-from-url#comment95124061_53560218'
+  const relativeUrl1 = 'questions/511761/js-function.min.js?bar=9.9&y=1#/src/jjj?=9.9'
+
   describe('getFileNameFromUrl', () => {
     it('absolute, hash and no extension', () => {
       expect(
-        getFileNameFromUrl('https://foo.bar/qs/bar/js-function-to-get-filename-from-url#comment95124061_53560218')
+        getFileNameFromUrl(absUrl1)
       ).toBe('js-function-to-get-filename-from-url')
     })
 
@@ -13,7 +16,7 @@ describe('url', () => {
     })
 
     it('file name with multiple dots, hash with slash', () => {
-      expect(getFileNameFromUrl('questions/511761/js-function.min.js?bar=9.9&y=1#/src/jjj?=9.9')).toBe(
+      expect(getFileNameFromUrl(relativeUrl1)).toBe(
         'js-function.min.js'
       )
     })
@@ -22,7 +25,7 @@ describe('url', () => {
   describe('getParametersFromUrl', () => {
     it('absolute, hash and no extension', () => {
       expect(
-        getParametersFromUrl('https://foo.bar/qs/bar/js-function-to-get-filename-from-url#comment95124061_53560218')
+        getParametersFromUrl(absUrl1)
       ).toEqual({})
     })
 
@@ -31,10 +34,41 @@ describe('url', () => {
     })
 
     it('file name with multiple dots, hash with slash', () => {
-      expect(getParametersFromUrl('questions/511761/js-function.min.js?bar=9.9&y=1#/src/jjj?=9.9')).toEqual({
+      expect(getParametersFromUrl(relativeUrl1)).toEqual({
         bar: '9.9',
         y: '1'
       })
     })
   })
+
+
+  describe('isAbsoluteUrl', () => {
+    it('basic', () => {
+      expect(isAbsoluteUrl(absUrl1)).toBe(true)
+      expect(isAbsoluteUrl('qs/bar/js-function-to-get-filename-from-url#comment95124061_53560218')).toBe(false)
+      expect(isAbsoluteUrl('/qs/bar/js-function-to-get-filename-from-url#comment95124061_53560218')).toBe(false)
+    })
+  })
+
+  describe('parseAbsoluteUrl', () => {
+    it('basic', () => {
+
+      expect(parseAbsoluteUrl('http://foo.asd.com:1234/project/123?limit=2#anchor')).toEqual({
+        protocol: 'http:',
+        domain: 'foo.asd.com:1234',
+        pathname: '/project/123',
+        search: '?limit=2',
+        hash: '#anchor'
+      })
+
+      expect(parseAbsoluteUrl(absUrl1)).toEqual({
+        protocol: 'https:',
+        domain: 'foo.bar',
+        pathname: '/qs/bar/js-function-to-get-filename-from-url',
+        search: '',
+        hash: '#comment95124061_53560218'
+      })
+    })
+  })
+
 })
