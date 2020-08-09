@@ -10,7 +10,7 @@ export class Emitter<E = any, L extends Listener<E> = Listener<E>> {
     this.l.forEach(l => l(e))
   }
   remove(l: L) {
-    this.l = this.l.filter(a => a === l)
+    this.l = this.l.filter(a => a !== l)
   }
 }
 type Listener<E> = (e: E) => void

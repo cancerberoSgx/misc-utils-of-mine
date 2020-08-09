@@ -18,7 +18,7 @@
 
 ▸ **array**‹**T**›(`n`: number, `sample?`: T): *T[]*
 
-*Defined in [src/array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/create.ts#L2)*
+*Defined in [src/array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/create.ts#L2)*
 
 **Type parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **asArray**‹**T**›(`selectors`: T | T[]): *T[]*
 
-*Defined in [src/array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/create.ts#L10)*
+*Defined in [src/array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/create.ts#L10)*
 
 **Type parameters:**
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **randomItems**‹**T**›(`a`: T[], `amount`: number): *T[]*
 
-*Defined in [src/array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/create.ts#L22)*
+*Defined in [src/array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/create.ts#L22)*
 
 **Type parameters:**
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [src/array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/create.ts#L14)*
+*Defined in [src/array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/create.ts#L14)*
 
 **Parameters:**
 
@@ -98,7 +98,7 @@ ___
 
 ▸ **shuffle**‹**T**›(`a`: T[]): *T[]*
 
-*Defined in [src/array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/31c2f04/misc-utils-of-mine-generic/src/array/create.ts#L36)*
+*Defined in [src/array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/6c43bc6/misc-utils-of-mine-generic/src/array/create.ts#L36)*
 
 **Type parameters:**
 

@@ -42,7 +42,7 @@ export function isAbsoluteUrl(url: string) {
 /**
  * Parse url, emulates window.location format
  */
-export function parseUrl(url: string) {
+export function parseUrl(url: string, options: { parseParams?: boolean } = {}) {
   const isAbsolute = isAbsoluteUrl(url)
   if (!isAbsolute) {
     url = 'http://foo.com' + (url.startsWith('/') ? '' : '/') + url
@@ -81,6 +81,11 @@ export function parseUrl(url: string) {
     protocol = ''
   }
   return {
-    protocol, domain, pathname, search, hash
+    protocol,
+    domain,
+    pathname,
+    search,
+    hash,
+    params: options.parseParams ? getParametersFromUrl(url) : undefined
   }
 }
