@@ -22,4 +22,4 @@
 
 • **negate**? : *undefined | false | true*
 
-*Defined in [src/compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/compareText.ts#L7)*
+*Defined in [src/compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/compareText.ts#L7)*

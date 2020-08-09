@@ -23,7 +23,7 @@ settings for visitDescendants regarding visiting order and visit interruption mo
 
 • **andSelf**? : *undefined | false | true*
 
-*Defined in [src/tree.ts:118](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L118)*
+*Defined in [src/tree.ts:118](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/tree.ts#L118)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **breakOnDescendantSignal**? : *undefined | false | true*
 
-*Defined in [src/tree.ts:113](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L113)*
+*Defined in [src/tree.ts:113](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/tree.ts#L113)*
 
 if a descendant visitor returned true, we stop visiting and signal up
 
@@ -41,7 +41,7 @@ ___
 
 • **childrenFirst**? : *undefined | false | true*
 
-*Defined in [src/tree.ts:109](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L109)*
+*Defined in [src/tree.ts:109](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/tree.ts#L109)*
 
 ___
 
@@ -49,6 +49,6 @@ ___
 
 • **visitDescendantsOnSelfSignalAnyway**? : *undefined | false | true*
 
-*Defined in [src/tree.ts:117](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/tree.ts#L117)*
+*Defined in [src/tree.ts:117](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/tree.ts#L117)*
 
 no matter if visitor returns true for a node, it will still visit its descendants and then break the chain

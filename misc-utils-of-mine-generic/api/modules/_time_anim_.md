@@ -28,7 +28,7 @@
 
 Ƭ **Timing**: *function*
 
-*Defined in [src/time/anim.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/anim.ts#L3)*
+*Defined in [src/time/anim.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/time/anim.ts#L3)*
 
 #### Type declaration:
 
@@ -50,7 +50,7 @@ ___
 
 Ƭ **TimingObject**: *object*
 
-*Defined in [src/time/anim.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/anim.ts#L5)*
+*Defined in [src/time/anim.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/time/anim.ts#L5)*
 
 #### Type declaration:
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **animate**(`__namedParameters`: object): *Promise‹void›*
 
-*Defined in [src/time/anim.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/anim.ts#L17)*
+*Defined in [src/time/anim.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/time/anim.ts#L17)*
 
 **Parameters:**
 
@@ -86,7 +86,7 @@ ___
 
 ▸ **requestAnimationFrame**(`f`: function, `lapse`: number): *void*
 
-*Defined in [src/time/anim.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/fb59bcc/misc-utils-of-mine-generic/src/time/anim.ts#L39)*
+*Defined in [src/time/anim.ts:39](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/a1f5608/misc-utils-of-mine-generic/src/time/anim.ts#L39)*
 
 **Parameters:**
 
