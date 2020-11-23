@@ -48,3 +48,9 @@ export const clamp = intBetween
 export function randomItem<T>(a: T[]): T {
   return a[randomIntBetween(0, a.length - 1)]
 }
+
+export function isPrime(num: number) {
+  for (let i = 2, s = Math.sqrt(num); i <= s; i++)
+    if (num % i === 0) return false
+  return num !== 1
+}

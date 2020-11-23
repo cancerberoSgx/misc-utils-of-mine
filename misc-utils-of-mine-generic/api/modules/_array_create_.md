@@ -7,7 +7,9 @@
 ### Functions
 
 * [array](_array_create_.md#array)
+* [arrayRangePartition](_array_create_.md#arrayrangepartition)
 * [asArray](_array_create_.md#asarray)
+* [fill](_array_create_.md#fill)
 * [randomItems](_array_create_.md#randomitems)
 * [seq](_array_create_.md#seq)
 * [shuffle](_array_create_.md#shuffle)
@@ -18,7 +20,7 @@
 
 ▸ **array**‹**T**›(`n`: number, `sample?`: T): *T[]*
 
-*Defined in [src/array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/create.ts#L2)*
+*Defined in [src/array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L2)*
 
 **Type parameters:**
 
@@ -35,11 +37,33 @@ Name | Type |
 
 ___
 
+###  arrayRangePartition
+
+▸ **arrayRangePartition**‹**T**›(`input`: T[], `length`: number, `fillRestWith?`: T): *T[][]*
+
+*Defined in [src/array/create.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L40)*
+
+**Type parameters:**
+
+▪ **T**
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`input` | T[] |
+`length` | number |
+`fillRestWith?` | T |
+
+**Returns:** *T[][]*
+
+___
+
 ###  asArray
 
 ▸ **asArray**‹**T**›(`selectors`: T | T[]): *T[]*
 
-*Defined in [src/array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/create.ts#L10)*
+*Defined in [src/array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L10)*
 
 **Type parameters:**
 
@@ -55,11 +79,34 @@ Name | Type |
 
 ___
 
+###  fill
+
+▸ **fill**‹**T**›(`a`: T[], `length`: number, `fillWith`: T, `before`: boolean): *T[]*
+
+*Defined in [src/array/create.ts:59](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L59)*
+
+**Type parameters:**
+
+▪ **T**
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`a` | T[] | - |
+`length` | number | - |
+`fillWith` | T | - |
+`before` | boolean | false |
+
+**Returns:** *T[]*
+
+___
+
 ###  randomItems
 
 ▸ **randomItems**‹**T**›(`a`: T[], `amount`: number): *T[]*
 
-*Defined in [src/array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/create.ts#L22)*
+*Defined in [src/array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L22)*
 
 **Type parameters:**
 
@@ -80,7 +127,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [src/array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/create.ts#L14)*
+*Defined in [src/array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L14)*
 
 **Parameters:**
 
@@ -98,7 +145,7 @@ ___
 
 ▸ **shuffle**‹**T**›(`a`: T[]): *T[]*
 
-*Defined in [src/array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4b5e32c/misc-utils-of-mine-generic/src/array/create.ts#L36)*
+*Defined in [src/array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/c4ab38d/misc-utils-of-mine-generic/src/array/create.ts#L36)*
 
 **Type parameters:**
 

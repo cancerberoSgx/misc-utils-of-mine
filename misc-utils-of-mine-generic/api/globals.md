@@ -26,6 +26,7 @@
 * ["merge"](modules/_merge_.md)
 * ["mime"](modules/_mime_.md)
 * ["number"](modules/_number_.md)
+* ["numberNormalization"](modules/_numbernormalization_.md)
 * ["object"](modules/_object_.md)
 * ["promise"](modules/_promise_.md)
 * ["string/boxes"](modules/_string_boxes_.md)

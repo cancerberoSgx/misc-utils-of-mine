@@ -1,4 +1,4 @@
-import { randomItems } from '../create'
+import { arrayRangePartition, fill, randomItems } from '../create'
 import { arrayDifference, arrayInterception, arrayUnion } from '../set'
 
 describe('array', () => {
@@ -20,5 +20,16 @@ describe('array', () => {
 
   it('randomItems', () => {
     expect(randomItems([1, 2, 3, 4, 5], 2).length).toBe(2)
+  })
+
+  it('arrayRangePartition', () => {
+    expect(arrayRangePartition([1, 2, 3, 4, 5, 6, 7], 2)).toEqual([[1, 2], [3, 4], [5, 6], [7]])
+    expect(arrayRangePartition([1, 2, 3, 4, 5, 6, 7, 8], 3)).toEqual([[1, 2, 3], [4, 5, 6], [7, 8]])
+    expect(arrayRangePartition([1, 2, 3, 4, 5, 6, 7, 8], 3, 0)).toEqual([[1, 2, 3], [4, 5, 6], [7, 8, 0]])
+  })
+
+  it('fill', () => {
+    expect(fill([1, 2, 3], 5, 0, true)).toEqual([0, 0, 1, 2, 3])
+    expect(fill([1, 2, 3], 5, 0, false)).toEqual([1, 2, 3, 0, 0])
   })
 })

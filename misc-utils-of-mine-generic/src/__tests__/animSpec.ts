@@ -11,7 +11,7 @@ describe('time/anim', () => {
         a.push(Math.trunc(progress))
       }
     })
-    expect(a.length).toBeGreaterThan(10)
+    expect(a.length).toBeGreaterThan(3)
   })
 
 })

@@ -46,11 +46,15 @@
 * [arrayDifference](_index_.md#arraydifference)
 * [arrayInterception](_index_.md#arrayinterception)
 * [arrayPrototypeFind](_index_.md#arrayprototypefind)
+* [arrayRangePartition](_index_.md#arrayrangepartition)
 * [arrayToObject](_index_.md#arraytoobject)
 * [arrayUnion](_index_.md#arrayunion)
 * [asArray](_index_.md#asarray)
 * [basename](_index_.md#basename)
 * [between](_index_.md#between)
+* [bin2dec](_index_.md#bin2dec)
+* [binaryDigitNormalizer](_index_.md#binarydigitnormalizer)
+* [binaryStraightNormalizer](_index_.md#binarystraightnormalizer)
 * [blockFor](_index_.md#blockfor)
 * [borderStyles](_index_.md#borderstyles)
 * [bytesToKiloBytes](_index_.md#bytestokilobytes)
@@ -62,6 +66,8 @@
 * [cloneJSON](_index_.md#clonejson)
 * [compareText](_index_.md#comparetext)
 * [compareTexts](_index_.md#comparetexts)
+* [dec2bin](_index_.md#dec2bin)
+* [decimalDigitNormalizer](_index_.md#decimaldigitnormalizer)
 * [dedup](_index_.md#dedup)
 * [detectNewline](_index_.md#detectnewline)
 * [dirname](_index_.md#dirname)
@@ -71,6 +77,7 @@
 * [enumValueFromString](_index_.md#enumvaluefromstring)
 * [escapeHtmlAttribute](_index_.md#escapehtmlattribute)
 * [evaluate](_index_.md#evaluate)
+* [fill](_index_.md#fill)
 * [filterAncestors](_index_.md#filterancestors)
 * [filterChildren](_index_.md#filterchildren)
 * [filterDescendants](_index_.md#filterdescendants)
@@ -129,6 +136,7 @@
 * [isJSONObject](_index_.md#isjsonobject)
 * [isNode](_index_.md#isnode)
 * [isObject](_index_.md#isobject)
+* [isPrime](_index_.md#isprime)
 * [isString](_index_.md#isstring)
 * [isWebWorker](_index_.md#iswebworker)
 * [mapChildren](_index_.md#mapchildren)
@@ -437,6 +445,12 @@ ___
 
 ___
 
+###  arrayRangePartition
+
+• **arrayRangePartition**:
+
+___
+
 ###  arrayToObject
 
 • **arrayToObject**:
@@ -464,6 +478,24 @@ ___
 ###  between
 
 • **between**:
+
+___
+
+###  bin2dec
+
+• **bin2dec**:
+
+___
+
+###  binaryDigitNormalizer
+
+• **binaryDigitNormalizer**:
+
+___
+
+###  binaryStraightNormalizer
+
+• **binaryStraightNormalizer**:
 
 ___
 
@@ -533,6 +565,18 @@ ___
 
 ___
 
+###  dec2bin
+
+• **dec2bin**:
+
+___
+
+###  decimalDigitNormalizer
+
+• **decimalDigitNormalizer**:
+
+___
+
 ###  dedup
 
 • **dedup**:
@@ -584,6 +628,12 @@ ___
 ###  evaluate
 
 • **evaluate**:
+
+___
+
+###  fill
+
+• **fill**:
 
 ___
 
@@ -932,6 +982,12 @@ ___
 ###  isObject
 
 • **isObject**:
+
+___
+
+###  isPrime
+
+• **isPrime**:
 
 ___
 

@@ -12,12 +12,14 @@
 * [arrayDifference](_array_index_.md#arraydifference)
 * [arrayInterception](_array_index_.md#arrayinterception)
 * [arrayPrototypeFind](_array_index_.md#arrayprototypefind)
+* [arrayRangePartition](_array_index_.md#arrayrangepartition)
 * [arrayUnion](_array_index_.md#arrayunion)
 * [asArray](_array_index_.md#asarray)
 * [dedup](_array_index_.md#dedup)
 * [enumKeys](_array_index_.md#enumkeys)
 * [enumNoValueKeys](_array_index_.md#enumnovaluekeys)
 * [enumValueFromString](_array_index_.md#enumvaluefromstring)
+* [fill](_array_index_.md#fill)
 * [flat](_array_index_.md#flat)
 * [flatDeep](_array_index_.md#flatdeep)
 * [flatInstallArrayPrototype](_array_index_.md#flatinstallarrayprototype)
@@ -72,6 +74,12 @@ ___
 
 ___
 
+###  arrayRangePartition
+
+• **arrayRangePartition**:
+
+___
+
 ###  arrayUnion
 
 • **arrayUnion**:
@@ -105,6 +113,12 @@ ___
 ###  enumValueFromString
 
 • **enumValueFromString**:
+
+___
+
+###  fill
+
+• **fill**:
 
 ___
 
