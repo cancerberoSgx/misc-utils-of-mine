@@ -41,6 +41,15 @@ export function objectFilter<O extends { [k in keyof O]: O[keyof O] } = any>(
   return r
 }
 
+export function objectOrderKeysAlphabetically<T = any>(o: T) {
+  const r = {} as T
+  Object.keys(o).sort().forEach(k => {
+    //@ts-ignore
+    r[k] = o[k]
+  })
+  return r
+}
+
 /**
  * Builds an object using keys in [[a]] and values returning from [[fn]] as long as they are not undefined.
  */
