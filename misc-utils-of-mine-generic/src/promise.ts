@@ -54,9 +54,9 @@ export class Deferred<R, J = any> {
     this.resolve = null as any
     this.reject = null as any
     this.status = 'pending'
-    this.promise = new Promise(function (resolve, reject) {
-      instance.resolve = function () { this.status = 'resolved'; resolve.apply(this, arguments as any) }
-      instance.reject = function () { this.status = 'rejected'; reject.apply(this, arguments as any) }
+    this.promise = new Promise(function(resolve, reject) {
+      instance.resolve = function() { this.status = 'resolved'; resolve.apply(this, arguments as any) }
+      instance.reject = function() { this.status = 'rejected'; reject.apply(this, arguments as any) }
     })
     if (typeof callback === 'function') {
       callback.call(this, this.resolve, this.reject)

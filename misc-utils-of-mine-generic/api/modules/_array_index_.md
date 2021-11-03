@@ -15,6 +15,7 @@
 * [arrayRangePartition](_array_index_.md#arrayrangepartition)
 * [arrayUnion](_array_index_.md#arrayunion)
 * [asArray](_array_index_.md#asarray)
+* [buildEnumMap](_array_index_.md#buildenummap)
 * [dedup](_array_index_.md#dedup)
 * [enumKeys](_array_index_.md#enumkeys)
 * [enumNoValueKeys](_array_index_.md#enumnovaluekeys)
@@ -34,6 +35,7 @@
 * [randomItems](_array_index_.md#randomitems)
 * [seq](_array_index_.md#seq)
 * [shuffle](_array_index_.md#shuffle)
+* [toObject](_array_index_.md#toobject)
 * [unionEquals](_array_index_.md#unionequals)
 
 ## References
@@ -89,6 +91,12 @@ ___
 ###  asArray
 
 • **asArray**:
+
+___
+
+###  buildEnumMap
+
+• **buildEnumMap**:
 
 ___
 
@@ -203,6 +211,12 @@ ___
 ###  shuffle
 
 • **shuffle**:
+
+___
+
+###  toObject
+
+• **toObject**:
 
 ___
 

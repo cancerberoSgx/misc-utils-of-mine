@@ -19,7 +19,7 @@
 
 ▸ **decode**(`input`: number[]): *number*
 
-Defined in src/numberNormalization.ts:17
+*Defined in [src/numberNormalization.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L17)*
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **encode**(`n`: number, `inputSize?`: undefined | number): *number[]*
 
-Defined in src/numberNormalization.ts:16
+*Defined in [src/numberNormalization.ts:16](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L16)*
 
 **Parameters:**
 

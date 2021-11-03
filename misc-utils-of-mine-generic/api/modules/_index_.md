@@ -50,6 +50,8 @@
 * [arrayToObject](_index_.md#arraytoobject)
 * [arrayUnion](_index_.md#arrayunion)
 * [asArray](_index_.md#asarray)
+* [asyncForEach](_index_.md#asyncforeach)
+* [asyncMap](_index_.md#asyncmap)
 * [basename](_index_.md#basename)
 * [between](_index_.md#between)
 * [bin2dec](_index_.md#bin2dec)
@@ -57,6 +59,7 @@
 * [binaryStraightNormalizer](_index_.md#binarystraightnormalizer)
 * [blockFor](_index_.md#blockfor)
 * [borderStyles](_index_.md#borderstyles)
+* [buildEnumMap](_index_.md#buildenummap)
 * [bytesToKiloBytes](_index_.md#bytestokilobytes)
 * [changeText](_index_.md#changetext)
 * [checkThrow](_index_.md#checkthrow)
@@ -151,6 +154,7 @@
 * [objectKeys](_index_.md#objectkeys)
 * [objectMap](_index_.md#objectmap)
 * [objectMapValues](_index_.md#objectmapvalues)
+* [objectOrderKeysAlphabetically](_index_.md#objectorderkeysalphabetically)
 * [objectToArray](_index_.md#objecttoarray)
 * [parseGitIgnore](_index_.md#parsegitignore)
 * [parseJSON](_index_.md#parsejson)
@@ -185,6 +189,7 @@
 * [stylePropertyNameToCssSyntax](_index_.md#stylepropertynametocsssyntax)
 * [template](_index_.md#template)
 * [throttle](_index_.md#throttle)
+* [toObject](_index_.md#toobject)
 * [trimRightLines](_index_.md#trimrightlines)
 * [tryTo](_index_.md#tryto)
 * [typeOf](_index_.md#typeof)
@@ -198,6 +203,7 @@
 * [visitJson](_index_.md#visitjson)
 * [wait](_index_.md#wait)
 * [waitForPredicate](_index_.md#waitforpredicate)
+* [withFinalSlash](_index_.md#withfinalslash)
 * [withTime](_index_.md#withtime)
 * [withoutExtension](_index_.md#withoutextension)
 * [wordWrap](_index_.md#wordwrap)
@@ -469,6 +475,18 @@ ___
 
 ___
 
+###  asyncForEach
+
+• **asyncForEach**:
+
+___
+
+###  asyncMap
+
+• **asyncMap**:
+
+___
+
 ###  basename
 
 • **basename**:
@@ -508,6 +526,12 @@ ___
 ###  borderStyles
 
 • **borderStyles**:
+
+___
+
+###  buildEnumMap
+
+• **buildEnumMap**:
 
 ___
 
@@ -1075,6 +1099,12 @@ ___
 
 ___
 
+###  objectOrderKeysAlphabetically
+
+• **objectOrderKeysAlphabetically**:
+
+___
+
 ###  objectToArray
 
 • **objectToArray**:
@@ -1279,6 +1309,12 @@ ___
 
 ___
 
+###  toObject
+
+• **toObject**:
+
+___
+
 ###  trimRightLines
 
 • **trimRightLines**:
@@ -1354,6 +1390,12 @@ ___
 ###  waitForPredicate
 
 • **waitForPredicate**:
+
+___
+
+###  withFinalSlash
+
+• **withFinalSlash**:
 
 ___
 

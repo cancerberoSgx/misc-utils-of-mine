@@ -53,7 +53,7 @@ export function enumValueFromString<T>(key: string, anEnum: any): T | undefined 
 
 /** Optimal array to dictionary de serialization because `array.reduce` and `Object.assign` are too slow for large collections. */
 export function toObject<T = any>(array: T[], groupByKey: string) {
-  const obj: {[s: string]: T} = {};
+  const obj: { [s: string]: T } = {};
   array.forEach(item => {
     //@ts-ignore
     obj[item[groupByKey]] = item;
