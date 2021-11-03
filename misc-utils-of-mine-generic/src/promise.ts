@@ -14,6 +14,22 @@ export function serial<T = any>(p: (() => Promise<T>)[]): Promise<T[]> {
   })
 }
 
+/** iterates serially */
+export async function asyncForEach(array: any[], callback: any) {
+  for (let index = 0; index < array.length; index++) {
+    await callback(array[index], index, array);
+  }
+}
+
+/** applies a map() serially */
+export async function asyncMap<T, R = any>(array: T[], callback: (t: T, i: number, a: T[]) => R) {
+  const result = [] as any[];
+  await asyncForEach(array, async (item: any, i: number, a: any[]) => {
+    result.push(await callback(item, i, a));
+  });
+  return result;
+}
+
 /**
  * Promise like object that allows to resolve it promise from outside code. Example: 
  * 
@@ -38,9 +54,9 @@ export class Deferred<R, J = any> {
     this.resolve = null as any
     this.reject = null as any
     this.status = 'pending'
-    this.promise = new Promise(function(resolve, reject) {
-      instance.resolve = function() { this.status = 'resolved'; resolve.apply(this, arguments as any) }
-      instance.reject = function() { this.status = 'rejected'; reject.apply(this, arguments as any) }
+    this.promise = new Promise(function (resolve, reject) {
+      instance.resolve = function () { this.status = 'resolved'; resolve.apply(this, arguments as any) }
+      instance.reject = function () { this.status = 'rejected'; reject.apply(this, arguments as any) }
     })
     if (typeof callback === 'function') {
       callback.call(this, this.resolve, this.reject)
