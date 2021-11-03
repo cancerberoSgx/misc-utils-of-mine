@@ -50,3 +50,44 @@ export function getEnumKeyAndValue(e: any) {
 export function enumValueFromString<T>(key: string, anEnum: any): T | undefined {
   return anEnum[key]
 }
+
+/** Optimal array to dictionary de serialization because `array.reduce` and `Object.assign` are too slow for large collections. */
+export function toObject<T = any>(array: T[], groupByKey: string) {
+  const obj: {[s: string]: T} = {};
+  array.forEach(item => {
+    //@ts-ignore
+    obj[item[groupByKey]] = item;
+  })
+  return obj;
+}
+
+/**
+ * From an enum like : 
+ * ```
+ enum Providers {
+    apple = 1,
+    google = 2,
+    facebook = 3,
+  }
+ * ```
+  builds an object like this:
+ * ```
+  {
+    apple: 1,
+    google: 2,
+    facebook: 3
+  }
+ * ```
+  useful for in-code documentation/descriptions/validations
+ */
+export function buildEnumMap(anEnum: any) {
+  const r = {} as any
+  getEnumKeyAndValue(anEnum).forEach(({ key, value }) => {
+    if (isNaN(parseInt(key))) {
+      r[key.toLowerCase()] = value
+    } else {
+      r[parseInt(key)] = parseInt(key)
+    }
+  })
+  return r
+}

@@ -121,3 +121,7 @@ export function detectNewline(s: string, def = '\n') {
   const lf = newlines.length - crlf
   return crlf > lf ? '\r\n' : '\n'
 }
+
+export function withFinalSlash(s: string) {
+  return s.endsWith('/') ? s : `${s}/`
+}
