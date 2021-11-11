@@ -4,9 +4,14 @@
 
 ## Index
 
+### Interfaces
+
+* [HtmlElementConfig](../interfaces/_string_html_.htmlelementconfig.md)
+
 ### Functions
 
 * [escapeHtmlAttribute](_string_html_.md#escapehtmlattribute)
+* [htmlElement](_string_html_.md#htmlelement)
 * [styleObjectToCss](_string_html_.md#styleobjecttocss)
 * [stylePropertyNameToCssSyntax](_string_html_.md#stylepropertynametocsssyntax)
 * [unEscapeHtmlAttribute](_string_html_.md#unescapehtmlattribute)
@@ -18,7 +23,7 @@
 
 ▸ **escapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [src/string/html.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/html.ts#L1)*
+Defined in src/string/html.ts:1
 
 **Parameters:**
 
@@ -30,11 +35,42 @@ Name | Type |
 
 ___
 
+###  htmlElement
+
+▸ **htmlElement**(`config`: [HtmlElementConfig](../interfaces/_string_html_.htmlelementconfig.md)): *string*
+
+Defined in src/string/html.ts:68
+
+```
+htmlElement({
+name: 'a',
+attributes: [{name: 'href', value: 'foo.com'}, {name: 'id', value: 'clickMe'}],
+innerHTML: 'click me'
+})
+```
+will return something like:
+
+```
+<a href="foo.com" id="clickMe">click me</a>
+```
+
+TODO: indentLevel
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`config` | [HtmlElementConfig](../interfaces/_string_html_.htmlelementconfig.md) |
+
+**Returns:** *string*
+
+___
+
 ###  styleObjectToCss
 
 ▸ **styleObjectToCss**(`o`: Partial‹object›, `propertiesSeparator`: string): *string*
 
-*Defined in [src/string/html.ts:29](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/html.ts#L29)*
+Defined in src/string/html.ts:29
 
 transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
 
@@ -53,7 +89,7 @@ ___
 
 ▸ **stylePropertyNameToCssSyntax**(`s`: string): *string*
 
-*Defined in [src/string/html.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/html.ts#L38)*
+Defined in src/string/html.ts:38
 
 Transform a string like `fooBar` to `foo-bar`
 
@@ -71,7 +107,7 @@ ___
 
 ▸ **unEscapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [src/string/html.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/html.ts#L5)*
+Defined in src/string/html.ts:5
 
 **Parameters:**
 
@@ -87,7 +123,7 @@ ___
 
 ▸ **wrapInHtml**(`s`: string): *string*
 
-*Defined in [src/string/html.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/html.ts#L9)*
+Defined in src/string/html.ts:9
 
 **Parameters:**
 

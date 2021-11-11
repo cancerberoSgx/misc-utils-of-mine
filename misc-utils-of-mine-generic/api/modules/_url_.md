@@ -17,7 +17,7 @@
 
 ▸ **getFileNameFromUrl**(`url`: string): *string*
 
-*Defined in [src/url.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/url.ts#L1)*
+Defined in src/url.ts:1
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **getParametersFromUrl**(`url`: string, `options`: object): *object*
 
-*Defined in [src/url.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/url.ts#L7)*
+Defined in src/url.ts:7
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **isAbsoluteUrl**(`url`: string): *boolean*
 
-*Defined in [src/url.ts:38](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/url.ts#L38)*
+Defined in src/url.ts:38
 
 Returns true iff given url starts with a protocol ("http://", "https://", etc).
 Notice that this is not strictly the absolute url definition
@@ -75,7 +75,7 @@ ___
 
 ▸ **parseUrl**(`url`: string, `options`: object): *null | object*
 
-*Defined in [src/url.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/url.ts#L45)*
+Defined in src/url.ts:45
 
 Parse url, emulates window.location format
 

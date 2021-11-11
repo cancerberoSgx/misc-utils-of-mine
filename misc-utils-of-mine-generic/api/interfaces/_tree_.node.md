@@ -23,7 +23,7 @@ TODO: test
 
 • **childNodes**? : *[Node](_tree_.node.md)[]*
 
-*Defined in [src/tree.ts:8](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/tree.ts#L8)*
+Defined in src/tree.ts:8
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **parentNode**? : *[Node](_tree_.node.md)*
 
-*Defined in [src/tree.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/tree.ts#L9)*
+Defined in src/tree.ts:9

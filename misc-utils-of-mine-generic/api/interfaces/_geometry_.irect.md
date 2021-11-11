@@ -23,7 +23,7 @@
 
 • **height**: *number*
 
-*Defined in [src/geometry.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/geometry.ts#L7)*
+Defined in src/geometry.ts:7
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **width**: *number*
 
-*Defined in [src/geometry.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/geometry.ts#L6)*
+Defined in src/geometry.ts:6
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 *Inherited from [IPoint](_geometry_.ipoint.md).[x](_geometry_.ipoint.md#x)*
 
-*Defined in [src/geometry.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/geometry.ts#L2)*
+Defined in src/geometry.ts:2
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 *Inherited from [IPoint](_geometry_.ipoint.md).[y](_geometry_.ipoint.md#y)*
 
-*Defined in [src/geometry.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/geometry.ts#L3)*
+Defined in src/geometry.ts:3

@@ -17,6 +17,7 @@
 * [Falsy](_index_.md#falsy)
 * [FindPredicate](_index_.md#findpredicate)
 * [Fn](_index_.md#fn)
+* [HtmlElementConfig](_index_.md#htmlelementconfig)
 * [IPoint](_index_.md#ipoint)
 * [IRect](_index_.md#irect)
 * [JSONArray](_index_.md#jsonarray)
@@ -119,6 +120,7 @@
 * [getSiblings](_index_.md#getsiblings)
 * [getType](_index_.md#gettype)
 * [hashCode](_index_.md#hashcode)
+* [htmlElement](_index_.md#htmlelement)
 * [inBrowser](_index_.md#inbrowser)
 * [inDOM](_index_.md#indom)
 * [inNode](_index_.md#innode)
@@ -274,6 +276,12 @@ ___
 ###  Fn
 
 • **Fn**:
+
+___
+
+###  HtmlElementConfig
+
+• **HtmlElementConfig**:
 
 ___
 
@@ -886,6 +894,12 @@ ___
 ###  hashCode
 
 • **hashCode**:
+
+___
+
+###  htmlElement
+
+• **htmlElement**:
 
 ___
 

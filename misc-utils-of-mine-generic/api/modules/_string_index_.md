@@ -8,6 +8,7 @@
 
 * [BorderSide](_string_index_.md#borderside)
 * [BorderStyle](_string_index_.md#borderstyle)
+* [HtmlElementConfig](_string_index_.md#htmlelementconfig)
 * [borderStyles](_string_index_.md#borderstyles)
 * [changeText](_string_index_.md#changetext)
 * [escapeHtmlAttribute](_string_index_.md#escapehtmlattribute)
@@ -16,6 +17,7 @@
 * [getPosition](_string_index_.md#getposition)
 * [getPreviousMatchingPos](_string_index_.md#getpreviousmatchingpos)
 * [hashCode](_string_index_.md#hashcode)
+* [htmlElement](_string_index_.md#htmlelement)
 * [indent](_string_index_.md#indent)
 * [quote](_string_index_.md#quote)
 * [removeEmptyLines](_string_index_.md#removeemptylines)
@@ -44,6 +46,12 @@ ___
 ###  BorderStyle
 
 • **BorderStyle**:
+
+___
+
+###  HtmlElementConfig
+
+• **HtmlElementConfig**:
 
 ___
 
@@ -92,6 +100,12 @@ ___
 ###  hashCode
 
 • **hashCode**:
+
+___
+
+###  htmlElement
+
+• **htmlElement**:
 
 ___
 

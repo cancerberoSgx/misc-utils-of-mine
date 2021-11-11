@@ -33,7 +33,7 @@
 
 • **digitLength**: *number* = dec2bin(9).length
 
-*Defined in [src/numberNormalization.ts:34](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L34)*
+Defined in src/numberNormalization.ts:34
 
 ## Functions
 
@@ -41,7 +41,7 @@
 
 ▸ **ConvertBase**(`num`: any): *object*
 
-*Defined in [src/numberNormalization.ts:65](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L65)*
+Defined in src/numberNormalization.ts:65
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **bin2dec**(`number`: any[]): *number*
 
-*Defined in [src/numberNormalization.ts:102](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L102)*
+Defined in src/numberNormalization.ts:102
 
 **Parameters:**
 
@@ -77,7 +77,7 @@ ___
 
 ▸ **bin2dec_**(`num`: any): *string*
 
-*Defined in [src/numberNormalization.ts:76](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L76)*
+Defined in src/numberNormalization.ts:76
 
 **Parameters:**
 
@@ -93,7 +93,7 @@ ___
 
 ▸ **dec2bin**(`number`: number, `arrayLength?`: undefined | number): *number[]*
 
-*Defined in [src/numberNormalization.ts:89](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L89)*
+Defined in src/numberNormalization.ts:89
 
 **Parameters:**
 
@@ -110,7 +110,7 @@ ___
 
 ▸ **dec2bin_**(`num`: any): *string*
 
-*Defined in [src/numberNormalization.ts:79](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L79)*
+Defined in src/numberNormalization.ts:79
 
 **Parameters:**
 
@@ -126,7 +126,7 @@ ___
 
 ▸ **string2array**(`s`: string): *number[]*
 
-*Defined in [src/numberNormalization.ts:82](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L82)*
+Defined in src/numberNormalization.ts:82
 
 **Parameters:**
 
@@ -142,13 +142,13 @@ Name | Type |
 
 ### ▪ **binaryDigitNormalizer**: *object*
 
-*Defined in [src/numberNormalization.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L35)*
+Defined in src/numberNormalization.ts:35
 
 ###  decode
 
 ▸ **decode**(`input`: number[]): *number*
 
-*Defined in [src/numberNormalization.ts:44](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L44)*
+Defined in src/numberNormalization.ts:44
 
 **Parameters:**
 
@@ -162,7 +162,7 @@ Name | Type |
 
 ▸ **encode**(`a`: number, `inputSize?`: undefined | number): *number[]*
 
-*Defined in [src/numberNormalization.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L36)*
+Defined in src/numberNormalization.ts:36
 
 **Parameters:**
 
@@ -179,13 +179,13 @@ ___
 
 ### ▪ **binaryStraightNormalizer**: *object*
 
-*Defined in [src/numberNormalization.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L20)*
+Defined in src/numberNormalization.ts:20
 
 ###  decode
 
 ▸ **decode**(`a`: number[]): *number*
 
-*Defined in [src/numberNormalization.ts:29](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L29)*
+Defined in src/numberNormalization.ts:29
 
 **Parameters:**
 
@@ -199,7 +199,7 @@ Name | Type |
 
 ▸ **encode**(`a`: number, `inputSize?`: undefined | number): *number[]*
 
-*Defined in [src/numberNormalization.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L21)*
+Defined in src/numberNormalization.ts:21
 
 **Parameters:**
 
@@ -216,13 +216,13 @@ ___
 
 ### ▪ **decimalDigitNormalizer**: *object*
 
-*Defined in [src/numberNormalization.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L49)*
+Defined in src/numberNormalization.ts:49
 
 ###  decode
 
 ▸ **decode**(`digits`: number[]): *number*
 
-*Defined in [src/numberNormalization.ts:60](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L60)*
+Defined in src/numberNormalization.ts:60
 
 **Parameters:**
 
@@ -236,7 +236,7 @@ Name | Type |
 
 ▸ **encode**(`n`: number, `length?`: undefined | number): *number[]*
 
-*Defined in [src/numberNormalization.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/numberNormalization.ts#L50)*
+Defined in src/numberNormalization.ts:50
 
 **Parameters:**
 

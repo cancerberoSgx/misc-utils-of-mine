@@ -15,7 +15,7 @@
 
 ▸ **evaluate**‹**T**›(`s`: string, `defaultValue`: undefined): *T | undefined*
 
-*Defined in [src/string/evaluate.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/evaluate.ts#L1)*
+Defined in src/string/evaluate.ts:1
 
 **Type parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **stringToObject**(`s`: string, `propSep`: string, `nameValueSep`: string): *any*
 
-*Defined in [src/string/evaluate.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/string/evaluate.ts#L12)*
+Defined in src/string/evaluate.ts:12
 
 Transform a string like `foo: 2, bar: hello world` to an object like `{foo: '2', bar: 'hello world'}`
 

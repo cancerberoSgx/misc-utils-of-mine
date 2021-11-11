@@ -20,7 +20,7 @@
 
 • **arrayUnion**: *[unionEquals](_array_set_.md#unionequals)* = unionEquals
 
-*Defined in [src/array/set.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/set.ts#L9)*
+Defined in src/array/set.ts:9
 
 ## Functions
 
@@ -28,7 +28,7 @@
 
 ▸ **arrayDifference**‹**A**›(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [src/array/set.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/set.ts#L18)*
+Defined in src/array/set.ts:18
 
 **Type parameters:**
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **arrayInterception**‹**A**›(`a`: A[], `b`: A[], `predicate`: function, `output?`: A[]): *A[]*
 
-*Defined in [src/array/set.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/set.ts#L11)*
+Defined in src/array/set.ts:11
 
 **Type parameters:**
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **unionEquals**‹**T**›(`a`: T[], `b`: T[], `predicate`: function, `output?`: T[]): *T[]*
 
-*Defined in [src/array/set.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/set.ts#L3)*
+Defined in src/array/set.ts:3
 
 **Type parameters:**
 

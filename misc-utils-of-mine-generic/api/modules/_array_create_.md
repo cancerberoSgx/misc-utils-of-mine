@@ -20,7 +20,7 @@
 
 ▸ **array**‹**T**›(`n`: number, `sample?`: T): *T[]*
 
-*Defined in [src/array/create.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L2)*
+Defined in src/array/create.ts:2
 
 **Type parameters:**
 
@@ -41,7 +41,7 @@ ___
 
 ▸ **arrayRangePartition**‹**T**›(`input`: T[], `length`: number, `fillRestWith?`: T): *T[][]*
 
-*Defined in [src/array/create.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L40)*
+Defined in src/array/create.ts:40
 
 **Type parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **asArray**‹**T**›(`selectors`: T | T[]): *T[]*
 
-*Defined in [src/array/create.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L10)*
+Defined in src/array/create.ts:10
 
 **Type parameters:**
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **fill**‹**T**›(`a`: T[], `length`: number, `fillWith`: T, `before`: boolean): *T[]*
 
-*Defined in [src/array/create.ts:59](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L59)*
+Defined in src/array/create.ts:59
 
 **Type parameters:**
 
@@ -106,7 +106,7 @@ ___
 
 ▸ **randomItems**‹**T**›(`a`: T[], `amount`: number): *T[]*
 
-*Defined in [src/array/create.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L22)*
+Defined in src/array/create.ts:22
 
 **Type parameters:**
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **seq**(`start`: number, `step`: number, `max`: number): *number[]*
 
-*Defined in [src/array/create.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L14)*
+Defined in src/array/create.ts:14
 
 **Parameters:**
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **shuffle**‹**T**›(`a`: T[]): *T[]*
 
-*Defined in [src/array/create.ts:36](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/3f33ab6/misc-utils-of-mine-generic/src/array/create.ts#L36)*
+Defined in src/array/create.ts:36
 
 **Type parameters:**
 
