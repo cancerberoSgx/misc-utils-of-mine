@@ -23,6 +23,7 @@
 * ["geometry"](modules/_geometry_.md)
 * ["index"](modules/_index_.md)
 * ["json"](modules/_json_.md)
+* ["math"](modules/_math_.md)
 * ["merge"](modules/_merge_.md)
 * ["mime"](modules/_mime_.md)
 * ["number"](modules/_number_.md)

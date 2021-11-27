@@ -32,7 +32,7 @@ The simplest implementation of an event emitter.
 
 • **l**: *L[]* = []
 
-Defined in src/event.ts:5
+*Defined in [src/event.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/event.ts#L5)*
 
 ## Methods
 
@@ -40,7 +40,7 @@ Defined in src/event.ts:5
 
 ▸ **add**(`l`: L): *void*
 
-Defined in src/event.ts:6
+*Defined in [src/event.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/event.ts#L6)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **emit**(`e`: E): *void*
 
-Defined in src/event.ts:9
+*Defined in [src/event.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/event.ts#L9)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **remove**(`l`: L): *void*
 
-Defined in src/event.ts:12
+*Defined in [src/event.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/event.ts#L12)*
 
 **Parameters:**
 

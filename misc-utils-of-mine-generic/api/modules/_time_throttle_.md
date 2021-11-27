@@ -14,7 +14,7 @@
 
 ▸ **throttle**‹**F**›(`func`: F, `wait`: number, `options`: object): *(Anonymous function)*
 
-Defined in src/time/throttle.ts:1
+*Defined in [src/time/throttle.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/time/throttle.ts#L1)*
 
 **Type parameters:**
 

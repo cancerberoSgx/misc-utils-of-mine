@@ -1,3 +1,5 @@
+import { counter } from '..'
+
 export function escapeHtmlAttribute(code: string) {
   return code.replace(/\"/gim, '&quot;')
 }
@@ -48,6 +50,8 @@ export interface HtmlElementConfig {
   attributes?: { name: string, value: string }[]
   children?: HtmlElementConfig[]
   innerHTML?: string
+  /** by default, if there's no children or innerHTML we use a single-closing tag like `<tag/>`.  If this is true will force the format <tag></tag> always. */
+  forceContent?: boolean
 }
 /**
  * ```
@@ -66,17 +70,36 @@ export interface HtmlElementConfig {
  * TODO: indentLevel
  */
 export function htmlElement(config: HtmlElementConfig): string {
+  const hasContent = config.forceContent || config.innerHTML || (config.children || []).length
   let s = `<${config.name}`
   if (config.attributes) {
     // TODO: escape a.value
     s += ' ' + config.attributes.map(a => `${a.name}="${a.value}"`).join(' ')
   }
-  s += '>'
+  if (hasContent) {
+    s += '>'
+  }
   if (config.children) {
     const children = config.children.map(c => htmlElement(c))
     s += `${children.join('')}`
   }
   s += config.innerHTML || ''
-  s += `</${config.name}>`
+  if (hasContent) {
+    s += `</${config.name}>`
+  } else {
+    s += `/>`
+  }
   return s
+}
+
+/**
+ * adds a parameter named `param` with a value that tries to be unique. The intending behavior is to add a "nocache" parameter
+ */
+export function addUniqueParam(url: string, param: string) {
+  const value = `${counter() + Math.random()}`//.replace(/\./g, '')
+  if (url.includes('?')) {
+    return `${url}&${param}=${value}`;
+  } else {
+    return `${url}?${param}=${value}`;
+  }
 }

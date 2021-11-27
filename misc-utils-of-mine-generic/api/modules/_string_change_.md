@@ -14,7 +14,7 @@
 
 ▸ **changeText**(`text`: string, `toInsert`: object[]): *string*
 
-Defined in src/string/change.ts:1
+*Defined in [src/string/change.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/change.ts#L1)*
 
 **Parameters:**
 

@@ -1,9 +1,13 @@
 import { array } from './array'
 
 let _unique: number = 0
-
 export function unique(prefix: string = '_'): string {
   return prefix + _unique++
+}
+
+let _counter = 0
+export function counter() {
+  return _counter++
 }
 
 export function randomIntBetween(a: number, b: number) {

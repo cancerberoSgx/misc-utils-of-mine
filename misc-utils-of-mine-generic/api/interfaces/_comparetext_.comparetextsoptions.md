@@ -28,7 +28,7 @@
 
 *Inherited from [CompareTextOptions](_comparetext_.comparetextoptions.md).[asCode](_comparetext_.comparetextoptions.md#optional-ascode)*
 
-Defined in src/compareText.ts:12
+*Defined in [src/compareText.ts:12](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/compareText.ts#L12)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 *Inherited from [CompareTextOptions](_comparetext_.comparetextoptions.md).[caseInsensitive](_comparetext_.comparetextoptions.md#optional-caseinsensitive)*
 
-Defined in src/compareText.ts:11
+*Defined in [src/compareText.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/compareText.ts#L11)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 *Inherited from [CompareWithMultiplicityOptionsConcrete](_comparetext_.comparewithmultiplicityoptionsconcrete.md).[multiplicity](_comparetext_.comparewithmultiplicityoptionsconcrete.md#optional-multiplicity)*
 
-Defined in src/compareText.ts:17
+*Defined in [src/compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/compareText.ts#L17)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 *Inherited from [BaseCompareOptions](_comparetext_.basecompareoptions.md).[negate](_comparetext_.basecompareoptions.md#optional-negate)*
 
-Defined in src/compareText.ts:7
+*Defined in [src/compareText.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/compareText.ts#L7)*
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 *Inherited from [CompareTextOptions](_comparetext_.comparetextoptions.md).[verb](_comparetext_.comparetextoptions.md#optional-verb)*
 
-Defined in src/compareText.ts:13
+*Defined in [src/compareText.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/compareText.ts#L13)*

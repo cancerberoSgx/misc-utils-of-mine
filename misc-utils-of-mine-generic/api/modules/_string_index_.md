@@ -9,6 +9,7 @@
 * [BorderSide](_string_index_.md#borderside)
 * [BorderStyle](_string_index_.md#borderstyle)
 * [HtmlElementConfig](_string_index_.md#htmlelementconfig)
+* [addUniqueParam](_string_index_.md#adduniqueparam)
 * [borderStyles](_string_index_.md#borderstyles)
 * [changeText](_string_index_.md#changetext)
 * [escapeHtmlAttribute](_string_index_.md#escapehtmlattribute)
@@ -52,6 +53,12 @@ ___
 ###  HtmlElementConfig
 
 • **HtmlElementConfig**:
+
+___
+
+###  addUniqueParam
+
+• **addUniqueParam**:
 
 ___
 

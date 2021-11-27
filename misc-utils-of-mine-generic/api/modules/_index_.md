@@ -41,6 +41,7 @@
 * [UnionToIntersection](_index_.md#uniontointersection)
 * [Visitor](_index_.md#visitor)
 * [VisitorOptions](_index_.md#visitoroptions)
+* [addUniqueParam](_index_.md#adduniqueparam)
 * [animate](_index_.md#animate)
 * [anyUndefined](_index_.md#anyundefined)
 * [array](_index_.md#array)
@@ -53,6 +54,7 @@
 * [asArray](_index_.md#asarray)
 * [asyncForEach](_index_.md#asyncforeach)
 * [asyncMap](_index_.md#asyncmap)
+* [average](_index_.md#average)
 * [basename](_index_.md#basename)
 * [between](_index_.md#between)
 * [bin2dec](_index_.md#bin2dec)
@@ -70,6 +72,7 @@
 * [cloneJSON](_index_.md#clonejson)
 * [compareText](_index_.md#comparetext)
 * [compareTexts](_index_.md#comparetexts)
+* [counter](_index_.md#counter)
 * [dec2bin](_index_.md#dec2bin)
 * [decimalDigitNormalizer](_index_.md#decimaldigitnormalizer)
 * [dedup](_index_.md#dedup)
@@ -146,6 +149,7 @@
 * [isWebWorker](_index_.md#iswebworker)
 * [mapChildren](_index_.md#mapchildren)
 * [mapDescendants](_index_.md#mapdescendants)
+* [median](_index_.md#median)
 * [merge](_index_.md#merge)
 * [mergeRecursive](_index_.md#mergerecursive)
 * [notFalsy](_index_.md#notfalsy)
@@ -423,6 +427,12 @@ ___
 
 ___
 
+###  addUniqueParam
+
+• **addUniqueParam**:
+
+___
+
 ###  animate
 
 • **animate**:
@@ -492,6 +502,12 @@ ___
 ###  asyncMap
 
 • **asyncMap**:
+
+___
+
+###  average
+
+• **average**:
 
 ___
 
@@ -594,6 +610,12 @@ ___
 ###  compareTexts
 
 • **compareTexts**:
+
+___
+
+###  counter
+
+• **counter**:
 
 ___
 
@@ -1050,6 +1072,12 @@ ___
 ###  mapDescendants
 
 • **mapDescendants**:
+
+___
+
+###  median
+
+• **median**:
 
 ___
 

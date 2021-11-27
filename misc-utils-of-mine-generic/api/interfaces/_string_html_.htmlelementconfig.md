@@ -12,6 +12,7 @@
 
 * [attributes](_string_html_.htmlelementconfig.md#optional-attributes)
 * [children](_string_html_.htmlelementconfig.md#optional-children)
+* [forceContent](_string_html_.htmlelementconfig.md#optional-forcecontent)
 * [innerHTML](_string_html_.htmlelementconfig.md#optional-innerhtml)
 * [name](_string_html_.htmlelementconfig.md#name)
 
@@ -21,7 +22,7 @@
 
 • **attributes**? : *object[]*
 
-Defined in src/string/html.ts:48
+*Defined in [src/string/html.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L50)*
 
 ___
 
@@ -29,7 +30,17 @@ ___
 
 • **children**? : *[HtmlElementConfig](_string_html_.htmlelementconfig.md)[]*
 
-Defined in src/string/html.ts:49
+*Defined in [src/string/html.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L51)*
+
+___
+
+### `Optional` forceContent
+
+• **forceContent**? : *undefined | false | true*
+
+*Defined in [src/string/html.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L54)*
+
+by default, if there's no children or innerHTML we use a single-closing tag like `<tag/>`.  If this is true will force the format <tag></tag> always.
 
 ___
 
@@ -37,7 +48,7 @@ ___
 
 • **innerHTML**? : *undefined | string*
 
-Defined in src/string/html.ts:50
+*Defined in [src/string/html.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L52)*
 
 ___
 
@@ -45,4 +56,4 @@ ___
 
 • **name**: *string*
 
-Defined in src/string/html.ts:47
+*Defined in [src/string/html.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L49)*

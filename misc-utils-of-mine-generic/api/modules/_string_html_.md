@@ -10,6 +10,7 @@
 
 ### Functions
 
+* [addUniqueParam](_string_html_.md#adduniqueparam)
 * [escapeHtmlAttribute](_string_html_.md#escapehtmlattribute)
 * [htmlElement](_string_html_.md#htmlelement)
 * [styleObjectToCss](_string_html_.md#styleobjecttocss)
@@ -19,11 +20,30 @@
 
 ## Functions
 
+###  addUniqueParam
+
+▸ **addUniqueParam**(`url`: string, `param`: string): *string*
+
+*Defined in [src/string/html.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L98)*
+
+adds a parameter named `param` with a value that tries to be unique. The intending behavior is to add a "nocache" parameter
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`url` | string |
+`param` | string |
+
+**Returns:** *string*
+
+___
+
 ###  escapeHtmlAttribute
 
 ▸ **escapeHtmlAttribute**(`code`: string): *string*
 
-Defined in src/string/html.ts:1
+*Defined in [src/string/html.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L3)*
 
 **Parameters:**
 
@@ -39,7 +59,7 @@ ___
 
 ▸ **htmlElement**(`config`: [HtmlElementConfig](../interfaces/_string_html_.htmlelementconfig.md)): *string*
 
-Defined in src/string/html.ts:68
+*Defined in [src/string/html.ts:72](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L72)*
 
 ```
 htmlElement({
@@ -70,7 +90,7 @@ ___
 
 ▸ **styleObjectToCss**(`o`: Partial‹object›, `propertiesSeparator`: string): *string*
 
-Defined in src/string/html.ts:29
+*Defined in [src/string/html.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L31)*
 
 transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
 
@@ -89,7 +109,7 @@ ___
 
 ▸ **stylePropertyNameToCssSyntax**(`s`: string): *string*
 
-Defined in src/string/html.ts:38
+*Defined in [src/string/html.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L40)*
 
 Transform a string like `fooBar` to `foo-bar`
 
@@ -107,7 +127,7 @@ ___
 
 ▸ **unEscapeHtmlAttribute**(`code`: string): *string*
 
-Defined in src/string/html.ts:5
+*Defined in [src/string/html.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L7)*
 
 **Parameters:**
 
@@ -123,7 +143,7 @@ ___
 
 ▸ **wrapInHtml**(`s`: string): *string*
 
-Defined in src/string/html.ts:9
+*Defined in [src/string/html.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/string/html.ts#L11)*
 
 **Parameters:**
 
