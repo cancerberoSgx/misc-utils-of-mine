@@ -83,6 +83,7 @@
 * [enumNoValueKeys](_index_.md#enumnovaluekeys)
 * [enumValueFromString](_index_.md#enumvaluefromstring)
 * [escapeHtmlAttribute](_index_.md#escapehtmlattribute)
+* [escapeSqlValue](_index_.md#escapesqlvalue)
 * [evaluate](_index_.md#evaluate)
 * [fill](_index_.md#fill)
 * [filterAncestors](_index_.md#filterancestors)
@@ -101,6 +102,7 @@
 * [floats](_index_.md#floats)
 * [formatDate](_index_.md#formatdate)
 * [formatDateTime](_index_.md#formatdatetime)
+* [formatDateTimeForSql](_index_.md#formatdatetimeforsql)
 * [getAncestors](_index_.md#getancestors)
 * [getBoxChar](_index_.md#getboxchar)
 * [getChildIndex](_index_.md#getchildindex)
@@ -168,6 +170,7 @@
 * [pathJoin](_index_.md#pathjoin)
 * [pointInside](_index_.md#pointinside)
 * [printMs](_index_.md#printms)
+* [printSQLQuery](_index_.md#printsqlquery)
 * [quote](_index_.md#quote)
 * [randomCssColor](_index_.md#randomcsscolor)
 * [randomFloatBetween](_index_.md#randomfloatbetween)
@@ -195,6 +198,7 @@
 * [stylePropertyNameToCssSyntax](_index_.md#stylepropertynametocsssyntax)
 * [template](_index_.md#template)
 * [throttle](_index_.md#throttle)
+* [timeHash](_index_.md#timehash)
 * [toObject](_index_.md#toobject)
 * [trimRightLines](_index_.md#trimrightlines)
 * [tryTo](_index_.md#tryto)
@@ -679,6 +683,12 @@ ___
 
 ___
 
+###  escapeSqlValue
+
+• **escapeSqlValue**:
+
+___
+
 ###  evaluate
 
 • **evaluate**:
@@ -784,6 +794,12 @@ ___
 ###  formatDateTime
 
 • **formatDateTime**:
+
+___
+
+###  formatDateTimeForSql
+
+• **formatDateTimeForSql**:
 
 ___
 
@@ -1189,6 +1205,12 @@ ___
 
 ___
 
+###  printSQLQuery
+
+• **printSQLQuery**:
+
+___
+
 ###  quote
 
 • **quote**:
@@ -1348,6 +1370,12 @@ ___
 ###  throttle
 
 • **throttle**:
+
+___
+
+###  timeHash
+
+• **timeHash**:
 
 ___
 

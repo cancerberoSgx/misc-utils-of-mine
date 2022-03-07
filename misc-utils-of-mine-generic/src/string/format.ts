@@ -1,7 +1,10 @@
 import { array } from '../array'
 
-export function quote(s: string, q: string = '"'): string {
-  return q + s.replace(new RegExp(q, 'g'), '\\' + q) + q
+/**
+ * wrap string with given quote character and escape it in the string. Useful to quote strings to be printed as json, sql values, etc.
+ */
+export function quote(s: string, quote: string = '"'): string {
+  return quote + s.replace(new RegExp(quote, 'g'), '\\' + quote) + quote
 }
 
 export function unquote(s: string) {

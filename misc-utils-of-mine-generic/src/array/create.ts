@@ -7,8 +7,8 @@ export function array<T = number>(n: number, sample?: T): T[] {
   return a as T[]
 }
 
-export function asArray<T>(selectors: T | T[]): T[] {
-  return Array.isArray(selectors) ? selectors : [selectors]
+export function asArray<T>(value: T | T[]): T[] {
+  return Array.isArray(value) ? value : [value]
 }
 
 export function seq(start: number = 0, step: number = 1, max: number = 0): number[] {

@@ -8,6 +8,7 @@
 
 * [formatDate](_time_format_.md#formatdate)
 * [formatDateTime](_time_format_.md#formatdatetime)
+* [formatDateTimeForSql](_time_format_.md#formatdatetimeforsql)
 * [timeHash](_time_format_.md#timehash)
 
 ## Functions
@@ -16,7 +17,7 @@
 
 ▸ **formatDate**(`date`: Date, `format`: "YYYY-MM-DD" | "MM/DD/YYYY"): *string*
 
-*Defined in [src/time/format.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/time/format.ts#L1)*
+*Defined in [src/time/format.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/time/format.ts#L1)*
 
 **Parameters:**
 
@@ -33,7 +34,7 @@ ___
 
 ▸ **formatDateTime**(`date`: Date, `format`: "YYYY-MM-DDTHH:MMZ"): *string*
 
-*Defined in [src/time/format.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/time/format.ts#L22)*
+*Defined in [src/time/format.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/time/format.ts#L22)*
 
 **Parameters:**
 
@@ -46,12 +47,36 @@ Name | Type |
 
 ___
 
+###  formatDateTimeForSql
+
+▸ **formatDateTimeForSql**(`date`: Date): *any*
+
+*Defined in [src/time/format.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/time/format.ts#L33)*
+
+formats date to YYYY-MM-DD HH:mm:ss, compatible with sql dates
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`date` | Date |
+
+**Returns:** *any*
+
+___
+
 ###  timeHash
 
-▸ **timeHash**(): *string*
+▸ **timeHash**(`digits`: number): *string*
 
-*Defined in [src/time/format.ts:35](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/cb3d17a/misc-utils-of-mine-generic/src/time/format.ts#L35)*
+*Defined in [src/time/format.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/time/format.ts#L47)*
 
-shirks Date.now number to 7 digits so is better for filenames. respect date order and  milliseconds
+shirks Date.now number to N digits so is better for filenames. respect date order and  milliseconds
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`digits` | number | 36 |
 
 **Returns:** *string*

@@ -11,9 +11,11 @@
 * [easing](_time_index_.md#easing)
 * [formatDate](_time_index_.md#formatdate)
 * [formatDateTime](_time_index_.md#formatdatetime)
+* [formatDateTimeForSql](_time_index_.md#formatdatetimeforsql)
 * [printMs](_time_index_.md#printms)
 * [sleep](_time_index_.md#sleep)
 * [throttle](_time_index_.md#throttle)
+* [timeHash](_time_index_.md#timehash)
 * [wait](_time_index_.md#wait)
 * [waitForPredicate](_time_index_.md#waitforpredicate)
 * [withTime](_time_index_.md#withtime)
@@ -50,6 +52,12 @@ ___
 
 ___
 
+###  formatDateTimeForSql
+
+• **formatDateTimeForSql**:
+
+___
+
 ###  printMs
 
 • **printMs**:
@@ -65,6 +73,12 @@ ___
 ###  throttle
 
 • **throttle**:
+
+___
+
+###  timeHash
+
+• **timeHash**:
 
 ___
 

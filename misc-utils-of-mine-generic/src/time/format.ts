@@ -29,9 +29,21 @@ export function formatDateTime(date: Date, format: 'YYYY-MM-DDTHH:MMZ'): string 
   return `${formatDate(date, 'YYYY-MM-DD')}T${hh}:${mm}`
 }
 
+/** formats date to YYYY-MM-DD HH:mm:ss, compatible with sql dates */
+export function formatDateTimeForSql(date: Date): any {
+  if (typeof date === 'string') {
+    // happens when serializing dates to json for testing
+    date = new Date(date)
+  }
+  let hh = `${date.getHours()}`.length < 2 ? `0${date.getHours()}` : `${date.getHours()}`
+  let mm = `${date.getMinutes()}`.length < 2 ? `0${date.getMinutes()}` : `${date.getMinutes()}`
+  let ss = `${date.getSeconds()}`.length < 2 ? `0${date.getSeconds()}` : `${date.getSeconds()}`
+  return `${formatDate(date, 'YYYY-MM-DD')} ${hh}:${mm}:${ss}`
+}
+
 /**
- * shirks Date.now number to 7 digits so is better for filenames. respect date order and  milliseconds
+ * shirks Date.now number to N digits so is better for filenames. respect date order and  milliseconds
  */
-function timeHash() {
-  return Date.now().toString(36)
+export function timeHash(digits = 36) {
+  return Date.now().toString(digits)
 }
