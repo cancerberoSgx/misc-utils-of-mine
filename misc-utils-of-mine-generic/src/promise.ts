@@ -22,8 +22,8 @@ export async function asyncForEach(array: any[], callback: any) {
 }
 
 /** applies a map() serially */
-export async function asyncMap<T, R = any>(array: T[], callback: (t: T, i: number, a: T[]) => R) {
-  const result = [] as any[];
+export async function asyncMap<T, R = any>(array: T[], callback: (t: T, i: number, a: T[]) => Promise<R>) {
+  const result: R[] = [];
   await asyncForEach(array, async (item: any, i: number, a: any[]) => {
     result.push(await callback(item, i, a));
   });
