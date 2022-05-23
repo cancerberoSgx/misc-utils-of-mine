@@ -19,13 +19,8 @@ export function nextTime(config: NextTimeConfig): Date {
   if (t <= config.step) {
     throw Error('step too large')
   }
-  const result = (Math.ceil(t / config.step)) * config.step
+  const result = (Math.ceil(t / config.step)) * config.step + t0
   // console.log(`mod: ${t % config.step}, division: ${t/config.step}`);
   // console.log(`next time from ${t}, step ${config.step} starting from ${t0} is ${result}`);
   return new Date(result)
 }
-
-nextTime({
-  step: 100,
-  from: new Date(850)
-})

@@ -15,7 +15,7 @@
 
 ▸ **escapeSqlValue**(`value`: any): *string*
 
-*Defined in [src/langs.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/langs.ts#L17)*
+*Defined in [src/langs.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/langs.ts#L17)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@ ___
 
 ▸ **printSQLQuery**(`sql`: string, `params`: any[]): *string*
 
-*Defined in [src/langs.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/langs.ts#L9)*
+*Defined in [src/langs.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/langs.ts#L9)*
 
 when executing sql queries on we often invoke
 `await query('select foo from bar where userId=?', [userId])`

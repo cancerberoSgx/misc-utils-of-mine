@@ -17,7 +17,7 @@
 
 ▸ **flat**‹**T**›(`arr`: T[][]): *T[]*
 
-*Defined in [src/array/flat.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/flat.ts#L5)*
+*Defined in [src/array/flat.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/flat.ts#L5)*
 
 **Type parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **flatDeep**(`arr`: any[]): *any[]*
 
-*Defined in [src/array/flat.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/flat.ts#L1)*
+*Defined in [src/array/flat.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/flat.ts#L1)*
 
 **Parameters:**
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **flatInstallArrayPrototype**(): *void*
 
-*Defined in [src/array/flat.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/flat.ts#L13)*
+*Defined in [src/array/flat.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/flat.ts#L13)*
 
 **Returns:** *void*
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **flatReadOnly**‹**T**›(`arr`: ReadonlyArray‹ReadonlyArray‹T››): *ReadonlyArray‹T›*
 
-*Defined in [src/array/flat.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/flat.ts#L9)*
+*Defined in [src/array/flat.ts:9](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/flat.ts#L9)*
 
 **Type parameters:**
 

@@ -22,4 +22,4 @@
 
 • **multiplicity**? : *[Multiplicity](../modules/_comparetext_.md#multiplicity)*
 
-*Defined in [src/compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/compareText.ts#L17)*
+*Defined in [src/compareText.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/compareText.ts#L17)*

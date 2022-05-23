@@ -19,7 +19,7 @@
 
 Ƭ **FindPredicate**: *function*
 
-*Defined in [src/array/prototypeFind.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L15)*
+*Defined in [src/array/prototypeFind.ts:15](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L15)*
 
 #### Type declaration:
 
@@ -40,7 +40,7 @@ Name | Type |
 
 ▸ **arrayPrototypeFind**‹**T**, **E**›(`this`: E, `a`: T[], `predicate`: [FindPredicate](_array_prototypefind_.md#findpredicate)‹T, typeof thisArg›, `thisArg?`: E): *T | undefined*
 
-*Defined in [src/array/prototypeFind.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L1)*
+*Defined in [src/array/prototypeFind.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L1)*
 
 **Type parameters:**
 
@@ -65,7 +65,7 @@ ___
 
 ▸ **installArrayPrototypeFind**(`force`: boolean): *void*
 
-*Defined in [src/array/prototypeFind.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L17)*
+*Defined in [src/array/prototypeFind.ts:17](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/array/prototypeFind.ts#L17)*
 
 **Parameters:**
 
