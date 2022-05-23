@@ -22,7 +22,7 @@
 
 • **attributes**? : *object[]*
 
-*Defined in [src/string/html.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/html.ts#L50)*
+*Defined in [src/string/html.ts:50](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/html.ts#L50)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **children**? : *[HtmlElementConfig](_string_html_.htmlelementconfig.md)[]*
 
-*Defined in [src/string/html.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/html.ts#L51)*
+*Defined in [src/string/html.ts:51](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/html.ts#L51)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **forceContent**? : *undefined | false | true*
 
-*Defined in [src/string/html.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/html.ts#L54)*
+*Defined in [src/string/html.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/html.ts#L54)*
 
 by default, if there's no children or innerHTML we use a single-closing tag like `<tag/>`.  If this is true will force the format <tag></tag> always.
 
@@ -48,7 +48,7 @@ ___
 
 • **innerHTML**? : *undefined | string*
 
-*Defined in [src/string/html.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/html.ts#L52)*
+*Defined in [src/string/html.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/html.ts#L52)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 • **name**: *string*
 
-*Defined in [src/string/html.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/html.ts#L49)*
+*Defined in [src/string/html.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/html.ts#L49)*

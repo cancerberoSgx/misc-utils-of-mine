@@ -44,6 +44,7 @@
 * ["time/anim"](modules/_time_anim_.md)
 * ["time/format"](modules/_time_format_.md)
 * ["time/index"](modules/_time_index_.md)
+* ["time/nextTime"](modules/_time_nexttime_.md)
 * ["time/printMs"](modules/_time_printms_.md)
 * ["time/sleep"](modules/_time_sleep_.md)
 * ["time/throttle"](modules/_time_throttle_.md)

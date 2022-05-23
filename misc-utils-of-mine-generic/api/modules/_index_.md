@@ -26,6 +26,7 @@
 * [JSONValue](_index_.md#jsonvalue)
 * [Map](_index_.md#map)
 * [Multiplicity](_index_.md#multiplicity)
+* [NextTimeConfig](_index_.md#nexttimeconfig)
 * [Node](_index_.md#node)
 * [NodeKindPredicate](_index_.md#nodekindpredicate)
 * [NodePredicate](_index_.md#nodepredicate)
@@ -154,6 +155,7 @@
 * [median](_index_.md#median)
 * [merge](_index_.md#merge)
 * [mergeRecursive](_index_.md#mergerecursive)
+* [nextTime](_index_.md#nexttime)
 * [notFalsy](_index_.md#notfalsy)
 * [notSame](_index_.md#notsame)
 * [notSameNotFalsy](_index_.md#notsamenotfalsy)
@@ -338,6 +340,12 @@ ___
 ###  Multiplicity
 
 • **Multiplicity**:
+
+___
+
+###  NextTimeConfig
+
+• **NextTimeConfig**:
 
 ___
 
@@ -1106,6 +1114,12 @@ ___
 ###  mergeRecursive
 
 • **mergeRecursive**:
+
+___
+
+###  nextTime
+
+• **nextTime**:
 
 ___
 

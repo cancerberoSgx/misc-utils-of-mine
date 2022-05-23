@@ -9,6 +9,6 @@ describe('time/nextTime', () => {
     }
     const result = nextTime(config)
     expect(result.getTime()).toBe(900)
-    console.log(`next time from ${config.from.getTime()}, step ${config.step} starting from ${config.startingDate?.getTime()} is ${result}`)
+    console.log(`next time from ${config.from.getTime()}, step ${config.step} starting from ${config.startingDate ?.getTime()} is ${result}`)
   })
 })

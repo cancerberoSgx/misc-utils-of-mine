@@ -20,7 +20,7 @@
 
 ▸ **asyncForEach**(`array`: any[], `callback`: any): *Promise‹void›*
 
-*Defined in [src/promise.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/promise.ts#L18)*
+*Defined in [src/promise.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/promise.ts#L18)*
 
 iterates serially
 
@@ -37,9 +37,9 @@ ___
 
 ###  asyncMap
 
-▸ **asyncMap**‹**T**, **R**›(`array`: T[], `callback`: function): *Promise‹any[]›*
+▸ **asyncMap**‹**T**, **R**›(`array`: T[], `callback`: function): *Promise‹R[]›*
 
-*Defined in [src/promise.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/promise.ts#L25)*
+*Defined in [src/promise.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/promise.ts#L25)*
 
 applies a map() serially
 
@@ -55,7 +55,7 @@ applies a map() serially
 
 ▪ **callback**: *function*
 
-▸ (`t`: T, `i`: number, `a`: T[]): *R*
+▸ (`t`: T, `i`: number, `a`: T[]): *Promise‹R›*
 
 **Parameters:**
 
@@ -65,7 +65,7 @@ Name | Type |
 `i` | number |
 `a` | T[] |
 
-**Returns:** *Promise‹any[]›*
+**Returns:** *Promise‹R[]›*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **serial**‹**T**›(`p`: function[]): *Promise‹T[]›*
 
-*Defined in [src/promise.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/promise.ts#L5)*
+*Defined in [src/promise.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/promise.ts#L5)*
 
 Execute given functions returning promises serially. Returns a promise that resolves when all finish with they results as array.
 

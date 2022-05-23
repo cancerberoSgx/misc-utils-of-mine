@@ -19,7 +19,7 @@
 
 ▸ **indent**(`i`: number, `tabSize`: number): *string*
 
-*Defined in [src/string/format.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/format.ts#L18)*
+*Defined in [src/string/format.ts:18](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/format.ts#L18)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **quote**(`s`: string, `quote`: string): *string*
 
-*Defined in [src/string/format.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/format.ts#L6)*
+*Defined in [src/string/format.ts:6](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/format.ts#L6)*
 
 wrap string with given quote character and escape it in the string. Useful to quote strings to be printed as json, sql values, etc.
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **repeat**(`n`: number, `s`: string): *string*
 
-*Defined in [src/string/format.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/format.ts#L14)*
+*Defined in [src/string/format.ts:14](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/format.ts#L14)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **strip**(`s`: string): *string*
 
-*Defined in [src/string/format.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/format.ts#L32)*
+*Defined in [src/string/format.ts:32](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/format.ts#L32)*
 
 strips ANSI codes from a string. From https://github.com/xpl/ansicolor/blob/master/ansicolor.js
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **unquote**(`s`: string): *string*
 
-*Defined in [src/string/format.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/format.ts#L10)*
+*Defined in [src/string/format.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/format.ts#L10)*
 
 **Parameters:**
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **wordWrap**(`s`: string, `w`: number, `newLine`: string): *string*
 
-*Defined in [src/string/format.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/b2d6050/misc-utils-of-mine-generic/src/string/format.ts#L22)*
+*Defined in [src/string/format.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4bfc82a/misc-utils-of-mine-generic/src/string/format.ts#L22)*
 
 **Parameters:**
 
