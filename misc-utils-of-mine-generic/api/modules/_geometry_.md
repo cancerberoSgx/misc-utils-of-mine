@@ -28,7 +28,7 @@
 
 Ƭ **NumberMapFn**: *function*
 
-*Defined in [src/geometry.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/geometry.ts#L20)*
+*Defined in [src/geometry.ts:20](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/geometry.ts#L20)*
 
 #### Type declaration:
 
@@ -46,7 +46,7 @@ Name | Type |
 
 ▸ **pointInside**(`p`: [IPoint](../interfaces/_geometry_.ipoint.md), `viewport`: [IRect](../interfaces/_geometry_.irect.md)): *boolean*
 
-*Defined in [src/geometry.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/geometry.ts#L10)*
+*Defined in [src/geometry.ts:10](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/geometry.ts#L10)*
 
 **Parameters:**
 

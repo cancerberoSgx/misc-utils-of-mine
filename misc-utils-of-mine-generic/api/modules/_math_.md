@@ -15,7 +15,7 @@
 
 ▸ **average**(`arr`: number[]): *number*
 
-*Defined in [src/math.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/math.ts#L2)*
+*Defined in [src/math.ts:2](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/math.ts#L2)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@ ___
 
 ▸ **median**(`arr`: number[]): *number*
 
-*Defined in [src/math.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/math.ts#L4)*
+*Defined in [src/math.ts:4](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/math.ts#L4)*
 
 **Parameters:**
 

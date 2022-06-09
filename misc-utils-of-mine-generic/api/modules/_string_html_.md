@@ -24,7 +24,7 @@
 
 ▸ **addUniqueParam**(`url`: string, `param`: string): *string*
 
-*Defined in [src/string/html.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L98)*
+*Defined in [src/string/html.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L98)*
 
 adds a parameter named `param` with a value that tries to be unique. The intending behavior is to add a "nocache" parameter
 
@@ -43,7 +43,7 @@ ___
 
 ▸ **escapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [src/string/html.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L3)*
+*Defined in [src/string/html.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L3)*
 
 **Parameters:**
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **htmlElement**(`config`: [HtmlElementConfig](../interfaces/_string_html_.htmlelementconfig.md)): *string*
 
-*Defined in [src/string/html.ts:72](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L72)*
+*Defined in [src/string/html.ts:72](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L72)*
 
 ```
 htmlElement({
@@ -90,7 +90,7 @@ ___
 
 ▸ **styleObjectToCss**(`o`: Partial‹object›, `propertiesSeparator`: string): *string*
 
-*Defined in [src/string/html.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L31)*
+*Defined in [src/string/html.ts:31](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L31)*
 
 transform an object like `{fooBar: 'value 123'}` to an string like `foo-bar: value 123`.
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **stylePropertyNameToCssSyntax**(`s`: string): *string*
 
-*Defined in [src/string/html.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L40)*
+*Defined in [src/string/html.ts:40](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L40)*
 
 Transform a string like `fooBar` to `foo-bar`
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **unEscapeHtmlAttribute**(`code`: string): *string*
 
-*Defined in [src/string/html.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L7)*
+*Defined in [src/string/html.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L7)*
 
 **Parameters:**
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **wrapInHtml**(`s`: string): *string*
 
-*Defined in [src/string/html.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/5e76898/misc-utils-of-mine-generic/src/string/html.ts#L11)*
+*Defined in [src/string/html.ts:11](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/string/html.ts#L11)*
 
 **Parameters:**
 
