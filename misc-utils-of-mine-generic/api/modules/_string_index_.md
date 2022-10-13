@@ -11,7 +11,10 @@
 * [HtmlElementConfig](_string_index_.md#htmlelementconfig)
 * [addUniqueParam](_string_index_.md#adduniqueparam)
 * [borderStyles](_string_index_.md#borderstyles)
+* [capitalize](_string_index_.md#capitalize)
 * [changeText](_string_index_.md#changetext)
+* [decryptLetters](_string_index_.md#decryptletters)
+* [encryptLetters](_string_index_.md#encryptletters)
 * [escapeHtmlAttribute](_string_index_.md#escapehtmlattribute)
 * [evaluate](_string_index_.md#evaluate)
 * [getBoxChar](_string_index_.md#getboxchar)
@@ -68,9 +71,27 @@ ___
 
 ___
 
+###  capitalize
+
+• **capitalize**:
+
+___
+
 ###  changeText
 
 • **changeText**:
+
+___
+
+###  decryptLetters
+
+• **decryptLetters**:
+
+___
+
+###  encryptLetters
+
+• **encryptLetters**:
 
 ___
 

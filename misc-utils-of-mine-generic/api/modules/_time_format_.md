@@ -17,7 +17,7 @@
 
 ▸ **formatDate**(`date`: Date, `format`: "YYYY-MM-DD" | "MM/DD/YYYY"): *string*
 
-*Defined in [src/time/format.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/time/format.ts#L1)*
+*Defined in [src/time/format.ts:1](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/format.ts#L1)*
 
 **Parameters:**
 
@@ -34,7 +34,7 @@ ___
 
 ▸ **formatDateTime**(`date`: Date, `format`: "YYYY-MM-DDTHH:MMZ"): *string*
 
-*Defined in [src/time/format.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/time/format.ts#L22)*
+*Defined in [src/time/format.ts:22](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/format.ts#L22)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **formatDateTimeForSql**(`date`: Date): *any*
 
-*Defined in [src/time/format.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/time/format.ts#L33)*
+*Defined in [src/time/format.ts:33](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/format.ts#L33)*
 
 formats date to YYYY-MM-DD HH:mm:ss, compatible with sql dates
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **timeHash**(`digits`: number): *string*
 
-*Defined in [src/time/format.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/time/format.ts#L47)*
+*Defined in [src/time/format.ts:47](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/format.ts#L47)*
 
 shirks Date.now number to N digits so is better for filenames. respect date order and  milliseconds
 

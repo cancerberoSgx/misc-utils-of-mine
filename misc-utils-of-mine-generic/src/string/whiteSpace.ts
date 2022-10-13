@@ -19,3 +19,10 @@ export function trimRightLines(s: string, newLine = '\n') {
     .map(l => l.trimRight())
     .join(newLine)
 }
+
+export function capitalize(s: string) {
+  if (!s) {
+    return ''
+  }
+  return s.substring(0, 1).toUpperCase() + s.substring(1, s.length)
+}

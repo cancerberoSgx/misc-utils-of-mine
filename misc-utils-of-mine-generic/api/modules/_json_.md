@@ -29,7 +29,7 @@
 
 Ƭ **JSONObject**: *object*
 
-*Defined in [src/json.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L54)*
+*Defined in [src/json.ts:54](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L54)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ ___
 
 Ƭ **JSONPrimitive**: *string | number | boolean | null*
 
-*Defined in [src/json.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L49)*
+*Defined in [src/json.ts:49](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L49)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 Ƭ **JSONValue**: *[JSONPrimitive](_json_.md#jsonprimitive) | [JSONObject](_json_.md#jsonobject) | [JSONArray](../interfaces/_json_.jsonarray.md)*
 
-*Defined in [src/json.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L52)*
+*Defined in [src/json.ts:52](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L52)*
 
 makes sure an object is JSON compatible so we can safely serialize with JSON.stringify
 
@@ -59,7 +59,7 @@ makes sure an object is JSON compatible so we can safely serialize with JSON.str
 
 ▸ **cloneJSON**‹**T**›(`a`: T): *T*
 
-*Defined in [src/json.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L21)*
+*Defined in [src/json.ts:21](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L21)*
 
 **Type parameters:**
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **findJson**(`o`: [JSONValue](_json_.md#jsonvalue), `p`: function, `_name?`: string | number): *object | undefined*
 
-*Defined in [src/json.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L37)*
+*Defined in [src/json.ts:37](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L37)*
 
 **Parameters:**
 
@@ -106,7 +106,7 @@ ___
 
 ▸ **isJSONObject**(`o`: any): *o is JSONObject*
 
-*Defined in [src/json.ts:62](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L62)*
+*Defined in [src/json.ts:62](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L62)*
 
 **Parameters:**
 
@@ -122,7 +122,7 @@ ___
 
 ▸ **parseJSON**‹**K**›(`s`: string, `defaultValue`: K | undefined): *K | undefined*
 
-*Defined in [src/json.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L5)*
+*Defined in [src/json.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L5)*
 
 try to parse given json string. return undefined in case there is an error.
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **stringifyJSON**‹**K**›(`s`: K, `defaultValue`: string | undefined): *string | undefined*
 
-*Defined in [src/json.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L13)*
+*Defined in [src/json.ts:13](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L13)*
 
 **Type parameters:**
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **visitJson**(`o`: [JSONValue](_json_.md#jsonvalue), `v`: function, `_name?`: string | number): *boolean*
 
-*Defined in [src/json.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/4ff3641/misc-utils-of-mine-generic/src/json.ts#L25)*
+*Defined in [src/json.ts:25](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/json.ts#L25)*
 
 **Parameters:**
 

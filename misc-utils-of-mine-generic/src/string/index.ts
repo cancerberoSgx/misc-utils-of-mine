@@ -1,5 +1,6 @@
 export * from './boxes'
 export * from './change'
+export * from './encryptLetters'
 export * from './evaluate'
 export * from './format'
 export * from './getPreviousMatchingPos'

@@ -65,6 +65,7 @@
 * [borderStyles](_index_.md#borderstyles)
 * [buildEnumMap](_index_.md#buildenummap)
 * [bytesToKiloBytes](_index_.md#bytestokilobytes)
+* [capitalize](_index_.md#capitalize)
 * [changeText](_index_.md#changetext)
 * [checkThrow](_index_.md#checkthrow)
 * [checkTruthy](_index_.md#checktruthy)
@@ -76,15 +77,17 @@
 * [counter](_index_.md#counter)
 * [dec2bin](_index_.md#dec2bin)
 * [decimalDigitNormalizer](_index_.md#decimaldigitnormalizer)
+* [decryptLetters](_index_.md#decryptletters)
 * [dedup](_index_.md#dedup)
 * [detectNewline](_index_.md#detectnewline)
 * [dirname](_index_.md#dirname)
 * [easing](_index_.md#easing)
+* [encryptLetters](_index_.md#encryptletters)
 * [enumKeys](_index_.md#enumkeys)
 * [enumNoValueKeys](_index_.md#enumnovaluekeys)
 * [enumValueFromString](_index_.md#enumvaluefromstring)
 * [escapeHtmlAttribute](_index_.md#escapehtmlattribute)
-* [escapeSqlValue](_index_.md#escapesqlvalue)
+* [escapeSQLValue](_index_.md#escapesqlvalue)
 * [evaluate](_index_.md#evaluate)
 * [fill](_index_.md#fill)
 * [filterAncestors](_index_.md#filterancestors)
@@ -152,6 +155,7 @@
 * [isWebWorker](_index_.md#iswebworker)
 * [mapChildren](_index_.md#mapchildren)
 * [mapDescendants](_index_.md#mapdescendants)
+* [mapToArraySQLConvert](_index_.md#maptoarraysqlconvert)
 * [median](_index_.md#median)
 * [merge](_index_.md#merge)
 * [mergeRecursive](_index_.md#mergerecursive)
@@ -172,6 +176,7 @@
 * [pathJoin](_index_.md#pathjoin)
 * [pointInside](_index_.md#pointinside)
 * [printMs](_index_.md#printms)
+* [printSQLMapQuery](_index_.md#printsqlmapquery)
 * [printSQLQuery](_index_.md#printsqlquery)
 * [quote](_index_.md#quote)
 * [randomCssColor](_index_.md#randomcsscolor)
@@ -577,6 +582,12 @@ ___
 
 ___
 
+###  capitalize
+
+• **capitalize**:
+
+___
+
 ###  changeText
 
 • **changeText**:
@@ -643,6 +654,12 @@ ___
 
 ___
 
+###  decryptLetters
+
+• **decryptLetters**:
+
+___
+
 ###  dedup
 
 • **dedup**:
@@ -664,6 +681,12 @@ ___
 ###  easing
 
 • **easing**:
+
+___
+
+###  encryptLetters
+
+• **encryptLetters**:
 
 ___
 
@@ -691,9 +714,9 @@ ___
 
 ___
 
-###  escapeSqlValue
+###  escapeSQLValue
 
-• **escapeSqlValue**:
+• **escapeSQLValue**:
 
 ___
 
@@ -1099,6 +1122,12 @@ ___
 
 ___
 
+###  mapToArraySQLConvert
+
+• **mapToArraySQLConvert**:
+
+___
+
 ###  median
 
 • **median**:
@@ -1216,6 +1245,12 @@ ___
 ###  printMs
 
 • **printMs**:
+
+___
+
+###  printSQLMapQuery
+
+• **printSQLMapQuery**:
 
 ___
 
