@@ -20,7 +20,7 @@
 
 • **from**: *Date*
 
-*Defined in [src/time/nextTime.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/nextTime.ts#L3)*
+*Defined in [src/time/nextTime.ts:3](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/time/nextTime.ts#L3)*
 
 the date from which to obtain next date according to given step
 
@@ -30,7 +30,7 @@ ___
 
 • **startingDate**? : *Date*
 
-*Defined in [src/time/nextTime.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/nextTime.ts#L7)*
+*Defined in [src/time/nextTime.ts:7](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/time/nextTime.ts#L7)*
 
 ___
 
@@ -38,6 +38,6 @@ ___
 
 • **step**: *number*
 
-*Defined in [src/time/nextTime.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/time/nextTime.ts#L5)*
+*Defined in [src/time/nextTime.ts:5](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/time/nextTime.ts#L5)*
 
 interval length in ms

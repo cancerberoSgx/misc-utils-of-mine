@@ -29,7 +29,7 @@
 
 Ƭ **BoxStyles**: *object*
 
-*Defined in [src/string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
+*Defined in [src/string/boxes.ts:84](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/string/boxes.ts#L84)*
 
 #### Type declaration:
 
@@ -39,7 +39,7 @@
 
 • **borderStyles**: *string[]* = enumKeys(BorderStyle)
 
-*Defined in [src/string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
+*Defined in [src/string/boxes.ts:28](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/string/boxes.ts#L28)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **boxStyles**: *[BoxStyles](_string_boxes_.md#boxstyles) | undefined*
 
-*Defined in [src/string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
+*Defined in [src/string/boxes.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/string/boxes.ts#L88)*
 
 ## Functions
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **getBoxChar**(`s`: [BorderStyle](../enums/_string_boxes_.borderstyle.md), `si`: [BorderSide](../enums/_string_boxes_.borderside.md)): *string*
 
-*Defined in [src/string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
+*Defined in [src/string/boxes.ts:45](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/string/boxes.ts#L45)*
 
 **Parameters:**
 
@@ -72,6 +72,6 @@ ___
 
 ▸ **getBoxStyles**(): *[BoxStyles](_string_boxes_.md#boxstyles)*
 
-*Defined in [src/string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
+*Defined in [src/string/boxes.ts:90](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/string/boxes.ts#L90)*
 
 **Returns:** *[BoxStyles](_string_boxes_.md#boxstyles)*

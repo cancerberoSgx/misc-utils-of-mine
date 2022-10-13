@@ -64,7 +64,7 @@ non-positive widths and heights in that case.
 
 \+ **new Rect**(`left`: number, `top`: number, `right`: number, `bottom`: number): *[Rect](_geometry_.rect.md)*
 
-*Defined in [src/geometry.ts:85](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L85)*
+*Defined in [src/geometry.ts:85](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L85)*
 
 **Parameters:**
 
@@ -83,7 +83,7 @@ Name | Type |
 
 • **bottom**: *number*
 
-*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L86)*
+*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L86)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **left**: *number*
 
-*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L86)*
+*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L86)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 • **right**: *number*
 
-*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L86)*
+*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L86)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • **top**: *number*
 
-*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L86)*
+*Defined in [src/geometry.ts:86](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L86)*
 
 ## Accessors
 
@@ -115,13 +115,13 @@ ___
 
 • **get height**(): *number*
 
-*Defined in [src/geometry.ts:116](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L116)*
+*Defined in [src/geometry.ts:116](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L116)*
 
 **Returns:** *number*
 
 • **set height**(`v`: number): *void*
 
-*Defined in [src/geometry.ts:120](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L120)*
+*Defined in [src/geometry.ts:120](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L120)*
 
 **Parameters:**
 
@@ -137,13 +137,13 @@ ___
 
 • **get width**(): *number*
 
-*Defined in [src/geometry.ts:108](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L108)*
+*Defined in [src/geometry.ts:108](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L108)*
 
 **Returns:** *number*
 
 • **set width**(`v`: number): *void*
 
-*Defined in [src/geometry.ts:112](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L112)*
+*Defined in [src/geometry.ts:112](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L112)*
 
 **Parameters:**
 
@@ -159,13 +159,13 @@ ___
 
 • **get x**(): *number*
 
-*Defined in [src/geometry.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L88)*
+*Defined in [src/geometry.ts:88](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L88)*
 
 **Returns:** *number*
 
 • **set x**(`v`: number): *void*
 
-*Defined in [src/geometry.ts:92](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L92)*
+*Defined in [src/geometry.ts:92](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L92)*
 
 **Parameters:**
 
@@ -181,13 +181,13 @@ ___
 
 • **get y**(): *number*
 
-*Defined in [src/geometry.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L98)*
+*Defined in [src/geometry.ts:98](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L98)*
 
 **Returns:** *number*
 
 • **set y**(`v`: number): *void*
 
-*Defined in [src/geometry.ts:102](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L102)*
+*Defined in [src/geometry.ts:102](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L102)*
 
 **Parameters:**
 
@@ -203,7 +203,7 @@ Name | Type |
 
 ▸ **blend**(`rect`: [Rect](_geometry_.rect.md), `scalar`: number): *[Rect](_geometry_.rect.md)‹›*
 
-*Defined in [src/geometry.ts:328](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L328)*
+*Defined in [src/geometry.ts:328](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L328)*
 
 Blends two rectangles together.
 
@@ -224,7 +224,7 @@ ___
 
 ▸ **center**(): *[Point](_geometry_.point.md)‹›*
 
-*Defined in [src/geometry.ts:156](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L156)*
+*Defined in [src/geometry.ts:156](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L156)*
 
 **Returns:** *[Point](_geometry_.point.md)‹›*
 
@@ -234,7 +234,7 @@ ___
 
 ▸ **clone**(): *[Rect](_geometry_.rect.md)‹›*
 
-*Defined in [src/geometry.ts:152](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L152)*
+*Defined in [src/geometry.ts:152](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L152)*
 
 **Returns:** *[Rect](_geometry_.rect.md)‹›*
 
@@ -244,7 +244,7 @@ ___
 
 ▸ **contains**(`other`: [Rect](_geometry_.rect.md)): *boolean*
 
-*Defined in [src/geometry.ts:190](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L190)*
+*Defined in [src/geometry.ts:190](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L190)*
 
 **Parameters:**
 
@@ -260,7 +260,7 @@ ___
 
 ▸ **copyFrom**(`other`: [Rect](_geometry_.rect.md)): *this*
 
-*Defined in [src/geometry.ts:163](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L163)*
+*Defined in [src/geometry.ts:163](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L163)*
 
 **Parameters:**
 
@@ -276,7 +276,7 @@ ___
 
 ▸ **equals**(`other?`: [Rect](_geometry_.rect.md)): *undefined | false | true*
 
-*Defined in [src/geometry.ts:144](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L144)*
+*Defined in [src/geometry.ts:144](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L144)*
 
 **Parameters:**
 
@@ -292,7 +292,7 @@ ___
 
 ▸ **expandToContain**(`other`: [Rect](_geometry_.rect.md)): *this*
 
-*Defined in [src/geometry.ts:229](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L229)*
+*Defined in [src/geometry.ts:229](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L229)*
 
 Expand this rectangle to the union of both rectangles.
 
@@ -310,7 +310,7 @@ ___
 
 ▸ **inflate**(`xscl`: number, `yscl`: number): *this*
 
-*Defined in [src/geometry.ts:341](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L341)*
+*Defined in [src/geometry.ts:341](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L341)*
 
 Grows or shrinks the rectangle while keeping the center point.
 Accepts single multipler, or separate for both axes.
@@ -330,7 +330,7 @@ ___
 
 ▸ **inflateFixed**(`fixed`: number): *this*
 
-*Defined in [src/geometry.ts:356](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L356)*
+*Defined in [src/geometry.ts:356](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L356)*
 
 Grows or shrinks the rectangle by fixed amount while keeping the center point.
 Accepts single fixed amount
@@ -349,7 +349,7 @@ ___
 
 ▸ **intersect**(`other`: [Rect](_geometry_.rect.md)): *[Rect](_geometry_.rect.md)‹›*
 
-*Defined in [src/geometry.ts:196](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L196)*
+*Defined in [src/geometry.ts:196](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L196)*
 
 **Parameters:**
 
@@ -365,7 +365,7 @@ ___
 
 ▸ **intersects**(`other`: [Rect](_geometry_.rect.md)): *boolean*
 
-*Defined in [src/geometry.ts:200](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L200)*
+*Defined in [src/geometry.ts:200](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L200)*
 
 **Parameters:**
 
@@ -381,7 +381,7 @@ ___
 
 ▸ **isEmpty**(): *boolean*
 
-*Defined in [src/geometry.ts:124](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L124)*
+*Defined in [src/geometry.ts:124](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L124)*
 
 **Returns:** *boolean*
 
@@ -391,7 +391,7 @@ ___
 
 ▸ **map**(`f`: [NumberMapFn](../modules/_geometry_.md#numbermapfn)): *this*
 
-*Defined in [src/geometry.ts:263](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L263)*
+*Defined in [src/geometry.ts:263](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L263)*
 
 **Parameters:**
 
@@ -407,7 +407,7 @@ ___
 
 ▸ **restrictTo**(`other`: [Rect](_geometry_.rect.md)): *this*
 
-*Defined in [src/geometry.ts:214](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L214)*
+*Defined in [src/geometry.ts:214](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L214)*
 
 Restrict area of this rectangle to the intersection of both rectangles.
 
@@ -425,7 +425,7 @@ ___
 
 ▸ **round**(): *this*
 
-*Defined in [src/geometry.ts:247](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L247)*
+*Defined in [src/geometry.ts:247](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L247)*
 
 Expands to the smallest rectangle that contains original rectangle and is bounded
 by lines with integer coefficients.
@@ -438,7 +438,7 @@ ___
 
 ▸ **scale**(`xscl`: number, `yscl`: number): *this*
 
-*Defined in [src/geometry.ts:255](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L255)*
+*Defined in [src/geometry.ts:255](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L255)*
 
 **Parameters:**
 
@@ -455,7 +455,7 @@ ___
 
 ▸ **setBounds**(`l`: number, `t`: number, `r`: number, `b`: number): *this*
 
-*Defined in [src/geometry.ts:136](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L136)*
+*Defined in [src/geometry.ts:136](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L136)*
 
 **Parameters:**
 
@@ -474,7 +474,7 @@ ___
 
 ▸ **setRect**(`x`: number, `y`: number, `w`: number, `h`: number): *this*
 
-*Defined in [src/geometry.ts:128](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L128)*
+*Defined in [src/geometry.ts:128](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L128)*
 
 **Parameters:**
 
@@ -493,7 +493,7 @@ ___
 
 ▸ **subtract**(`other`: [Rect](_geometry_.rect.md)): *[Rect](_geometry_.rect.md)‹›[]*
 
-*Defined in [src/geometry.ts:293](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L293)*
+*Defined in [src/geometry.ts:293](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L293)*
 
 Subtract other area from this. Returns array of rects whose union is this-other.
 
@@ -511,7 +511,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [src/geometry.ts:179](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L179)*
+*Defined in [src/geometry.ts:179](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L179)*
 
 **Returns:** *string*
 
@@ -521,7 +521,7 @@ ___
 
 ▸ **translate**(`x`: number, `y`: number): *this*
 
-*Defined in [src/geometry.ts:171](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L171)*
+*Defined in [src/geometry.ts:171](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L171)*
 
 **Parameters:**
 
@@ -538,7 +538,7 @@ ___
 
 ▸ **translateInside**(`other`: [Rect](_geometry_.rect.md)): *this*
 
-*Defined in [src/geometry.ts:274](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L274)*
+*Defined in [src/geometry.ts:274](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L274)*
 
 Ensure this rectangle is inside the other, if possible. Preserves w, h.
 
@@ -556,7 +556,7 @@ ___
 
 ▸ **union**(`other`: [Rect](_geometry_.rect.md)): *[Rect](_geometry_.rect.md)‹›*
 
-*Defined in [src/geometry.ts:186](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/8ac077d/misc-utils-of-mine-generic/src/geometry.ts#L186)*
+*Defined in [src/geometry.ts:186](https://github.com/cancerberoSgx/misc-utils-of-mine/blob/7016944/misc-utils-of-mine-generic/src/geometry.ts#L186)*
 
 Return a new rect that is the union of that one and this one
 
